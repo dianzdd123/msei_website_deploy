@@ -1,0 +1,1310 @@
+{
+  "updatedAt": "2026-11-09",
+  "hero": {
+    "kicker": "TOUCH · LEARNING · DEXTERITY",
+    "title": "Dexterous robotic manipulation",
+    "lead": "From the material inside a fingertip to the policy coordinating several robots: we connect sensing, embodiment and learning for contact-rich manipulation.",
+    "figure": {
+      "src": "/assets/illustrations/tactile-learning-2026c.webp",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual tactile robotic gripper interacting with a deformable object beside an abstract sensory representation.",
+      "title": "Tactile manipulation — conceptual illustration",
+      "caption": "AI-generated concept illustration of tactile manipulation; the inset is not experimental data.",
+      "credit": "Conceptual artwork; research evidence appears in the project figures below."
+    }
+  },
+  "introduction": {
+    "title": "Follow the contact, from sensor to skill.",
+    "text": "Touch makes local geometry, force and interaction observable. Our projects ask how to design that observation, interpret it, and turn it into reliable action when objects, sensors or tasks change.",
+    "note": "This collection includes MSEI work and earlier collaborative studies co-authored by Dandan Zhang. Each project links its original paper and identifies the hardware, evaluation setting and scope."
+  },
+  "groups": [
+    {
+      "id": "tactile-hardware",
+      "number": "01",
+      "title": "Tactile sensors & materials",
+      "description": "Design the physical contact interface: optical structures, printable elastomers, multimodal sensing and computation inside the sensor.",
+      "projects": [
+        {
+          "id": "vitactip",
+          "name": "ViTacTip",
+          "title": "Design and Benchmarking of a Multimodality Sensor for Robotic Manipulation With GAN-Based Cross-Modality Interpretation",
+          "authors": [
+            "Dandan Zhang",
+            "Wen Fan",
+            "Jialin Lin",
+            "Haoran Li",
+            "Qingzheng Cong",
+            "Weiru Liu",
+            "Nathan F. Lepora",
+            "Shan Luo"
+          ],
+          "year": "2025",
+          "venue": "IEEE Transactions on Robotics 41, 1278–1295",
+          "status": "Journal article",
+          "question": "How can one fingertip combine visual context with detailed contact sensing?",
+          "approach": "A transparent skin reveals the approaching object while internal biomimetic tips amplify deformation. Multi-task learning interprets hardness, material and texture; GAN models separate visual and tactile information.",
+          "evidence": "Benchmarks cover object recognition, contact localisation, pose regression and grating identification, alongside multimodal material recognition.",
+          "scope": "Vision and touch share one optical path. Proximity and force are derived perceptions; performance depends on calibration, objects and lighting in the reported tests.",
+          "tags": [
+            "Vision + touch",
+            "Cross-modality"
+          ],
+          "figure": {
+            "src": "/assets/publication-figures/vitactip-2026f.webp",
+            "alt": "ViTacTip sensor diagrams illustrate visual, tactile, proximity and force sensing.",
+            "caption": "Author-manuscript Fig. 1 — the four sensing capabilities of ViTacTip.",
+            "sourceUrl": "https://arxiv.org/abs/2501.02303",
+            "kind": "paper",
+            "width": 783,
+            "height": 820,
+            "title": "ViTacTip — research overview",
+            "credit": "Dandan Zhang et al. Original author-manuscript figure; see source."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/vitactip-fig10.webp",
+              "width": 862,
+              "height": 774,
+              "sourceUrl": "https://arxiv.org/html/2501.02303v1#S6.F10",
+              "originalUrl": "https://arxiv.org/html/2501.02303v1/fig_10_c.png",
+              "credit": "Dandan Zhang et al. Original author-manuscript figure 10; resized and encoded as WebP.",
+              "title": "ViTacTip — modality interpretation",
+              "alt": "Manuscript Fig. 10: marker-removal and light-removal GANs separate information from the fused sensor image.",
+              "caption": "Manuscript Fig. 10: marker-removal and light-removal GANs separate information from the fused sensor image."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1109/TRO.2025.3526296"
+            },
+            {
+              "label": "Video",
+              "url": "https://www.youtube.com/watch?v=WI9QrSFpnB8"
+            },
+            {
+              "label": "Figure manuscript",
+              "url": "https://arxiv.org/abs/2501.02303"
+            }
+          ]
+        },
+        {
+          "id": "magictac",
+          "name": "MagicTac",
+          "title": "MagicTac: A Novel High-Resolution 3D Multi-layer Grid-Based Tactile Sensor",
+          "authors": [
+            "Wen Fan",
+            "Haoran Li",
+            "Dandan Zhang"
+          ],
+          "year": "2024",
+          "venue": "IEEE ICRA 2024",
+          "status": "Conference paper",
+          "question": "How can an internal three-dimensional grid make contact easier to observe?",
+          "approach": "A multi-layer grid embedded in a soft, printed body changes its appearance under normal motion, shear and rotation. Deformation fields and optical flow expose the contact pattern.",
+          "evidence": "The paper evaluates fine texture observation, dynamic contact, grating identification and contact localisation, together with fabrication time and cost.",
+          "scope": "Fabrication and performance measurements describe the reported design and printing conditions; they are not current purchasing estimates.",
+          "tags": [
+            "3D grid",
+            "Optical flow"
+          ],
+          "figure": {
+            "src": "/assets/dexterous/magictac-fig1.webp",
+            "width": 1160,
+            "height": 932,
+            "sourceUrl": "https://arxiv.org/html/2402.01366v1#S1.F1",
+            "originalUrl": "https://arxiv.org/html/2402.01366v1/figures/1_first_glance.png",
+            "credit": "Wen Fan et al. Original author-manuscript figure 1; resized and encoded as WebP.",
+            "title": "MagicTac — grid-based sensor",
+            "alt": "Manuscript Fig. 1: the MagicTac concept, physical sensor and multi-layer grid structure.",
+            "caption": "Manuscript Fig. 1: the MagicTac concept, physical sensor and multi-layer grid structure."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/magictac-fig6.webp",
+              "width": 2000,
+              "height": 806,
+              "sourceUrl": "https://arxiv.org/html/2402.01366v1#S3.F6",
+              "originalUrl": "https://arxiv.org/html/2402.01366v1/figures/6_tactile_optical_flow_magictac.png",
+              "credit": "Wen Fan et al. Original author-manuscript figure 6; resized and encoded as WebP.",
+              "title": "MagicTac — contact observations",
+              "alt": "Manuscript Fig. 6: raw observations, deformation features and optical-flow analysis reveal texture and changing contact.",
+              "caption": "Manuscript Fig. 6: raw observations, deformation features and optical-flow analysis reveal texture and changing contact."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2402.01366"
+            }
+          ]
+        },
+        {
+          "id": "crystaltac",
+          "name": "CrystalTac",
+          "title": "CrystalTac: Vision-Based Tactile Sensor Family Fabricated via Rapid Monolithic Manufacturing",
+          "authors": [
+            "Wen Fan",
+            "Haoran Li",
+            "Dandan Zhang"
+          ],
+          "year": "2025",
+          "venue": "Cyborg and Bionic Systems",
+          "status": "Journal article",
+          "question": "Can a shared manufacturing process support different tactile sensing mechanisms?",
+          "approach": "Multi-material printing integrates components into a monolithic contact module. Five sensor branches combine illumination, marker displacement and visual information in different ways.",
+          "evidence": "Case studies examine object and texture recognition, see-through-skin sensing and customisation of internal structures, shapes and sizes.",
+          "scope": "This is a sensor family and fabrication study. The different designs expose different contact information and are not interchangeable without evaluation.",
+          "tags": [
+            "Monolithic fabrication",
+            "Sensor family"
+          ],
+          "figure": {
+            "src": "/assets/dexterous/crystaltac-fig4.webp",
+            "width": 2000,
+            "height": 1824,
+            "sourceUrl": "https://arxiv.org/html/2408.00638v1#S3.F4",
+            "originalUrl": "https://arxiv.org/html/2408.00638v1/figures/fig_4_v2_c.png",
+            "credit": "Wen Fan et al. Original author-manuscript figure 4; resized and encoded as WebP.",
+            "title": "CrystalTac — five sensor branches",
+            "alt": "Manuscript Fig. 4: five CrystalTac branches, their internal structures and corresponding tactile sensing mechanisms.",
+            "caption": "Manuscript Fig. 4: five CrystalTac branches, their internal structures and corresponding tactile sensing mechanisms."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/crystaltac-fig3.webp",
+              "width": 2000,
+              "height": 801,
+              "sourceUrl": "https://arxiv.org/html/2408.00638v1#S3.F3",
+              "originalUrl": "https://arxiv.org/html/2408.00638v1/figures/fig_3_v2.png",
+              "credit": "Wen Fan et al. Original author-manuscript figure 3; resized and encoded as WebP.",
+              "title": "CrystalTac — manufacturing process",
+              "alt": "Manuscript Fig. 3: design constraints, monolithic printing and support removal connect the CAD model to a physical sensor.",
+              "caption": "Manuscript Fig. 3: design constraints, monolithic printing and support removal connect the CAD model to a physical sensor."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.34133/cbsystems.0231"
+            },
+            {
+              "label": "Open manuscript",
+              "url": "https://arxiv.org/abs/2408.00638"
+            }
+          ]
+        },
+        {
+          "id": "itac",
+          "name": "i-Tac",
+          "title": "i-Tac: Inverse Design of 3D-Printed Tactile Elastomers with Tuneable Optical and Mechanical Properties",
+          "authors": [
+            "Wen Fan",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "Advanced Intelligent Systems 8(8), e202501200",
+          "status": "Journal article",
+          "question": "Can desired optical and mechanical properties guide tactile material fabrication?",
+          "approach": "Multi-material PolyJet printing combines three resins. Mixture experiments and response-surface models map composition to transparency and hardness; multi-objective optimisation selects a feasible formulation.",
+          "evidence": "Experiments compare predicted and measured properties and fabricate sensor samples from both commercial and custom designs.",
+          "scope": "The feasible property range is specific to the characterised materials and printing process. A target must lie within that range.",
+          "tags": [
+            "Inverse design",
+            "Printable elastomers"
+          ],
+          "figure": {
+            "src": "/assets/publication-figures/itac-2026f.webp",
+            "alt": "Human skin structure motivates an inverse-design workflow and a range of printed tactile elastomer mixtures.",
+            "caption": "Author-manuscript Fig. 1 — i-Tac elastomer design and property control.",
+            "sourceUrl": "https://arxiv.org/abs/2604.10692",
+            "kind": "paper",
+            "width": 1373,
+            "height": 1300,
+            "title": "i-Tac — research overview",
+            "credit": "Wen Fan et al. Original author-manuscript figure; see source."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/itac-fig15.webp",
+              "width": 2000,
+              "height": 1176,
+              "sourceUrl": "https://arxiv.org/html/2604.10692v1#S4.F15",
+              "originalUrl": "https://arxiv.org/html/2604.10692v1/fig/15_real_sensor_tactip_gelsight.png",
+              "credit": "Wen Fan et al. Original author-manuscript figure 15; resized and encoded as WebP.",
+              "title": "i-Tac — fabricated tactile sensors",
+              "alt": "Manuscript Fig. 15: printed contact modules and tactile sensor examples demonstrate how tailored elastomers fit different sensor designs.",
+              "caption": "Manuscript Fig. 15: printed contact modules and tactile sensor examples demonstrate how tailored elastomers fit different sensor designs."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1002/aisy.202501200"
+            },
+            {
+              "label": "Figure manuscript",
+              "url": "https://arxiv.org/abs/2604.10692"
+            }
+          ]
+        },
+        {
+          "id": "pixeltac",
+          "name": "PixelTac",
+          "title": "A vision-based tactile sensor with in-sensor computing paradigm for seamless tactile sensing and perception",
+          "authors": [
+            "Wen Fan",
+            "Jiajian Zheng",
+            "Yanan Liu",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "Communications Engineering (advance online publication)",
+          "status": "Journal article",
+          "question": "What tactile processing can take place inside the sensor?",
+          "approach": "A computational pixel matrix and microcontroller integrate tactile acquisition with local processing. The pipeline progresses through pixel filtering, marker tracking, temporal-event extraction and force inference. PCA compresses marker trajectories before a quantised multilayer perceptron estimates three-axis contact force on the microcontroller.",
+          "evidence": "Pressing, squeezing and tapping experiments examine spatial deformation and temporal responses. Robot-controlled indentation against a force/torque sensor evaluates force inference, including ablations of feature dimension, calibration domain and network capacity. Supplementary videos show the sensing responses.",
+          "scope": "The model is trained offline and deployed for local inference. Accuracy depends on calibration and feature selection; the paper reports a trade-off between constrained in-sensor computation and force-estimation accuracy. These are sensor-perception experiments.",
+          "tags": [
+            "In-sensor computing",
+            "Force perception"
+          ],
+          "figure": {
+            "src": "/assets/publication-figures/pixeltac-2026g.webp",
+            "alt": "PixelTac Figure 1 shows tactile computing paradigms, biological inspiration, sensor hardware and the computational pixel matrix.",
+            "caption": "Original paper Fig. 1 — PixelTac’s in-sensor computing paradigm and hardware architecture.",
+            "sourceUrl": "https://www.nature.com/articles/s44172-026-00770-w",
+            "kind": "paper",
+            "width": 1600,
+            "height": 1544,
+            "credit": "Fan, Zheng, Liu and Zhang, Communications Engineering (2026).",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "licenseLabel": "CC BY 4.0",
+            "title": "PixelTac — research overview"
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/pixeltac-fig2-20261109.webp",
+              "width": 2005,
+              "height": 1947,
+              "sourceUrl": "https://www.nature.com/articles/s44172-026-00770-w_reference.pdf#page=5",
+              "title": "PixelTac — sensing-to-inference pipeline",
+              "alt": "Pixel processing, marker tracking, event extraction and force inference share the sensor hardware. PCA reduces the marker representation before local neural-network inference.",
+              "caption": "Paper Fig. 2 — Pixel processing, marker tracking, event extraction and force inference share the sensor hardware. PCA reduces the marker representation before local neural-network inference.",
+              "credit": "Fan, Zheng, Liu and Zhang, Communications Engineering (2026). Original figure; resized and encoded as WebP.",
+              "kind": "paper",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "licenseLabel": "CC BY 4.0"
+            },
+            {
+              "src": "/assets/dexterous/pixeltac-fig3-20261109.webp",
+              "width": 2000,
+              "height": 1686,
+              "sourceUrl": "https://www.nature.com/articles/s44172-026-00770-w_reference.pdf#page=7",
+              "title": "PixelTac — spatial and temporal contact",
+              "alt": "Marker motion describes deformation during pressing and squeezing; event counts and spectra distinguish tapping dynamics.",
+              "caption": "Paper Fig. 3 — Marker motion describes deformation during pressing and squeezing; event counts and spectra distinguish tapping dynamics.",
+              "credit": "Fan, Zheng, Liu and Zhang, Communications Engineering (2026). Original figure; resized and encoded as WebP.",
+              "kind": "paper",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "licenseLabel": "CC BY 4.0"
+            },
+            {
+              "src": "/assets/dexterous/pixeltac-fig4-20261109.webp",
+              "width": 2000,
+              "height": 2345,
+              "sourceUrl": "https://www.nature.com/articles/s44172-026-00770-w_reference.pdf#page=9",
+              "title": "PixelTac — calibrated force estimation",
+              "alt": "A robot and force/torque reference support three-axis force evaluation. Ablations examine PCA dimension, calibration domain and network size.",
+              "caption": "Paper Fig. 4 — A robot and force/torque reference support three-axis force evaluation. Ablations examine PCA dimension, calibration domain and network size.",
+              "credit": "Fan, Zheng, Liu and Zhang, Communications Engineering (2026). Original figure; resized and encoded as WebP.",
+              "kind": "paper",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "licenseLabel": "CC BY 4.0"
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1038/s44172-026-00770-w"
+            },
+            {
+              "label": "Video 1",
+              "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44172-026-00770-w/MediaObjects/44172_2026_770_MOESM3_ESM.mp4"
+            },
+            {
+              "label": "Video 2",
+              "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44172-026-00770-w/MediaObjects/44172_2026_770_MOESM4_ESM.mp4"
+            },
+            {
+              "label": "Video 3",
+              "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44172-026-00770-w/MediaObjects/44172_2026_770_MOESM5_ESM.mp4"
+            },
+            {
+              "label": "Supplement",
+              "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs44172-026-00770-w/MediaObjects/44172_2026_770_MOESM1_ESM.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tactile-learning",
+      "number": "02",
+      "title": "Perception, data & learning",
+      "description": "Make contact information usable and testable through spatial representations, sensor evaluation, cross-sensor benchmarks and synthetic data.",
+      "projects": [
+        {
+          "id": "tacverse",
+          "name": "TacVerse",
+          "title": "TacVerse: A Multisensor Dataset and Benchmark for Cross-Sensor Vision-Based Tactile Perception",
+          "authors": [
+            "Lan Wei",
+            "Gurmeher Khurana",
+            "Sirine Bhouri",
+            "Wenhao Hong",
+            "Zeyuan Xin",
+            "Qingzheng Cong",
+            "Wen Fan",
+            "Yanzheng Xiang",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "Advanced Robotics Research, e70169",
+          "status": "Journal article",
+          "question": "How much does tactile perception change when the sensor changes?",
+          "approach": "A shared dataset contains 106,800 tactile images from seven optical sensor designs. It supports nine-class shape recognition, 30-class grating recognition and continuous force regression. Separate within-sensor, zero-shot transfer and few-shot adaptation protocols expose the effect of changing the sensing hardware.",
+          "evidence": "Cross-sensor heatmaps reveal large transfer gaps, while limited labelled target data improves force estimation without fully closing the gap. A representation study compares ResNet-18 and Vision Transformer initialisations, including masked-autoencoder pretraining using only training partitions.",
+          "scope": "The data come from controlled laboratory contacts. Grating and force transfer use fixed source sensors; this is not an exhaustive comparison of tactile foundation models or a closed-loop manipulation benchmark. Dataset files require Hugging Face sign-in and acceptance of access conditions.",
+          "tags": [
+            "106,800 images",
+            "7 sensors",
+            "Cross-sensor transfer"
+          ],
+          "figure": {
+            "src": "/assets/publication-figures/tacverse-2026f.webp",
+            "alt": "Tactile observations of shapes, gratings and forces are shown beside the robot-based data collection setup.",
+            "caption": "Author-manuscript Fig. 2 — examples from the TacVerse benchmark tasks.",
+            "sourceUrl": "https://arxiv.org/abs/2606.25877",
+            "kind": "paper",
+            "width": 1500,
+            "height": 658,
+            "title": "TacVerse — research overview",
+            "credit": "Lan Wei et al. Original author-manuscript figure; see source."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/tacverse-fig1-20261109.webp",
+              "width": 2200,
+              "height": 549,
+              "sourceUrl": "https://arxiv.org/html/2606.25877v1#S1.F1",
+              "title": "TacVerse — seven sensing platforms",
+              "alt": "Seven sensor designs and their contact images show why one tactile input format cannot be assumed across hardware.",
+              "caption": "Author-manuscript Fig. 1 — Seven sensor designs and their contact images show why one tactile input format cannot be assumed across hardware.",
+              "credit": "Lan Wei et al. Original figure; resized and encoded as WebP.",
+              "kind": "paper"
+            },
+            {
+              "src": "/assets/dexterous/tacverse-fig3-20261109.webp",
+              "width": 2200,
+              "height": 855,
+              "sourceUrl": "https://arxiv.org/html/2606.25877v1#S4.F3",
+              "title": "TacVerse — evaluation and pretraining protocols",
+              "alt": "Within-sensor learning, zero-shot transfer and few-shot adaptation are evaluated separately. Masked-autoencoder pretraining uses training partitions only.",
+              "caption": "Author-manuscript Fig. 3 — Within-sensor learning, zero-shot transfer and few-shot adaptation are evaluated separately. Masked-autoencoder pretraining uses training partitions only.",
+              "credit": "Lan Wei et al. Original figure; resized and encoded as WebP.",
+              "kind": "paper"
+            },
+            {
+              "src": "/assets/dexterous/tacverse-fig4-20261109.webp",
+              "width": 2200,
+              "height": 817,
+              "sourceUrl": "https://arxiv.org/html/2606.25877v1#S4.F4",
+              "title": "TacVerse — cross-sensor shape transfer",
+              "alt": "Accuracy and macro-F1 heatmaps contrast same-sensor performance with transfer between sensors. Similar-looking hardware can transfer more readily than dissimilar designs.",
+              "caption": "Author-manuscript Fig. 4 — Accuracy and macro-F1 heatmaps contrast same-sensor performance with transfer between sensors. Similar-looking hardware can transfer more readily than dissimilar designs.",
+              "credit": "Lan Wei et al. Original figure; resized and encoded as WebP.",
+              "kind": "paper"
+            },
+            {
+              "src": "/assets/dexterous/tacverse-fig7-20261109.webp",
+              "width": 2200,
+              "height": 741,
+              "sourceUrl": "https://arxiv.org/html/2606.25877v1#S4.F7",
+              "title": "TacVerse — data-efficient force adaptation",
+              "alt": "Force-prediction RMSE and R² are plotted against labelled target data. Adaptation improves performance but does not reach the within-sensor reference.",
+              "caption": "Author-manuscript Fig. 7 — Force-prediction RMSE and R² are plotted against labelled target data. Adaptation improves performance but does not reach the within-sensor reference.",
+              "credit": "Lan Wei et al. Original figure; resized and encoded as WebP.",
+              "kind": "paper"
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1002/adrr.70169"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/Tactile_Database"
+            },
+            {
+              "label": "Dataset",
+              "url": "https://huggingface.co/datasets/Lan-2025/Tactile"
+            },
+            {
+              "label": "Project",
+              "url": "https://lannwei.github.io/Tactile_Database/"
+            },
+            {
+              "label": "Figure manuscript",
+              "url": "https://arxiv.org/abs/2606.25877"
+            }
+          ]
+        },
+        {
+          "id": "taceva",
+          "name": "TacEva",
+          "title": "TacEva: A Performance Evaluation Framework for Vision-Based Tactile Sensors",
+          "authors": [
+            "Qingzheng Cong",
+            "Steven Oh",
+            "Wen Fan",
+            "Shan Luo",
+            "Kaspar Althoefer",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "Advanced Intelligent Systems",
+          "status": "Journal article",
+          "question": "Which sensor is suitable for a particular contact task?",
+          "approach": "Task-relevant metrics and repeatable experimental pipelines compare intrinsic properties, standard sensing performance and robustness across tactile sensor designs.",
+          "evidence": "The framework evaluates sensors with different sensing mechanisms and reports performance by dimension, supporting informed selection and design refinement.",
+          "scope": "The comparison is tied to the tested hardware, calibration and protocols. Different metrics can favour different designs.",
+          "tags": [
+            "Evaluation protocols",
+            "Robustness"
+          ],
+          "figure": {
+            "src": "/assets/dexterous/taceva-fig1.webp",
+            "width": 1002,
+            "height": 1110,
+            "sourceUrl": "https://arxiv.org/html/2509.19037v1#S1.F1",
+            "originalUrl": "https://arxiv.org/html/2509.19037v1/Figure/teaser_9_22_3.png",
+            "credit": "Qingzheng Cong et al. Original author-manuscript figure 1; resized and encoded as WebP.",
+            "title": "TacEva — evaluation framework",
+            "alt": "Manuscript Fig. 1: a common evaluation pipeline compares intrinsic properties, sensing performance and robustness.",
+            "caption": "Manuscript Fig. 1: a common evaluation pipeline compares intrinsic properties, sensing performance and robustness."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/taceva-fig8.webp",
+              "width": 2000,
+              "height": 677,
+              "sourceUrl": "https://arxiv.org/html/2509.19037v1#S4.F8",
+              "originalUrl": "https://arxiv.org/html/2509.19037v1/rader_9_18.png",
+              "credit": "Qingzheng Cong et al. Original author-manuscript figure 8; resized and encoded as WebP.",
+              "title": "TacEva — performance profiles",
+              "alt": "Manuscript Fig. 8: radar plots compare the tested sensors across three evaluation themes; the profiles show task-dependent trade-offs.",
+              "caption": "Manuscript Fig. 8: radar plots compare the tested sensors across three evaluation themes; the profiles show task-dependent trade-offs."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1002/aisy.202501179"
+            },
+            {
+              "label": "Project",
+              "url": "https://stevenoh2003.github.io/TacEva/"
+            },
+            {
+              "label": "Open manuscript",
+              "url": "https://arxiv.org/abs/2509.19037"
+            }
+          ]
+        },
+        {
+          "id": "sarl",
+          "name": "SARL",
+          "title": "SARL: Spatially-Aware Self-Supervised Representation Learning for Visuo-Tactile Perception",
+          "authors": [
+            "Gurmeher Khurana",
+            "Lan Wei",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "IEEE ICRA 2026",
+          "status": "Conference paper",
+          "question": "How can self-supervised features preserve the geometry needed for contact?",
+          "approach": "SARL extends BYOL with saliency alignment, patch-prototype distribution alignment and region-affinity matching on intermediate feature maps, alongside a global representation objective.",
+          "evidence": "Evaluation compares nine self-supervised baselines across six downstream tasks. The paper reports improved edge-pose estimation and stronger spatial representations.",
+          "scope": "The experiments evaluate fused visual–tactile perception. They do not establish a complete robot policy or universal cross-sensor transfer.",
+          "tags": [
+            "Self-supervision",
+            "Spatial features"
+          ],
+          "figure": {
+            "src": "/assets/dexterous/sarl-fig1.webp",
+            "width": 739,
+            "height": 453,
+            "sourceUrl": "https://arxiv.org/html/2512.01908v1#S1.F1",
+            "originalUrl": "https://arxiv.org/html/2512.01908v1/overview_diagram.png",
+            "credit": "Gurmeher Khurana et al. Original author-manuscript figure 1; resized and encoded as WebP.",
+            "title": "SARL — spatial learning concept",
+            "alt": "Manuscript Fig. 1: spatial objectives complement a global embedding objective to retain local structure in visual–tactile features.",
+            "caption": "Manuscript Fig. 1: spatial objectives complement a global embedding objective to retain local structure in visual–tactile features."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/sarl-fig2.webp",
+              "width": 1576,
+              "height": 588,
+              "sourceUrl": "https://arxiv.org/html/2512.01908v1#S3.F2",
+              "originalUrl": "https://arxiv.org/html/2512.01908v1/SARL_Architecture.png",
+              "credit": "Gurmeher Khurana et al. Original author-manuscript figure 2; resized and encoded as WebP.",
+              "title": "SARL — architecture",
+              "alt": "Manuscript Fig. 2: online and target branches combine global learning with SAL, PPDA and RAM spatial objectives.",
+              "caption": "Manuscript Fig. 2: online and target branches combine global learning with SAL, PPDA and RAM spatial objectives."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2512.01908"
+            }
+          ]
+        },
+        {
+          "id": "multidiffsense",
+          "name": "MultiDiffSense",
+          "title": "MultiDiffSense: Diffusion-Based Multi-Modal Visuo-Tactile Image Generation Conditioned on Object Shape and Contact Pose",
+          "authors": [
+            "Sirine Bhouri",
+            "Lan Wei",
+            "Jian-Qing Zheng",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "IEEE ICRA 2026",
+          "status": "Conference paper",
+          "question": "Can controlled synthetic contact images reduce real data collection?",
+          "approach": "A shared diffusion model generates ViTac, TacTip and ViTacTip observations. CAD-derived depth maps and prompts describing sensor identity and contact pose condition the output.",
+          "evidence": "Tests use eight objects, including three novel objects, and unseen poses. A 50% real / 50% synthetic mixture retains competitive downstream pose-estimation performance in the reported study.",
+          "scope": "Synthetic images are model outputs. Their value is assessed through image comparisons and a downstream task, not visual realism alone.",
+          "tags": [
+            "Diffusion",
+            "Synthetic tactile data"
+          ],
+          "figure": {
+            "src": "/assets/dexterous/multidiffsense-fig1.webp",
+            "width": 2000,
+            "height": 736,
+            "sourceUrl": "https://arxiv.org/html/2602.19348v1#S3.F1",
+            "originalUrl": "https://arxiv.org/html/2602.19348v1/overview_detailed.jpg",
+            "credit": "Sirine Bhouri et al. Original author-manuscript figure 1; resized and encoded as WebP.",
+            "title": "MultiDiffSense — generation framework",
+            "alt": "Manuscript Fig. 1: geometry and structured prompts condition the model to generate different tactile sensor observations.",
+            "caption": "Manuscript Fig. 1: geometry and structured prompts condition the model to generate different tactile sensor observations."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/multidiffsense-fig4.webp",
+              "width": 2000,
+              "height": 661,
+              "sourceUrl": "https://arxiv.org/html/2602.19348v1#S4.F4",
+              "originalUrl": "https://arxiv.org/html/2602.19348v1/unseen_object_figure.jpg",
+              "credit": "Sirine Bhouri et al. Original author-manuscript figure 4; resized and encoded as WebP.",
+              "title": "MultiDiffSense — unseen objects",
+              "alt": "Manuscript Fig. 4: real and generated observations for unseen objects compare MultiDiffSense with the tested baseline across three sensor modalities.",
+              "caption": "Manuscript Fig. 4: real and generated observations for unseen objects compare MultiDiffSense with the tested baseline across three sensor modalities."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2602.19348"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/MultiDiffSense"
+            },
+            {
+              "label": "Model weights",
+              "url": "https://huggingface.co/sirine16/MultiDiffSense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact-manipulation",
+      "number": "03",
+      "title": "Grippers & tactile control",
+      "description": "Integrate touch with the mechanics and feedback needed for grasping, assembly, in-hand motion and surface following.",
+      "projects": [
+        {
+          "id": "magicgripper",
+          "name": "MagicGripper",
+          "title": "MagicGripper: A Mini-MagicTac Integrated Gripper Enabling Multimodal Perception in Contact-Rich Manipulation",
+          "authors": [
+            "Wen Fan",
+            "Haoran Li",
+            "Qingzheng Cong",
+            "Dandan Zhang"
+          ],
+          "year": "2025",
+          "venue": "IEEE Transactions on Automation Science and Engineering 22, 24311–24332",
+          "status": "Journal article",
+          "question": "How can a gripper sense an object before and during contact?",
+          "approach": "Compact mini-MagicTac fingertips combine visual, proximity and tactile information. A printed multi-layer grid supplies contact features within a gripper-compatible form.",
+          "evidence": "Experiments study spatial resolution, contact localisation, force regression, manufacturing variation and robustness. Robot demonstrations cover teleoperated assembly, contact-based alignment and autonomous grasping.",
+          "scope": "The added task figures come from the earlier author manuscript. The main citation identifies the final journal article and its full author list.",
+          "tags": [
+            "Multimodal gripper",
+            "Assembly + alignment"
+          ],
+          "figure": {
+            "src": "/assets/publication-figures/magicgripper-2026f.webp",
+            "alt": "Exploded Mini-MagicTac sensor components and the mechanical layout of a two-finger tactile gripper.",
+            "caption": "Author-manuscript Fig. 5 — Mini-MagicTac and MagicGripper hardware.",
+            "sourceUrl": "https://arxiv.org/abs/2505.24382",
+            "kind": "paper",
+            "width": 1362,
+            "height": 502,
+            "title": "MagicGripper — research overview",
+            "credit": "Wen Fan et al. Original author-manuscript figure; see source."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/magicgripper-fig18.webp",
+              "width": 2000,
+              "height": 975,
+              "sourceUrl": "https://arxiv.org/html/2505.24382v1#S4.F18",
+              "originalUrl": "https://arxiv.org/html/2505.24382v1/figures/18_assemble_task_setup.png",
+              "credit": "Wen Fan et al. Original author-manuscript figure 18; resized and encoded as WebP.",
+              "title": "MagicGripper — teleoperated assembly",
+              "alt": "Author-manuscript Fig. 18: a plug-insertion task uses multimodal sensing during teleoperated assembly.",
+              "caption": "Author-manuscript Fig. 18: a plug-insertion task uses multimodal sensing during teleoperated assembly."
+            },
+            {
+              "src": "/assets/dexterous/magicgripper-fig24.webp",
+              "width": 2000,
+              "height": 1279,
+              "sourceUrl": "https://arxiv.org/html/2505.24382v1#S4.F24",
+              "originalUrl": "https://arxiv.org/html/2505.24382v1/figures/24_robot_grab_test.png",
+              "credit": "Wen Fan et al. Original author-manuscript figure 24; resized and encoded as WebP.",
+              "title": "MagicGripper — autonomous grasping",
+              "alt": "Author-manuscript Fig. 24: an autonomous grasp-and-transport demonstration responds to object approach and loss of contact.",
+              "caption": "Author-manuscript Fig. 24: an autonomous grasp-and-transport demonstration responds to object approach and loss of contact."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1109/TASE.2025.3631485"
+            },
+            {
+              "label": "Figure manuscript",
+              "url": "https://arxiv.org/abs/2505.24382"
+            }
+          ]
+        },
+        {
+          "id": "tacfr",
+          "name": "TacFR-Gripper",
+          "title": "TacFR-Gripper: A Reconfigurable Fin-Ray-Based Gripper with Tactile Skin for In-Hand Manipulation",
+          "authors": [
+            "Qingzheng Cong",
+            "Wen Fan",
+            "Dandan Zhang"
+          ],
+          "year": "2024",
+          "venue": "Actuators 13(12), 521",
+          "status": "Journal article",
+          "question": "How can finger compliance and reconfiguration support in-hand manipulation?",
+          "approach": "A reconfigurable base carries Fin Ray-inspired compliant fingers with force-sensitive-resistor skin. Graph-based processing uses the spatial arrangement of tactile signals to support stable grasping.",
+          "evidence": "The work combines kinematic, workspace and load analysis with physical grasping, tactile-feedback and object-pose-control experiments.",
+          "scope": "The figure manuscript predates the journal article. Grasping and in-hand motion are evaluated on the reported object set and gripper configurations.",
+          "tags": [
+            "Compliant fingers",
+            "In-hand motion"
+          ],
+          "figure": {
+            "src": "/assets/dexterous/tacfr-fig1.webp",
+            "width": 986,
+            "height": 900,
+            "sourceUrl": "https://arxiv.org/html/2311.10611v1#S1.F1",
+            "originalUrl": "https://arxiv.org/html/2311.10611v1/overview-gripper.png",
+            "credit": "Qingzheng Cong et al. Original author-manuscript figure 1; resized and encoded as WebP.",
+            "title": "TacFR-Gripper — reconfigurable hardware",
+            "alt": "Author-manuscript Fig. 1: the robot-mounted reconfigurable base, compliant fingers and tactile skin.",
+            "caption": "Author-manuscript Fig. 1: the robot-mounted reconfigurable base, compliant fingers and tactile skin."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/tacfr-fig9.webp",
+              "width": 1600,
+              "height": 475,
+              "sourceUrl": "https://arxiv.org/html/2311.10611v1#S4.F9",
+              "originalUrl": "https://arxiv.org/html/2311.10611v1/inhand.png",
+              "credit": "Qingzheng Cong et al. Original author-manuscript figure 9; resized and encoded as WebP.",
+              "title": "TacFR-Gripper — in-hand workspace",
+              "alt": "Author-manuscript Fig. 9: simulated workspace and physical in-hand manipulation are compared for different object sizes and shapes.",
+              "caption": "Author-manuscript Fig. 9: simulated workspace and physical in-hand manipulation are compared for different object sizes and shapes."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.3390/act13120521"
+            },
+            {
+              "label": "Project",
+              "url": "https://sites.google.com/view/tacfr-gripper/homepage"
+            },
+            {
+              "label": "Open manuscript",
+              "url": "https://arxiv.org/abs/2311.10611"
+            }
+          ]
+        },
+        {
+          "id": "tacpalm",
+          "name": "TacPalm",
+          "title": "TacPalm: A Soft Gripper with a Biomimetic Optical Tactile Palm for Stable Precise Grasping",
+          "authors": [
+            "Xuyang Zhang",
+            "Tianqi Yang",
+            "Dandan Zhang",
+            "Nathan F. Lepora"
+          ],
+          "year": "2024",
+          "venue": "IEEE Sensors Journal",
+          "status": "Journal article",
+          "question": "Can a sensing palm improve grasp precision while the fingers stay soft?",
+          "approach": "A TacTip in the palm measures contact without embedding a camera in the flexible fingers. The grasping strategy combines light-contact detection, pose adjustment and loss-of-contact detection.",
+          "evidence": "On the reported artificial and household objects, the complete strategy achieves 97% grasp success and sub-millimetre placement precision.",
+          "scope": "The success rate concerns the paper’s test objects and staged grasping strategy; it is not a general performance guarantee for fragile-object handling.",
+          "tags": [
+            "Soft grasping",
+            "Contact-aware placement"
+          ],
+          "figure": {
+            "src": "/assets/dexterous/tacpalm-fig1.webp",
+            "width": 2000,
+            "height": 483,
+            "sourceUrl": "https://arxiv.org/html/2409.15239v1#S3.F1",
+            "originalUrl": "https://arxiv.org/html/2409.15239v1/FIG/Fig24.jpg",
+            "credit": "Xuyang Zhang et al. Original author-manuscript figure 1; resized and encoded as WebP.",
+            "title": "TacPalm — soft gripper design",
+            "alt": "Manuscript Fig. 1: the soft gripper structure and optical tactile palm integrate sensing with compliant fingers.",
+            "caption": "Manuscript Fig. 1: the soft gripper structure and optical tactile palm integrate sensing with compliant fingers."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/tacpalm-fig13.webp",
+              "width": 2000,
+              "height": 1461,
+              "sourceUrl": "https://arxiv.org/html/2409.15239v1#S5.F13",
+              "originalUrl": "https://arxiv.org/html/2409.15239v1/FIG/FIG11_13.jpg",
+              "credit": "Xuyang Zhang et al. Original author-manuscript figure 13; resized and encoded as WebP.",
+              "title": "TacPalm — grasping evaluation",
+              "alt": "Manuscript Fig. 13: the everyday-object test set and grasp-stability comparison evaluate the sensing-assisted grasping strategy.",
+              "caption": "Manuscript Fig. 13: the everyday-object test set and grasp-stability comparison evaluate the sensing-assisted grasping strategy."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1109/JSEN.2024.3471812"
+            },
+            {
+              "label": "Open manuscript",
+              "url": "https://arxiv.org/abs/2409.15239"
+            }
+          ]
+        },
+        {
+          "id": "tacvgnn",
+          "name": "Tac-VGNN",
+          "title": "Tac-VGNN: A Voronoi Graph Neural Network for Pose-Based Tactile Servoing",
+          "authors": [
+            "Wen Fan",
+            "Max Yang",
+            "Yifan Xing",
+            "Nathan F. Lepora",
+            "Dandan Zhang"
+          ],
+          "year": "2023",
+          "venue": "IEEE ICRA 2023",
+          "status": "Conference paper",
+          "question": "How can marker geometry become feedback for surface following?",
+          "approach": "A graph represents relationships between tactile markers. Voronoi-area features add contact-depth information to marker displacement, and a graph neural network estimates contact pose for servoing.",
+          "evidence": "The paper evaluates pose estimation, training efficiency and real surface-following tasks. Voronoi features improve depth estimation over the tested plain-GNN baseline.",
+          "scope": "The method is evaluated with TacTip marker observations and a specific pose-based servoing setup.",
+          "tags": [
+            "Graph learning",
+            "Tactile servoing"
+          ],
+          "figure": {
+            "src": "/assets/dexterous/tacvgnn-fig1.webp",
+            "width": 2000,
+            "height": 1654,
+            "sourceUrl": "https://arxiv.org/html/2303.02708v1#S1.F1",
+            "originalUrl": "https://arxiv.org/html/2303.02708v1/intro_5_3.png",
+            "credit": "Wen Fan et al. Original author-manuscript figure 1; resized and encoded as WebP.",
+            "title": "Tac-VGNN — surface-following setup",
+            "alt": "Manuscript Fig. 1: a robot-mounted TacTip and Voronoi representation connect contact observations to surface following.",
+            "caption": "Manuscript Fig. 1: a robot-mounted TacTip and Voronoi representation connect contact observations to surface following."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/tacvgnn-fig5.webp",
+              "width": 2000,
+              "height": 852,
+              "sourceUrl": "https://arxiv.org/html/2303.02708v1#S2.F5",
+              "originalUrl": "https://arxiv.org/html/2303.02708v1/GNN_framework_1.drawio.png",
+              "credit": "Wen Fan et al. Original author-manuscript figure 5; resized and encoded as WebP.",
+              "title": "Tac-VGNN — network architecture",
+              "alt": "Manuscript Fig. 5: graph features and the neural network map tactile marker relationships to pose estimates.",
+              "caption": "Manuscript Fig. 5: graph features and the neural network map tactile marker relationships to pose estimates."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2303.02708"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/Tac-VGNN"
+            },
+            {
+              "label": "Project",
+              "url": "https://sites.google.com/view/tac-vgnn/home"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coordinated-skills",
+      "number": "04",
+      "title": "Coordinated & adaptable skills",
+      "description": "Study bimanual and multi-agent behaviour, mobile cooperative lifting and adaptation to new objects and scenes.",
+      "projects": [
+        {
+          "id": "adm-dp",
+          "name": "ADM-DP",
+          "title": "ADM-DP: Adaptive Dynamic Modality Diffusion Policy through Vision-Tactile-Graph Fusion for Multi-Agent Manipulation",
+          "authors": [
+            "Enyi Wang",
+            "Wen Fan",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "IEEE ICRA 2026",
+          "status": "Conference paper",
+          "question": "Which sensory information matters at each stage of a coordinated task?",
+          "approach": "A diffusion policy combines RGB and point-cloud features, FSR tactile feedback and a graph of robot tool positions. Adaptive modality attention changes their relative contribution; each agent learns a policy while sharing spatial context.",
+          "evidence": "Seven simulated multi-agent tasks test coordinated manipulation, with modality ablations examining grasp refinement and inter-agent interference.",
+          "scope": "This study evaluates simulated tasks; real-robot deployment is identified as future work. Its tactile modality models FSR feedback, rather than optical tactile images.",
+          "tags": [
+            "Diffusion policy",
+            "Adaptive fusion"
+          ],
+          "figure": {
+            "src": "/assets/publication-figures/adm-dp-2026f.webp",
+            "alt": "A method diagram combines multiple robot agents, visual and tactile features, graph attention, demonstrations and a diffusion policy.",
+            "caption": "Author-manuscript Fig. 1 — ADM-DP learning and manipulation framework.",
+            "sourceUrl": "https://arxiv.org/abs/2602.21622",
+            "kind": "paper",
+            "width": 1500,
+            "height": 781,
+            "title": "ADM-DP — research overview",
+            "credit": "Enyi Wang et al. Original author-manuscript figure; see source."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/adm-dp-fig6.webp",
+              "width": 2000,
+              "height": 1775,
+              "sourceUrl": "https://arxiv.org/html/2602.21622v1#S3.F6",
+              "originalUrl": "https://arxiv.org/html/2602.21622v1/fig/tasks_Two1.png",
+              "credit": "Enyi Wang et al. Original author-manuscript figure 6; resized and encoded as WebP.",
+              "title": "ADM-DP — two-agent tasks",
+              "alt": "Manuscript Fig. 6: four simulated dual-arm tasks test coordination with distinct roles for the agents.",
+              "caption": "Manuscript Fig. 6: four simulated dual-arm tasks test coordination with distinct roles for the agents."
+            },
+            {
+              "src": "/assets/dexterous/adm-dp-fig7.webp",
+              "width": 2000,
+              "height": 1422,
+              "sourceUrl": "https://arxiv.org/html/2602.21622v1#S3.F7",
+              "originalUrl": "https://arxiv.org/html/2602.21622v1/fig/tasks_Three1.png",
+              "credit": "Enyi Wang et al. Original author-manuscript figure 7; resized and encoded as WebP.",
+              "title": "ADM-DP — three-agent tasks",
+              "alt": "Manuscript Fig. 7: three simulated tri-arm tasks extend the evaluation to more complex shared-workspace coordination.",
+              "caption": "Manuscript Fig. 7: three simulated tri-arm tasks extend the evaluation to more complex shared-workspace coordination."
+            }
+          ],
+          "links": [
+            {
+              "label": "Open manuscript",
+              "url": "https://arxiv.org/abs/2602.21622"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/ADM_DP"
+            }
+          ]
+        },
+        {
+          "id": "bi-touch",
+          "name": "Bi-Touch",
+          "title": "Bi-Touch: Bimanual Tactile Manipulation with Sim-to-Real Deep Reinforcement Learning",
+          "authors": [
+            "Yijiong Lin",
+            "Alex Church",
+            "Max Yang",
+            "Haoran Li",
+            "John Lloyd",
+            "Dandan Zhang",
+            "Nathan F. Lepora"
+          ],
+          "year": "2023",
+          "venue": "IEEE Robotics and Automation Letters 8(9), 5472–5479",
+          "status": "Journal article",
+          "question": "How can two arms coordinate manipulation using touch?",
+          "approach": "Two robot arms with TacTip sensors learn bimanual skills in Tactile Gym. Task rewards and a goal-update mechanism support reinforcement learning; tactile image translation bridges simulation and hardware.",
+          "evidence": "Physical trials test pushing, reorienting and gathering with previously unseen objects. The added figures show the object set, reorientation trajectories and responses to disturbances during gathering. Performance varies with object shape and perturbations; the triangular-prism reorientation case illustrates a failure mode.",
+          "scope": "Control uses tactile images and proprioception; external tracking markers provide evaluation measurements. A simulation-to-reality gap can cause excessive squeezing, and varied object geometry remains challenging. Simulation panels are labelled separately from hardware trials.",
+          "tags": [
+            "Bimanual",
+            "Sim-to-real RL"
+          ],
+          "figure": {
+            "src": "/assets/publication-figures/legacy-bi-touch-2026f.webp",
+            "alt": "Bi-Touch overview showing simulated bimanual tasks, real-to-sim tactile translation and real-world robot evaluation.",
+            "caption": "Bi-Touch system overview, Figure 1.",
+            "credit": "Lin et al. (2023); figure extracted and resized.",
+            "sourceUrl": "https://arxiv.org/abs/2307.06423",
+            "kind": "paper",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "licenseLabel": "CC BY 4.0",
+            "title": "Bi-Touch — research overview",
+            "width": 1470,
+            "height": 483
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/bitouch-fig4-20261109.webp",
+              "width": 944,
+              "height": 335,
+              "sourceUrl": "https://arxiv.org/html/2307.06423v1#S4.F4",
+              "title": "Bi-Touch — physical test objects",
+              "alt": "The real-object collection spans bimanual pushing, reorientation and gathering, with variation in geometry, size and compliance.",
+              "caption": "Author-manuscript Fig. 4 — The real-object collection spans bimanual pushing, reorientation and gathering, with variation in geometry, size and compliance.",
+              "credit": "Yijiong Lin et al. (2023). Original figure; resized and encoded as WebP.",
+              "kind": "paper",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "licenseLabel": "CC BY 4.0"
+            },
+            {
+              "src": "/assets/dexterous/bitouch-fig6-20261109.webp",
+              "width": 1566,
+              "height": 497,
+              "sourceUrl": "https://arxiv.org/html/2307.06423v1#S4.F6",
+              "title": "Bi-Touch — reorientation trajectories",
+              "alt": "Simulation appears in panel (a); subsequent panels show physical objects. Trajectories expose successful reorientation and the difficulty of handling a triangular prism.",
+              "caption": "Author-manuscript Fig. 6 — Simulation appears in panel (a); subsequent panels show physical objects. Trajectories expose successful reorientation and the difficulty of handling a triangular prism.",
+              "credit": "Yijiong Lin et al. (2023). Original figure; resized and encoded as WebP.",
+              "kind": "paper",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "licenseLabel": "CC BY 4.0"
+            },
+            {
+              "src": "/assets/dexterous/bitouch-fig7-20261109.webp",
+              "width": 1503,
+              "height": 653,
+              "sourceUrl": "https://arxiv.org/html/2307.06423v1#S4.F7",
+              "title": "Bi-Touch — gathering with perturbations",
+              "alt": "A simulated example and four physical object pairs are compared with and without disturbances. Tracking markers support evaluation; the policy uses touch and proprioception.",
+              "caption": "Author-manuscript Fig. 7 — A simulated example and four physical object pairs are compared with and without disturbances. Tracking markers support evaluation; the policy uses touch and proprioception.",
+              "credit": "Yijiong Lin et al. (2023). Original figure; resized and encoded as WebP.",
+              "kind": "paper",
+              "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+              "licenseLabel": "CC BY 4.0"
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1109/LRA.2023.3295991"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/yijionglin/tactile_gym/tree/Bi-Touch"
+            },
+            {
+              "label": "Video · bi-pushing",
+              "url": "https://www.youtube.com/watch?v=SUtK6468p1Y"
+            },
+            {
+              "label": "Project",
+              "url": "https://sites.google.com/view/bi-touch/"
+            },
+            {
+              "label": "Figure manuscript",
+              "url": "https://arxiv.org/abs/2307.06423"
+            }
+          ]
+        },
+        {
+          "id": "tacmms",
+          "name": "TacMMs",
+          "title": "TacMMs: Tactile Mobile Manipulators for Warehouse Automation",
+          "authors": [
+            "Zhuochao He",
+            "Xuyang Zhang",
+            "Simon Jones",
+            "Sabine Hauert",
+            "Dandan Zhang",
+            "Nathan F. Lepora"
+          ],
+          "year": "2023",
+          "venue": "IEEE Robotics and Automation Letters",
+          "status": "Journal article",
+          "question": "Can tactile feedback help mobile robots lift a shared load?",
+          "approach": "Each mobile robot carries a TacTip on a lifting platform. Contact estimates guide relative robot–object pose adjustment before cooperative lifting.",
+          "evidence": "In the two-robot study, tactile control achieves 66% average lifting success versus 34% for the tested visual-only approach, with larger gains for uneven mass distributions.",
+          "scope": "The experiments use two robots. Extension to larger teams is a proposed direction rather than a demonstrated result.",
+          "tags": [
+            "Mobile manipulation",
+            "Cooperative lifting"
+          ],
+          "figure": {
+            "src": "/assets/dexterous/tacmms-fig1.webp",
+            "width": 1282,
+            "height": 1056,
+            "sourceUrl": "https://arxiv.org/html/2306.16783v1#S1.F1",
+            "originalUrl": "https://arxiv.org/html/2306.16783v1/Fig1a.png",
+            "credit": "Zhuochao He et al. Original author-manuscript figure 1; resized and encoded as WebP.",
+            "title": "TacMMs — cooperative box lifting",
+            "alt": "Manuscript Fig. 1: two tactile mobile manipulators approach, contact and lift a shared box.",
+            "caption": "Manuscript Fig. 1: two tactile mobile manipulators approach, contact and lift a shared box."
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/tacmms-fig4.webp",
+              "width": 1804,
+              "height": 1233,
+              "sourceUrl": "https://arxiv.org/html/2306.16783v1#S3.F4",
+              "originalUrl": "https://arxiv.org/html/2306.16783v1/Fig3.png",
+              "credit": "Zhuochao He et al. Original author-manuscript figure 4; resized and encoded as WebP.",
+              "title": "TacMMs — feedback architectures",
+              "alt": "Manuscript Fig. 4: tactile and visual control architectures show how observations guide pose adjustment.",
+              "caption": "Manuscript Fig. 4: tactile and visual control architectures show how observations guide pose adjustment."
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1109/LRA.2023.3287363"
+            },
+            {
+              "label": "Open manuscript",
+              "url": "https://arxiv.org/abs/2306.16783"
+            },
+            {
+              "label": "Project & videos",
+              "url": "https://sites.google.com/view/tacmms"
+            }
+          ]
+        },
+        {
+          "id": "pouring",
+          "name": "One-shot robotic pouring",
+          "title": "One-Shot Domain-Adaptive Imitation Learning via Progressive Learning Applied to Robotic Pouring",
+          "authors": [
+            "Dandan Zhang",
+            "Wen Fan",
+            "John Lloyd",
+            "Chenguang Yang",
+            "Nathan F. Lepora"
+          ],
+          "year": "2024",
+          "venue": "IEEE Transactions on Automation Science and Engineering 21(1), 541–554",
+          "status": "Journal article",
+          "question": "How can a learned skill adapt with one new demonstration?",
+          "approach": "A progressive imitation-learning framework first learns coarse visual concepts, then generates actions from sequential observations. An imaginary-learning phase uses CycleGAN image translation to create target-style training observations. One demonstration from a new scene supports adaptation of an already trained source policy.",
+          "evidence": "UR5 experiments vary the background, granular material and receiving container. The added sequences show physical executions before and after scene changes; comparisons in the manuscript evaluate coarse learning, fine action learning and domain adaptation separately.",
+          "scope": "One-shot refers to adaptation after source-domain training, not learning pouring from scratch. Generated observations are training data; the experimental sequences show physical execution. The study uses vision and granular materials rather than tactile feedback or liquid pouring.",
+          "tags": [
+            "Imitation learning",
+            "Domain adaptation"
+          ],
+          "figure": {
+            "src": "/assets/publication-figures/legacy-one-shot-pouring-2026f.webp",
+            "alt": "Robotic pouring setup showing the robot arm, source and target containers, RGB camera and teleoperation controller.",
+            "caption": "Robotic pouring setup, Figure 2 of the author manuscript.",
+            "credit": "Zhang et al.; extracted from arXiv:2204.11251 and converted to WebP.",
+            "sourceUrl": "https://arxiv.org/abs/2204.11251",
+            "kind": "paper",
+            "title": "One-shot robotic pouring — research overview",
+            "width": 770,
+            "height": 467
+          },
+          "extraFigures": [
+            {
+              "src": "/assets/dexterous/pouring-fig1-20261109.webp",
+              "width": 962,
+              "height": 948,
+              "sourceUrl": "https://arxiv.org/html/2204.11251v1#S1.F1",
+              "title": "Robotic pouring — progressive learning",
+              "alt": "Concept representation, action generation and domain adaptation form three learning stages. One new demonstration adapts a policy already trained on source scenes.",
+              "caption": "Author-manuscript Fig. 1 — Concept representation, action generation and domain adaptation form three learning stages. One new demonstration adapts a policy already trained on source scenes.",
+              "credit": "Dandan Zhang et al. Original figure; resized and encoded as WebP.",
+              "kind": "paper"
+            },
+            {
+              "src": "/assets/dexterous/pouring-fig8-20261109.webp",
+              "width": 2044,
+              "height": 1689,
+              "sourceUrl": "https://arxiv.org/html/2204.11251v1#S5.F8",
+              "title": "Robotic pouring — physical task sequences",
+              "alt": "Four successful robot trials show granular pouring into different containers. These are selected demonstrations; aggregate comparisons are reported in the paper.",
+              "caption": "Author-manuscript Fig. 8 — Four successful robot trials show granular pouring into different containers. These are selected demonstrations; aggregate comparisons are reported in the paper.",
+              "credit": "Dandan Zhang et al. Original figure; resized and encoded as WebP.",
+              "kind": "paper"
+            },
+            {
+              "src": "/assets/dexterous/pouring-fig9-20261109.webp",
+              "width": 1600,
+              "height": 1090,
+              "sourceUrl": "https://arxiv.org/html/2204.11251v1#S5.F9",
+              "title": "Robotic pouring — adapting to new scenes",
+              "alt": "Physical trials demonstrate adaptation to a changed background, new granules and a new target container. The sequences show robot execution after adaptation.",
+              "caption": "Author-manuscript Fig. 9 — Physical trials demonstrate adaptation to a changed background, new granules and a new target container. The sequences show robot execution after adaptation.",
+              "credit": "Dandan Zhang et al. Original figure; resized and encoded as WebP.",
+              "kind": "paper"
+            }
+          ],
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1109/TASE.2022.3220728"
+            },
+            {
+              "label": "Open manuscript",
+              "url": "https://arxiv.org/abs/2204.11251"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "approachFigure": {
+    "title": "From contact observations to adaptable manipulation",
+    "alt": "Touch and vision provide observations of physical interaction. State representations and learned action policies support grasping and manipulation, with new contact observations informing subsequent action.",
+    "caption": "Conceptual connection between sensing, representation, learned action and contact. These elements are investigated in different sensors, robots and tasks; the schematic does not describe one universal manipulation system.",
+    "image": "/assets/illustrations/tactile-manipulation-workflow-2026e.svg",
+    "mobileImage": "/assets/illustrations/tactile-manipulation-workflow-2026e-mobile.svg",
+    "width": 1280,
+    "height": 540
+  },
+  "comparison": [
+    {
+      "platform": "Optical tactile sensors",
+      "observations": "Deformation, markers, texture and visual context",
+      "action": "Contact localisation, force or geometry inference",
+      "projects": "ViTacTip, MagicTac, CrystalTac, PixelTac"
+    },
+    {
+      "platform": "Materials & evaluation",
+      "observations": "Material properties, calibration and task-level measurements",
+      "action": "Choose or tailor the sensing interface",
+      "projects": "i-Tac, TacEva, TacVerse"
+    },
+    {
+      "platform": "Sensor-driven grippers",
+      "observations": "Fingertip, tactile-skin or palm contact",
+      "action": "Grasp, align, reposition and follow surfaces",
+      "projects": "MagicGripper, TacFR-Gripper, TacPalm, Tac-VGNN"
+    },
+    {
+      "platform": "Coordinated robots",
+      "observations": "Tactile images or FSRs, robot poses and vision",
+      "action": "Physical cooperative manipulation; simulated multi-agent tasks in ADM-DP",
+      "projects": "Bi-Touch, TacMMs, ADM-DP"
+    },
+    {
+      "platform": "Visual skill adaptation",
+      "observations": "Images and demonstrations",
+      "action": "Transfer a pouring skill across scenes and objects",
+      "projects": "One-shot robotic pouring"
+    }
+  ],
+  "resources": [
+    {
+      "name": "TacVerse",
+      "description": "Train and compare shape, grating and force-perception models across tactile sensors.",
+      "url": "https://github.com/dianzdd123/Tactile_Database",
+      "guideUrl": "https://github.com/dianzdd123/Tactile_Database/blob/main/docs/REUSE.md",
+      "requirements": "Dataset access requires Hugging Face sign-in and acceptance of access conditions."
+    },
+    {
+      "name": "MultiDiffSense",
+      "description": "Prepare geometry-conditioned data, generate tactile observations and evaluate image and pose-estimation performance.",
+      "url": "https://github.com/dianzdd123/MultiDiffSense",
+      "guideUrl": "https://github.com/dianzdd123/MultiDiffSense/blob/main/docs/REUSE.md",
+      "requirements": "Read the model-weight, dataset and GPU requirements before training."
+    },
+    {
+      "name": "ADM-DP",
+      "description": "Explore vision–tactile–graph fusion and adaptive diffusion policies for multi-agent manipulation.",
+      "url": "https://github.com/dianzdd123/ADM_DP",
+      "guideUrl": "https://github.com/dianzdd123/ADM_DP/blob/main/docs/REUSE.md",
+      "requirements": "Training requires per-arm demonstrations and the simulator stack described in the reuse guide."
+    },
+    {
+      "name": "Tac-VGNN",
+      "description": "Build Voronoi graph representations from tactile markers and estimate pose for tactile servoing.",
+      "url": "https://github.com/dianzdd123/Tac-VGNN",
+      "guideUrl": "https://github.com/dianzdd123/Tac-VGNN/blob/main/docs/REUSE.md",
+      "requirements": "Real servoing depends on calibrated tactile hardware and robot control."
+    },
+    {
+      "name": "Bi-Touch",
+      "description": "Study the author-released bimanual Tactile Gym branch and the associated physical task demonstrations.",
+      "url": "https://github.com/yijionglin/tactile_gym/tree/Bi-Touch",
+      "guideUrl": "https://sites.google.com/view/bi-touch/",
+      "guideLabel": "Project & demonstrations",
+      "requirements": "The original author branch is linked because the task-specific release is hosted there."
+    },
+    {
+      "name": "TacEva",
+      "description": "Explore tactile sensor evaluation methods and the project’s comparison protocols.",
+      "url": "https://stevenoh2003.github.io/TacEva/",
+      "linkLabel": "Project & protocols",
+      "requirements": "Use the metric definitions and calibration procedure when comparing sensor designs."
+    }
+  ],
+  "outlook": [
+    {
+      "title": "When should the sensor change?",
+      "text": "Connect material and geometric design choices to the observations a manipulation task actually needs."
+    },
+    {
+      "title": "What transfers across hardware?",
+      "text": "Separate changes in contact physics from changes in image appearance, and measure how much new data adaptation requires."
+    },
+    {
+      "title": "How should contact guide action?",
+      "text": "Use uncertainty and changing sensory relevance to decide when to refine a grasp, gather more evidence or coordinate another robot."
+    }
+  ],
+  "provenanceNote": "Project descriptions summarise the linked primary papers. Figures are original paper or author-project material, with source links and credits. Additional figures may come from an earlier manuscript, as labelled. Research directions above are a synthesis of the programme, not claims of completed universal capabilities."
+}

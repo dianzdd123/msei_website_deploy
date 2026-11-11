@@ -1,0 +1,7 @@
+# Publish website content only; source and maintenance files are not site assets.
+exclude:
+  - docs
+  - scripts
+  - README.md
+  - CONTRIBUTING.md
+  - .github

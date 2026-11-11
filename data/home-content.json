@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "title": "MSEI Lab",
+    "subtitle": "Multi-Scale Embodied Intelligence Lab",
+    "lastUpdated": "2026-11-08"
+  },
+  "sections": {
+    "hero": {
+      "title": "Dr Dandan Zhang",
+      "primaryButton": "Explore Research",
+      "secondaryButton": "Meet Our Team",
+      "description": "<p>Dr Dandan Zhang is an Assistant Professor at Imperial College London and founder of the Multi-Scale Embodied Intelligence (MSEI) Lab. Her research develops adaptive physical intelligence for dexterous manipulation across scales, connecting tactile sensing and multimodal perception, data-efficient robot learning, shared autonomy, and optical and magnetic microrobotics. Applications span robotic manipulation, robot-assisted microsurgery and scientific experimentation.</p><p>She joined Imperial in 2023 after a lectureship in Robotics at the University of Bristol (2021–2023). She received her PhD in Medical Robotics from Imperial in 2021 and her MRes in Medical Robotics and Image-Guided Intervention in 2018.</p><p>Her honours include MIT Technology Review’s Innovators Under 35 Asia Pacific 2026 recognition, first place in the 2021 UK Best PhD in Robotics competition, and the 2021 Amazon PhD Prize. A Fellow of the Higher Education Academy, she leads postgraduate Deep Learning teaching.</p>",
+      "subtitle": "Assistant Professor · AI & Machine Learning and Biomedical Robotics",
+      "affiliations": "Department of Bioengineering · Digital Foundry · Imperial College London",
+      "biographyParagraphs": [
+        "Dr Dandan Zhang is an Assistant Professor at Imperial College London and founder of the Multi-Scale Embodied Intelligence (MSEI) Lab. Her research develops adaptive physical intelligence for dexterous manipulation across scales, connecting tactile sensing and multimodal perception, data-efficient robot learning, shared autonomy, and optical and magnetic microrobotics. Applications span robotic manipulation, robot-assisted microsurgery and scientific experimentation.",
+        "She joined Imperial in 2023 after a lectureship in Robotics at the University of Bristol (2021–2023). She received her PhD in Medical Robotics from Imperial in 2021 and her MRes in Medical Robotics and Image-Guided Intervention in 2018.",
+        "Her honours include MIT Technology Review’s Innovators Under 35 Asia Pacific 2026 recognition, first place in the 2021 UK Best PhD in Robotics competition, and the 2021 Amazon PhD Prize. A Fellow of the Higher Education Academy, she leads postgraduate Deep Learning teaching."
+      ],
+      "shortBio": "Dr Dandan Zhang is an Assistant Professor at Imperial College London and founder of the Multi-Scale Embodied Intelligence (MSEI) Lab. Her research develops adaptive physical intelligence for dexterous manipulation across scales, connecting tactile sensing and multimodal perception, data-efficient robot learning, shared autonomy, and optical and magnetic microrobotics. Applications span robotic manipulation, robot-assisted microsurgery and scientific experimentation.\n\nShe joined Imperial in 2023 after a lectureship in Robotics at the University of Bristol (2021–2023). She received her PhD in Medical Robotics from Imperial in 2021 and her MRes in Medical Robotics and Image-Guided Intervention in 2018.\n\nHer honours include MIT Technology Review’s Innovators Under 35 Asia Pacific 2026 recognition, first place in the 2021 UK Best PhD in Robotics competition, and the 2021 Amazon PhD Prize. A Fellow of the Higher Education Academy, she leads postgraduate Deep Learning teaching.",
+      "profileLinks": [
+        {
+          "label": "Public code & reuse guides",
+          "url": "https://github.com/dianzdd123/msei_website/blob/main/docs/PUBLIC_REPOSITORIES.md"
+        },
+        {
+          "label": "Imperial profile",
+          "url": "https://profiles.imperial.ac.uk/d.zhang17"
+        },
+        {
+          "label": "Teaching & supervision",
+          "url": "/msei_website/teaching"
+        },
+        {
+          "label": "Professional service",
+          "url": "/msei_website/services"
+        },
+        {
+          "label": "Wider lab research",
+          "url": "https://www.intelligentrobotics-acrossscales.com/"
+        }
+      ],
+      "featureImage": {
+        "src": "/assets/illustrations/hero-research-aligned-2026c.webp",
+        "alt": "Conceptual tactile manipulation, precision tools and optical or magnetic microstructures in a flowing pale-blue research illustration.",
+        "width": 1672,
+        "height": 941,
+        "caption": "Adaptive physical intelligence across scales. AI-generated conceptual artwork; objects are not to scale."
+      },
+      "labHeadline": "Adaptive physical intelligence. Across scales."
+    },
+    "researchoverview": {
+      "subsections": [
+        {
+          "name": "Research Theme",
+          "data": {
+            "title": "Sensing and physical-state inference",
+            "intro": "What can robots infer from touch and images?",
+            "description": "We combine tactile sensor design, multimodal learning and microscopy-based perception to estimate contact, material properties and object state. Our studies connect visual–tactile fusion and sensor-side computation with cross-sensor benchmarking and data-efficient pose and depth estimation.",
+            "keywords": [
+              "Multimodal tactile sensing",
+              "Cross-sensor evaluation and adaptation",
+              "Microscopy and sim-to-real perception"
+            ]
+          }
+        },
+        {
+          "name": "Research Theme",
+          "data": {
+            "title": "Transferable and data-efficient skill learning",
+            "intro": "How can skills transfer with limited new data?",
+            "description": "We develop learning methods that use structure in tasks, sensing and robot interaction to improve adaptation. Examples include one-shot imitation learning for pouring, multimodal diffusion policies for coordinated manipulation, and tactile skills transferred from simulation to physical robots.",
+            "keywords": [
+              "Imitation and reinforcement learning",
+              "Multimodal action generation",
+              "Simulation-to-reality transfer"
+            ]
+          }
+        },
+        {
+          "name": "Research Theme",
+          "data": {
+            "title": "Adaptive control and shared autonomy",
+            "intro": "How should assistance adapt to the task and operator?",
+            "description": "We study how robots and people can share control during precise manipulation. Context-aware assistance, adaptive motion scaling, digital twins and haptic feedback connect human intent with the physical demands of a task. We evaluate these methods in robotic surgery, teleoperation and magnetic micromanipulation.",
+            "keywords": [
+              "Context-aware control allocation",
+              "Digital twins and haptic interfaces",
+              "Adaptive motion scaling"
+            ]
+          }
+        },
+        {
+          "name": "Research Theme",
+          "data": {
+            "title": "Embodiment and actuation design",
+            "intro": "How does physical design shape capability?",
+            "description": "We investigate how materials, sensor geometry and actuation determine what a robot can sense and do. Our work includes inverse design of tactile elastomers, integrated tactile grippers, distributed optical-force control and modular magnetic robots. Physical design and control are developed together to enable new forms of manipulation.",
+            "keywords": [
+              "Inverse material and sensor design",
+              "Optical and magnetic actuation",
+              "Modular robot design and reconfiguration"
+            ]
+          }
+        }
+      ],
+      "description": "Our goal is to develop robots that perceive physical interactions, adapt their behaviour and assist people in precise manipulation. We connect learning algorithms with the mechanics of sensors, tools and actuators, and evaluate these ideas through contact-rich tasks, medical robotics and scientific instrumentation. <a href=\"/msei_website/research\">Explore the research themes and platforms</a> and <a href=\"/msei_website/publications\">research publications</a>."
+    },
+    "opening": {
+      "description": "We welcome enquiries from prospective researchers interested in tactile sensing, robot learning, shared autonomy, biomedical manipulation and optical or magnetic robotics. Relevant backgrounds include bioengineering, robotics, computer science, electrical engineering and related disciplines. Please see the <a href=\"/msei_website/vacancies\">Vacancies page</a> and contact <a href=\"mailto:d.zhang17@imperial.ac.uk\">d.zhang17@imperial.ac.uk</a> to discuss current opportunities.<p>Explore current scholarship schemes and applicant guidance on <a href=\"/msei_website/opportunities/#scholarships\">our opportunities page</a>.</p>"
+    },
+    "latestnews": {
+      "subsections": [
+        {
+          "name": "News Item",
+          "data": {
+            "date": "10/2026",
+            "title": "PhysLadder preprint",
+            "summary": "Our collaborative PhysLadder preprint studies physical interaction in contact-rich manipulation using a matched simulation and real-world benchmark.",
+            "links": [
+              "Preprint: https://arxiv.org/abs/2610.34527"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "10/2026",
+            "title": "IROS 2026 workshop",
+            "summary": "Dandan co-organised the IROS 2026 workshop Physical World Models for Scaling Embodied AI in Pittsburgh.",
+            "links": [
+              "Workshop: https://physical-world-models.github.io/IROS2026/"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "09/2026",
+            "title": "TR35 Asia Pacific 2026",
+            "summary": "Dandan was recognised in MIT Technology Review’s Innovators Under 35 Asia Pacific 2026.",
+            "links": [
+              "Announcement: https://www.sina.cn/news/detail/5343758565770865.html"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "09/2026",
+            "title": "Magnetic microrobot fabrication in Artificial Life",
+            "summary": "Our collaborative work on rapid parallel fabrication and magnetic control of diverse microrobotic structures has been published online in Artificial Life.",
+            "links": [
+              "Paper: https://doi.org/10.1162/ARTL.a.489"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "09/2026",
+            "title": "ECCV 2026 workshop",
+            "summary": "Dandan co-organised the ECCV 2026 workshop Safe World Models for Trustworthy Embodied AI in Malmö.",
+            "links": [
+              "Workshop: https://trustworthy-world-models.github.io/ECCV2026/"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "06/2026",
+            "title": "ICRA 2026 sim-to-real microscopy",
+            "summary": "Our ICRA 2026 paper on physics-informed sim-to-real data augmentation for micro-object pose estimation is available with open-source code.",
+            "links": [
+              "Paper: https://arxiv.org/abs/2511.16494",
+              "Code: https://github.com/dianzdd123/Micro_Object_Sim2Real"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "05/2026",
+            "title": "Mag-VLA and optical digital twin preprints",
+            "summary": "New preprints introduce Mag-VLA for bimanual magnetic microrobot manipulation and a digital twin for virtual visuo-haptic optical microrobot teleoperation.",
+            "links": [
+              "Mag-VLA: https://arxiv.org/abs/2605.28486",
+              "Digital twin: https://arxiv.org/abs/2605.28448"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "05/2026",
+            "title": "Biomedical microrobotics review",
+            "summary": "Our review of embodied cross-domain intelligence in biomedical microrobots has been published in Cyborg and Bionic Systems.",
+            "links": [
+              "Paper: https://doi.org/10.34133/cbsystems.0546"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "04/2026",
+            "title": "Micro-dexterity and Du-FreqNet preprints",
+            "summary": "New preprints examine micro-dexterity in biological micromanipulation and introduce Du-FreqNet for depth-dependent optical microrobot microscopy image generation.",
+            "links": [
+              "Micro-dexterity: https://arxiv.org/abs/2604.11640",
+              "Du-FreqNet: https://arxiv.org/abs/2604.11680"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "03/2026",
+            "title": "Bi-CAST and DexterousMag preprints",
+            "summary": "New preprints explore adaptive shared control for bimanual magnetic micromanipulation and reconfigurable electromagnetic actuation with DexterousMag.",
+            "links": [
+              "Bi-CAST: https://arxiv.org/abs/2603.14388",
+              "DexterousMag: https://arxiv.org/abs/2603.14396"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "09/2025",
+            "title": "CBS 2025 optical depth estimation",
+            "summary": "Our CBS 2025 paper on physics-informed optical microrobot depth estimation with adaptive grids is available with code.",
+            "links": [
+              "Paper: https://arxiv.org/abs/2509.02343",
+              "Code: https://github.com/dianzdd123/CBS2025"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "08/2025",
+            "summary": "Congrats, Dr. Zhang won the IROS 2025 IES SYPA Travel Support with the amount of $1500 USD."
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "08/2025",
+            "summary": "Congrats, Lan Wei won the IROS 2025 IEEE RAS Travel Support with the amount of $1500 USD."
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "08/2025",
+            "summary": "One paper accepted at the IEEE International Conference on Cyborg and Bionic Systems (CBS 2025)"
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "07/2025",
+            "summary": "Congrats, Lan Wei won the best student paper with the highest score at MARSS 2025."
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "07/2025",
+            "summary": "We co-organised the 1st Trustworthy Embodied Intelligence in Healthcare International Symposium at Imperial College London's White City campus on 17 July 2025, supported by I-X."
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "06/2025",
+            "summary": "One paper on patch clamp multi-pipette localisation accepted at IROS’2025.",
+            "links": [
+              "PDF: https://arxiv.org/pdf/2504.01044?"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "04/2025",
+            "summary": "Two papers on microrobots were accepted at MARSS’2025.",
+            "links": [
+              "PDF: https://arxiv.org/pdf/2505.18303",
+              "Code: https://lannwei.github.io/Optical-Microrobot-Database/"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "03/2025",
+            "summary": "Wen Fan was featured in the Imperial-X PhD Research Spotlight interview series."
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "02/2025",
+            "summary": "We co-organised the 2nd MEIS Workshop at CVPR 2025."
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "02/2025",
+            "summary": "Two papers accepted at ICRA’2025.",
+            "links": [
+              "PDF: https://arxiv.org/pdf/2505.20751?",
+              "PDF: https://arxiv.org/pdf/2503.06359"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "01/2025",
+            "summary": "One paper accepted by the Cyborg and Bionic Systems.",
+            "links": [
+              "PDF: https://spj.science.org/doi/full/10.34133/cbsystems.0231"
+            ]
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "01/2025",
+            "summary": "Dr. Zhang was shortlisted for AI Visionaries 2025."
+          }
+        },
+        {
+          "name": "News Item",
+          "data": {
+            "date": "12/2024",
+            "summary": "Congrats, Wen Fan won the Mid Stage Prize at the Imperial College London Robotics Forum-Amazon PhD Prizes for Outstanding Achievement in Robotics!"
+          }
+        }
+      ]
+    },
+    "award": {
+      "lists": [
+        "2026 · MIT Technology Review Innovators Under 35 Asia Pacific (TR35).",
+        "2022 · Outstanding Interaction Paper Award, IEEE International Conference on Robotics and Automation (ICRA); first and corresponding author.",
+        "2021 · First place, UK Best PhD in Robotics competition.",
+        "2021 · Amazon PhD Prize for Outstanding Achievement in Robotics."
+      ]
+    },
+    "contactinformation": {
+      "subsections": [
+        {
+          "name": "Contact Details",
+          "data": {
+            "email": "d dot zhang17 at imperial dot ac dot uk",
+            "address": "Translation & Innovation Hub (I-Hub), White City Campus, Imperial College London, W12 7TA"
+          }
+        },
+        {
+          "name": "Social Links",
+          "data": {
+            "GitHub": "https://github.com/dianzdd123",
+            "LinkedIn": "https://linkedin.com/in/dandan-zhang-6b7366235",
+            "Google Scholar": "https://scholar.google.com/citations?user=233I39oAAAAJ&hl=en",
+            "ORCID": "https://orcid.org/0000-0001-7649-7605"
+          }
+        }
+      ]
+    },
+    "educationAndService": [
+      {
+        "eyebrow": "Education",
+        "title": "From deep learning to physical experiments",
+        "description": "Postgraduate module leadership, practical laboratories and multidisciplinary research supervision connect the foundations of AI with reproducible experiments in robotics and bioengineering.",
+        "linkLabel": "Explore teaching and supervision",
+        "url": "/msei_website/teaching"
+      },
+      {
+        "eyebrow": "Academic community",
+        "title": "Research leadership and professional service",
+        "description": "Editorial work, conference and workshop leadership, peer review, doctoral examination and public engagement support the wider robotics and AI community.",
+        "linkLabel": "Explore professional service",
+        "url": "/msei_website/services"
+      }
+    ],
+    "labPhotos": [
+      {
+        "src": "/assets/photos/cnrs-imperial-meeting-2026.webp",
+        "alt": "MSEI Lab researchers and visiting collaborators from FEMTO-ST, CNRS, at a research meeting.",
+        "width": 1600,
+        "height": 1067,
+        "caption": "CNRS–Imperial research exchange · 13 April 2026."
+      },
+      {
+        "src": "/assets/photos/msei-group-lunch-2026.webp",
+        "alt": "Lab members and visiting CNRS collaborators together at a group lunch.",
+        "width": 1600,
+        "height": 1200,
+        "caption": "Time together beyond the lab · 16 April 2026."
+      }
+    ]
+  }
+}

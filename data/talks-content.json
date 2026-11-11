@@ -1,0 +1,885 @@
+{
+  "metadata": {
+    "title": "Invited Talks & Presentations",
+    "description": "Invited talks and presentations at conferences, workshops and universities.",
+    "lastUpdated": "2026-11-02"
+  },
+  "sections": {
+    "invitedtalks&presentations": {
+      "subsections": [
+        {
+          "name": "Talk A",
+          "data": {
+            "title": "Embodied Cross-Domain Intelligence for Dexterous Micromanipulation",
+            "organizer": "The 7th UK Robot Manipulation Workshop",
+            "time": "2026-01",
+            "location": "Edinburgh, UK",
+            "image": "/assets/talk/ukworkshop.png",
+            "id": "uk-manipulation-2026",
+            "imageAlt": "Programme of the 7th UK Robot Manipulation Workshop, listing Dandan Zhang in the dexterity session.",
+            "topicId": "microrobotics",
+            "figure": {
+              "src": "/assets/talk/ukworkshop.png",
+              "alt": "Programme of the 7th UK Robot Manipulation Workshop, showing Dandan Zhang in the dexterity session.",
+              "caption": "Event programme from the existing talk archive.",
+              "kind": "event",
+              "fit": "contain"
+            },
+            "researchConnection": "Connecting embodiment, perception and control for dexterous manipulation at small scales.",
+            "relatedLinks": [
+              {
+                "label": "Explore microrobotics",
+                "url": "/msei_website/research/microrobotics/"
+              }
+            ],
+            "venue": "University of Edinburgh",
+            "eventUrl": "https://www.robot-manipulation.uk/copy-of-programme",
+            "date": "2026-01-07",
+            "thumbnail": {
+              "src": "/assets/talk/ukworkshop.png",
+              "alt": "Original 7th UK Robot Manipulation Workshop programme, showing Dandan Zhang in the dexterity session on Wednesday 7 January.",
+              "caption": "Programme",
+              "sourceUrl": "https://www.robot-manipulation.uk/copy-of-programme",
+              "kind": "programme",
+              "width": 602,
+              "height": 421,
+              "fit": "contain",
+              "credit": "UK Robot Manipulation Workshop",
+              "description": "Original event programme."
+            },
+            "sources": [
+              {
+                "url": "https://www.robot-manipulation.uk/past-workshops",
+                "supports": "Workshop dates and venue"
+              },
+              {
+                "url": "https://www.robot-manipulation.uk/copy-of-programme",
+                "supports": "Archived organiser programme"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Multi-Scale Embodied Intelligence for Biomedical Applications",
+            "organizer": "IROS 2025 Workshop: Embodied AI and Edge Computing for Intelligent Robots (EAI-EC)",
+            "time": "2025-10",
+            "location": "Hangzhou, China",
+            "id": "iros-eai-ec-2025",
+            "topicId": "across-scales",
+            "figure": {
+              "src": "/assets/illustrations/talks-across-scales-2026f.svg",
+              "alt": "Concept map linking tactile contact, precision manipulation and small-scale actuation through embodiment, perception and control.",
+              "caption": "Research context diagram connecting dexterity across scales.",
+              "kind": "diagram",
+              "mobileSrc": "/assets/illustrations/talks-across-scales-2026f-mobile.svg"
+            },
+            "researchConnection": "Connecting physical design, perception and intelligent manipulation across biomedical robotic systems.",
+            "relatedLinks": [
+              {
+                "label": "Explore the research programme",
+                "url": "/msei_website/research/"
+              }
+            ],
+            "eventUrl": "https://www.csclab.org/eisr",
+            "date": "2025-10-24",
+            "thumbnail": {
+              "src": "/assets/talk/iros-2025-event-20261102a.webp",
+              "alt": "Official IROS 2025 conference banner showing Hangzhou’s lake and the conference dates.",
+              "caption": "Event graphic",
+              "sourceUrl": "https://engage.ieee.org/rs/756-GPH-899/images/ES_TA_1018_2025_05_IES_Newsletter_1018_IES_Newsletter_2025_05.html?version=0",
+              "kind": "event-graphic",
+              "width": 591,
+              "height": 167,
+              "fit": "contain",
+              "credit": "IEEE / IROS 2025",
+              "description": "Official IROS 2025 event banner."
+            },
+            "sources": [
+              {
+                "url": "https://2025.ieee-iros.org/WorkshopsTutorials.html",
+                "supports": "EAI-EC workshop date and room"
+              },
+              {
+                "url": "https://engage.ieee.org/rs/756-GPH-899/images/ES_TA_1018_2025_05_IES_Newsletter_1018_IES_Newsletter_2025_05.html?version=0",
+                "supports": "Official conference banner and dates"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Design and fabrication of multimodal sensors for embodied intelligence",
+            "organizer": "iCANX Forum",
+            "time": "2025-10",
+            "location": "Hong Kong, China",
+            "id": "icanx-sensors-2025",
+            "topicId": "touch",
+            "figure": {
+              "src": "/assets/illustrations/tactile-learning-2026c.webp",
+              "alt": "Concept illustration of a robotic gripper sensing a deformable object with tactile fingertips.",
+              "caption": "Tactile manipulation research topic. AI-generated concept illustration.",
+              "kind": "concept"
+            },
+            "researchConnection": "How sensor materials, geometry and fabrication shape the physical information available to a robot.",
+            "relatedLinks": [
+              {
+                "label": "Explore tactile manipulation",
+                "url": "/msei_website/research/dexterous-manipulation/"
+              }
+            ],
+            "venue": "Hong Kong Convention and Exhibition Centre",
+            "eventUrl": "https://thu-ifee.tsinghua.edu.cn/en/industry/20251103/1775.html",
+            "thumbnail": {
+              "src": "/assets/talk/icanx-hongkong-signage-20261102a.webp",
+              "alt": "iCANX Hong Kong 2025 event signage, cropped from an ICEE photograph of the forum podium.",
+              "caption": "Event signage",
+              "sourceUrl": "https://thu-ifee.tsinghua.edu.cn/en/industry/20251103/1775.html",
+              "kind": "event-signage",
+              "width": 278,
+              "height": 81,
+              "fit": "contain",
+              "credit": "UNESCO ICEE / Tsinghua",
+              "originalImageUrl": "https://thu-ifee.tsinghua.edu.cn/u/cms/www2/202511/14172043xxw7.jpg",
+              "modification": "Cropped to event signage only; converted to WebP.",
+              "description": "iCANX Hong Kong 2025 · event signage."
+            },
+            "sources": [
+              {
+                "url": "https://thu-ifee.tsinghua.edu.cn/en/industry/20251103/1775.html",
+                "supports": "October event, venue and original signage photograph"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Digital twin-based mixed reality interfaces for teleoperation",
+            "organizer": "Hamlyn Symposium Trustworthy Medical Robotics Workshop",
+            "time": "2025-06",
+            "location": "London, UK",
+            "id": "hamlyn-teleoperation-2025",
+            "topicId": "medical-control",
+            "figure": {
+              "src": "/assets/illustrations/talks-shared-control-2026f.svg",
+              "alt": "Concept diagram connecting human intent, adaptive assistance and physical interaction, with sensory feedback to the operator.",
+              "caption": "Research context diagram of human–robot shared control.",
+              "kind": "diagram",
+              "mobileSrc": "/assets/illustrations/talks-shared-control-2026f-mobile.svg"
+            },
+            "researchConnection": "Connecting digital twins, mixed-reality interfaces and operator feedback in precise teleoperation.",
+            "relatedLinks": [
+              {
+                "label": "Explore medical robotics",
+                "url": "/msei_website/research/medical-robotics/"
+              }
+            ],
+            "venue": "Royal Geographical Society, London",
+            "eventUrl": "https://www.salford.ac.uk/our-staff/mary-he",
+            "date": "2025-06-24",
+            "thumbnail": {
+              "src": "/assets/talk/hamlyn-2025-event-20261102a.webp",
+              "alt": "A photograph of the Hamlyn Symposium on Medical Robotics 2025 auditorium and stage from the official symposium gallery.",
+              "caption": "Symposium photo",
+              "sourceUrl": "https://www.hamlynsymposium.org/hsmr25-photos/",
+              "kind": "event-photo",
+              "width": 960,
+              "height": 540,
+              "fit": "contain",
+              "credit": "Hamlyn Symposium",
+              "originalImageUrl": "https://www.hamlynsymposium.org/wp-content/uploads/2025/11/PHOTO-2025-06-25-15-48-51-2-2-scaled.jpg",
+              "description": "Hamlyn Symposium 2025 · event photograph."
+            },
+            "sources": [
+              {
+                "url": "https://www.salford.ac.uk/our-staff/mary-he",
+                "supports": "Workshop name and date"
+              },
+              {
+                "url": "https://salford-repository.worktribe.com/person/1179439/mary-he/recognition",
+                "supports": "Workshop date and venue"
+              },
+              {
+                "url": "https://www.hamlynsymposium.org/hsmr25-photos/",
+                "supports": "Official 2025 symposium photograph"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "AI-based Robotic Dexterous Micromanipulation for Biomedical Applications",
+            "organizer": "MedTech Links: AI, Machine Learning Systems and Devices with Autonomy",
+            "time": "2025-03",
+            "location": "London, UK",
+            "id": "medtechone-2025",
+            "topicId": "microrobotics",
+            "figure": {
+              "src": "/assets/illustrations/microrobotics-2026c.webp",
+              "alt": "Concept illustration of optical and magnetic microstructures manipulating small objects in a fluid chamber.",
+              "caption": "Microrobotics research topic. AI-generated concept illustration; objects are not to scale.",
+              "kind": "concept"
+            },
+            "researchConnection": "The relationship between AI, fine manipulation and robotic tools for biomedical applications.",
+            "relatedLinks": [
+              {
+                "label": "Explore microrobotics",
+                "url": "/msei_website/research/microrobotics/"
+              }
+            ],
+            "venue": "Royal School of Mines, Imperial College London",
+            "eventUrl": "https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/medtech-links/Mar25_MedTech-Links-programme_FINAL.pdf",
+            "date": "2025-03-24",
+            "thumbnail": {
+              "src": "/assets/talk/medtech-rsm-venue-20261102a.webp",
+              "alt": "Exterior of the Royal School of Mines, the Imperial College London venue named in the MedTech Links programme.",
+              "caption": "Host venue",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_School_of_Mines.jpg",
+              "kind": "venue",
+              "width": 960,
+              "height": 720,
+              "fit": "contain",
+              "credit": "Cheller0425",
+              "licenseLabel": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "modification": "Resized and converted to WebP; photographed 20 September 2021.",
+              "description": "Host venue · Royal School of Mines."
+            },
+            "sources": [
+              {
+                "url": "https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/medtech-links/Mar25_MedTech-Links-programme_FINAL.pdf",
+                "supports": "Individual title, speaker, date, time and venue"
+              },
+              {
+                "url": "https://www.imperial.ac.uk/events/186702/medtech-links-ai-machine-learning-devices-with-autonomy/",
+                "supports": "Event date and title"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Robotic Dexterous Micromanipulation for Biomedical Applications",
+            "organizer": "6th UK Manipulation Workshop",
+            "time": "2025-01",
+            "location": "London, UK",
+            "id": "uk-manipulation-2025",
+            "topicId": "medical-control",
+            "figure": {
+              "src": "/assets/illustrations/talks-shared-control-2026f.svg",
+              "alt": "Concept diagram connecting human intent, adaptive assistance and physical interaction, with sensory feedback to the operator.",
+              "caption": "Research context diagram of human–robot shared control.",
+              "kind": "diagram",
+              "mobileSrc": "/assets/illustrations/talks-shared-control-2026f-mobile.svg"
+            },
+            "researchConnection": "How physical feedback and adaptable assistance connect human intent with dexterous robot action.",
+            "relatedLinks": [
+              {
+                "label": "Explore shared control",
+                "url": "/msei_website/research/#shared-autonomy"
+              }
+            ],
+            "venue": "Bush House Auditorium, King’s College London",
+            "eventUrl": "https://www.robot-manipulation.uk/_files/ugd/20f657_5540a3e31c5449768caf48cfaad29f3c.pdf",
+            "date": "2025-01-08",
+            "thumbnail": {
+              "src": "/assets/talk/uk-manipulation-2025-20261102a.webp",
+              "alt": "Cover of the official 6th UK Manipulation Workshop programme, dated 7–8 January 2025 at King’s College London.",
+              "caption": "Programme",
+              "sourceUrl": "https://www.robot-manipulation.uk/_files/ugd/20f657_5540a3e31c5449768caf48cfaad29f3c.pdf",
+              "kind": "programme",
+              "width": 595,
+              "height": 842,
+              "fit": "contain",
+              "credit": "UK Manipulation Workshop",
+              "description": "Official 6th UK Manipulation Workshop programme."
+            },
+            "sources": [
+              {
+                "url": "https://www.robot-manipulation.uk/_files/ugd/20f657_5540a3e31c5449768caf48cfaad29f3c.pdf",
+                "supports": "Exact speaker/title/date at page 7; event venue and cover at page 1"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "AI for Biomedical Robotics Across Scales",
+            "organizer": "I-X AI: Cutting-Edge Overviews and Tutorials",
+            "time": "2024-04",
+            "location": "London, UK",
+            "id": "imperial-x-2024",
+            "topicId": "across-scales",
+            "figure": {
+              "src": "/assets/illustrations/talks-across-scales-2026f.svg",
+              "alt": "Concept map linking tactile contact, precision manipulation and small-scale actuation through embodiment, perception and control.",
+              "caption": "Research context diagram connecting dexterity across scales.",
+              "kind": "diagram",
+              "mobileSrc": "/assets/illustrations/talks-across-scales-2026f-mobile.svg"
+            },
+            "researchConnection": "How sensing, learning and control connect biomedical robotics at different physical scales.",
+            "relatedLinks": [
+              {
+                "label": "Explore research applications",
+                "url": "/msei_website/research/#applications"
+              }
+            ],
+            "venue": "I-X Conference Room, I-HUB, White City Campus",
+            "eventUrl": "https://www.imperial.ac.uk/events/175730/ai-cutting-edge-overviews-and-tutorials-with-dr-dandan-zhang/",
+            "date": "2024-04-30",
+            "thumbnail": {
+              "src": "/assets/talk/imperial-x-ihub-venue-20261102a.webp",
+              "alt": "The glass walkway of Imperial College London’s Translation and Innovation Hub, the I-HUB host building for the I-X seminar.",
+              "caption": "Host venue",
+              "sourceUrl": "https://www.imperial.ac.uk/news/175653/the-translation-innovation-hub-i-hub-featured/amp/",
+              "kind": "venue",
+              "width": 700,
+              "height": 484,
+              "fit": "contain",
+              "credit": "George Fielding Photography",
+              "description": "Host venue · I-HUB, White City."
+            },
+            "sources": [
+              {
+                "url": "https://www.imperial.ac.uk/events/175730/ai-cutting-edge-overviews-and-tutorials-with-dr-dandan-zhang/",
+                "supports": "Exact individual title, date, time and venue"
+              },
+              {
+                "url": "https://www.imperial.ac.uk/news/175653/the-translation-innovation-hub-i-hub-featured/amp/",
+                "supports": "Original I-HUB photograph and photographer credit"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "AI for Biomedical Robotics Across Scales",
+            "organizer": "Hamlyn Symposium, Microrobotics Workshop",
+            "time": "2024-06",
+            "location": "London, UK",
+            "id": "hamlyn-microrobotics-2024",
+            "topicId": "microrobotics",
+            "figure": {
+              "src": "/assets/illustrations/microrobotics-2026c.webp",
+              "alt": "Concept illustration of optical and magnetic microstructures manipulating small objects in a fluid chamber.",
+              "caption": "Microrobotics research topic. AI-generated concept illustration; objects are not to scale.",
+              "kind": "concept"
+            },
+            "researchConnection": "Intelligent perception and actuation for biomedical manipulation at small scales.",
+            "relatedLinks": [
+              {
+                "label": "Explore microrobotics",
+                "url": "/msei_website/research/microrobotics/"
+              }
+            ],
+            "eventUrl": "https://www.hamlynsymposium.org/proceedings/",
+            "thumbnail": {
+              "src": "/assets/talk/hamlyn-2024-cover-20261102a.webp",
+              "alt": "Official cover of the Hamlyn Symposium on Medical Robotics 2024 proceedings.",
+              "caption": "Proceedings cover",
+              "sourceUrl": "https://www.hamlynsymposium.org/proceedings/",
+              "kind": "programme",
+              "width": 681,
+              "height": 960,
+              "fit": "contain",
+              "credit": "Hamlyn Symposium",
+              "originalImageUrl": "https://www.hamlynsymposium.org/wp-content/uploads/2026/09/2024-1.png",
+              "description": "Official HSMR 2024 proceedings cover."
+            },
+            "sources": [
+              {
+                "url": "https://www.hamlynsymposium.org/proceedings/",
+                "supports": "Official 2024 proceedings cover and event year"
+              },
+              {
+                "url": "https://www.hamlynsymposium.org/wp-content/uploads/2024/06/HSMR24-Proceedings-v2.pdf",
+                "supports": "2024 proceedings"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Guest Lecturer",
+            "organizer": "Shanghai Jiao Tong University",
+            "time": "2024-06",
+            "location": "Shanghai, China",
+            "id": "sjtu-guest-2024",
+            "topicId": "exchange",
+            "figure": {
+              "src": "/assets/illustrations/talks-research-exchange-2026f.svg",
+              "alt": "An academic exchange diagram connecting a question, supporting evidence and discussion.",
+              "caption": "Illustration of academic exchange and discussion.",
+              "kind": "diagram",
+              "mobileSrc": "/assets/illustrations/talks-research-exchange-2026f-mobile.svg"
+            },
+            "researchConnection": "A guest lecture hosted by Shanghai Jiao Tong University.",
+            "relatedLinks": [
+              {
+                "label": "Explore teaching and education",
+                "url": "/msei_website/teaching/"
+              }
+            ],
+            "thumbnail": {
+              "alt": "A tree-lined waterway on Shanghai Jiao Tong University’s Minhang campus, photographed in 2008.",
+              "caption": "Host campus",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:SJTU_minhang.jpg",
+              "kind": "host",
+              "credit": "CaiDie, 2008 · Public domain",
+              "src": "/assets/talk/sjtu-guest-2024-20261102a.webp",
+              "width": 960,
+              "height": 720,
+              "licenseLabel": "Public domain",
+              "licenseUrl": "https://commons.wikimedia.org/wiki/File:SJTU_minhang.jpg#Summary",
+              "description": "Host: Shanghai Jiao Tong University · Minhang campus"
+            },
+            "sources": [
+              {
+                "url": "https://commons.wikimedia.org/wiki/File:SJTU_minhang.jpg",
+                "supports": "Thumbnail source; host imagery does not verify individual event details"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "AI for Medical Robotics",
+            "organizer": "University College London",
+            "time": "2024-05",
+            "location": "London, UK",
+            "id": "ucl-medical-2024",
+            "topicId": "medical-control",
+            "figure": {
+              "src": "/assets/illustrations/medical-robotics-concept-2026e.webp",
+              "alt": "Concept illustration of precision robotic instruments positioned around a synthetic surgical phantom.",
+              "caption": "Medical robotics research topic. AI-generated concept illustration.",
+              "kind": "concept"
+            },
+            "researchConnection": "The connection between AI methods and the sensing, control and interaction demands of medical robotics.",
+            "relatedLinks": [
+              {
+                "label": "Explore medical robotics",
+                "url": "/msei_website/research/medical-robotics/"
+              }
+            ],
+            "thumbnail": {
+              "alt": "Columns of UCL’s Portico overlooking the university’s Main Quad.",
+              "caption": "Host campus",
+              "sourceUrl": "https://www.ucl.ac.uk/population-health-sciences/clinical-trials-and-methodology/about",
+              "kind": "host",
+              "credit": "UCL",
+              "src": "/assets/talk/ucl-medical-2024-20261102a.webp",
+              "width": 960,
+              "height": 686,
+              "description": "Host: University College London · Portico"
+            },
+            "sources": [
+              {
+                "url": "https://www.ucl.ac.uk/population-health-sciences/clinical-trials-and-methodology/about",
+                "supports": "Thumbnail source; host imagery does not verify individual event details"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "AI for Medical Robotics",
+            "organizer": "University of Surrey",
+            "time": "2024-04",
+            "location": "London, UK",
+            "id": "surrey-medical-2024",
+            "topicId": "medical-control",
+            "figure": {
+              "src": "/assets/illustrations/medical-robotics-concept-2026e.webp",
+              "alt": "Concept illustration of precision robotic instruments positioned around a synthetic surgical phantom.",
+              "caption": "Medical robotics research topic. AI-generated concept illustration.",
+              "kind": "concept"
+            },
+            "researchConnection": "The connection between AI methods and robotic assistance for precise medical tasks.",
+            "relatedLinks": [
+              {
+                "label": "Explore medical robotics",
+                "url": "/msei_website/research/medical-robotics/"
+              }
+            ],
+            "thumbnail": {
+              "alt": "Lake and buildings on the University of Surrey’s Stag Hill campus.",
+              "caption": "Host campus",
+              "sourceUrl": "https://www.surrey.ac.uk/visit-university/our-campus",
+              "kind": "host",
+              "credit": "University of Surrey",
+              "src": "/assets/talk/surrey-medical-2024-20261102a.webp",
+              "width": 960,
+              "height": 540,
+              "description": "Host: University of Surrey · Stag Hill campus"
+            },
+            "sources": [
+              {
+                "url": "https://www.surrey.ac.uk/visit-university/our-campus",
+                "supports": "Thumbnail source; host imagery does not verify individual event details"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "AI for Biomedical Robotics Across Scales",
+            "organizer": "University College London",
+            "time": "2024-05",
+            "location": "London, UK",
+            "id": "ucl-across-scales-2024",
+            "topicId": "across-scales",
+            "figure": {
+              "src": "/assets/illustrations/talks-across-scales-2026f.svg",
+              "alt": "Concept map linking tactile contact, precision manipulation and small-scale actuation through embodiment, perception and control.",
+              "caption": "Research context diagram connecting dexterity across scales.",
+              "kind": "diagram",
+              "mobileSrc": "/assets/illustrations/talks-across-scales-2026f-mobile.svg"
+            },
+            "researchConnection": "A perspective on connecting robot intelligence with biomedical manipulation across scales.",
+            "relatedLinks": [
+              {
+                "label": "Explore the research programme",
+                "url": "/msei_website/research/"
+              }
+            ],
+            "thumbnail": {
+              "alt": "Exterior entrance of the UCL Student Centre on Gordon Square.",
+              "caption": "Host campus",
+              "sourceUrl": "https://www.ucl.ac.uk/library/using-library/libraries-and-study-spaces/student-centre",
+              "kind": "host",
+              "credit": "UCL Library Services",
+              "src": "/assets/talk/ucl-across-scales-2024-20261102a.webp",
+              "width": 448,
+              "height": 448,
+              "description": "Host: University College London · Student Centre"
+            },
+            "sources": [
+              {
+                "url": "https://www.ucl.ac.uk/library/using-library/libraries-and-study-spaces/student-centre",
+                "supports": "Thumbnail source; host imagery does not verify individual event details"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Recent advances in robotic tactile perception and wearable haptic interface for enhanced human-robot interaction",
+            "organizer": "3rd China Haptics Technology and Applications Conference",
+            "time": "2024-05",
+            "location": "Tianjin, China",
+            "id": "china-haptics-2024",
+            "topicId": "touch",
+            "figure": {
+              "src": "/assets/illustrations/tactile-learning-2026c.webp",
+              "alt": "Concept illustration of a robotic gripper sensing a deformable object with tactile fingertips.",
+              "caption": "Tactile manipulation research topic. AI-generated concept illustration.",
+              "kind": "concept"
+            },
+            "researchConnection": "Tactile perception and haptic interfaces connect robot sensing with human physical interaction.",
+            "relatedLinks": [
+              {
+                "label": "Explore tactile sensing",
+                "url": "/msei_website/research/#sensing"
+              }
+            ],
+            "venue": "Social Hill International Conference Center Hotel, Tianjin",
+            "eventDates": "24–26 May 2024",
+            "thumbnail": {
+              "alt": "Official blue announcement graphic for the third China Haptics Technology and Applications Conference, Tianjin, May 2024.",
+              "caption": "Event poster",
+              "sourceUrl": "https://www.cis.org.cn/post/detail/119/6478",
+              "kind": "event-poster",
+              "credit": "Chinese Instrument and Control Society",
+              "src": "/assets/talk/china-haptics-2024-20261102a.webp",
+              "width": 800,
+              "height": 400,
+              "description": "2024 China haptics conference · Official announcement"
+            },
+            "sources": [
+              {
+                "url": "https://www.cis.org.cn/post/detail/119/6478",
+                "supports": "Thumbnail source; host imagery does not verify individual event details"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Intelligent Dexterous Manipulation Across Scales",
+            "organizer": "Tianjin University",
+            "time": "2024-05",
+            "location": "Tianjin, China",
+            "id": "tianjin-dexterity-2024",
+            "topicId": "across-scales",
+            "figure": {
+              "src": "/assets/illustrations/talks-across-scales-2026f.svg",
+              "alt": "Concept map linking tactile contact, precision manipulation and small-scale actuation through embodiment, perception and control.",
+              "caption": "Research context diagram connecting dexterity across scales.",
+              "kind": "diagram",
+              "mobileSrc": "/assets/illustrations/talks-across-scales-2026f-mobile.svg"
+            },
+            "researchConnection": "Connecting physical interactions, perception and control across dexterous manipulation platforms.",
+            "relatedLinks": [
+              {
+                "label": "Explore research applications",
+                "url": "/msei_website/research/#applications"
+              }
+            ],
+            "thumbnail": {
+              "alt": "Flowering trees beside Building No. 9 on Tianjin University’s Weijin Road campus.",
+              "caption": "Host campus",
+              "sourceUrl": "https://en.tju.edu.cn/About_TJU1/Visit/Campus_Scenes1.htm",
+              "kind": "host",
+              "credit": "Tianjin University",
+              "src": "/assets/talk/tianjin-dexterity-2024-20261102a.webp",
+              "width": 900,
+              "height": 600,
+              "description": "Host: Tianjin University · Weijin Road campus"
+            },
+            "sources": [
+              {
+                "url": "https://en.tju.edu.cn/About_TJU1/Visit/Campus_Scenes1.htm",
+                "supports": "Thumbnail source; host imagery does not verify individual event details"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Intelligent Dexterous Manipulation Across Scales",
+            "organizer": "FEMTO-ST Institute, CNRS",
+            "time": "2024-03",
+            "location": "London, UK",
+            "id": "femto-dexterity-2024",
+            "topicId": "across-scales",
+            "figure": {
+              "src": "/assets/illustrations/talks-across-scales-2026f.svg",
+              "alt": "Concept map linking tactile contact, precision manipulation and small-scale actuation through embodiment, perception and control.",
+              "caption": "Research context diagram connecting dexterity across scales.",
+              "kind": "diagram",
+              "mobileSrc": "/assets/illustrations/talks-across-scales-2026f-mobile.svg"
+            },
+            "researchConnection": "A cross-scale view of dexterity, from contact-rich robot manipulation to precision tools.",
+            "relatedLinks": [
+              {
+                "label": "Explore research applications",
+                "url": "/msei_website/research/#applications"
+              }
+            ],
+            "thumbnail": {
+              "alt": "Official FEMTO-ST Sciences and Technologies logo.",
+              "caption": "Host institute",
+              "sourceUrl": "https://www.femto-st.fr/en",
+              "kind": "host-logo",
+              "credit": "FEMTO-ST Institute",
+              "src": "/assets/talk/femto-dexterity-2024-20261102a.webp",
+              "width": 960,
+              "height": 458,
+              "description": "Host: FEMTO-ST Institute · Official identity"
+            },
+            "sources": [
+              {
+                "url": "https://www.femto-st.fr/en",
+                "supports": "Thumbnail source; host imagery does not verify individual event details"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Medical Robotics",
+            "organizer": "University of Bristol",
+            "time": "2024-03",
+            "location": "Bristol, UK",
+            "id": "bristol-medical-2024",
+            "topicId": "medical-control",
+            "figure": {
+              "src": "/assets/illustrations/medical-robotics-concept-2026e.webp",
+              "alt": "Concept illustration of precision robotic instruments positioned around a synthetic surgical phantom.",
+              "caption": "Medical robotics research topic. AI-generated concept illustration.",
+              "kind": "concept"
+            },
+            "researchConnection": "Research on robotic tools, precise manipulation and human–robot interaction in medical applications.",
+            "relatedLinks": [
+              {
+                "label": "Explore medical robotics",
+                "url": "/msei_website/research/medical-robotics/"
+              }
+            ],
+            "thumbnail": {
+              "alt": "University of Bristol’s Wills Memorial Building illuminated at night, seen from Park Street.",
+              "caption": "Host campus",
+              "sourceUrl": "https://www.bristol.ac.uk/venues/meetings/wills-memorial-building/",
+              "kind": "host",
+              "credit": "University of Bristol",
+              "src": "/assets/talk/bristol-medical-2024-20261102a.webp",
+              "width": 800,
+              "height": 600,
+              "description": "Host: University of Bristol · Wills Memorial Building"
+            },
+            "sources": [
+              {
+                "url": "https://www.bristol.ac.uk/venues/meetings/wills-memorial-building/",
+                "supports": "Thumbnail source; host imagery does not verify individual event details"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "title": "Transformative AI in Business",
+            "organizer": "Imperial College London",
+            "time": "2024-02",
+            "location": "London, UK",
+            "id": "imperial-ai-business-2024",
+            "topicId": "exchange",
+            "figure": {
+              "src": "/assets/illustrations/teaching-deep-learning-2026.webp",
+              "alt": "Concept illustration of a neural-network learning process, data and a computer interface.",
+              "caption": "AI topic illustration. AI-generated conceptual artwork.",
+              "kind": "concept"
+            },
+            "researchConnection": "A broader conversation about the applications and practical implications of AI.",
+            "relatedLinks": [
+              {
+                "label": "Explore AI teaching",
+                "url": "/msei_website/teaching/"
+              }
+            ],
+            "thumbnail": {
+              "alt": "Aerial view of Imperial College London’s South Kensington campus and Queen’s Tower.",
+              "caption": "Host campus",
+              "sourceUrl": "https://www.imperial.ac.uk/Stories/south-kensington-campus-evolution/",
+              "kind": "host",
+              "credit": "Imperial College London",
+              "src": "/assets/talk/imperial-ai-business-2024-20261102a.webp",
+              "width": 960,
+              "height": 540,
+              "description": "Host: Imperial College London · South Kensington"
+            },
+            "sources": [
+              {
+                "url": "https://www.imperial.ac.uk/Stories/south-kensington-campus-evolution/",
+                "supports": "Thumbnail source; host imagery does not verify individual event details"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "id": "bmva-hbu-2026",
+            "title": "Invited keynote",
+            "organizer": "BMVA Symposium on Human Behaviour Understanding: From Models to Real-World Deployment",
+            "location": "London, UK",
+            "venue": "British Computer Society, London",
+            "eventUrl": "https://www.bmva.org/meetings/26-09-30-HumanBehaviourUnderstanding.html",
+            "time": "2026-09",
+            "date": "2026-09-30",
+            "thumbnail": {
+              "src": "/assets/talk/bmva-hbu-2026-20261102a.webp",
+              "alt": "The official BMVA Human Behaviour Understanding 2026 event graphic.",
+              "caption": "Event graphic",
+              "sourceUrl": "https://www.bmva.org/meetings/26-09-30-HumanBehaviourUnderstanding.html",
+              "kind": "event-graphic",
+              "width": 960,
+              "height": 640,
+              "fit": "contain",
+              "credit": "BMVA",
+              "description": "Official BMVA symposium graphic."
+            },
+            "sources": [
+              {
+                "url": "https://www.bmva.org/meetings/26-09-30-HumanBehaviourUnderstanding.html",
+                "supports": "Speaker, invited-keynote role, exact date/time and venue"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Talk",
+          "data": {
+            "id": "icanx-youth-talks-2025",
+            "title": "Design and fabrication of multimodal sensors for embodied intelligence",
+            "organizer": "iCANX Youth Talks, Vol. 100",
+            "location": "Online",
+            "venue": "Online · iCANX / ScienceNet livestream",
+            "eventUrl": "https://news.sciencenet.cn/htmlnews/2025/6/545200.shtm",
+            "topicId": "touch",
+            "time": "2025-06",
+            "date": "2025-06-03",
+            "thumbnail": {
+              "src": "/assets/talk/icanx-youth-2025-20261102a.webp",
+              "alt": "Original iCANX Youth Talks Vol. 100 livestream poster, showing Dandan Zhang and the event date 3 June 2025.",
+              "caption": "Event poster",
+              "sourceUrl": "https://news.sciencenet.cn/htmlnews/2025/6/545200.shtm",
+              "kind": "poster",
+              "width": 598,
+              "height": 337,
+              "fit": "contain",
+              "credit": "iCANX / ScienceNet",
+              "description": "Original iCANX Youth Talks announcement."
+            },
+            "sources": [
+              {
+                "url": "https://news.sciencenet.cn/htmlnews/2025/6/545200.shtm",
+                "supports": "Exact speaker/title, date, online format and original event poster"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "topics": [
+    {
+      "id": "across-scales",
+      "title": "Embodied intelligence across scales",
+      "shortTitle": "Across scales"
+    },
+    {
+      "id": "microrobotics",
+      "title": "Microrobotics and dexterity",
+      "shortTitle": "Microrobotics"
+    },
+    {
+      "id": "touch",
+      "title": "Tactile sensing and haptics",
+      "shortTitle": "Touch and haptics"
+    },
+    {
+      "id": "medical-control",
+      "title": "Medical robotics and shared control",
+      "shortTitle": "Medical robotics"
+    },
+    {
+      "id": "exchange",
+      "title": "AI perspectives and academic exchange",
+      "shortTitle": "AI and exchange"
+    }
+  ],
+  "heroFigure": {
+    "src": "/assets/illustrations/talks-across-scales-2026f.svg",
+    "alt": "Concept map linking tactile contact, precision manipulation and small-scale actuation through embodiment, perception and control.",
+    "caption": "Research context diagram connecting dexterity across scales.",
+    "kind": "diagram",
+    "mobileSrc": "/assets/illustrations/talks-across-scales-2026f-mobile.svg"
+  }
+}

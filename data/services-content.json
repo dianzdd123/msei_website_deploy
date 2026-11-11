@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "title": "Research Community & Collaboration",
+    "description": "MSEI Lab workshops, research exchanges, demonstrations and open resources.",
+    "lastUpdated": "2026-11-09"
+  },
+  "intro": "MSEI Lab contributes to the research community through collaborative workshops, international exchanges, research demonstrations and open resources. This page records activities connected to the research group. Individual editorial, peer-review, grant-review, examining and academic appointments are documented separately on Dandan Zhang’s personal website.",
+  "personalService": {
+    "title": "Academic Service — Dandan Zhang",
+    "url": "https://www.intelligentrobotics-acrossscales.com/post/academic-service-dandan-zhang",
+    "description": "See Dandan Zhang’s personal conference appointments, editorial activities, reviewing, examinations, institutional roles and public engagement."
+  },
+  "featuredFigures": [
+    {
+      "eyebrow": "WORKSHOP LEADERSHIP · ECCV 2026",
+      "title": "Safe World Models for Trustworthy Embodied AI",
+      "role": "Co-Organiser and Co-Chair",
+      "description": "Contributed to a cross-disciplinary forum on uncertainty, reliability and the deployment of predictive embodied systems, including invited research talks and a panel-and-podcast discussion.",
+      "image": {
+        "src": "https://trustworthy-world-models.github.io/ECCV2026/social-preview.png",
+        "alt": "Original promotional poster for the ECCV 2026 Safe World Models for Trustworthy Embodied AI workshop.",
+        "caption": "Original official workshop graphic · ECCV 2026",
+        "fit": "contain"
+      },
+      "links": [
+        {
+          "label": "Workshop website",
+          "url": "https://trustworthy-world-models.github.io/ECCV2026/"
+        },
+        {
+          "label": "Dandan's LinkedIn update",
+          "url": "https://www.linkedin.com/posts/dandan-zhang-6b7366235_eccv2026-worldmodels-trustworthyai-activity-7504800835550248960-xxsR"
+        }
+      ]
+    },
+    {
+      "eyebrow": "WORKSHOP LEADERSHIP · IROS 2026",
+      "title": "Physical World Models for Scaling Embodied AI",
+      "role": "Co-Organiser",
+      "description": "Helped bring together academic and industry speakers for discussions, paper presentations and the WorldArena 2.0 benchmark challenge on real-world physical AI.",
+      "image": {
+        "src": "https://simg.baai.ac.cn/hub-detail/40be04a6ae2188c1330f7bf3a5b438461784707808543.webp",
+        "alt": "Published announcement visual for the IROS 2026 Physical World Models for Scaling Embodied AI workshop in Pittsburgh.",
+        "caption": "Published workshop announcement graphic · BAAI Community",
+        "fit": "contain"
+      },
+      "links": [
+        {
+          "label": "Workshop programme",
+          "url": "https://physical-world-models.github.io/IROS2026/"
+        },
+        {
+          "label": "Dandan's LinkedIn update",
+          "url": "https://www.linkedin.com/posts/dandan-zhang-6b7366235_iros2026-embodiedai-worldmodels-activity-7511453193164419072-tMoH"
+        }
+      ]
+    },
+    {
+      "eyebrow": "WORKSHOP LEADERSHIP · CVPR 2025",
+      "title": "Cooperative Intelligence for Embodied Intelligent Systems",
+      "role": "Co-Organiser and Area Chair",
+      "description": "Co-organised a workshop connecting multi-agent embodied systems, robotics, autonomous driving and foundation-model research, as also announced by Imperial I-X.",
+      "image": {
+        "src": "https://raw.githubusercontent.com/coop-intelligence/cvpr2025/master/public/banner.jpg",
+        "alt": "Original event banner from the organisers of the CVPR 2025 Cooperative Intelligence workshop.",
+        "caption": "Original workshop organiser banner · CVPR 2025",
+        "fit": "cover"
+      },
+      "links": [
+        {
+          "label": "Workshop programme",
+          "url": "https://coop-intelligence.github.io/cvpr2025/"
+        },
+        {
+          "label": "Imperial I-X announcement",
+          "url": "https://www.linkedin.com/posts/imperial-x_there-is-still-time-to-sign-up-for-the-2nd-activity-7299744836876668928-l2Vh"
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "workshops": {
+      "title": "Workshops and scholarly communities",
+      "description": "Collaborative forums in which Dandan Zhang and research collaborators have held documented organising roles.",
+      "items": [
+        {
+          "name": "ECCV 2026: Safe World Models for Trustworthy Embodied AI",
+          "description": "Co-organised and co-chaired cross-disciplinary discussions on uncertainty, physical prediction and safety.",
+          "period": "2026",
+          "url": "https://trustworthy-world-models.github.io/ECCV2026/"
+        },
+        {
+          "name": "IROS 2026: Physical World Models for Scaling Embodied AI",
+          "description": "Co-organised international research workshop with invited speakers, discussions and WorldArena 2.0 Challenge.",
+          "period": "2026",
+          "url": "https://physical-world-models.github.io/IROS2026/"
+        },
+        {
+          "name": "CVPR 2025: Cooperative Intelligence Workshop",
+          "description": "Co-organised research workshop on multi-agent embodied systems.",
+          "period": "2025",
+          "url": "https://coop-intelligence.github.io/cvpr2025/"
+        },
+        {
+          "name": "4th UK Robot Manipulation Workshop",
+          "description": "Past community organising contribution.",
+          "period": "2023",
+          "url": "https://www.robot-manipulation.uk/past-workshops"
+        },
+        {
+          "name": "Hamlyn Symposium Workshop on Untethered Micro- and Nanorobotics",
+          "description": "Cross-disciplinary forum connecting microrobotics and biomedical applications.",
+          "period": "2023",
+          "url": "https://www.hamlynsymposium.org/"
+        }
+      ]
+    },
+    "exchanges": {
+      "title": "Research exchanges and engagement",
+      "description": "Research-group exchanges and demonstrations are documented without adding lab group photographs to the Services page.",
+      "items": [
+        {
+          "name": "CNRS–Imperial research exchange",
+          "description": "Research meeting with visiting FEMTO-ST/CNRS collaborators in April 2026.",
+          "period": "2026",
+          "url": "https://www.intelligentrobotics-acrossscales.com/gallery"
+        },
+        {
+          "name": "Imperial I-X Open Days",
+          "description": "Research demonstrations and opportunities to discuss robotics, tactile sensing and physical intelligence with wider audiences.",
+          "period": "2024–2025",
+          "url": "https://ix.imperial.ac.uk/event/i-x-open-day"
+        },
+        {
+          "name": "Imperial Lates and research-policy engagement",
+          "description": "Research demonstrations and public discussion of technologies and applications.",
+          "period": "2024",
+          "url": "https://www.imperial.ac.uk/whats-on/"
+        },
+        {
+          "name": "Invited talks and research seminars",
+          "description": "Public record of research talks, seminars and knowledge exchange.",
+          "period": "Ongoing",
+          "url": "/msei_website/talks"
+        }
+      ]
+    },
+    "resources": {
+      "title": "Open research resources",
+      "description": "Selected datasets, methods and benchmark projects associated with the research directions of MSEI Lab.",
+      "items": [
+        {
+          "name": "TacVerse",
+          "description": "Multisensor tactile dataset and benchmark.",
+          "url": "/msei_website/research"
+        },
+        {
+          "name": "RoboDojo",
+          "description": "Benchmark for generalist robot manipulation policies.",
+          "url": "/msei_website/research/dexterous-manipulation"
+        },
+        {
+          "name": "WSRender",
+          "description": "Robotic workspace analysis and visualisation.",
+          "url": "https://github.com/dianzdd123"
+        },
+        {
+          "name": "HuBotVerse",
+          "description": "Mixed-reality and digital-twin system for human–robot interaction.",
+          "url": "/msei_website/research"
+        }
+      ]
+    }
+  }
+}

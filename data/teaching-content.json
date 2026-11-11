@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "title": "Teaching & Supervision",
+    "description": "Learning AI through clear explanations, practical experiments and research-led projects.",
+    "lastUpdated": "2026-11-01",
+    "recordDate": "30 October 2026",
+    "sourceNote": "Academic record supplied by Dandan Zhang, 30 October 2026; current roles cross-checked against institutional and course pages."
+  },
+  "intro": "My teaching connects the foundations of machine learning with hands-on experimentation in robotics and bioengineering. I lead postgraduate Deep Learning teaching at Imperial and support students from different disciplinary backgrounds through practical laboratories, research projects and academic advising.",
+  "credentials": [
+    {
+      "label": "Fellow of the Higher Education Academy",
+      "detail": "FHEA · since June 2023"
+    },
+    {
+      "label": "Postgraduate Certificate in Academic Practice",
+      "detail": "University of Bristol · 2022–2023"
+    }
+  ],
+  "illustration": {
+    "src": "/assets/illustrations/teaching-deep-learning-2026.webp",
+    "alt": "Concept illustration of a laptop, neural models and robotic laboratory experiments for learning artificial intelligence.",
+    "caption": "Concept illustration: learning from models, code and physical experiments.",
+    "credit": "AI-generated conceptual illustration"
+  },
+  "sections": {
+    "currentteaching": {
+      "title": "Imperial College London",
+      "subsections": [
+        {
+          "name": "Entry",
+          "data": {
+            "name": "Deep Learning",
+            "code": "ELEC70129",
+            "role": "Module Lead / Coordinator",
+            "period": "2024–present",
+            "semester": "2024–present",
+            "audience": "MSc Artificial Intelligence Applications and Innovation",
+            "status": "Current",
+            "description": "Postgraduate elective at FHEQ Level 7: 5 ECTS / 10 CATS. Responsibilities include curriculum design, assessment, practical teaching and coordination of the teaching team.",
+            "details": [
+              "The 2024–2025 delivery included 16 lecture hours, nine practical laboratory hours and mini-project supervision.",
+              "Approximate annual cohorts: 20–25 students in 2024–2025; 30–35 in 2025–2026; 75–80 in 2026–2027."
+            ],
+            "links": [
+              {
+                "label": "Programme specification",
+                "url": "https://www.imperial.ac.uk/media/imperial-college/study/programme-specifications/eee/25x2f26/H5A1_MSc-Artificial-Intelligence-Applications-and-Innovation-2025-26.pdf"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Entry",
+          "data": {
+            "name": "Mechanics and Electronics 1 — Electrical Engineering Laboratory",
+            "code": "BIOE40006",
+            "role": "Laboratory Organiser",
+            "period": "2023–2026",
+            "semester": "2023–2026",
+            "audience": "BEng/MEng Biomedical Engineering",
+            "status": "Recent teaching",
+            "description": "Practical electronics connecting circuit models with biomedical applications: operational amplifiers, SPICE simulation, signal amplification and filtering, and an electronic stethoscope project.",
+            "links": [
+              {
+                "label": "Teaching examples",
+                "url": "https://www.intelligentrobotics-acrossscales.com/teaching"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Entry",
+          "data": {
+            "name": "Sensors and Actuators",
+            "role": "Guest Lecturer",
+            "audience": "BSc Biomedical Technology Ventures",
+            "description": "Guest teaching in sensing and actuation for biomedical technology."
+          }
+        }
+      ]
+    },
+    "pastteaching": {
+      "title": "University of Bristol · 2021–2023",
+      "subsections": [
+        {
+          "name": "Entry",
+          "data": {
+            "name": "Biosystems and Biorobotics",
+            "role": "Lecturer; Unit Director",
+            "period": "2021–2023",
+            "semester": "2021–2023",
+            "audience": "MSc Biorobotics",
+            "description": "Lecturer from 2021 to 2023 and Unit Director from September 2022 to September 2023. Compulsory postgraduate unit: 20 UK credits, with approximately 20–25 students per annual delivery."
+          }
+        },
+        {
+          "name": "Entry",
+          "data": {
+            "name": "Biorobotics Group Project",
+            "role": "Lecturer / Project Tutor",
+            "period": "2021–2023",
+            "semester": "2021–2023",
+            "audience": "MSc Biorobotics",
+            "description": "Supervision of multidisciplinary group projects in a compulsory 20-credit postgraduate unit, with approximately 20–25 students per annual delivery."
+          }
+        },
+        {
+          "name": "Entry",
+          "data": {
+            "name": "MSc Biorobotics",
+            "role": "Deputy Programme Director",
+            "period": "September 2021–September 2023",
+            "semester": "September 2021–September 2023",
+            "audience": "Postgraduate programme leadership",
+            "description": "Academic delivery, student progression, programme coordination and support for students from diverse disciplinary backgrounds."
+          }
+        }
+      ]
+    },
+    "learning": {
+      "title": "From foundations to independent experiments",
+      "description": "The teaching materials connect mathematical ideas to visual explanations, code and concrete examples. The sequence below describes the learning approach guiding the current resource development.",
+      "steps": [
+        {
+          "title": "Understand",
+          "description": "Build intuition for data, neural networks, optimisation and generalisation.",
+          "detail": "Explain what a model learns."
+        },
+        {
+          "title": "Implement",
+          "description": "Connect CNNs, ResNets, RNNs, attention and Transformers to working code.",
+          "detail": "Run and inspect a baseline."
+        },
+        {
+          "title": "Experiment",
+          "description": "Explore generative models and applications through controlled practical examples.",
+          "detail": "Change one factor at a time."
+        },
+        {
+          "title": "Evaluate",
+          "description": "Compare results, analyse failure cases and communicate reproducible findings.",
+          "detail": "Explain the evidence."
+        }
+      ],
+      "themes": [
+        {
+          "name": "Visual learning",
+          "description": "CNNs, residual learning and interpretation of image features."
+        },
+        {
+          "name": "Sequences and attention",
+          "description": "RNNs, sequence-to-sequence models, attention and Transformers."
+        },
+        {
+          "name": "Generative AI",
+          "description": "GANs, diffusion models and the connection between models and generated data."
+        },
+        {
+          "name": "Practical research skills",
+          "description": "Google Colab, local VS Code/Jupyter workflows, GPU experiments and GitHub code management."
+        }
+      ],
+      "development": {
+        "title": "Teaching resources in development",
+        "description": "Expanded illustrated lecture notes, guided practical examples and a personalised digital teaching assistant are being developed to support students with different starting points. These activities are in development; public resource links will be added when available."
+      }
+    },
+    "supervision": {
+      "title": "Research supervision & researcher development",
+      "asOf": "30 October 2026",
+      "stats": [],
+      "description": "Supervision spans robotics, artificial intelligence and bioengineering across MRes, MSc, integrated MEng and doctoral programmes. Mentoring combines individual research meetings, group discussion and peer learning with experimental design, reproducible evaluation, writing, peer review and career planning.",
+      "researchAreas": [
+        "Tactile sensing and physical-property learning",
+        "Optical and magnetic microrobotics",
+        "Physics-informed learning and digital twins",
+        "Robot-assisted microsurgery and autonomous suturing"
+      ],
+      "projects": [
+        {
+          "name": "SARL",
+          "researcher": "G. Khurana",
+          "description": "Spatially-aware self-supervised representation learning for visuo-tactile perception."
+        },
+        {
+          "name": "ADM-DP",
+          "researcher": "E. Wang",
+          "description": "Adaptive modality fusion for multi-agent manipulation."
+        },
+        {
+          "name": "MultiDiffSense",
+          "researcher": "S. Bhouri",
+          "description": "Diffusion-based visuo-tactile image generation."
+        },
+        {
+          "name": "TactEx",
+          "researcher": "F. Verstraete",
+          "description": "Explainable robotic touch and hardness estimation."
+        }
+      ],
+      "projectsNote": "These master’s projects led to first-author ICRA 2026 papers. Each researcher was co-supervised with Lan Wei, with Dandan Zhang as corresponding author.",
+      "achievements": [
+        {
+          "year": "2026",
+          "name": "Z. Tan",
+          "description": "Runner-up, Amazon PhD Prize for Outstanding Achievements in Robotics; MARSS Best Conference Paper Award nomination."
+        },
+        {
+          "year": "2026",
+          "name": "L. Wei",
+          "description": "Imperial I-X Women in AI Early Career Development Grant."
+        },
+        {
+          "year": "2025",
+          "name": "L. Wei",
+          "description": "MARSS Best Student Paper Award; CBS Best Student Paper Award finalist; IEEE RAS IROS travel support."
+        },
+        {
+          "year": "2024–2025",
+          "name": "W. Fan",
+          "description": "Mid-Stage Imperial Robotics Forum–Amazon PhD Prize in 2024; featured in the Imperial I-X PhD Research Spotlight in 2025."
+        }
+      ],
+      "links": [
+        {
+          "label": "Meet the team",
+          "url": "/msei_website/team"
+        },
+        {
+          "label": "Research opportunities",
+          "url": "/msei_website/vacancies"
+        }
+      ]
+    },
+    "advising": {
+      "title": "Academic advising & personal tutoring",
+      "subsections": [
+        {
+          "name": "Entry",
+          "data": {
+            "name": "MSc Biomedical Engineering, Computational Stream",
+            "role": "Personal Tutor",
+            "period": "September 2025–present",
+            "institution": "Imperial College London"
+          }
+        },
+        {
+          "name": "Entry",
+          "data": {
+            "name": "Imperial I-X MSc programmes",
+            "role": "Personal Tutor",
+            "period": "September 2024–present",
+            "institution": "Imperial College London"
+          }
+        },
+        {
+          "name": "Entry",
+          "data": {
+            "name": "BSc Biomedical Technology Ventures",
+            "role": "Personal Tutor",
+            "period": "October 2023–present",
+            "institution": "Imperial College London"
+          }
+        },
+        {
+          "name": "Entry",
+          "data": {
+            "name": "MSc Biosystems and Biorobotics; MSc Robotics",
+            "role": "Personal Tutor",
+            "period": "September 2021–September 2023",
+            "institution": "University of Bristol"
+          }
+        }
+      ]
+    }
+  }
+}

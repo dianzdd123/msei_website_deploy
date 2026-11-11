@@ -1,0 +1,346 @@
+{
+  "main": {
+    "url": "/assets/photos/cnrs-imperial-meeting-2026.webp",
+    "title": "Research exchange",
+    "alt": "Researchers gathered for the CNRS–Imperial collaboration visit in April 2026.",
+    "caption": "A group meeting during the CNRS–Imperial visit, bringing together colleagues to discuss ongoing research and opportunities for collaboration.",
+    "date": "13 April 2026",
+    "dateISO": "2026-04-13",
+    "location": "Imperial College London",
+    "width": 1600,
+    "height": 1067,
+    "sourceUrl": "https://www.intelligentrobotics-acrossscales.com/gallery",
+    "sourceAsset": "2026-04-13-Research Group Meeting.jpg",
+    "year": "2026"
+  },
+  "history": [
+    {
+      "year": "2026",
+      "url": "/assets/photos/cnrs-imperial-meeting-2026.webp",
+      "text": "Welcoming Dr Antoine Barbot and Valentin from FEMTO-ST, CNRS, for research discussions and shared activities during their April 2026 visit.",
+      "date": "13 April 2026",
+      "location": "Imperial College London",
+      "photos": [
+        "/assets/photos/msei-group-lunch-2026.webp"
+      ]
+    },
+    {
+      "year": "2025",
+      "url": "/assets/photos/archive-2025-group.webp",
+      "text": "Our group photo records the growth and efforts of every member at Imperial College London.",
+      "date": "July 2025",
+      "location": "I-X, Imperial College London",
+      "photos": [
+        "/assets/photos/archive-2025-lab.webp"
+      ],
+      "originalUrl": "/assets/group_photo/group_photo.JPG"
+    },
+    {
+      "year": "2024",
+      "url": "/assets/photos/archive-2024-group.webp",
+      "text": "",
+      "date": "",
+      "location": "",
+      "photos": [
+        "/assets/photos/archive-2024-gathering.webp"
+      ],
+      "originalUrl": "/assets/group_photo/2024.jpeg"
+    }
+  ],
+  "description": "Research grows through shared experiments, discussion and collaboration. The MSEI gallery brings together current lab life and the earlier Biorobotics, student project and research event archive.",
+  "currentYearPhotos": [],
+  "albums": [
+    {
+      "year": "2026",
+      "title": "CNRS–Imperial collaboration visit",
+      "description": "Welcoming Dr Antoine Barbot and Valentin from FEMTO-ST, CNRS, for research discussions and shared activities during their April 2026 visit.",
+      "cover": "/assets/photos/cnrs-imperial-meeting-2026.webp",
+      "date": "April 2026",
+      "photos": [
+        {
+          "url": "/assets/photos/cnrs-imperial-meeting-2026.webp",
+          "title": "Research exchange",
+          "alt": "Researchers gathered for the CNRS–Imperial collaboration visit in April 2026.",
+          "caption": "A group meeting during the CNRS–Imperial visit, bringing together colleagues to discuss ongoing research and opportunities for collaboration.",
+          "date": "13 April 2026",
+          "dateISO": "2026-04-13",
+          "location": "Imperial College London",
+          "width": 1600,
+          "height": 1067,
+          "sourceAsset": "2026-04-13-Research Group Meeting.jpg"
+        },
+        {
+          "url": "/assets/photos/msei-group-lunch-2026.webp",
+          "title": "Conversations beyond the lab",
+          "alt": "Members of the research group and visitors sharing a meal in April 2026.",
+          "caption": "A group lunch during the visit, with time to exchange ideas and get to know colleagues beyond the research meeting.",
+          "date": "16 April 2026",
+          "dateISO": "2026-04-16",
+          "location": "",
+          "width": 1600,
+          "height": 1200,
+          "sourceAsset": "2026-04-16-Research Group Lunch.jpg"
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "The MSEI community",
+      "description": "Group photographs and informal moments from 2025.",
+      "cover": "/assets/photos/archive-2025-group.webp",
+      "date": "2025",
+      "photos": [
+        {
+          "url": "/assets/photos/archive-2025-group.webp",
+          "originalUrl": "/assets/group_photo/group_photo.JPG",
+          "title": "Together at I-X",
+          "alt": "The MSEI research group standing together in a room at Imperial I-X.",
+          "caption": "The research group at I-X, Imperial College London.",
+          "date": "July 2025",
+          "dateISO": "2025-07",
+          "location": "I-X, Imperial College London",
+          "width": 1800,
+          "height": 1200,
+          "sourceLabel": "Existing MSEI website photo archive"
+        },
+        {
+          "url": "/assets/photos/archive-2025-lab.webp",
+          "originalUrl": "/assets/group_photo/2025-1.jpeg",
+          "title": "Lab life",
+          "alt": "Members of the research community sharing an informal meal.",
+          "caption": "An informal gathering from the 2025 photo archive.",
+          "date": "2025",
+          "dateISO": "2025",
+          "location": "",
+          "width": 767,
+          "height": 663,
+          "sourceLabel": "Existing MSEI website photo archive"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "title": "Ideas in action",
+      "description": "Robotics demonstrations from our 2024 photo archive.",
+      "cover": "/assets/photos/archive-2024-group.webp",
+      "date": "2024",
+      "photos": [
+        {
+          "url": "/assets/photos/archive-2024-group.webp",
+          "originalUrl": "/assets/group_photo/2024.jpeg",
+          "title": "Sharing robotics research",
+          "alt": "Three researchers beside a laptop and a pair of haptic input devices at a demonstration table.",
+          "caption": "A robotics demonstration with haptic interfaces, from the 2024 archive.",
+          "date": "2024",
+          "dateISO": "2024",
+          "location": "",
+          "width": 1800,
+          "height": 1200,
+          "sourceLabel": "Existing MSEI website photo archive"
+        },
+        {
+          "url": "/assets/photos/archive-2024-gathering.webp",
+          "originalUrl": "/assets/group_photo/2024-2.jpeg",
+          "title": "Demonstrating physical interaction",
+          "alt": "Three researchers beside a white robotic arm during a robotics demonstration.",
+          "caption": "Exploring interaction with a robotic arm, from the 2024 archive.",
+          "date": "2024",
+          "dateISO": "2024",
+          "location": "",
+          "width": 1800,
+          "height": 1200,
+          "sourceLabel": "Existing MSEI website photo archive"
+        }
+      ]
+    },
+    {
+      "year": "Archive",
+      "title": "Biorobotics, student projects and research events",
+      "description": "Photographs from Dandan Zhang’s earlier group activities, including the 2022 Biorobotics cohort, open day demonstrations, workshops and MSc projects. Original contributor and supervisor credits are preserved where available.",
+      "photos": [
+        {
+          "url": "/assets/photos/wix-gallery-archive-01.webp",
+          "title": "2022 Biorobotics cohort",
+          "alt": "2022 Biorobotics cohort",
+          "caption": "The 2022 Biorobotics cohort.",
+          "sourceAsset": "2022-Biorobotics-Cohort.png",
+          "width": 1024,
+          "height": 619
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-02.webp",
+          "title": "Teaching and student projects",
+          "alt": "Teaching and student projects",
+          "caption": "Teaching and practical project activities from the Biorobotics archive.",
+          "sourceAsset": "Teaching.png",
+          "width": 1037,
+          "height": 584
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-03.webp",
+          "title": "Robot vision: 3D reconstruction",
+          "alt": "Robot vision: 3D reconstruction",
+          "caption": "Open day demonstration: robot vision and 3D reconstruction.",
+          "sourceAsset": "H.jpg",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-04.webp",
+          "title": "Tactile robotics: pushing",
+          "alt": "Tactile robotics: pushing",
+          "caption": "Open day demonstration: tactile robotic pushing.",
+          "sourceAsset": "G.jpg",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-05.webp",
+          "title": "Explainable AI for tactile exploration",
+          "alt": "Explainable AI for tactile exploration",
+          "caption": "Open day demonstration: explainable AI for tactile exploration.",
+          "sourceAsset": "F.jpg",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-06.webp",
+          "title": "Intelligent service robot",
+          "alt": "Intelligent service robot",
+          "caption": "Shipeng Xiong (MSc Robotics). Supervisors: Nathan Lepora and Dandan Zhang.",
+          "sourceAsset": "A.jpg",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-07.webp",
+          "title": "Robotics concert",
+          "alt": "Robotics concert",
+          "caption": "Enyang Feng and Shipeng Xiong (MSc Robotics). Supervisors: Nathan Lepora and Dandan Zhang.",
+          "sourceAsset": "B.jpg",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-08.webp",
+          "title": "Tactile recognition",
+          "alt": "Tactile recognition",
+          "caption": "Wen Fan (Research Associate and EMAT PhD). Supervisors: Dandan Zhang, Weiru Liu and Nathan Lepora.",
+          "sourceAsset": "D.jpg",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-09.webp",
+          "title": "Workshop and conference photograph 1",
+          "alt": "Workshop and conference photograph 1",
+          "caption": "From the workshop and conference photo archive.",
+          "sourceAsset": "WeChat Image_20220807001932.jpg",
+          "width": 799,
+          "height": 769
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-10.webp",
+          "title": "Workshop and conference photograph 2",
+          "alt": "Workshop and conference photograph 2",
+          "caption": "From the workshop and conference photo archive.",
+          "sourceAsset": "WeChat Image_20220807001929.jpg",
+          "width": 675,
+          "height": 1200
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-11.webp",
+          "title": "Workshop and conference photograph 3",
+          "alt": "Workshop and conference photograph 3",
+          "caption": "From the workshop and conference photo archive.",
+          "sourceAsset": "WeChat Image_20220807001921.jpg",
+          "width": 1200,
+          "height": 674
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-12.webp",
+          "title": "Workshop and conference photograph 4",
+          "alt": "Workshop and conference photograph 4",
+          "caption": "From the workshop and conference photo archive.",
+          "sourceAsset": "WeChat Image_20220807001924.jpg",
+          "width": 1200,
+          "height": 674
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-13.webp",
+          "title": "Workshop and conference photograph 5",
+          "alt": "Workshop and conference photograph 5",
+          "caption": "From the workshop and conference photo archive.",
+          "sourceAsset": "WeChat Image_20220807001908.jpg",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-14.webp",
+          "title": "Workshop and conference photograph 6",
+          "alt": "Workshop and conference photograph 6",
+          "caption": "From the workshop and conference photo archive.",
+          "sourceAsset": "WeChat Image_20220807001916.jpg",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-15.webp",
+          "title": "PHASE 2022",
+          "alt": "PHASE 2022",
+          "caption": "PHASE 2022 workshop and conference archive.",
+          "sourceAsset": "2022PHASE",
+          "width": 1200,
+          "height": 863
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-16.webp",
+          "title": "Symposium photograph 1",
+          "alt": "Symposium photograph 1",
+          "caption": "From the symposium photo archive.",
+          "sourceAsset": "symposium1.jpg",
+          "width": 540,
+          "height": 720
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-17.webp",
+          "title": "Symposium photograph 2",
+          "alt": "Symposium photograph 2",
+          "caption": "From the symposium photo archive.",
+          "sourceAsset": "symposium2.jpg",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-18.webp",
+          "title": "Robotic fish",
+          "alt": "Robotic fish",
+          "caption": "Pengyuan Wei, Hanwen Ge and Zhanyu Song (MSc Biorobotics). Supervisors: Sabine Hauert and Dandan Zhang.",
+          "sourceAsset": "robot fish.png",
+          "width": 956,
+          "height": 443
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-19.webp",
+          "title": "Growing robot",
+          "alt": "Growing robot",
+          "caption": "Abigail Newcombe, Oli Tysoe and Sarath Menon C (MSc Biorobotics). Supervisors: Sabine Hauert and Dandan Zhang.",
+          "sourceAsset": "growing robot.png",
+          "width": 916,
+          "height": 507
+        },
+        {
+          "url": "/assets/photos/wix-gallery-archive-20.webp",
+          "title": "Wearable rehabilitation robot",
+          "alt": "Wearable rehabilitation robot",
+          "caption": "MSc group project: wearable rehabilitation robot.",
+          "sourceAsset": "rehabilitation robot.png",
+          "width": 818,
+          "height": 464
+        }
+      ]
+    }
+  ],
+  "title": "Group photos",
+  "updated": "2026-11-07"
+}

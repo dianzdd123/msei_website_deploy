@@ -1,0 +1,751 @@
+{
+  "metadata": {
+    "title": "Research by application",
+    "description": "Application-specific research pages connecting the MSEI research themes to microrobotics, dexterous manipulation, medical robotics and scientific instrumentation.",
+    "lastUpdated": "2026-11-01"
+  },
+  "applications": [
+    {
+      "slug": "microrobotics",
+      "title": "Optical and magnetic microrobotics",
+      "shortTitle": "Microrobotics",
+      "kicker": "SMALL-SCALE MANIPULATION",
+      "summary": "Optical and magnetic actuation, microscopy and adaptive control for precise manipulation at small scales.",
+      "lead": "We study how miniature robots can perceive, move and manipulate when forces are applied from outside the robot and sensing is provided through a microscope.",
+      "introduction": "Optical tweezers and magnetic fields provide complementary ways to actuate small robots. Our work brings fabrication, force generation, image-based perception and interactive control together, with an emphasis on how physical design changes the manipulation that a platform can achieve.",
+      "question": "How can external fields and visual feedback enable dexterous manipulation at small scales?",
+      "connection": "This application makes the relationship between embodiment and intelligence explicit. The robot’s geometry and actuation determine its available motions; microscopy estimates its state; learning and control turn those physical capabilities into manipulation.",
+      "image": "/assets/illustrations/microrobotics-2026c.webp",
+      "alt": "Conceptual optical and magnetic miniature robots interacting with particles inside a fluid chamber.",
+      "caption": "AI-generated concept illustration of optical and magnetic microrobotics; structures are not to scale.",
+      "visualStyle": "cover",
+      "focusAreas": [
+        {
+          "title": "Optical manipulation and perception",
+          "description": "We combine fabricated microrobots with optical tweezers, investigate how laser forces generate controlled motion, and use learned microscopy models to estimate pose and depth.",
+          "methods": [
+            "Distributed optical-force control",
+            "Pose and depth estimation",
+            "Simulation-to-reality image generation"
+          ],
+          "evidence": [
+            {
+              "label": "Distributed optical-force control",
+              "url": "https://doi.org/10.1002/adom.202000543"
+            },
+            {
+              "label": "Small-data pose estimation",
+              "url": "https://www.nature.com/articles/s42005-022-00844-z"
+            }
+          ]
+        },
+        {
+          "title": "Magnetic navigation and shared control",
+          "description": "We investigate field-driven navigation and operator assistance in constrained environments. Learning-based control and immersive interfaces support steering, while bimanual shared control adapts the assistance provided by multiple magnetic sources.",
+          "methods": [
+            "Magnetic actuation and navigation",
+            "Bimanual coordination",
+            "Context-aware assistance and haptic guidance"
+          ],
+          "evidence": [
+            {
+              "label": "Semi-autonomous magnetic navigation",
+              "url": "https://arxiv.org/abs/2503.06359"
+            },
+            {
+              "label": "Bi-CAST shared control",
+              "url": "https://arxiv.org/abs/2603.14388"
+            }
+          ]
+        },
+        {
+          "title": "Physical design and reconfiguration",
+          "description": "We study how geometry, materials and magnetic functionalisation affect controllable motion. Related modular magnetic work examines assembly, locomotion and shape changes at the millimetre scale.",
+          "methods": [
+            "Microrobot fabrication",
+            "Actuation-aware design",
+            "Modular magnetic millirobots"
+          ],
+          "evidence": [
+            {
+              "label": "Magnetic functionalisation and fabrication",
+              "url": "https://doi.org/10.1162/ARTL.a.489"
+            },
+            {
+              "label": "Modular magnetic millirobots",
+              "url": "https://arxiv.org/abs/2602.19346"
+            }
+          ]
+        }
+      ],
+      "methods": [
+        {
+          "id": "sensing",
+          "label": "Sensing",
+          "description": "Infer pose and depth from microscopy."
+        },
+        {
+          "id": "learning",
+          "label": "Learning",
+          "description": "Use simulation and limited real data to train perception and control."
+        },
+        {
+          "id": "shared-autonomy",
+          "label": "Shared autonomy",
+          "description": "Adapt operator assistance to navigation context."
+        },
+        {
+          "id": "embodiment",
+          "label": "Embodiment",
+          "description": "Co-design robot geometry and field actuation."
+        }
+      ],
+      "supportFigure": {
+        "image": "/assets/research/research2.png",
+        "alt": "Laboratory magnetic actuation system with copper coils, an imaging camera and a sample workspace.",
+        "caption": "Magnetic actuation research platform from the laboratory’s image archive.",
+        "title": "From fields to physical interaction",
+        "description": "A magnetic actuation platform combines field-generating hardware, a workspace and visual observation. The actuation system, robot design and control method are evaluated together; capabilities depend on the individual experimental setup."
+      },
+      "projects": [
+        {
+          "name": "Distributed optical-force control",
+          "title": "Distributed force control for microrobot manipulation via planar multi-spot optical tweezer",
+          "venue": "Advanced Optical Materials",
+          "year": "2020",
+          "url": "https://doi.org/10.1002/adom.202000543",
+          "summary": "Geometry and distributed laser-force allocation support multi-axis manipulation using planar optical tweezers.",
+          "status": "Published"
+        },
+        {
+          "name": "Small-data micro-object perception",
+          "title": "Micro-object pose estimation with sim-to-real transfer learning using small dataset",
+          "venue": "Communications Physics",
+          "year": "2022",
+          "url": "https://www.nature.com/articles/s42005-022-00844-z",
+          "summary": "Simulation, image translation and feature learning reduce reliance on large experimental microscopy datasets.",
+          "status": "Published"
+        },
+        {
+          "name": "Physics-informed sim-to-real learning",
+          "title": "Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation",
+          "venue": "ICRA",
+          "year": "2026",
+          "url": "https://arxiv.org/abs/2511.16494",
+          "summary": "Wave-optics rendering and generative learning produce microscopy training images for pose estimation.",
+          "status": "Conference paper",
+          "codeUrl": "https://github.com/dianzdd123/Micro_Object_Sim2Real"
+        },
+        {
+          "name": "Magnetic navigation with immersive control",
+          "title": "Deep Reinforcement Learning-Based Semi-Autonomous Control for Magnetic Micro-robot Navigation with Immersive Manipulation",
+          "venue": "ICRA",
+          "year": "2025",
+          "url": "https://arxiv.org/abs/2503.06359",
+          "summary": "Reinforcement learning and mixed reality support semi-autonomous navigation in simulated microvascular environments.",
+          "status": "Conference paper",
+          "codeUrl": "https://github.com/dianzdd123/DRL-MR-Microrobot"
+        },
+        {
+          "name": "Bi-CAST shared control",
+          "title": "Context-Aware Adaptive Shared Control for Magnetically-Driven Bimanual Dexterous Micromanipulation",
+          "venue": "arXiv",
+          "year": "2026",
+          "url": "https://arxiv.org/abs/2603.14388",
+          "summary": "Context-dependent control allocation and haptic guidance are evaluated through navigation tasks in a vascular phantom.",
+          "status": "Preprint"
+        },
+        {
+          "name": "Modular magnetic millirobots",
+          "title": "Design and Control of Modular Magnetic Millirobots for Multimodal Locomotion and Shape Reconfiguration",
+          "venue": "ICRA",
+          "year": "2026",
+          "url": "https://arxiv.org/abs/2602.19346",
+          "summary": "Magnetic modules demonstrate closed-loop navigation, assembly, shape changes and cargo manipulation at the millimetre scale.",
+          "status": "Conference paper"
+        }
+      ],
+      "evidenceNote": "Experiments span different physical scales and platforms. The modular reconfiguration study concerns millirobots; the optical work concerns microrobots. Navigation in a vascular phantom or simulated environment is research validation, not evidence of clinical use.",
+      "nextDirection": "A longer-term question is when changing a robot’s physical configuration adds capability beyond adapting its controller. Answering it requires measured forces, reliable state estimation and comparisons under the same task conditions.",
+      "resources": [
+        {
+          "name": "Micro-object sim-to-real",
+          "description": "Code for physics-informed microscopy data generation and pose estimation.",
+          "url": "https://github.com/dianzdd123/Micro_Object_Sim2Real"
+        },
+        {
+          "name": "Interactive OT Gym",
+          "description": "Optical-tweezer microrobotics simulation and reinforcement-learning environment.",
+          "url": "https://github.com/dianzdd123/ICRA2025-OT-Gym"
+        },
+        {
+          "name": "Magnetic navigation",
+          "description": "Public repository for semi-autonomous magnetic microrobot navigation.",
+          "url": "https://github.com/dianzdd123/DRL-MR-Microrobot"
+        }
+      ],
+      "path": "/msei_website/research/microrobotics/",
+      "approachFigure": {
+        "title": "Observation, actuation and interaction at small scales",
+        "alt": "Microrobotics research connects microscope observations to pose and depth estimation, optical or magnetic actuation, and manipulation. Observing the resulting physical response informs the next action.",
+        "caption": "Explanatory schematic across optical and magnetic manipulation studies. The platforms use different physical scales and actuation principles; the related modular millirobot work is at the millimetre scale.",
+        "image": "/assets/illustrations/microrobotics-workflow-2026e.svg",
+        "mobileImage": "/assets/illustrations/microrobotics-workflow-2026e-mobile.svg",
+        "width": 1280,
+        "height": 540
+      },
+      "evidenceQuestions": [
+        "Which physical scale, actuation mechanism and experimental medium are used?",
+        "How are pose, force or navigation performance measured for that platform?",
+        "Which parts transfer across objects or conditions, and which require new calibration?"
+      ]
+    },
+    {
+      "slug": "dexterous-manipulation",
+      "title": "Dexterous robotic manipulation",
+      "shortTitle": "Dexterous manipulation",
+      "kicker": "TOUCH, LEARNING AND ROBOT SKILLS",
+      "summary": "Tactile sensors, integrated grippers and adaptable learning for contact-rich robot tasks.",
+      "lead": "We connect tactile hardware and robot learning so that manipulation can respond to the object, the contact and the task.",
+      "introduction": "Contact-rich tasks require robots to use information that images alone may not reveal. Our research combines visual and tactile perception with sensor and gripper design, then studies how demonstrations, simulation and multimodal policies can produce adaptable manipulation skills.",
+      "question": "How can a robot use touch and vision to adapt its manipulation to changing objects and conditions?",
+      "connection": "This application connects physical sensing with learned action. Sensor materials and geometry shape the observations available to a policy; learning methods determine how those observations are used when an object, task or sensing setup changes.",
+      "image": "/assets/illustrations/tactile-learning-2026c.webp",
+      "alt": "Conceptual tactile robotic gripper interacting with a deformable object beside an abstract sensory representation.",
+      "caption": "AI-generated concept illustration of tactile manipulation; the inset is not experimental data.",
+      "visualStyle": "cover",
+      "focusAreas": [
+        {
+          "title": "Tactile perception and sensor design",
+          "description": "We develop sensors and materials that capture complementary information about interaction. Multimodal interpretation, in-sensor processing and inverse design connect the physical sensing surface to usable perceptual information.",
+          "methods": [
+            "Visual–tactile fusion",
+            "Sensor-side computation",
+            "Printable tactile materials"
+          ],
+          "evidence": [
+            {
+              "label": "ViTacTip",
+              "url": "https://doi.org/10.1109/TRO.2025.3526296"
+            },
+            {
+              "label": "PixelTac",
+              "url": "https://doi.org/10.1038/s44172-026-00770-w"
+            },
+            {
+              "label": "i-Tac",
+              "url": "https://doi.org/10.1002/aisy.202501200"
+            }
+          ]
+        },
+        {
+          "title": "Integrated contact-rich manipulation",
+          "description": "We study how tactile sensing can be incorporated into grippers and coordinated robot actions. The aim is to connect what is sensed during contact with the actions needed to maintain and change that interaction.",
+          "methods": [
+            "Tactile grippers",
+            "Multimodal action policies",
+            "Bimanual tactile skills"
+          ],
+          "evidence": [
+            {
+              "label": "MagicGripper",
+              "url": "https://doi.org/10.1109/TASE.2025.3631485"
+            },
+            {
+              "label": "ADM-DP",
+              "url": "https://arxiv.org/abs/2602.21622"
+            },
+            {
+              "label": "Bi-Touch",
+              "url": "https://doi.org/10.1109/LRA.2023.3295991"
+            }
+          ]
+        },
+        {
+          "title": "Adaptation with limited new data",
+          "description": "We investigate how learned skills and tactile representations change across objects, scenes and sensors. Demonstration-efficient adaptation and cross-sensor benchmarks make the transfer problem measurable.",
+          "methods": [
+            "One-shot imitation learning",
+            "Simulation-to-reality transfer",
+            "Cross-sensor benchmarking"
+          ],
+          "evidence": [
+            {
+              "label": "One-shot robotic pouring",
+              "url": "https://doi.org/10.1109/TASE.2022.3220728"
+            },
+            {
+              "label": "TacVerse",
+              "url": "https://doi.org/10.1002/adrr.70169"
+            }
+          ]
+        }
+      ],
+      "methods": [
+        {
+          "id": "sensing",
+          "label": "Sensing",
+          "description": "Combine tactile, visual and proximity information."
+        },
+        {
+          "id": "learning",
+          "label": "Learning",
+          "description": "Transfer manipulation skills with limited new demonstrations."
+        },
+        {
+          "id": "shared-autonomy",
+          "label": "Control and interaction",
+          "description": "Link contact feedback to coordinated action."
+        },
+        {
+          "id": "embodiment",
+          "label": "Embodiment",
+          "description": "Design the sensor surface and gripper with the task in mind."
+        }
+      ],
+      "projects": [
+        {
+          "name": "ViTacTip",
+          "title": "Design and Benchmarking of a Multimodality Sensor for Robotic Manipulation With GAN-Based Cross-Modality Interpretation",
+          "venue": "IEEE Transactions on Robotics",
+          "year": "2025",
+          "url": "https://doi.org/10.1109/TRO.2025.3526296",
+          "summary": "A compact sensor combines visual, proximity and tactile information, with cross-modality interpretation and benchmarking.",
+          "status": "Published"
+        },
+        {
+          "name": "i-Tac",
+          "title": "i-Tac: Inverse Design of 3D-Printed Tactile Elastomers with Tuneable Optical and Mechanical Properties",
+          "venue": "Advanced Intelligent Systems",
+          "year": "2026",
+          "url": "https://doi.org/10.1002/aisy.202501200",
+          "summary": "Inverse design links desired optical and mechanical properties to printable tactile-elastomer compositions.",
+          "status": "Published"
+        },
+        {
+          "name": "MagicGripper",
+          "title": "MagicGripper: A Mini-MagicTac Integrated Gripper Enabling Multimodal Perception in Contact-Rich Manipulation",
+          "venue": "IEEE Transactions on Automation Science and Engineering",
+          "year": "2025",
+          "url": "https://doi.org/10.1109/TASE.2025.3631485",
+          "summary": "An integrated tactile gripper connects multimodal perception with contact-rich manipulation.",
+          "status": "Published"
+        },
+        {
+          "name": "ADM-DP",
+          "title": "ADM-DP: Adaptive Dynamic Modality Diffusion Policy through Vision-Tactile-Graph Fusion for Multi-Agent Manipulation",
+          "venue": "ICRA",
+          "year": "2026",
+          "url": "https://arxiv.org/abs/2602.21622",
+          "summary": "A diffusion policy adaptively combines visual, tactile and spatial information for coordinated manipulation.",
+          "status": "Conference paper",
+          "codeUrl": "https://github.com/dianzdd123/ADM_DP"
+        },
+        {
+          "name": "One-shot robotic pouring",
+          "title": "One-Shot Domain-Adaptive Imitation Learning via Progressive Learning Applied to Robotic Pouring",
+          "venue": "IEEE Transactions on Automation Science and Engineering",
+          "year": "2024",
+          "url": "https://doi.org/10.1109/TASE.2022.3220728",
+          "summary": "Progressive imitation learning adapts a pouring skill to changed scenes and objects using limited new demonstration data.",
+          "status": "Published"
+        },
+        {
+          "name": "TacVerse",
+          "title": "TacVerse: A Multisensor Dataset and Benchmark for Cross-Sensor Vision-Based Tactile Perception",
+          "venue": "Advanced Robotics Research",
+          "year": "2026",
+          "url": "https://doi.org/10.1002/adrr.70169",
+          "summary": "A dataset and benchmark study sensor shift, tactile representations and few-shot adaptation across sensing hardware.",
+          "status": "Published"
+        }
+      ],
+      "evidenceNote": "The projects establish capabilities on their reported sensors, robots and tasks. Cross-sensor and cross-embodiment generalisation remain research questions; an improvement on one benchmark does not establish universal transfer.",
+      "nextDirection": "We aim to make adaptation more data-efficient and easier to evaluate across sensing hardware and robot embodiments, while retaining the physical information needed for precise interaction.",
+      "resources": [
+        {
+          "name": "ADM-DP",
+          "description": "Public implementation of the adaptive multimodal diffusion policy.",
+          "url": "https://github.com/dianzdd123/ADM_DP"
+        }
+      ],
+      "path": "/msei_website/research/dexterous-manipulation/",
+      "approachFigure": {
+        "title": "From contact observations to adaptable manipulation",
+        "alt": "Touch and vision provide observations of physical interaction. State representations and learned action policies support grasping and manipulation, with new contact observations informing subsequent action.",
+        "caption": "Conceptual connection between sensing, representation, learned action and contact. These elements are investigated in different sensors, robots and tasks; the schematic does not describe one universal manipulation system.",
+        "image": "/assets/illustrations/tactile-manipulation-workflow-2026e.svg",
+        "mobileImage": "/assets/illustrations/tactile-manipulation-workflow-2026e-mobile.svg",
+        "width": 1280,
+        "height": 540
+      },
+      "evidenceQuestions": [
+        "What contact information does the sensor or robot actually observe?",
+        "Which objects, tasks, demonstrations and comparisons support the reported result?",
+        "How does performance change when the contact conditions or sensory inputs change?"
+      ]
+    },
+    {
+      "slug": "medical-robotics",
+      "title": "Medical robotics and microsurgery",
+      "shortTitle": "Medical robotics",
+      "kicker": "PRECISE HUMAN–ROBOT INTERACTION",
+      "summary": "Shared control, adaptive motion scaling and immersive interfaces for surgical robotics research.",
+      "lead": "We develop robotic assistance that responds to the task and the operator during delicate, precise manipulation.",
+      "introduction": "Surgical and microsurgical research provides a demanding setting for studying how human judgement and robot precision can work together. Our work examines control allocation, motion scaling, haptic feedback and digital-twin interfaces on research platforms and in training tasks.",
+      "question": "How should robotic assistance adapt as a precise manipulation task and the operator’s needs change?",
+      "connection": "Here, adaptive physical intelligence includes the human operator. Perception estimates task context, learning transfers useful motion patterns, and control adjusts assistance while the operator remains part of the interaction.",
+      "image": "/assets/illustrations/medical-robotics-concept-2026e.webp",
+      "alt": "Concept illustration of robotic instruments positioned around a synthetic surgical phantom in a research laboratory.",
+      "caption": "AI-generated concept illustration of a medical-robotics research platform using a synthetic phantom; not a clinical photograph or experimental result.",
+      "visualStyle": "cover",
+      "focusAreas": [
+        {
+          "title": "Context-aware shared control",
+          "description": "We investigate how a robot can adjust its contribution during different task contexts. Demonstrations collected in simulation support learned motions, while context recognition informs the allocation of control.",
+          "methods": [
+            "Learning from demonstration",
+            "Simulation-to-reality adaptation",
+            "Context-dependent assistance"
+          ],
+          "evidence": [
+            {
+              "label": "Surgical shared control",
+              "url": "https://arxiv.org/abs/2204.11116"
+            }
+          ]
+        },
+        {
+          "title": "Adaptive microsurgical motion",
+          "description": "We study the mapping between an operator’s input and the robot’s tool motion. Adaptive motion scaling and damping address the changing precision demands of delicate tasks.",
+          "methods": [
+            "Motion scaling",
+            "Offline reinforcement learning",
+            "Damping control"
+          ],
+          "evidence": [
+            {
+              "label": "Adaptive motion scaling",
+              "url": "https://doi.org/10.1109/ICRA57147.2024.10611009"
+            }
+          ]
+        },
+        {
+          "title": "Immersive interfaces and research platforms",
+          "description": "Digital twins, mixed reality and haptic feedback provide different ways for an operator to perceive remote interaction. Microsurgical platforms and skill-assessment methods support repeatable research and training.",
+          "methods": [
+            "Digital-twin teleoperation",
+            "Haptic rendering",
+            "Research and training systems"
+          ],
+          "evidence": [
+            {
+              "label": "Haptic mixed-reality teleoperation",
+              "url": "https://doi.org/10.1109/LRA.2023.3325784"
+            },
+            {
+              "label": "Microsurgical research platform",
+              "url": "https://link.springer.com/article/10.1007/s11548-019-02074-1"
+            }
+          ]
+        }
+      ],
+      "methods": [
+        {
+          "id": "sensing",
+          "label": "Sensing",
+          "description": "Use observations to estimate task context and tool state."
+        },
+        {
+          "id": "learning",
+          "label": "Learning",
+          "description": "Transfer useful motions from demonstrations and simulation."
+        },
+        {
+          "id": "shared-autonomy",
+          "label": "Shared autonomy",
+          "description": "Adapt control allocation and operator feedback."
+        },
+        {
+          "id": "embodiment",
+          "label": "Embodiment",
+          "description": "Connect tools and interfaces to precision requirements."
+        }
+      ],
+      "projects": [
+        {
+          "name": "Context-aware surgical shared control",
+          "title": "Human-Robot Shared Control for Surgical Robot Based on Context-Aware Sim-to-Real Adaptation",
+          "venue": "ICRA",
+          "year": "2022",
+          "url": "https://arxiv.org/abs/2204.11116",
+          "summary": "Simulator-learned motions and context-dependent assistance are evaluated with users on the da Vinci Research Kit.",
+          "status": "Conference paper"
+        },
+        {
+          "name": "Adaptive motion scaling",
+          "title": "Adaptive Motion Scaling for Robot-Assisted Microsurgery Based on Hybrid Offline Reinforcement Learning and Damping Control",
+          "venue": "ICRA",
+          "year": "2024",
+          "url": "https://doi.org/10.1109/ICRA57147.2024.10611009",
+          "summary": "Offline reinforcement learning and damping control adapt motion scaling for microsurgery research.",
+          "status": "Conference paper"
+        },
+        {
+          "name": "Digital twins with haptic teleoperation",
+          "title": "A Digital Twin-Driven Mixed Reality Framework for Immersive Teleoperation with Haptic Rendering",
+          "venue": "IEEE Robotics and Automation Letters",
+          "year": "2023",
+          "url": "https://doi.org/10.1109/LRA.2023.3325784",
+          "summary": "A mixed-reality interface combines kinaesthetic and wearable tactile feedback to study immersive robot teleoperation.",
+          "status": "Published"
+        },
+        {
+          "name": "Microsurgical research and training platform",
+          "title": "A microsurgical robot research platform for robot-assisted microsurgery research and training",
+          "venue": "International Journal of Computer Assisted Radiology and Surgery",
+          "year": "2020",
+          "url": "https://link.springer.com/article/10.1007/s11548-019-02074-1",
+          "summary": "A dedicated robot platform supports experiments in microsurgical assistance and training.",
+          "status": "Published"
+        },
+        {
+          "name": "From teleoperation to autonomy",
+          "title": "From teleoperation to autonomous robot-assisted microsurgery: A survey",
+          "venue": "Machine Intelligence Research",
+          "year": "2022",
+          "url": "https://link.springer.com/article/10.1007/s11633-022-1332-5",
+          "summary": "A survey organises the development of microsurgical robotics from operator control toward increasing autonomy.",
+          "status": "Review"
+        }
+      ],
+      "evidenceNote": "The work described here concerns research systems, user studies and training or experimental tasks. It does not establish clinical deployment or a replacement for clinical judgement. Mixed-reality teleoperation is a related enabling method, rather than a claim of a clinically validated system.",
+      "nextDirection": "We aim to investigate assistance that responds more explicitly to uncertainty, changing contact and operator workload, with evaluation that considers both manipulation performance and the human experience.",
+      "resources": [],
+      "path": "/msei_website/research/medical-robotics/",
+      "approachFigure": {
+        "title": "How task context can inform assistance",
+        "alt": "Operator intent and estimated task context inform adaptive robotic assistance. Tool motion and visual or haptic feedback allow the operator to assess and continue the interaction.",
+        "caption": "A research framework for operator-in-the-loop assistance. Shared control, motion scaling and feedback are studied on research or training platforms; the schematic is not a clinical workflow.",
+        "image": "/assets/illustrations/medical-shared-control-2026e.svg",
+        "mobileImage": "/assets/illustrations/medical-shared-control-2026e-mobile.svg",
+        "width": 1280,
+        "height": 540
+      },
+      "evidenceQuestions": [
+        "What task does the operator perform, and what assistance does the robot provide?",
+        "How are accuracy, interaction and operator performance evaluated in the study?",
+        "Which results are specific to the research platform or user-study setting?"
+      ],
+      "supportFigure": {
+        "image": "/assets/research/research3.png",
+        "alt": "Precision robotic micromanipulators surrounding an anatomical brain model on an optical table.",
+        "caption": "A micromanipulation research setup with an anatomical model.",
+        "title": "A platform for precise, assisted interaction",
+        "description": "Robotic positioning stages, instruments and an anatomical model provide a physical setting for precision-manipulation research. The linked papers specify their own platforms, tasks and evaluation conditions."
+      }
+    },
+    {
+      "slug": "scientific-instrumentation",
+      "title": "Robotics for scientific experiments",
+      "shortTitle": "Scientific instrumentation",
+      "kicker": "MICROSCOPY, TOOLS AND REPRODUCIBLE MEASUREMENT",
+      "summary": "Image-guided micromanipulation, pipette localisation and open perception benchmarks for scientific workflows.",
+      "lead": "We develop robotic perception and manipulation tools that address practical bottlenecks in microscopy-based experiments.",
+      "introduction": "Scientific instruments must connect an observation to a precisely controlled physical action. Our work studies localisation of multiple pipettes, pose and depth perception under a microscope, and reproducible datasets that allow these perception methods to be compared.",
+      "question": "How can robotic perception make delicate experimental operations more repeatable and easier to automate?",
+      "connection": "This application connects the lab’s sensing and learning methods to experimental practice. Reliable state estimates are a prerequisite for useful control, and the mechanics of a tool or microscopic object determine which observations and actions are possible.",
+      "image": "/assets/illustrations/scientific-experiments-concept-2026e.webp",
+      "alt": "Concept illustration of a microscope, micromanipulators and sample chamber in a precision experimentation laboratory.",
+      "caption": "AI-generated concept illustration of microscopy and robotic instrumentation; not a photograph of a completed autonomous laboratory or experimental result.",
+      "visualStyle": "cover",
+      "focusAreas": [
+        {
+          "title": "Multi-pipette localisation",
+          "description": "For robot-assisted patch-clamp research, we study how image processing and learning can locate several pipette tips. The approach combines visibility enhancement with coarse detection and fine coordinate estimation.",
+          "methods": [
+            "Background suppression",
+            "Coarse-to-fine tip localisation",
+            "Matching predictions to multiple tools"
+          ],
+          "evidence": [
+            {
+              "label": "Multi-pipette localisation",
+              "url": "https://arxiv.org/abs/2504.01044"
+            }
+          ]
+        },
+        {
+          "title": "Microscopy-based pose and depth",
+          "description": "We investigate perception of small, low-contrast structures under an optical microscope. Physics-informed simulation and learning help address the cost of obtaining and labelling experimental images.",
+          "methods": [
+            "Pose and depth inference",
+            "Physics-informed image synthesis",
+            "Limited-data learning"
+          ],
+          "evidence": [
+            {
+              "label": "Physics-informed sim-to-real learning",
+              "url": "https://arxiv.org/abs/2511.16494"
+            },
+            {
+              "label": "Small-data micro-object estimation",
+              "url": "https://www.nature.com/articles/s42005-022-00844-z"
+            }
+          ]
+        },
+        {
+          "title": "Reproducible experimental foundations",
+          "description": "Open datasets, benchmarks and code make perception studies easier to compare and build upon. Our work on biological micromanipulation also examines how sensing, physical tools and control need to be considered together.",
+          "methods": [
+            "Perception datasets and benchmarks",
+            "Open implementations",
+            "Analysis of biological micromanipulation"
+          ],
+          "evidence": [
+            {
+              "label": "Optical microrobot dataset",
+              "url": "https://arxiv.org/abs/2505.18303"
+            },
+            {
+              "label": "Micro-dexterity review",
+              "url": "https://arxiv.org/abs/2604.11640"
+            }
+          ]
+        }
+      ],
+      "methods": [
+        {
+          "id": "sensing",
+          "label": "Sensing",
+          "description": "Localise instruments and infer microscopic object state."
+        },
+        {
+          "id": "learning",
+          "label": "Learning",
+          "description": "Train perception with measured and synthetic images."
+        },
+        {
+          "id": "shared-autonomy",
+          "label": "Control and interaction",
+          "description": "Connect state estimates to precise instrument operation."
+        },
+        {
+          "id": "embodiment",
+          "label": "Embodiment",
+          "description": "Consider tool geometry and physical access to the sample."
+        }
+      ],
+      "workflow": {
+        "title": "An example perception workflow",
+        "caption": "Conceptual summary of the multi-pipette localisation approach. This figure describes the perception component; it does not represent a complete autonomous patch-clamp experiment.",
+        "sourceLabel": "Multi-pipette localisation paper",
+        "sourceUrl": "https://arxiv.org/abs/2504.01044",
+        "steps": [
+          {
+            "title": "Microscope image",
+            "text": "Observe several pipettes in a complex background."
+          },
+          {
+            "title": "Visibility enhancement",
+            "text": "Suppress background information before localisation."
+          },
+          {
+            "title": "Coarse detection",
+            "text": "Predict candidate locations of the pipette tips."
+          },
+          {
+            "title": "Fine localisation",
+            "text": "Estimate the individual tip coordinates."
+          }
+        ]
+      },
+      "projects": [
+        {
+          "name": "Multi-pipette localisation",
+          "title": "Coarse-to-Fine Learning for Multi-Pipette Localisation in Robot-Assisted In Vivo Patch-Clamp",
+          "venue": "IROS",
+          "year": "2025",
+          "url": "https://arxiv.org/abs/2504.01044",
+          "summary": "Visibility enhancement and a two-stage model locate multiple pipette tips in microscope images.",
+          "status": "Conference paper",
+          "codeUrl": "https://github.com/dianzdd123/Patch-Clamp-Localisation",
+          "projectUrl": "https://lannwei.github.io/Patch-Clamp-Localisation/"
+        },
+        {
+          "name": "Optical microrobot perception benchmark",
+          "title": "A Dataset and Benchmarks for Deep Learning-Based Optical Microrobot Pose and Depth Perception",
+          "venue": "MARSS",
+          "year": "2025",
+          "url": "https://arxiv.org/abs/2505.18303",
+          "summary": "The OTMR dataset supports comparison of pose classification and depth estimation under an optical microscope.",
+          "status": "Conference paper",
+          "codeUrl": "https://github.com/dianzdd123/Optical-Microrobot-Database",
+          "projectUrl": "https://lannwei.github.io/Optical-Microrobot-Database/"
+        },
+        {
+          "name": "Physics-informed microscopy synthesis",
+          "title": "Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation",
+          "venue": "ICRA",
+          "year": "2026",
+          "url": "https://arxiv.org/abs/2511.16494",
+          "summary": "Optical rendering and learned image generation support perception training while reducing dependence on acquired microscope images.",
+          "status": "Conference paper",
+          "codeUrl": "https://github.com/dianzdd123/Micro_Object_Sim2Real"
+        },
+        {
+          "name": "Micro-dexterity in biological manipulation",
+          "title": "Micro-Dexterity in Biological Micromanipulation: Embodiment, Perception, and Control",
+          "venue": "arXiv",
+          "year": "2026",
+          "url": "https://arxiv.org/abs/2604.11640",
+          "summary": "A review analyses how robot embodiment, sensing and control interact during delicate biological micromanipulation.",
+          "status": "Review preprint"
+        }
+      ],
+      "evidenceNote": "Multi-pipette localisation is a perception contribution within a larger experimental workflow. The datasets and simulations support method development and evaluation; they are not evidence of a complete autonomous scientific laboratory.",
+      "nextDirection": "Our longer-term direction is to connect reliable perception and adaptive manipulation with the selection of informative experiments. This remains a research agenda built on the instrumentation and perception studies above.",
+      "resources": [
+        {
+          "name": "Patch-clamp localisation",
+          "description": "Implementation and supporting materials for multi-pipette localisation.",
+          "url": "https://github.com/dianzdd123/Patch-Clamp-Localisation"
+        },
+        {
+          "name": "Optical Microrobot Database",
+          "description": "Dataset and benchmarking resources for pose and depth perception.",
+          "url": "https://github.com/dianzdd123/Optical-Microrobot-Database"
+        },
+        {
+          "name": "Physics-informed microscopy",
+          "description": "Public code for sim-to-real image generation and pose estimation.",
+          "url": "https://github.com/dianzdd123/Micro_Object_Sim2Real"
+        }
+      ],
+      "path": "/msei_website/research/scientific-instrumentation/",
+      "approachFigure": {
+        "title": "A concrete starting point: locating tools in microscope images",
+        "alt": "The multi-pipette localisation approach takes microscope images, improves visibility by suppressing background information, detects candidate tip locations, and refines the individual pipette-tip coordinates.",
+        "caption": "Explanatory summary of the multi-pipette localisation approach. This perception component is established research; connecting perception to complete experimental procedures remains a broader research direction.",
+        "sourceLabel": "Multi-pipette localisation paper",
+        "sourceUrl": "https://arxiv.org/abs/2504.01044",
+        "image": "/assets/illustrations/scientific-perception-workflow-2026e.svg",
+        "mobileImage": "/assets/illustrations/scientific-perception-workflow-2026e-mobile.svg",
+        "width": 1280,
+        "height": 540
+      },
+      "evidenceQuestions": [
+        "Which part of the experimental workflow has been demonstrated?",
+        "What microscopy conditions and annotations support perception evaluation?",
+        "What remains to connect this component to reliable experimental action?"
+      ],
+      "supportFigure": {
+        "image": "/assets/research/research1.png",
+        "alt": "Optical microrobotics research schematic showing fabrication, microscopy-based perception and manipulation.",
+        "caption": "Research schematic linking optical fabrication, microscopy-based perception and micromanipulation.",
+        "title": "Connect the instrument, the image and the interaction",
+        "description": "This research schematic relates optical fabrication, microscopy-based perception and manipulation. Current work supplies specific components such as perception datasets and pipette localisation; broader autonomous experimental procedures remain a research direction."
+      }
+    }
+  ]
+}

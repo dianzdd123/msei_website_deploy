@@ -1,0 +1,1075 @@
+{
+  "metadata": {
+    "title": "Our team",
+    "description": "Researchers, visiting colleagues, project students and alumni of the Multi-Scale Embodied Intelligence Lab.",
+    "lastUpdated": "2026-11-11",
+    "sourceUrl": "https://www.intelligentrobotics-acrossscales.com/blank"
+  },
+  "intro": "Meet the researchers and colleagues of the Multi-Scale Embodied Intelligence Lab. Our research connects robotics, machine learning and bioengineering across scales.",
+  "sections": {
+    "principalinvestigator": {
+      "subsections": [
+        {
+          "name": "Lab founder and principal investigator",
+          "data": {
+            "name": "Dr Dandan Zhang",
+            "role": "Lab founder and principal investigator",
+            "affiliation": "Department of Bioengineering · Imperial College London",
+            "research": "Adaptive physical intelligence for dexterous manipulation across scales",
+            "description": "Dandan is an Assistant Professor in the Department of Bioengineering at Imperial College London and founder of the Multi-Scale Embodied Intelligence Lab. Her research connects tactile sensing, robot learning, shared autonomy and optical and magnetic microrobotics.",
+            "topics": [
+              "Tactile intelligence",
+              "Adaptive robot learning",
+              "Medical robotics",
+              "Microrobotics"
+            ],
+            "avatar": "/assets/photos/dandan-zhang-portrait-2026.webp",
+            "links": [
+              {
+                "label": "Imperial profile",
+                "url": "https://profiles.imperial.ac.uk/d.zhang17"
+              },
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0001-7649-7605"
+              },
+              {
+                "label": "Contact",
+                "url": "mailto:d.zhang17@imperial.ac.uk"
+              }
+            ],
+            "id": "person-dandan-zhang",
+            "background": [
+              "Assistant Professor, Imperial College London · joined in 2023",
+              "Previously Lecturer in Robotics at the University of Bristol",
+              "PhD in Medical Robotics, Imperial College London · 2021"
+            ],
+            "researchApproach": "The lab studies how robots can combine sensing, learning and physical interaction to manipulate objects across scales. Tactile intelligence and adaptive control connect dexterous manipulation with medical robotics and optical and magnetic microrobots.",
+            "projectLabel": "Research programme",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-a-vision-based-tactile-sensor-with-in-sensor-computing-paradigm-for-seamless-tactile-sensing-and-perception",
+                "title": "A vision-based tactile sensor with in-sensor computing paradigm for seamless tactile sensing and perception",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Communications Engineering (advance online publication)",
+                "url": "https://doi.org/10.1038/s44172-026-00770-w",
+                "links": []
+              },
+              {
+                "publicationId": "paper-embodied-cross-domain-intelligence-in-biomedical-microrobots-a-review",
+                "title": "Embodied Cross-Domain Intelligence in Biomedical Microrobots: A Review",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Cyborg and Bionic Systems, 7:0546",
+                "url": "https://doi.org/10.34133/cbsystems.0546",
+                "links": [
+                  {
+                    "label": "Project",
+                    "url": "https://nuounuou.github.io/Embodied-Cross-Domain-Intelligence-in-Biomedical-Microrobots-A-Review/"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "phdstudents": {
+      "subsections": [
+        {
+          "name": "PhD researcher",
+          "data": {
+            "name": "Wen Fan",
+            "role": "PhD researcher",
+            "avatar": "/assets/avatar_imgs/wen.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/wen-fan-623947282/"
+              }
+            ],
+            "affiliation": "Department of Bioengineering · Imperial College London",
+            "research": "Tactile perception and manipulation",
+            "topics": [
+              "Vision-based tactile sensing",
+              "Physical-property learning",
+              "Robot manipulation"
+            ],
+            "id": "person-wen-fan",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-a-vision-based-tactile-sensor-with-in-sensor-computing-paradigm-for-seamless-tactile-sensing-and-perception",
+                "title": "A vision-based tactile sensor with in-sensor computing paradigm for seamless tactile sensing and perception",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Communications Engineering (advance online publication)",
+                "url": "https://doi.org/10.1038/s44172-026-00770-w",
+                "links": []
+              },
+              {
+                "publicationId": "paper-i-tac-inverse-design-of-3d-printed-tactile-elastomers-with-tuneable-optical-and-mechanical-properties",
+                "title": "i-Tac: Inverse Design of 3D-Printed Tactile Elastomers with Tuneable Optical and Mechanical Properties",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Advanced Intelligent Systems 8(8), e202501200",
+                "url": "https://doi.org/10.1002/aisy.202501200",
+                "links": []
+              },
+              {
+                "publicationId": "paper-adm-dp-adaptive-dynamic-modality-diffusion-policy-through-vision-tactile-graph-fusion-for-multi-agent-manipulation",
+                "title": "ADM-DP: Adaptive Dynamic Modality Diffusion Policy through Vision-Tactile-Graph Fusion for Multi-Agent Manipulation",
+                "year": "2026",
+                "type": "Conference Paper",
+                "venue": "IEEE ICRA 2026",
+                "url": "https://arxiv.org/abs/2602.21622",
+                "links": [
+                  {
+                    "label": "Code",
+                    "url": "https://github.com/dianzdd123/ADM_DP"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "PhD researcher",
+          "data": {
+            "name": "Jialin Lin",
+            "role": "PhD researcher",
+            "avatar": "/assets/avatar_imgs/Linjialin.png",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/jialin-lin-128469223/"
+              }
+            ],
+            "affiliation": "Department of Bioengineering · Imperial College London",
+            "research": "Magnetic microrobotics",
+            "topics": [
+              "Magnetic microrobotics",
+              "Ultrasound imaging",
+              "Sim-to-real learning"
+            ],
+            "id": "person-jialin-lin",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-dexterousmag-a-reconfigurable-electromagnetic-actuation-system-for-miniature-helical-robot",
+                "title": "DexterousMag: A Reconfigurable Electromagnetic Actuation System for Miniature Helical Robot",
+                "year": "2026",
+                "type": "Preprint",
+                "venue": "arXiv:2603.14396",
+                "url": "https://arxiv.org/abs/2603.14396",
+                "links": []
+              },
+              {
+                "publicationId": "paper-design-and-control-of-modular-magnetic-millirobots-for-multimodal-locomotion-and-shape-reconfiguration",
+                "title": "Design and Control of Modular Magnetic Millirobots for Multimodal Locomotion and Shape Reconfiguration",
+                "year": "2026",
+                "type": "Conference Paper",
+                "venue": "IEEE ICRA 2026",
+                "url": "https://arxiv.org/abs/2602.19346",
+                "links": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "PhD researcher",
+          "data": {
+            "name": "Lan Wei",
+            "role": "PhD researcher",
+            "avatar": "/assets/avatar_imgs/Lan_Wei.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=DOkab9UAAAAJ&hl=en"
+              }
+            ],
+            "affiliation": "Department of Bioengineering · Imperial College London",
+            "research": "Machine learning for optical microrobots",
+            "topics": [
+              "Microscopy-based perception",
+              "Optical microrobotics",
+              "Sim-to-real image generation"
+            ],
+            "id": "person-lan-wei",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-dual-control-frequency-aware-diffusion-model-for-depth-dependent-optical-microrobot-microscopy-image-generation",
+                "title": "Dual-Control Frequency-Aware Diffusion Model for Depth-Dependent Optical Microrobot Microscopy Image Generation",
+                "year": "2026",
+                "type": "Preprint",
+                "venue": "arXiv:2604.11680",
+                "url": "https://arxiv.org/abs/2604.11680",
+                "links": []
+              },
+              {
+                "publicationId": "paper-physics-informed-machine-learning-with-adaptive-grids-for-optical-microrobot-depth-estimation",
+                "title": "Physics-Informed Machine Learning with Adaptive Grids for Optical Microrobot Depth Estimation",
+                "year": "2025",
+                "type": "Conference Paper",
+                "venue": "IEEE CBS 2025",
+                "url": "https://arxiv.org/abs/2509.02343",
+                "links": [
+                  {
+                    "label": "Code",
+                    "url": "https://github.com/dianzdd123/CBS2025"
+                  }
+                ]
+              },
+              {
+                "publicationId": "paper-tacverse-a-multisensor-dataset-and-benchmark-for-cross-sensor-vision-based-tactile-perception",
+                "title": "TacVerse: A Multisensor Dataset and Benchmark for Cross-Sensor Vision-Based Tactile Perception",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Advanced Robotics Research, e70169",
+                "url": "https://doi.org/10.1002/adrr.70169",
+                "links": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "PhD researcher",
+          "data": {
+            "name": "Zongcai Tan",
+            "role": "PhD researcher",
+            "avatar": "/assets/avatar_imgs/zongcai.jpeg",
+            "affiliation": "Department of Bioengineering · Imperial College London",
+            "research": "Physics-informed microrobot control",
+            "topics": [
+              "Optical microrobotics",
+              "Physics-informed learning",
+              "Shared control"
+            ],
+            "id": "person-zongcai-tan",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-a-digital-twin-framework-for-virtual-visuo-haptic-teleoperation-of-complex-shaped-optical-microrobots",
+                "title": "A Digital Twin Framework for Virtual Visuo-Haptic Teleoperation of Complex-Shaped Optical Microrobots",
+                "year": "2026",
+                "type": "Preprint",
+                "venue": "arXiv:2605.28448",
+                "url": "https://arxiv.org/abs/2605.28448",
+                "links": [
+                  {
+                    "label": "Code",
+                    "url": "https://github.com/dianzdd123/ot-haptic-feedback-digital-twin/tree/main"
+                  }
+                ]
+              },
+              {
+                "publicationId": "paper-physics-informed-machine-learning-for-efficient-sim-to-real-data-augmentation-in-micro-object-pose-estimation",
+                "title": "Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation",
+                "year": "2026",
+                "type": "Conference Paper",
+                "venue": "IEEE ICRA 2026",
+                "url": "https://arxiv.org/abs/2511.16494",
+                "links": [
+                  {
+                    "label": "Code",
+                    "url": "https://github.com/dianzdd123/Micro_Object_Sim2Real"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "PhD researcher",
+          "data": {
+            "name": "Kangyi Lu",
+            "role": "PhD researcher",
+            "avatar": "/assets/avatar_imgs/kangyi-lu-2026.jpg",
+            "affiliation": "Department of Bioengineering · Imperial College London",
+            "research": "Autonomous microrobots and micromanipulation",
+            "topics": [
+              "Micromanipulation",
+              "Physics-informed AI",
+              "Magnetic robot navigation"
+            ],
+            "id": "person-kangyi-lu",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-micro-dexterity-in-biological-micromanipulation-embodiment-perception-and-control",
+                "title": "Micro-Dexterity in Biological Micromanipulation: Embodiment, Perception, and Control",
+                "year": "2026",
+                "type": "Preprint",
+                "venue": "arXiv:2604.11640",
+                "url": "https://arxiv.org/abs/2604.11640",
+                "links": []
+              },
+              {
+                "publicationId": "paper-mag-vla-vision-language-action-model-for-bimanual-magnetically-actuated-microrobot-manipulation",
+                "title": "Mag-VLA: Vision-Language-Action Model for Bimanual Magnetically Actuated Microrobot Manipulation",
+                "year": "2026",
+                "type": "Preprint",
+                "venue": "arXiv:2605.28486",
+                "url": "https://arxiv.org/abs/2605.28486",
+                "links": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "PhD researcher",
+          "data": {
+            "name": "Piotr Blaszyk",
+            "role": "PhD researcher",
+            "affiliation": "Department of Bioengineering · Imperial College London",
+            "research": "AI for healthcare and surgical context awareness",
+            "topics": [
+              "Surgical context awareness",
+              "Multimodal learning",
+              "AI for healthcare"
+            ],
+            "avatar": "/assets/avatar_imgs/piotr-blaszyk-2026.jpg",
+            "id": "person-piotr-blaszyk",
+            "selectedWorks": [
+              {
+                "title": "Toward Trustworthy Robot-Assisted Sliding Palpation for Shallow Vessel Localisation with a Calibrated Digital Twin",
+                "year": "2026",
+                "type": "Preprint",
+                "venue": "arXiv:2608.29396",
+                "url": "https://arxiv.org/abs/2608.29396",
+                "authors": [
+                  "Piotr Blaszyk",
+                  "Wen Fan",
+                  "Kaizhong Deng",
+                  "Daniel Elson",
+                  "Dandan Zhang"
+                ],
+                "source": "https://arxiv.org/abs/2608.29396",
+                "links": [
+                  {
+                    "label": "Robot-control code",
+                    "url": "https://github.com/dianzdd123/shallow-vessel-palpation-robot-control"
+                  },
+                  {
+                    "label": "Archived software",
+                    "url": "https://zenodo.org/records/21958190"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Co-supervised PhD researcher",
+          "data": {
+            "name": "Nitirak Rayabphand",
+            "role": "Co-supervised PhD researcher",
+            "avatar": "/assets/avatar_imgs/Fern.jpeg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/nitirak-rayabphand-80611a216/"
+              },
+              {
+                "label": "Bristol profile",
+                "url": "https://research-information.bris.ac.uk/en/persons/nitirak-rayabphand/"
+              },
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0001-5251-2196"
+              }
+            ],
+            "affiliation": "University of Bristol",
+            "research": "Magnetic swarm robotics",
+            "topics": [
+              "Magnetic swarms",
+              "Microscale robotics",
+              "Medical applications"
+            ],
+            "id": "person-nitirak-rayabphand",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-rapid-parallel-fabrication-and-control-of-diverse-microrobotic-structures-with-magnetic-functionalization",
+                "title": "Rapid Parallel Fabrication and Control of Diverse Microrobotic Structures with Magnetic Functionalization",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Artificial Life (online ahead of print)",
+                "url": "https://doi.org/10.1162/ARTL.a.489",
+                "links": []
+              },
+              {
+                "publicationId": "paper-magni-dome-an-open-platform-for-high-resolution-light-based-and-magnetic-contactless-fabrication-of-active-microstructures",
+                "title": "Magni-DOME: An Open Platform for High-Resolution Light-Based and Magnetic Contactless Fabrication of Active Microstructures",
+                "year": "2025",
+                "type": "Conference Paper",
+                "venue": "IEEE MARSS 2025",
+                "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11072766",
+                "links": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visitingresearchers": {
+      "subsections": [
+        {
+          "name": "Visiting PDRA",
+          "data": {
+            "name": "Qiming Liu",
+            "role": "Visiting PDRA",
+            "roleDetail": "Visiting Postdoctoral Research Associate",
+            "affiliation": "Visiting from Shanghai Jiao Tong University",
+            "research": "Robotic manipulation and navigation",
+            "topics": [
+              "Robot manipulation",
+              "Navigation",
+              "Language-model-enabled robotics"
+            ],
+            "avatar": "/assets/avatar_imgs/qiming-liu-2026.jpg",
+            "id": "person-qiming-liu",
+            "links": [
+              {
+                "label": "SJTU research group",
+                "url": "https://irmv.sjtu.edu.cn/team/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "researchassistants": {
+      "subsections": []
+    },
+    "visitingphdstudents": {
+      "subsections": []
+    },
+    "msstudents": {
+      "subsections": [
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Yongchen Wang",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-yongchen-wang",
+            "topics": [
+              "Shared control",
+              "Magnetic navigation"
+            ],
+            "selectedWorks": [
+              {
+                "publicationId": "paper-context-aware-adaptive-shared-control-for-magnetically-driven-bimanual-dexterous-micromanipulation",
+                "title": "Context-Aware Adaptive Shared Control for Magnetically-Driven Bimanual Dexterous Micromanipulation",
+                "year": "2026",
+                "type": "Preprint",
+                "venue": "arXiv:2603.14388",
+                "url": "https://arxiv.org/abs/2603.14388",
+                "links": []
+              },
+              {
+                "publicationId": "paper-mag-vla-vision-language-action-model-for-bimanual-magnetically-actuated-microrobot-manipulation",
+                "title": "Mag-VLA: Vision-Language-Action Model for Bimanual Magnetically Actuated Microrobot Manipulation",
+                "year": "2026",
+                "type": "Preprint",
+                "venue": "arXiv:2605.28486",
+                "url": "https://arxiv.org/abs/2605.28486",
+                "links": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Yacui Zhao",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-yacui-zhao",
+            "topics": [
+              "Tactile feedback",
+              "Vision–language–action models"
+            ]
+          }
+        },
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Xinyu Zheng",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-xinyu-zheng",
+            "topics": [
+              "Imitation learning",
+              "Real-to-sim-to-real transfer"
+            ]
+          }
+        },
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Zhidan She",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-zhidan-she",
+            "topics": [
+              "Object representations",
+              "Multimodal perception"
+            ]
+          }
+        },
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Haotian Jiang",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-haotian-jiang",
+            "topics": [
+              "Multi-robot systems",
+              "Self-correction"
+            ]
+          }
+        },
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Liang Wang",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-liang-wang",
+            "topics": [
+              "Multimodal language models",
+              "Dynamic task allocation"
+            ]
+          }
+        },
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Mu Xing",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-mu-xing",
+            "topics": [
+              "Surgical skill assessment",
+              "Uncertainty estimation"
+            ]
+          }
+        },
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Zhouxuan Xia",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-zhouxuan-xia",
+            "topics": [
+              "Surgical robotics",
+              "Multimodal understanding"
+            ]
+          }
+        },
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Xinyuan Dou",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-xinyuan-dou",
+            "topics": [
+              "Human–robot interaction",
+              "Language-guided robotics"
+            ]
+          }
+        },
+        {
+          "name": "MRes researcher",
+          "data": {
+            "name": "Junlin Wu",
+            "role": "MRes researcher",
+            "programmeGroup": "mres",
+            "id": "person-junlin-wu",
+            "topics": [
+              "Hierarchical planning",
+              "Cluttered manipulation"
+            ]
+          }
+        },
+        {
+          "name": "MSc researcher",
+          "data": {
+            "name": "Gaus Sayyad",
+            "role": "MSc researcher",
+            "programmeGroup": "msc-robotics",
+            "id": "person-gaus-sayyad",
+            "topics": [
+              "Bimanual manipulation",
+              "Multimodal interfaces"
+            ]
+          }
+        },
+        {
+          "name": "MSc researcher",
+          "data": {
+            "name": "Sherlyn Ong",
+            "role": "MSc researcher",
+            "programmeGroup": "msc-ai",
+            "id": "person-sherlyn-ong",
+            "topics": [
+              "Personalisation",
+              "Language-guided robotics"
+            ]
+          }
+        },
+        {
+          "name": "MSc researcher",
+          "data": {
+            "name": "Erin Sarlak",
+            "role": "MSc researcher",
+            "programmeGroup": "msc-ai",
+            "id": "person-erin-sarlak",
+            "topics": [
+              "Robot collaboration",
+              "Dynamic task allocation"
+            ]
+          }
+        },
+        {
+          "name": "MSc researcher",
+          "data": {
+            "name": "Jonathan Wachsmuth",
+            "role": "MSc researcher",
+            "programmeGroup": "msc-ai",
+            "id": "person-jonathan-wachsmuth",
+            "topics": [
+              "Biomedical machine learning",
+              "Cancer metabolism"
+            ]
+          }
+        },
+        {
+          "name": "MEng researcher",
+          "data": {
+            "name": "Samuel Parsons",
+            "role": "MEng researcher",
+            "programmeGroup": "meng",
+            "id": "person-samuel-parsons",
+            "topics": [
+              "Vision-based touch",
+              "Force reconstruction"
+            ]
+          }
+        },
+        {
+          "name": "MEng researcher",
+          "data": {
+            "name": "Jessica Mead",
+            "role": "MEng researcher",
+            "programmeGroup": "meng",
+            "id": "person-jessica-mead",
+            "topics": [
+              "Functionally graded materials",
+              "Medical palpation"
+            ]
+          }
+        },
+        {
+          "name": "MEng researcher",
+          "data": {
+            "name": "Yulan Fei",
+            "role": "MEng researcher",
+            "programmeGroup": "meng",
+            "id": "person-yulan-fei",
+            "topics": [
+              "Depth estimation",
+              "Pose estimation"
+            ]
+          }
+        }
+      ]
+    },
+    "projectprogrammes": [
+      {
+        "id": "mres",
+        "title": "Hamlyn MRes",
+        "description": "Medical Robotics and Image-Guided Intervention"
+      },
+      {
+        "id": "msc-robotics",
+        "title": "MSc Robotics",
+        "description": "Robotics and assisted manipulation"
+      },
+      {
+        "id": "msc-ai",
+        "title": "MSc Artificial Intelligence",
+        "description": "I-X · AI applications and innovation"
+      },
+      {
+        "id": "meng",
+        "title": "MEng research projects",
+        "description": "Bioengineering and tactile robotics"
+      }
+    ],
+    "groupprojects": [],
+    "interns": {
+      "subsections": [
+        {
+          "name": "Intern",
+          "data": {
+            "name": "Zihao Tan (Harry Tan)",
+            "role": "Intern",
+            "id": "person-zihao-tan-harry-tan"
+          }
+        },
+        {
+          "name": "Intern",
+          "data": {
+            "name": "Li Feng Xuan",
+            "role": "Intern",
+            "id": "person-li-feng-xuan"
+          }
+        }
+      ]
+    },
+    "alumni": {
+      "subsections": [
+        {
+          "name": "Former research assistant",
+          "data": {
+            "name": "Qingzheng Cong",
+            "role": "Former research assistant",
+            "avatar": "/assets/avatar_imgs/qingzheng.png",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/qingzheng-cong-a41091258/"
+              }
+            ],
+            "research": "Tactile perception, haptics and soft robotic manipulation",
+            "topics": [
+              "Tactile perception",
+              "Haptic feedback",
+              "Soft robotic manipulation"
+            ],
+            "id": "person-qingzheng-cong",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-magicgripper-a-mini-magictac-integrated-gripper-enabling-multimodal-perception-in-contact-rich-manipulation",
+                "title": "MagicGripper: A Mini-MagicTac Integrated Gripper Enabling Multimodal Perception in Contact-Rich Manipulation",
+                "year": "2025",
+                "type": "Journal Paper",
+                "venue": "IEEE Transactions on Automation Science and Engineering 22, 24311–24332",
+                "url": "https://doi.org/10.1109/TASE.2025.3631485",
+                "links": []
+              },
+              {
+                "publicationId": "paper-tacverse-a-multisensor-dataset-and-benchmark-for-cross-sensor-vision-based-tactile-perception",
+                "title": "TacVerse: A Multisensor Dataset and Benchmark for Cross-Sensor Vision-Based Tactile Perception",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Advanced Robotics Research, e70169",
+                "url": "https://doi.org/10.1002/adrr.70169",
+                "links": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Former visiting PhD researcher",
+          "data": {
+            "name": "Ziyuan Dong",
+            "role": "Former visiting PhD researcher",
+            "avatar": "/assets/avatar_imgs/ziyuan.jpg",
+            "affiliation": "Visited from Zhejiang University of Technology",
+            "research": "Data-driven control for medical robotics",
+            "topics": [
+              "Data-driven control",
+              "Tactile servoing",
+              "Medical robotics"
+            ],
+            "id": "person-ziyuan-dong"
+          }
+        },
+        {
+          "name": "MEng alumnus",
+          "data": {
+            "name": "Alexander Timms",
+            "role": "MEng",
+            "id": "person-alexander-timms",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-coarse-to-fine-learning-for-multi-pipette-localisation-in-robot-assisted-in-vivo-patch-clamp",
+                "title": "Coarse-to-Fine Learning for Multi-Pipette Localisation in Robot-Assisted In Vivo Patch-Clamp",
+                "year": "2025",
+                "type": "Conference Paper",
+                "venue": "IEEE IROS 2025",
+                "url": "https://arxiv.org/pdf/2504.01044?",
+                "links": [
+                  {
+                    "label": "Code",
+                    "url": "https://github.com/dianzdd123/Patch-Clamp-Localisation"
+                  },
+                  {
+                    "label": "Project",
+                    "url": "https://lannwei.github.io/Patch-Clamp-Localisation/"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "MEng alumnus",
+          "data": {
+            "name": "Denis Zahorovsky",
+            "role": "MEng",
+            "id": "person-denis-zahorovsky",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-coarse-to-fine-learning-for-multi-pipette-localisation-in-robot-assisted-in-vivo-patch-clamp",
+                "title": "Coarse-to-Fine Learning for Multi-Pipette Localisation in Robot-Assisted In Vivo Patch-Clamp",
+                "year": "2025",
+                "type": "Conference Paper",
+                "venue": "IEEE IROS 2025",
+                "url": "https://arxiv.org/pdf/2504.01044?",
+                "links": [
+                  {
+                    "label": "Code",
+                    "url": "https://github.com/dianzdd123/Patch-Clamp-Localisation"
+                  },
+                  {
+                    "label": "Project",
+                    "url": "https://lannwei.github.io/Patch-Clamp-Localisation/"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "MRes alumnus",
+          "data": {
+            "name": "Songming Ping",
+            "role": "MRes",
+            "id": "person-songming-ping"
+          }
+        },
+        {
+          "name": "MRes alumnus",
+          "data": {
+            "name": "Qi Chen",
+            "role": "MRes",
+            "id": "person-qi-chen"
+          }
+        },
+        {
+          "name": "MRes alumnus",
+          "data": {
+            "name": "Chengmeng Bi",
+            "role": "MRes",
+            "id": "person-chengmeng-bi"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Sirine Bhouri",
+            "role": "MSc",
+            "id": "person-sirine-bhouri",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-tacverse-a-multisensor-dataset-and-benchmark-for-cross-sensor-vision-based-tactile-perception",
+                "title": "TacVerse: A Multisensor Dataset and Benchmark for Cross-Sensor Vision-Based Tactile Perception",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Advanced Robotics Research, e70169",
+                "url": "https://doi.org/10.1002/adrr.70169",
+                "links": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Felix Verstraete",
+            "role": "MSc",
+            "id": "person-felix-verstraete"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Mohammed Abusadeh",
+            "role": "MSc",
+            "id": "person-mohammed-abusadeh"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Ziye Chen",
+            "role": "MSc",
+            "id": "person-ziye-chen"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Wenhao Hong",
+            "role": "MSc",
+            "id": "person-wenhao-hong",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-tacverse-a-multisensor-dataset-and-benchmark-for-cross-sensor-vision-based-tactile-perception",
+                "title": "TacVerse: A Multisensor Dataset and Benchmark for Cross-Sensor Vision-Based Tactile Perception",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Advanced Robotics Research, e70169",
+                "url": "https://doi.org/10.1002/adrr.70169",
+                "links": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Gurmeher Khurana",
+            "role": "MSc",
+            "id": "person-gurmeher-khurana",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-tacverse-a-multisensor-dataset-and-benchmark-for-cross-sensor-vision-based-tactile-perception",
+                "title": "TacVerse: A Multisensor Dataset and Benchmark for Cross-Sensor Vision-Based Tactile Perception",
+                "year": "2026",
+                "type": "Journal Paper",
+                "venue": "Advanced Robotics Research, e70169",
+                "url": "https://doi.org/10.1002/adrr.70169",
+                "links": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Virginia Greco",
+            "role": "MSc",
+            "id": "person-virginia-greco"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Yuexin Yao",
+            "role": "MSc",
+            "id": "person-yuexin-yao"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Junjie Shen",
+            "role": "MSc",
+            "id": "person-junjie-shen"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Mengtong Xie",
+            "role": "MSc",
+            "id": "person-mengtong-xie"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Haowei Gao",
+            "role": "MSc",
+            "id": "person-haowei-gao"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Linrui Du",
+            "role": "MSc",
+            "id": "person-linrui-du"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Lyson Ober",
+            "role": "MSc",
+            "id": "person-lyson-ober"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Yudong Mao",
+            "role": "MSc",
+            "id": "person-yudong-mao",
+            "selectedWorks": [
+              {
+                "publicationId": "paper-deep-reinforcement-learning-based-semi-autonomous-control-for-magnetic-micro-robot-navigation-with-immersive-manipulation",
+                "title": "Deep Reinforcement Learning-Based Semi-Autonomous Control for Magnetic Micro-robot Navigation with Immersive Manipulation",
+                "year": "2025",
+                "type": "Conference Paper",
+                "venue": "IEEE ICRA 2025",
+                "url": "https://arxiv.org/pdf/2503.06359",
+                "links": [
+                  {
+                    "label": "Code",
+                    "url": "https://github.com/dianzdd123/DRL-MR-Microrobot"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Zhenyang Tao",
+            "role": "MSc",
+            "id": "person-zhenyang-tao"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Louis Flinn",
+            "role": "MSc",
+            "id": "person-louis-flinn"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Zain Hasan",
+            "role": "MSc",
+            "id": "person-zain-hasan"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "Julian Ing",
+            "role": "MSc",
+            "id": "person-julian-ing"
+          }
+        },
+        {
+          "name": "MSc alumnus",
+          "data": {
+            "name": "D. Jaya Kumar Sivaraman",
+            "role": "MSc",
+            "id": "person-d-jaya-kumar-sivaraman"
+          }
+        }
+      ]
+    }
+  }
+}

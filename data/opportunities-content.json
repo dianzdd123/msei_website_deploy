@@ -1,0 +1,588 @@
+{
+  "metadata": {
+    "title": "Research opportunities and application guidance",
+    "description": "Explore PhD and MRes routes, 2027–28 scholarships, application deadlines and research opportunities with Dandan Zhang at Imperial.",
+    "lastUpdated": "2026-11-11",
+    "officialInformationChecked": "1 November 2026"
+  },
+  "intro": {
+    "kicker": "JOIN THE RESEARCH",
+    "title": "Bring a question. Build the evidence.",
+    "lead": "Explore postgraduate research with the Multi-Scale Embodied Intelligence Lab. Choose the programme route that fits your stage, connect it to a research application, and prepare a focused enquiry."
+  },
+  "researchAreas": [
+    {
+      "title": "Optical and magnetic microrobotics",
+      "slug": "microrobotics",
+      "text": "Perception, actuation and precise manipulation in small-scale physical systems.",
+      "image": "/assets/illustrations/microrobotics-2026c.webp",
+      "imageAlt": "Conceptual optical and magnetic miniature robots interacting with particles inside a fluid chamber.",
+      "imageCaption": "AI-generated concept illustration of optical and magnetic microrobotics; structures are not to scale."
+    },
+    {
+      "title": "Dexterous robotic manipulation",
+      "slug": "dexterous-manipulation",
+      "text": "Tactile sensing, multimodal learning and adaptable manipulation skills.",
+      "image": "/assets/illustrations/tactile-learning-2026c.webp",
+      "imageAlt": "Conceptual tactile robotic gripper interacting with a deformable object beside an abstract sensory representation.",
+      "imageCaption": "AI-generated concept illustration of tactile manipulation; the inset is not experimental data."
+    },
+    {
+      "title": "Medical robotics and microsurgery",
+      "slug": "medical-robotics",
+      "text": "Shared autonomy, robotic assistance and precision in surgical research systems.",
+      "image": "/assets/illustrations/medical-robotics-concept-2026e.webp",
+      "imageAlt": "Concept illustration of robotic instruments positioned around a synthetic surgical phantom in a research laboratory.",
+      "imageCaption": "AI-generated concept illustration of a medical-robotics research platform using a synthetic phantom; not a clinical photograph or experimental result."
+    },
+    {
+      "title": "Robotics for scientific experiments",
+      "slug": "scientific-instrumentation",
+      "text": "Robotic tools, measurement and perception for reproducible experimental work.",
+      "image": "/assets/illustrations/scientific-experiments-concept-2026e.webp",
+      "imageAlt": "Concept illustration of a microscope, micromanipulators and sample chamber in a precision experimentation laboratory.",
+      "imageCaption": "AI-generated concept illustration of microscopy and robotic instrumentation; not a photograph of a completed autonomous laboratory or experimental result."
+    }
+  ],
+  "guides": [
+    {
+      "slug": "phd",
+      "shortTitle": "PhD applications",
+      "kicker": "DOCTORAL RESEARCH",
+      "title": "Develop an original research contribution.",
+      "lead": "A PhD is an opportunity to define a focused question, develop new methods and build convincing evidence through sustained research. Start by connecting your interests to the lab’s published work.",
+      "routeLabel": "PhD in Bioengineering",
+      "routeSummary": "Discuss a potential project and supervision with Dandan, then follow the Department of Bioengineering’s doctoral admissions process.",
+      "image": "/assets/illustrations/phd-application-route-2026e.svg",
+      "imageAlt": "PhD application route: identify research fit; discuss a supervisor and funding route; submit the formal Imperial application; complete selection and offer conditions.",
+      "imageCaption": "Application route overview. Formal requirements and funding decisions are set by Imperial and the relevant scheme.",
+      "fitTitle": "Is doctoral research the right next step?",
+      "fitText": "Consider a PhD if you want to investigate an open problem over a sustained programme of work and take increasing responsibility for the research. A strong starting point is a question you can explain clearly, a reason it matters, and evidence that you can learn from difficult experiments or analyses.",
+      "fitCards": [
+        {
+          "title": "A question worth testing",
+          "text": "Identify a limitation in a specific task or method. Explain what is unknown and what a useful answer would change."
+        },
+        {
+          "title": "Evidence of research readiness",
+          "text": "Show what you personally contributed to a dissertation, experiment, software project or research placement, including limitations and lessons learned."
+        },
+        {
+          "title": "A fit with the programme",
+          "text": "Connect your proposed work to an application and one or more of our themes in sensing, learning, shared control or robot design."
+        }
+      ],
+      "officialTitle": "The formal route is through Bioengineering.",
+      "officialIntro": "Check the department’s current requirements before submitting. The following is a short route summary, with the official guidance linked below.",
+      "requirements": [
+        {
+          "title": "Academic entry",
+          "text": "The published routes include a first-class undergraduate degree or a 2:1 integrated Master’s. Applicants with a 2:1 undergraduate degree and a completed or forthcoming standalone Master’s can also be considered. Discuss exceptional cases with the proposed supervisor."
+        },
+        {
+          "title": "Supervisor and application",
+          "text": "Contact potential supervisors before applying. Submit through My Imperial and name the proposed supervisor and relevant funding scheme in the formal application."
+        },
+        {
+          "title": "Statements and references",
+          "text": "Follow the department’s statement/proposal instructions and provide two academic referees. The proposed PhD supervisor should not be a referee. Scholarship-specific formats may also apply."
+        },
+        {
+          "title": "International and English requirements",
+          "text": "Check qualification equivalence and the applicable English-language requirement on Imperial’s admissions pages; the relevant admissions team assesses individual qualifications."
+        }
+      ],
+      "officialLinks": [
+        {
+          "label": "Bioengineering PhD requirements and process",
+          "url": "https://www.imperial.ac.uk/bioengineering/study/postgraduate-research/doctoral/apply/"
+        },
+        {
+          "label": "Imperial doctoral application guidance",
+          "url": "https://www.imperial.ac.uk/study/apply/postgraduate-doctoral/application-process/"
+        },
+        {
+          "label": "English-language requirements",
+          "url": "https://www.imperial.ac.uk/study/apply/english-language/"
+        }
+      ],
+      "preparationIntro": "The items below are lab preparation suggestions for a useful research discussion. They supplement the formal programme documents and do not replace Imperial’s application requirements.",
+      "preparation": [
+        {
+          "title": "Explain your research fit",
+          "items": [
+            "Read a small selection of relevant lab papers and identify a question that follows from them.",
+            "Describe the task, physical setting and limitation you would like to study.",
+            "Explain which parts of the problem match your experience and which you would need to learn."
+          ]
+        },
+        {
+          "title": "Make your contribution visible",
+          "items": [
+            "Prepare a concise CV and an academic record or transcript for discussion.",
+            "Choose a report, code repository, experiment, paper or portfolio item and explain your own contribution.",
+            "State the baseline, evaluation method and main limitation of that work; a careful negative result can be informative."
+          ]
+        },
+        {
+          "title": "Outline a feasible investigation",
+          "items": [
+            "Propose an initial hypothesis or research question, a possible method and the evidence needed to assess it.",
+            "Identify likely data, equipment, supervision or training needs.",
+            "Explain an alternative approach if the first experiment does not support your idea."
+          ]
+        },
+        {
+          "title": "Plan the application logistics",
+          "items": [
+            "Include your intended start period and funding routes you are considering in the enquiry.",
+            "Contact referees early and follow the formal instructions for their submission.",
+            "Check the programme, scholarship and document deadlines separately.",
+            "For scholarship consideration, explain why the proposed project, MSEI Lab and Imperial fit your research and career plans. Give an honest account of your interest and intended start period.",
+            "Tell Dandan about any other offer-response deadlines that affect your decision or availability, so nomination and funding discussions can be planned."
+          ]
+        }
+      ],
+      "processTitle": "From first enquiry to a formal application.",
+      "process": [
+        {
+          "title": "Choose a research direction",
+          "text": "Use the application pages and representative papers to identify a specific connection between your interests and the lab."
+        },
+        {
+          "title": "Discuss fit and feasibility",
+          "text": "Send a concise enquiry to Dandan. Where there is a potential match, discuss the question, supervision capacity, start period and funding route."
+        },
+        {
+          "title": "Prepare the formal submission",
+          "text": "Follow Bioengineering’s instructions in My Imperial, name the proposed supervisor and include all requested documents and referee details."
+        },
+        {
+          "title": "Selection and offer conditions",
+          "text": "Shortlisted applicants may be interviewed. Admission and any scholarship or studentship are separate decisions; complete the conditions in the formal offer."
+        }
+      ],
+      "processSource": {
+        "label": "Official Bioengineering application process",
+        "url": "https://www.imperial.ac.uk/bioengineering/study/postgraduate-research/doctoral/apply/"
+      },
+      "fundingIntro": "Explore advertised studentships and scholarship schemes through Imperial’s official funding pages. Discuss research fit and supervision availability with Dandan before applying.",
+      "fundingCards": [
+        {
+          "title": "Project studentships",
+          "text": "For an advertised project, check eligibility, fee coverage, stipend, duration and the specific application instructions. Discuss current availability with the proposed supervisor.",
+          "link": {
+            "label": "Imperial postgraduate funding information",
+            "url": "https://www.imperial.ac.uk/students/fees-and-funding/postgraduate-funding/scholarships/"
+          }
+        },
+        {
+          "title": "President’s PhD Scholarships",
+          "text": "This competitive scheme requires an agreed supervisor and departmental nomination. Select the scholarship option in the formal application and follow the scheme’s document instructions.",
+          "link": {
+            "label": "Scheme eligibility and instructions",
+            "url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/"
+          }
+        },
+        {
+          "title": "External and other scholarships",
+          "text": "Use Imperial’s funding information to find eligible schemes, then discuss project fit and any host or supervisor documents before the sponsor’s deadline.",
+          "link": {
+            "label": "Explore scholarship information",
+            "url": "https://www.imperial.ac.uk/students/fees-and-funding/postgraduate-funding/scholarships/"
+          }
+        }
+      ],
+      "dates": {
+        "title": "President’s PhD Scholarships · applicant deadlines · 2027–28",
+        "intro": "Use the official scholarship page for current applicant deadlines, eligibility and application instructions.",
+        "rows": [
+          {
+            "label": "Round 1",
+            "date": "2 November 2026",
+            "iso": "2026-11-02"
+          },
+          {
+            "label": "Round 2",
+            "date": "11 January 2027",
+            "iso": "2027-01-11"
+          },
+          {
+            "label": "Round 3",
+            "date": "1 March 2027",
+            "iso": "2027-03-01"
+          }
+        ],
+        "link": {
+          "label": "Check the current scholarship schedule",
+          "url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/"
+        }
+      },
+      "developmentTitle": "What you would work towards.",
+      "development": [
+        {
+          "title": "Frame and reproduce",
+          "text": "Build a critical literature map, reproduce a relevant baseline and define an answerable first question."
+        },
+        {
+          "title": "Develop and test",
+          "text": "Design a method or system, compare it fairly, and document uncertainty, failure modes and practical limitations."
+        },
+        {
+          "title": "Build an independent contribution",
+          "text": "Connect results into a coherent research argument, communicate them clearly and identify the next question."
+        }
+      ],
+      "enquirySubject": "PhD enquiry — [research area] — [intended start]",
+      "enquiryTemplate": "Dear Dr Zhang,\n\nI am interested in PhD research in [specific area], with a possible start in [period]. I am currently [degree/role and institution].\n\nAfter reading [relevant paper or project], I would like to investigate [focused question] because [motivation]. My relevant experience is [brief example and your contribution].\n\nI have attached my CV and included [report/code/portfolio link]. I am considering [funding route, or seeking advice on possible routes]. Imperial and this project appeal to me because [specific reasons]. My relevant application or offer-response deadlines are [dates, if applicable]. Would this direction be a potential fit for your group?\n\nBest wishes,\n[Name]",
+      "faqs": [
+        {
+          "question": "Do I need a fully developed proposal before contacting the lab?",
+          "answer": "A concise, informed question is a useful starting point. Explain your reasoning and relevant experience. The scope can develop through discussion; follow the department and funding scheme’s required format for the formal submission."
+        },
+        {
+          "question": "Is a published paper required for an initial enquiry?",
+          "answer": "For a lab enquiry, research potential can be shown through a dissertation, well-documented code, an experiment or a careful project report. Explain your own contribution. Formal admissions and scholarship criteria remain those of Imperial and the relevant scheme."
+        },
+        {
+          "question": "Can I apply from a different academic discipline?",
+          "answer": "Relevant research can draw on engineering, computing, physical sciences and bioengineering. Explain how your training connects to the proposed problem and check your qualifications against the department’s formal entry requirements."
+        },
+        {
+          "question": "Does a positive research discussion guarantee admission or funding?",
+          "answer": "No. A discussion establishes potential fit. Formal admission, supervision availability and any funding decision must be confirmed through the relevant Imperial and scholarship processes."
+        },
+        {
+          "question": "Should I email my referees’ letters to the lab?",
+          "answer": "Use the formal application system and the programme’s referee instructions. The initial enquiry can include your CV and links to your own work; referee submissions belong in the admissions process."
+        }
+      ],
+      "resources": [
+        {
+          "label": "Bioengineering PhD application page",
+          "url": "https://www.imperial.ac.uk/bioengineering/study/postgraduate-research/doctoral/apply/"
+        },
+        {
+          "label": "Writing a doctoral research proposal",
+          "url": "https://www.imperial.ac.uk/study/apply/postgraduate-doctoral/application-process/research-proposal/"
+        },
+        {
+          "label": "Imperial doctoral application process",
+          "url": "https://www.imperial.ac.uk/study/apply/postgraduate-doctoral/application-process/"
+        },
+        {
+          "label": "President’s PhD Scholarships",
+          "url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/"
+        },
+        {
+          "label": "Postgraduate scholarship information",
+          "url": "https://www.imperial.ac.uk/students/fees-and-funding/postgraduate-funding/scholarships/"
+        },
+        {
+          "label": "English-language requirements",
+          "url": "https://www.imperial.ac.uk/study/apply/english-language/"
+        }
+      ]
+    },
+    {
+      "slug": "mres",
+      "shortTitle": "MRes applications",
+      "kicker": "RESEARCH MASTER’S",
+      "title": "Build research skills through a focused project.",
+      "lead": "An MRes combines taught foundations with a substantial research project. The Medical Robotics and Image-Guided Intervention programme is a relevant route for students interested in robotics, sensing and medical technology.",
+      "routeLabel": "MRes in Medical Robotics and Image-Guided Intervention",
+      "routeSummary": "Apply to the Imperial programme, then discuss potential lab projects through the course’s project-allocation process and available supervision.",
+      "image": "/assets/illustrations/mres-application-route-2026e.svg",
+      "imageAlt": "MRes application route: choose the correct programme stream; submit the formal course application; complete admission and discuss available projects; undertake training and an allocated research project.",
+      "imageCaption": "Programme admission and lab-project allocation are distinct steps. An MRes is not an automatic route into a PhD.",
+      "fitTitle": "Turn your foundations into research experience.",
+      "fitText": "An MRes can help you test whether research is the right next step while developing a focused body of work. The aim is to move from understanding a method to designing an experiment, evaluating evidence and explaining what the results support.",
+      "fitCards": [
+        {
+          "title": "Learn across disciplines",
+          "text": "Connect relevant foundations in engineering, computing, science or medicine with a practical research question."
+        },
+        {
+          "title": "Develop a bounded project",
+          "text": "Work towards a clear question, a manageable method and an evaluation that can be completed within the programme."
+        },
+        {
+          "title": "Build a research portfolio",
+          "text": "Use a well-documented report, implementation or experimental study to show what you can investigate and communicate."
+        }
+      ],
+      "officialTitle": "Choose the programme and stream that match your background.",
+      "officialIntro": "The course page currently describes October 2027 entry. Use the official programme information for the current curriculum, fees and application instructions.",
+      "requirements": [
+        {
+          "title": "Core programme",
+          "text": "The published minimum is a 2:1 in Science, Engineering, Biomedical Science or Medicine, or the accepted international equivalent. The programme is one year full-time and includes an eight-month research project."
+        },
+        {
+          "title": "Clinical Robotics and AI stream",
+          "text": "This separate stream is designed for clinicians and medically trained researchers. Its minimum entry standard is an MBBS or recognised international equivalent. Check the correct stream before applying."
+        },
+        {
+          "title": "References and personal statement",
+          "text": "Imperial’s taught-postgraduate guidance requests two referees, including at least one academic referee. The other may be academic or, where relevant, professional. Use their professional email addresses and follow the course’s statement instructions."
+        },
+        {
+          "title": "English and international qualifications",
+          "text": "Check the course’s English-language level and Imperial’s accepted qualifications guidance. Course admission is assessed by Imperial, rather than through an informal lab enquiry."
+        }
+      ],
+      "officialLinks": [
+        {
+          "label": "Core MRes course and entry requirements",
+          "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/medical-robotics/"
+        },
+        {
+          "label": "Clinical Robotics and AI stream",
+          "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/clinical-robotics-ai/"
+        },
+        {
+          "label": "Imperial reference guidance",
+          "url": "https://www.imperial.ac.uk/study/apply/postgraduate-taught/application-process/reference/"
+        },
+        {
+          "label": "English-language requirements",
+          "url": "https://www.imperial.ac.uk/study/apply/english-language/"
+        }
+      ],
+      "preparationIntro": "These are lab preparation suggestions to help you discuss project fit. Follow the programme’s official document list and selection process when submitting your course application.",
+      "preparation": [
+        {
+          "title": "Connect your motivation to the course",
+          "items": [
+            "Explain why a research Master’s suits your next step and what you hope to learn.",
+            "Connect relevant modules and research interests to your existing experience.",
+            "Identify one or two application areas that interest you without treating a suggested topic as a confirmed project."
+          ]
+        },
+        {
+          "title": "Show your starting skills",
+          "items": [
+            "Prepare a concise CV and academic record or transcript.",
+            "Choose a relevant project, report, code sample or practical activity and describe your contribution.",
+            "Be specific about experience in programming, data analysis, mathematics, experiments or design; identify skills you would like to develop."
+          ]
+        },
+        {
+          "title": "Plan a useful project discussion",
+          "items": [
+            "Read a small number of relevant lab papers and prepare questions about their methods and limitations.",
+            "Describe a manageable task and a possible way to evaluate progress.",
+            "If you already hold a programme offer or are enrolled, state your programme, status and project-allocation timetable."
+          ]
+        },
+        {
+          "title": "Prepare the formal application",
+          "items": [
+            "Arrange referees and write a course-specific personal statement.",
+            "Use the official course page to check the application round and requested supporting documents.",
+            "Check tuition fees, living costs and any scholarship application separately before committing to a funding plan."
+          ]
+        }
+      ],
+      "processTitle": "From programme choice to a research project.",
+      "process": [
+        {
+          "title": "Choose the correct stream",
+          "text": "Compare the core MRes and Clinical Robotics and AI stream against your qualifications and aims."
+        },
+        {
+          "title": "Apply through Imperial",
+          "text": "Submit the course application in My Imperial with the required documents and referee details by the chosen application round."
+        },
+        {
+          "title": "Discuss project availability",
+          "text": "After or alongside the appropriate programme process, enquire about research fit. Projects depend on the course’s allocation arrangements, supervision and practical capacity."
+        },
+        {
+          "title": "Undertake the allocated project",
+          "text": "Develop the question with the project supervisors, agree milestones and evaluation, and document the work throughout the research period."
+        }
+      ],
+      "processSource": {
+        "label": "Official MRes course application information",
+        "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/medical-robotics/"
+      },
+      "fundingIntro": "Use the course page for the current tuition fee and Imperial’s funding pages to explore relevant awards. An MRes course place and funding are separate; check eligibility, coverage, deadline and any separate application for each scheme.",
+      "fundingCards": [
+        {
+          "title": "Course fees and costs",
+          "text": "Check the published fee for your entry year and fee status, together with the full study and living-cost plan. Refer to the official course page for any application fee and waiver information.",
+          "link": {
+            "label": "MRes fees and funding",
+            "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/medical-robotics/"
+          }
+        },
+        {
+          "title": "Master’s scholarships",
+          "text": "Look for awards that explicitly cover your programme, entry year and applicant circumstances. Verify each scheme’s deadline and whether a course application or offer is required.",
+          "link": {
+            "label": "Imperial scholarship information",
+            "url": "https://www.imperial.ac.uk/students/fees-and-funding/postgraduate-funding/scholarships/"
+          }
+        },
+        {
+          "title": "Future doctoral funding",
+          "text": "If you later want to pursue a PhD, prepare a separate research and funding application. Completing an MRes does not automatically provide a doctoral place or studentship.",
+          "internalLink": {
+            "label": "Explore the PhD application guide",
+            "url": "/msei_website/opportunities/phd/"
+          }
+        }
+      ],
+      "dates": {
+        "title": "Core MRes application rounds · October 2027 entry",
+        "intro": "Remaining published round closing dates, checked on 1 November 2026. The course states 23:59 UK time; later rounds depend on remaining availability.",
+        "rows": [
+          {
+            "label": "Round 2",
+            "date": "6 January 2027",
+            "iso": "2027-01-06"
+          },
+          {
+            "label": "Round 3",
+            "date": "10 March 2027",
+            "iso": "2027-03-10"
+          },
+          {
+            "label": "Round 4",
+            "date": "28 April 2027",
+            "iso": "2027-04-28"
+          }
+        ],
+        "link": {
+          "label": "Check the current MRes application rounds",
+          "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/medical-robotics/"
+        }
+      },
+      "developmentTitle": "A useful progression for the research project.",
+      "development": [
+        {
+          "title": "Build and reproduce",
+          "text": "Understand the relevant literature, learn the tools and reproduce a baseline or measurement procedure."
+        },
+        {
+          "title": "Investigate one question",
+          "text": "Define a focused experiment, collect or prepare the evidence, and compare the proposed approach with a suitable reference."
+        },
+        {
+          "title": "Explain what was learned",
+          "text": "Analyse uncertainty and limitations, preserve reproducible materials, and communicate the result in the project report and presentation."
+        }
+      ],
+      "enquirySubject": "MRes project enquiry — [programme/status] — [research area]",
+      "enquiryTemplate": "Dear Dr Zhang,\n\nI am [applying to / holding an offer for / enrolled on] [programme and stream] for [entry year]. I am interested in research on [specific area].\n\nMy relevant background is [degree/experience]. In [project or module], I worked on [brief description and your contribution]. After reading [lab paper/project], I would like to learn more about [focused research interest].\n\nI have attached my CV and included [report/code/portfolio link]. My project-allocation timetable is [if known]. Could you advise whether there may be a suitable project to discuss through the programme’s allocation process?\n\nBest wishes,\n[Name]",
+      "faqs": [
+        {
+          "question": "Do I apply to the MSEI Lab or to the MRes programme?",
+          "answer": "The formal application is to the Imperial programme. A lab enquiry helps you explore research interests and possible projects; it does not replace admission or the programme’s project-allocation process."
+        },
+        {
+          "question": "Is the Clinical Robotics and AI stream the same as the core MRes?",
+          "answer": "They are separate streams with different intended backgrounds and entry requirements. The clinical stream requires an MBBS or recognised equivalent; check the official pages before choosing your stream."
+        },
+        {
+          "question": "Can I secure a particular project before joining?",
+          "answer": "Treat a project discussion as an exploration of fit until the relevant programme and supervisors confirm the allocation. Project availability depends on the timetable, supervision and practical resources."
+        },
+        {
+          "question": "Can I join with limited experience of robotics or machine learning?",
+          "answer": "Explain the relevant strengths you bring and the skills you want to develop. Preparation can include a small, well-documented implementation or experiment. The programme’s published academic and English-language requirements still apply."
+        },
+        {
+          "question": "Does the MRes guarantee a PhD in the lab?",
+          "answer": "No. An MRes can provide useful research experience, but doctoral admission, supervision and funding require a separate application and decision."
+        },
+        {
+          "question": "I am already an Imperial student. How should I enquire?",
+          "answer": "Include your programme, current status, project period and allocation arrangements. Link to relevant work and describe the research area you would like to explore."
+        }
+      ],
+      "resources": [
+        {
+          "label": "Core Medical Robotics MRes",
+          "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/medical-robotics/"
+        },
+        {
+          "label": "Clinical Robotics and AI stream",
+          "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/clinical-robotics-ai/"
+        },
+        {
+          "label": "Master’s application process",
+          "url": "https://www.imperial.ac.uk/study/apply/postgraduate-taught/application-process/"
+        },
+        {
+          "label": "Personal statement guidance",
+          "url": "https://www.imperial.ac.uk/study/apply/postgraduate-taught/application-process/personal-statement/"
+        },
+        {
+          "label": "Reference requirements",
+          "url": "https://www.imperial.ac.uk/study/apply/postgraduate-taught/application-process/reference/"
+        },
+        {
+          "label": "International entry guidance",
+          "url": "https://www.imperial.ac.uk/study/apply/postgraduate-taught/entry-requirements/"
+        },
+        {
+          "label": "English-language requirements",
+          "url": "https://www.imperial.ac.uk/study/apply/english-language/"
+        },
+        {
+          "label": "Fees and funding information",
+          "url": "https://www.imperial.ac.uk/study/fees-and-funding/"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "email": "d.zhang17@imperial.ac.uk",
+    "name": "Dr Dandan Zhang",
+    "note": "In your initial enquiry, include the intended programme or visit, a focused research interest, your CV, relevant work and the proposed period. Formal admissions decisions are made through Imperial’s programme processes."
+  },
+  "otherRoutes": [
+    {
+      "title": "Current Imperial project students",
+      "text": "If you are enrolled on an MRes, MSc or MEng programme, include your course, project period and allocation process when enquiring about a project."
+    },
+    {
+      "title": "Visiting researchers and collaborators",
+      "text": "Describe the research question, home institution, intended visit or collaboration period, relevant expertise and the resources you would need to discuss."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Bioengineering PhD applications",
+      "url": "https://www.imperial.ac.uk/bioengineering/study/postgraduate-research/doctoral/apply/"
+    },
+    {
+      "label": "Medical Robotics MRes",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/medical-robotics/"
+    },
+    {
+      "label": "Clinical Robotics and AI MRes",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/clinical-robotics-ai/"
+    },
+    {
+      "label": "President’s PhD Scholarships",
+      "url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/"
+    },
+    {
+      "label": "Postgraduate scholarship information",
+      "url": "https://www.imperial.ac.uk/students/fees-and-funding/postgraduate-funding/scholarships/"
+    }
+  ],
+  "scholarships": {
+    "cycle": "DOCTORAL FUNDING",
+    "updated": "11 November 2026",
+    "title": "Explore PhD funding opportunities",
+    "intro": "Find current scholarship eligibility, applicant deadlines and funding coverage on Imperial’s official pages. Contact Dandan to discuss research fit and supervision availability.",
+    "officialLink": {
+      "label": "Official President’s PhD Scholarships guidance",
+      "url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/"
+    }
+  }
+}

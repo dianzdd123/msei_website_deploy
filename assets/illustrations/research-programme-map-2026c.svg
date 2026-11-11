@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="540" viewBox="0 0 1280 540" role="img" aria-labelledby="title desc">
+<title id="title">MSEI research programme: connected methods across physical settings</title><desc id="desc">Sensing, learning, shared control and embodiment design connect through physical interaction and evaluation. They are studied across contact-rich manipulation, medical and scientific manipulation, and optical and magnetic robotics. Specific methods and results differ by project.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#003E74"/><stop offset="1" stop-color="#002147"/></linearGradient><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#B69CE0" stroke-width="1.5"/></marker></defs>
+<rect width="1280" height="540" rx="20" fill="url(#bg)"/>
+<g font-family="Inter,Arial,Helvetica,sans-serif"><text x="54" y="50" fill="#D8C8F2" font-size="12" font-weight="700" letter-spacing="2">CONNECTED METHODS</text>
+<g fill="#164E7F" stroke="#426b82"><rect x="54" y="75" width="280" height="105" rx="13"/><rect x="354" y="75" width="280" height="105" rx="13"/><rect x="654" y="75" width="280" height="105" rx="13"/><rect x="954" y="75" width="272" height="105" rx="13"/></g>
+<g fill="#fff" font-size="21" font-weight="700"><text x="78" y="114">Sense physical state</text><text x="378" y="114">Learn transferable skills</text><text x="678" y="114">Adapt shared control</text><text x="978" y="114">Design capability</text></g>
+<g fill="#b5d1df" font-size="14"><text x="78" y="146">Touch · vision · microscopy</text><text x="378" y="146">Demonstration · interaction</text><text x="678" y="146">Human intent · feedback</text><text x="978" y="146">Materials · shape · actuation</text></g>
+<g stroke="#B69CE0" stroke-width="2" fill="none"><path d="M194 180v35h896v-35M494 180v35m300-35v35M640 215v26" marker-end="url(#arrow)"/></g>
+<rect x="340" y="252" width="600" height="66" rx="33" fill="#6B3FA0" stroke="#C2A5ED"/>
+<text x="640" y="293" text-anchor="middle" fill="#fff" font-size="21" font-weight="700">Physical interaction · evaluation · adaptation</text>
+<g stroke="#B69CE0" stroke-width="2" fill="none"><path d="M640 318v24H252v27" marker-end="url(#arrow)"/><path d="M640 342v27" marker-end="url(#arrow)"/><path d="M640 342h388v27" marker-end="url(#arrow)"/></g>
+<g fill="#003763" stroke="#4e7890"><rect x="54" y="380" width="372" height="105" rx="13"/><rect x="454" y="380" width="372" height="105" rx="13"/><rect x="854" y="380" width="372" height="105" rx="13"/></g>
+<g fill="#fff" font-size="21" font-weight="700"><text x="78" y="420">Contact-rich manipulation</text><text x="478" y="417">Medical &amp; scientific</text><text x="478" y="443">manipulation</text><text x="878" y="417">Optical &amp; magnetic</text><text x="878" y="443">robotics</text></g>
+<g fill="#b5d1df" font-size="13"><text x="78" y="451">Tactile sensors · grippers · robot arms</text><text x="478" y="468">Precision tools · haptics · image guidance</text><text x="878" y="468">Small-scale structures · external actuation</text></g>
+<text x="54" y="516" fill="#a5c3d4" font-size="12">EXPERIMENTAL SETTINGS — methods, physical scales and validation conditions differ between projects.</text></g></svg>

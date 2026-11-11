@@ -1,0 +1,956 @@
+{
+  "metadata": {
+    "title": "Optical and magnetic microrobotics",
+    "updated": "2026-11-08",
+    "description": "Illustrated research projects in optical manipulation, microscopy perception, magnetic navigation, shared autonomy and reconfigurable miniature robots."
+  },
+  "hero": {
+    "kicker": "MSEI LAB · MICROROBOTICS",
+    "title": "Optical and magnetic microrobotics",
+    "lead": "We design, observe and control small robots using light and magnetic fields. Our research connects physical embodiment, microscopy, learning and human interaction to make precise manipulation possible across different scales and environments.",
+    "figure": {
+      "src": "/assets/illustrations/microrobotics-2026c.webp",
+      "title": "Optical and magnetic microrobotics: a conceptual overview",
+      "alt": "Concept illustration of optical traps and magnetic fields guiding miniature grippers and a helical robot around particles inside a fluid chamber.",
+      "caption": "Conceptual overview of optical and magnetic actuation for small-scale manipulation.",
+      "credit": "AI-generated theme illustration; structures are not to scale.",
+      "kind": "concept",
+      "width": 1672,
+      "height": 941
+    }
+  },
+  "introduction": {
+    "title": "From a fabricated body to a useful manipulation capability",
+    "text": "A small robot’s motion depends on its geometry, the surrounding medium, the available field and what can be observed. We study these elements together: how to create controllable structures, infer their state from images, learn with limited data and decide how a human or controller should act.",
+    "note": "The projects below span optical microrobots, magnetic microrobots and related millirobot systems. Each project identifies its scale and evaluation setting; simulation, phantom experiments and physical manipulation answer different questions."
+  },
+  "groups": [
+    {
+      "id": "optical-manipulation",
+      "number": "01",
+      "title": "Optical manipulation and digital twins",
+      "description": "From distributed laser forces to interactive simulation: how robot geometry, trapping and feedback produce controlled motion.",
+      "projects": [
+        {
+          "id": "distributed-optical-control",
+          "name": "Distributed optical-force control",
+          "title": "Distributed force control for microrobot manipulation via planar multi‐spot optical tweezer",
+          "authors": [
+            "Dandan Zhang",
+            "Antoine Barbot",
+            "Benny Lo",
+            "Guang‐Zhong Yang"
+          ],
+          "year": "2020",
+          "venue": "Advanced Optical Materials",
+          "status": "Published",
+          "question": "How can planar laser traps control motion outside the microscope image plane?",
+          "approach": "Fabricated microrobot geometries convert forces from multiple optical traps into translation and rotation. Adjusting trap spacing and the distribution of laser power changes the force and torque balance.",
+          "evidence": "The study compares fabricated designs and demonstrates out-of-plane control and indirect manipulation of micro-objects using planar multi-spot optical tweezers.",
+          "scope": "Capabilities depend on robot geometry, trap configuration and the experimental medium.",
+          "figure": {
+            "src": "/assets/publication-figures/distributed-force-2026g.webp",
+            "alt": "Original concept figure showing planar laser spots, the microrobot rotation mechanism and six microrobot geometries.",
+            "caption": "Physical mechanism and microrobot design for out-of-plane optical control, Figure 1.",
+            "sourceUrl": "https://doi.org/10.1002/adom.202000543",
+            "kind": "paper",
+            "width": 1600,
+            "height": 712,
+            "credit": "Zhang et al. (2020), published by Wiley-VCH; Figure 1 extracted and resized.",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "licenseLabel": "CC BY 4.0",
+            "title": "Distributed optical-force control"
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adom.202000543"
+            }
+          ]
+        },
+        {
+          "id": "ot-gym",
+          "name": "Interactive OT Gym",
+          "title": "Interactive OT Gym: A Reinforcement Learning-Based Interactive Optical tweezer (OT)-Driven Microrobotics Simulation Platform",
+          "authors": [
+            "Zongcai Tan",
+            "Dandan Zhang"
+          ],
+          "year": "2025",
+          "venue": "IEEE ICRA 2025",
+          "status": "Published",
+          "question": "How can operators and learned policies cooperate in optical micromanipulation?",
+          "approach": "The simulation platform combines optical-field modelling, reinforcement learning, haptic interaction and context-dependent shared control for cooperative manipulation.",
+          "evidence": "The reported simulated cell-manipulation task achieved approximately 67% shorter completion time and 100% success under shared control, relative to the tested human-only and RL-only conditions.",
+          "scope": "These figures describe the study’s simulator and task protocol, not a clinical or general-purpose success rate.",
+          "figure": {
+            "src": "/assets/publication-figures/ot-gym-2026f.webp",
+            "alt": "A project overview illustrates an optical-tweezer simulation, reinforcement learning and haptic human-robot interaction.",
+            "caption": "Author project figure — the Interactive OT Gym platform.",
+            "sourceUrl": "https://github.com/dianzdd123/ICRA2025-OT-Gym",
+            "kind": "project",
+            "width": 1500,
+            "height": 898,
+            "title": "Interactive OT Gym",
+            "credit": "Zongcai Tan, Dandan Zhang (2025)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/pdf/2505.20751"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/ICRA2025-OT-Gym"
+            },
+            {
+              "label": "Project page",
+              "url": "https://sites.google.com/view/otgym"
+            }
+          ]
+        },
+        {
+          "id": "optical-digital-twin",
+          "name": "Visuo-haptic optical digital twin",
+          "title": "A Digital Twin Framework for Virtual Visuo-Haptic Teleoperation of Complex-Shaped Optical Microrobots",
+          "authors": [
+            "Zongcai Tan",
+            "Lan Wei",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "IEEE MARSS 2026",
+          "status": "Conference paper",
+          "question": "How can an operator feel interaction and trap stability in a virtual optical-microrobot task?",
+          "approach": "A ROS-connected bimanual interface links microscopy-based pose/depth estimation, microrobot motion simulation and model-based force rendering. Distributed manipulation modelling is combined with optical-force estimates.",
+          "evidence": "In simulated cell delivery, success increased from 30% to 80%. The standard deviations of contact-force and trap-centre-distance metrics fell by 53.2% and 55.2%, respectively.",
+          "scope": "Haptic cues are model-derived. These results establish virtual-task performance and consistency with the fitted model.",
+          "figure": {
+            "src": "/assets/publication-figures/optical-digital-twin-2026f.webp",
+            "alt": "A digital-twin framework links the haptic user interface, microscopy-based pose estimation, robot simulation and optical-force rendering.",
+            "caption": "Author project figure — visuo-haptic optical microrobot teleoperation.",
+            "sourceUrl": "https://github.com/Zongcai23/ot-haptic-feedback-digital-twin",
+            "kind": "project",
+            "width": 1500,
+            "height": 609,
+            "title": "Visuo-haptic optical digital twin",
+            "credit": "Zongcai Tan, Lan Wei, Dandan Zhang (2026)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2605.28448"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/ot-haptic-feedback-digital-twin"
+            },
+            {
+              "label": "Video",
+              "url": "https://drive.google.com/file/d/1mpAjNmRjuYFRDYTJD2euEBR9yDKwae_z/view?usp=sharing"
+            },
+            {
+              "label": "ROS 2 navigation",
+              "url": "https://github.com/dianzdd123/digital-twin-ros2-rl-navigation"
+            }
+          ],
+          "extraFigures": [
+            {
+              "src": "/assets/microrobotics/user_study_results.png",
+              "title": "Virtual-task evaluation",
+              "alt": "Plots comparing user-study metrics for the virtual visuo-haptic manipulation conditions.",
+              "caption": "Author-reported evaluation plots for the virtual-task study. Read the paper for metric definitions and experimental conditions.",
+              "credit": "Zongcai Tan, Lan Wei and Dandan Zhang (2026). Original project image; no alteration.",
+              "sourceUrl": "https://github.com/Zongcai23/ot-haptic-feedback-digital-twin/blob/main/assets/figures/user_study_results.png",
+              "width": 590,
+              "height": 860
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microscopy-perception",
+      "number": "02",
+      "title": "Microscopy, datasets and learning",
+      "description": "Depth and out-of-plane orientation change an object’s appearance. These studies connect physical imaging cues, data-efficient learning and reproducible evaluation.",
+      "projects": [
+        {
+          "id": "microscopic-pose-depth",
+          "name": "Microscopic pose and depth estimation",
+          "title": "Data-driven microscopic pose and depth estimation for optical microrobot manipulation",
+          "authors": [
+            "Dandan Zhang",
+            "Frank P-W Lo",
+            "Jian-Qing Zheng",
+            "Wenjia Bai",
+            "Guang-Zhong Yang",
+            "Benny Lo"
+          ],
+          "year": "2020",
+          "venue": "ACS Photonics",
+          "status": "Published",
+          "question": "What can a single microscope view reveal about three-dimensional microrobot state?",
+          "approach": "Image detection and a residual network estimate pose, while focus-derived features support Gaussian-process depth regression. Temporal filtering helps integrate estimates across observations.",
+          "evidence": "The work connects image appearance, robot orientation and depth through a calibrated perception pipeline for optical manipulation.",
+          "scope": "Pose-dependent imaging and calibration remain part of the measurement model; estimates are not direct force measurements.",
+          "figure": {
+            "src": "/assets/publication-figures/microscopic-depth-2026g.webp",
+            "alt": "Original processing diagram combining image detection, a residual neural network, Gaussian-process regression and a Kalman filter for microrobot pose and depth.",
+            "caption": "GPR–ResNet pose and depth estimation with few-shot calibration, Figure 5.",
+            "sourceUrl": "https://spiral.imperial.ac.uk/entities/publication/f303cc81-9ddc-48b1-bfcb-8dae7b606c96",
+            "kind": "paper",
+            "width": 1600,
+            "height": 924,
+            "credit": "Zhang et al. (2020), © American Chemical Society; Figure 5 from the accepted manuscript, extracted and resized.",
+            "title": "Microscopic pose and depth estimation"
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://core.ac.uk/download/pdf/424619168.pdf"
+            },
+            {
+              "label": "Video supplement",
+              "url": "https://pubs.acs.org/doi/10.1021/acsphotonics.0c00997"
+            }
+          ]
+        },
+        {
+          "id": "small-data-pose",
+          "name": "Sim-to-real learning with small datasets",
+          "title": "Micro-object pose estimation with sim-to-real transfer learning using small dataset",
+          "authors": [
+            "Dandan Zhang",
+            "Antoine Barbot",
+            "Florent Seichepine",
+            "Frank P-W Lo",
+            "Wenjia Bai",
+            "Guang-Zhong Yang",
+            "Benny Lo"
+          ],
+          "year": "2022",
+          "venue": "Communications Physics",
+          "status": "Published",
+          "question": "Can pose estimation work with limited labelled microscopy data?",
+          "approach": "Image translation narrows the simulation-to-experiment appearance gap. A learning-to-match embedding aligns samples with the same pose before a compact predictor estimates orientation.",
+          "evidence": "The study evaluates data-efficient pose learning for optical- and electron-microscope observations, including poses absent from the collected training examples.",
+          "scope": "The paper provides code and data on request. The later public sim-to-real repository is a separate release.",
+          "figure": {
+            "src": "/assets/publication-figures/pose-small-dataset-2026g.webp",
+            "alt": "Original figure showing generated and microscope images with a shared feature-embedding model for microrobot pose estimation.",
+            "caption": "Sim-to-real learning-to-match model, Figure 3.",
+            "sourceUrl": "https://www.nature.com/articles/s42005-022-00844-z",
+            "kind": "paper",
+            "width": 1600,
+            "height": 1032,
+            "credit": "Zhang et al. (2022); Figure 3 extracted from the publisher PDF and resized.",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "licenseLabel": "CC BY 4.0",
+            "title": "Sim-to-real learning with small datasets"
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://www.nature.com/articles/s42005-022-00844-z"
+            }
+          ]
+        },
+        {
+          "id": "otmr",
+          "name": "OTMR: an optical-microrobot benchmark",
+          "title": "A Dataset and Benchmarks for Deep Learning-Based Optical Microrobot Pose and Depth Perception",
+          "authors": [
+            "Lan Wei",
+            "Dandan Zhang"
+          ],
+          "year": "2025",
+          "venue": "IEEE MARSS 2025",
+          "status": "Published",
+          "question": "How can microscopy perception methods be compared on a shared dataset?",
+          "approach": "OTMR pairs diverse microrobot geometries with microscopy observations and benchmarks pose classification and depth regression across eight deep-learning architectures.",
+          "evidence": "The dataset contains 232,881 images, 18 microrobot types and 176 distinct poses. The study also examines how training-set size affects performance.",
+          "scope": "Preserve the released label definitions and split protocol when comparing models.",
+          "figure": {
+            "src": "/assets/publication-figures/optical-dataset-2026f.webp",
+            "alt": "A grid pairs CAD models and microscope images of different optical microrobot geometries.",
+            "caption": "Author project figure — optical microrobot geometries and observations.",
+            "sourceUrl": "https://lannwei.github.io/Optical-Microrobot-Database/",
+            "kind": "project",
+            "width": 1500,
+            "height": 598,
+            "title": "OTMR: an optical-microrobot benchmark",
+            "credit": "Lan Wei, Dandan Zhang (2025)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/pdf/2505.18303"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/Optical-Microrobot-Database"
+            },
+            {
+              "label": "Project page",
+              "url": "https://lannwei.github.io/Optical-Microrobot-Database/"
+            },
+            {
+              "label": "Dataset",
+              "url": "https://huggingface.co/datasets/Lan-2025/OpticalMicrorobot/tree/main"
+            }
+          ],
+          "tags": [
+            "Dataset",
+            "Pose classification",
+            "Depth regression"
+          ]
+        },
+        {
+          "id": "physics-sim2real",
+          "name": "Physics-informed sim-to-real augmentation",
+          "title": "Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation",
+          "authors": [
+            "Zongcai Tan",
+            "Lan Wei",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "IEEE ICRA 2026",
+          "status": "Published",
+          "question": "How can synthetic images retain depth-dependent optical appearance?",
+          "approach": "Wave-optics rendering and depth alignment provide physically informed inputs to GAN-based image translation, producing labelled microscopy-like images for pose training.",
+          "evidence": "The paper reports 35.6% higher SSIM than the compared AI-only approach and CNN pitch/roll accuracies of 93.9%/91.9% when trained on synthetic images.",
+          "scope": "Comparisons use the paper’s image-generation and pose-estimation protocols; public code and local optical parameters require configuration.",
+          "figure": {
+            "src": "/assets/publication-figures/pose-sim-to-real-2026f.webp",
+            "alt": "A pipeline connects microrobot CAD models, physics-based image rendering, image translation and pose estimation.",
+            "caption": "Author project figure — physics-informed sim-to-real pose estimation.",
+            "sourceUrl": "https://github.com/Zongcai23/Micro_Object_Sim2Real",
+            "kind": "project",
+            "width": 1500,
+            "height": 710,
+            "title": "Physics-informed sim-to-real augmentation",
+            "credit": "Zongcai Tan, Lan Wei, Dandan Zhang (2026)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2511.16494"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/Micro_Object_Sim2Real"
+            }
+          ]
+        },
+        {
+          "id": "adaptive-grid-depth",
+          "name": "Adaptive-grid depth estimation",
+          "title": "Physics-Informed Machine Learning with Adaptive Grids for Optical Microrobot Depth Estimation",
+          "authors": [
+            "Lan Wei",
+            "Lou Genoud",
+            "Dandan Zhang"
+          ],
+          "year": "2025",
+          "venue": "IEEE CBS 2025",
+          "status": "Published",
+          "question": "Can physical focus cues make depth learning more data-efficient?",
+          "approach": "CNN features are combined with focus measures such as image entropy, gradients and Laplacian responses. Finer grids cover the robot, while coarser grids cover background.",
+          "evidence": "The reported experiments reduce depth MSE by more than 60% against the evaluated baselines. With 20% of the data, the method outperformed a ResNet50 trained on the full dataset.",
+          "scope": "These are study-specific comparisons across the tested microrobot types; preprocessing and depth-label alignment matter.",
+          "figure": {
+            "src": "/assets/publication-figures/optical-depth-grids-2026f.webp",
+            "alt": "Rows compare microscopy views and CAD side views of optical microrobots at different focal depths.",
+            "caption": "Author-manuscript Fig. 2 — microrobot appearance across focal depths.",
+            "sourceUrl": "https://arxiv.org/abs/2509.02343",
+            "kind": "paper",
+            "width": 1500,
+            "height": 1157,
+            "title": "Adaptive-grid depth estimation",
+            "credit": "Lan Wei, Lou Genoud, Dandan Zhang (2025)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2509.02343"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/CBS2025"
+            }
+          ]
+        },
+        {
+          "id": "du-freqnet",
+          "name": "Du-FreqNet: depth-conditioned microscopy",
+          "title": "Dual-Control Frequency-Aware Diffusion Model for Depth-Dependent Optical Microrobot Microscopy Image Generation",
+          "authors": [
+            "Lan Wei",
+            "Zongcai Tan",
+            "Kangyi Lu",
+            "Jian-Qing Zheng",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "arXiv:2604.11680",
+          "status": "Preprint",
+          "question": "How can image generation reproduce both geometry and defocus patterns?",
+          "approach": "Two ControlNet branches encode three-dimensional point clouds and depth-specific mesh information. An adaptive Fourier-domain loss changes the frequency emphasis with distance from focus.",
+          "evidence": "The preprint reports controllable depth-dependent synthesis, 20.7% higher SSIM than its baselines and benefits for downstream pose/depth estimation, including unseen poses.",
+          "scope": "This is a preprint result. Image similarity and downstream estimation are distinct evaluation objectives.",
+          "figure": {
+            "src": "/assets/publication-figures/optical-diffusion-2026f.webp",
+            "alt": "A diffusion-model architecture uses geometric conditions, dual control branches and frequency-domain supervision.",
+            "caption": "Author-manuscript Fig. 2 — depth-conditioned microscopy image generation.",
+            "sourceUrl": "https://arxiv.org/abs/2604.11680",
+            "kind": "paper",
+            "width": 1500,
+            "height": 655,
+            "title": "Du-FreqNet: depth-conditioned microscopy",
+            "credit": "Lan Wei, Zongcai Tan, Kangyi Lu, Jian-Qing Zheng, Dandan Zhang (2026)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2604.11680"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magnetic-intelligence",
+      "number": "03",
+      "title": "Magnetic intelligence and reconfiguration",
+      "description": "Magnetic fields support contactless actuation. We investigate navigation, bimanual coordination, task-dependent assistance and the capabilities gained by changing the actuator or robot configuration.",
+      "projects": [
+        {
+          "id": "immersive-magnetic-navigation",
+          "name": "Immersive magnetic navigation",
+          "title": "Deep Reinforcement Learning-Based Semi-Autonomous Control for Magnetic Micro-robot Navigation with Immersive Manipulation",
+          "authors": [
+            "Yudong Mao",
+            "Dandan Zhang"
+          ],
+          "year": "2025",
+          "venue": "IEEE ICRA 2025",
+          "status": "Published",
+          "question": "How can human judgement and learned navigation share control in constrained channels?",
+          "approach": "A deep-RL controller is combined with mixed-reality manual interaction. The immersive view helps the operator interpret the environment and coordinate assistance.",
+          "evidence": "The study evaluates navigation efficiency, control error and robustness in simulated microvascular environments, comparing shared control with the tested alternatives.",
+          "scope": "Simulated microvascular navigation does not establish in-vivo performance.",
+          "figure": {
+            "src": "/assets/publication-figures/magnetic-navigation-2026f.webp",
+            "alt": "A magnetic microrobot navigation diagram combines immersive manual interaction with reinforcement-learning-based autonomous control.",
+            "caption": "Author-manuscript Fig. 1 — immersive semi-autonomous magnetic navigation.",
+            "sourceUrl": "https://arxiv.org/abs/2503.06359",
+            "kind": "paper",
+            "width": 1500,
+            "height": 872,
+            "title": "Immersive magnetic navigation",
+            "credit": "Yudong Mao, Dandan Zhang (2025)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/pdf/2503.06359"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/dianzdd123/DRL-MR-Microrobot"
+            }
+          ]
+        },
+        {
+          "id": "bi-cast",
+          "name": "Bi-CAST: bimanual shared control",
+          "title": "Context-Aware Adaptive Shared Control for Magnetically-Driven Bimanual Dexterous Micromanipulation",
+          "authors": [
+            "Yongchen Wang",
+            "Kangyi Lu",
+            "Lan Wei",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "arXiv:2603.14388",
+          "status": "Preprint",
+          "question": "How should two magnetic actuators share control with a human operator?",
+          "approach": "Visual history, spatial risk and task state adjust each manipulator’s authority continuously. Bidirectional haptics combines operator-intent recognition with risk-dependent guidance.",
+          "evidence": "Eight participants completed three vascular-phantom tasks. Against the reported baselines, the best reductions reached 76.6% in collisions and 44.4% in NASA-TLX workload; trajectory smoothness improved by 25.9%.",
+          "scope": "The preprint reports a phantom user study. “Up to” improvements depend on the comparison and task.",
+          "figure": {
+            "src": "/assets/publication-figures/magnetic-shared-control-2026f.webp",
+            "alt": "A shared-control diagram connects human haptic input, path planning, task observations and bimanual magnetic micromanipulation.",
+            "caption": "Author-manuscript Fig. 1 — context-aware bimanual shared control.",
+            "sourceUrl": "https://arxiv.org/abs/2603.14388",
+            "kind": "paper",
+            "width": 1500,
+            "height": 867,
+            "title": "Bi-CAST: bimanual shared control",
+            "credit": "Yongchen Wang, Kangyi Lu, Lan Wei, Dandan Zhang (2026)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2603.14388"
+            }
+          ]
+        },
+        {
+          "id": "mag-vla",
+          "name": "Mag-VLA: language-guided magnetic manipulation",
+          "title": "Mag-VLA: Vision-Language-Action Model for Bimanual Magnetically Actuated Microrobot Manipulation",
+          "authors": [
+            "Yongchen Wang",
+            "Kangyi Lu",
+            "Lan Wei",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "IEEE MARSS 2026",
+          "status": "Conference paper",
+          "question": "Can visual observations and language organise a multi-stage magnetic manipulation task?",
+          "approach": "A vision–language backbone is adapted for coordinated two-arm actuation. A phase classifier and an Action Chunking Transformer decoder organise approach and transport trajectories.",
+          "evidence": "Physical-robot experiments report 90% approach success across three task configurations. Transport success was 80%, 70% and 50% as task difficulty increased.",
+          "scope": "Approach and transport are separate outcomes; the result does not imply 90% end-to-end task success.",
+          "figure": {
+            "src": "/assets/publication-figures/mag-vla-2026f.webp",
+            "alt": "A microscope observes magnetically actuated microrobots controlled by two micromanipulators, with approach and transport phases.",
+            "caption": "Author-manuscript Fig. 1 — Mag-VLA setup and manipulation pipeline.",
+            "sourceUrl": "https://arxiv.org/abs/2605.28486",
+            "kind": "paper",
+            "width": 1500,
+            "height": 1225,
+            "title": "Mag-VLA: language-guided magnetic manipulation",
+            "credit": "Yongchen Wang, Kangyi Lu, Lan Wei, Dandan Zhang (2026)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2605.28486"
+            }
+          ]
+        },
+        {
+          "id": "dexterousmag",
+          "name": "DexterousMag: reconfiguring the actuator",
+          "title": "DexterousMag: A Reconfigurable Electromagnetic Actuation System for Miniature Helical Robot",
+          "authors": [
+            "Jialin Lin",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "arXiv:2603.14396",
+          "status": "Preprint",
+          "question": "When should the field-generating hardware change its geometry?",
+          "approach": "A robot-arm-assisted three-coil system adjusts its polar angle. Finite-element field and gradient libraries expose the trade-off between deeper reach and stronger near-surface capability.",
+          "evidence": "The preprint evaluates deep translation, planar tracking and three-dimensional lifting, and compares online geometry scheduling with fixed configurations.",
+          "scope": "This study reconfigures the external actuation system; it is distinct from changing the miniature robot’s body.",
+          "figure": {
+            "src": "/assets/publication-figures/dexterousmag-2026f.webp",
+            "alt": "A robot-arm-mounted electromagnetic actuation system changes coil-group geometry around a miniature helical robot.",
+            "caption": "Author-manuscript Fig. 1 — the reconfigurable DexterousMag actuation concept.",
+            "sourceUrl": "https://arxiv.org/abs/2603.14396",
+            "kind": "paper",
+            "width": 1500,
+            "height": 870,
+            "title": "DexterousMag: reconfiguring the actuator",
+            "credit": "Jialin Lin, Dandan Zhang (2026)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2603.14396"
+            }
+          ]
+        },
+        {
+          "id": "modular-millirobots",
+          "name": "Modular magnetic millirobots",
+          "title": "Design and Control of Modular Magnetic Millirobots for Multimodal Locomotion and Shape Reconfiguration",
+          "authors": [
+            "Erik Garcia Oyono",
+            "Jialin Lin",
+            "Dandan Zhang"
+          ],
+          "year": "2026",
+          "venue": "IEEE ICRA 2026",
+          "status": "Conference paper",
+          "question": "Can small magnetic modules assemble into shapes suited to different tasks?",
+          "approach": "Free, fixed and gripper modules combine uniform and gradient field inputs for navigation, flip-and-walk motion, assembly and cargo handling. Visual feedback and A* planning support navigation.",
+          "evidence": "Chain-to-gripper transformations succeeded in 90% of reported trials; chain-to-square changes were less consistent, exposing a dependence on module geometry.",
+          "scope": "These are millimetre-scale modules. Their reliability and actuation conditions should not be extrapolated directly to micrometre-scale robots.",
+          "figure": {
+            "src": "/assets/publication-figures/magnetic-millirobots-2026f.webp",
+            "alt": "Modular magnetic millirobot geometries and a diagram of navigation, self-assembly and shape reconfiguration.",
+            "caption": "Author-manuscript Fig. 1 — modular magnetic millirobot design and behaviours.",
+            "sourceUrl": "https://arxiv.org/abs/2602.19346",
+            "kind": "paper",
+            "width": 1161,
+            "height": 1091,
+            "title": "Modular magnetic millirobots",
+            "credit": "Erik Garcia Oyono, Jialin Lin, Dandan Zhang (2026)."
+          },
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2602.19346"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fabrication": {
+    "id": "magnetic-fabrication",
+    "title": "Rapid, parallel fabrication of magnetic robot bodies",
+    "paperTitle": "Rapid Parallel Fabrication and Control of Diverse Microrobotic Structures with Magnetic Functionalization",
+    "authors": [
+      "Nitirak Rayabphand",
+      "Neshika Wijewardhane",
+      "Norah-Jane Prendergast",
+      "James P. K. Armstrong",
+      "Dandan Zhang",
+      "Sabine Hauert"
+    ],
+    "venue": "Artificial Life (online ahead of print)",
+    "year": "2026",
+    "description": "The Magni-DOME platform combines projection-based photolithography with magnetic patterning to fabricate and characterise magnetically functionalised hydrogel structures in one setup. The study demonstrates parallel production of different shapes and sizes and examines the behaviour of selected designs.",
+    "scope": "This is a fabrication-and-actuation contribution; it does not establish a single optimal body for every manipulation task.",
+    "url": "https://doi.org/10.1162/ARTL.a.489",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42821709/"
+  },
+  "platforms": [
+    {
+      "src": "/assets/research/research1.png",
+      "title": "Optical manipulation and microscopy",
+      "alt": "Laboratory optical-tweezer setup accompanied by microrobot manipulation and perception diagrams.",
+      "caption": "Laboratory archive: optical setup and programme schematic. The image combines apparatus and explanatory panels.",
+      "credit": "MSEI / Intelligent Robotics Across Scales laboratory image archive.",
+      "sourceUrl": "https://www.intelligentrobotics-acrossscales.com/intelligent-microrobotics",
+      "width": 3235,
+      "height": 1929
+    },
+    {
+      "src": "/assets/research/research2.png",
+      "title": "Magnetic actuation workspace",
+      "alt": "A laboratory coil assembly, camera and sample workspace.",
+      "caption": "Laboratory archive: magnetic actuation and visual observation hardware. This photograph is not the DexterousMag device figure.",
+      "credit": "MSEI / Intelligent Robotics Across Scales laboratory image archive.",
+      "sourceUrl": "https://www.intelligentrobotics-acrossscales.com/intelligent-microrobotics",
+      "width": 633,
+      "height": 619
+    },
+    {
+      "src": "/assets/microrobotics/digital_twin_scene.png",
+      "title": "Inside the optical digital twin",
+      "alt": "Simulation scene showing static and dynamic obstacles, a cell, an optical microrobot and optical traps in a fluid workspace.",
+      "caption": "Author repository image of the digital-twin scene. This is a simulation view.",
+      "credit": "Zongcai Tan, Lan Wei and Dandan Zhang (2026). Original project image; no alteration.",
+      "sourceUrl": "https://github.com/Zongcai23/ot-haptic-feedback-digital-twin/blob/main/assets/figures/digital_twin_scene.png",
+      "width": 689,
+      "height": 321
+    },
+    {
+      "src": "/assets/microrobotics/control_signal_flow.png",
+      "title": "How the control signals connect",
+      "alt": "Signal-flow diagram connecting two haptic devices, filtered hand commands, microrobot trap positions and rendered optical forces.",
+      "caption": "Signal-flow diagram from the optical visuo-haptic project repository.",
+      "credit": "Zongcai Tan, Lan Wei and Dandan Zhang (2026). Original project image; no alteration.",
+      "sourceUrl": "https://github.com/Zongcai23/ot-haptic-feedback-digital-twin/blob/main/assets/figures/control_signal_flow.png",
+      "width": 1056,
+      "height": 307
+    }
+  ],
+  "reviews": [
+    {
+      "id": "optical-fabrication-review",
+      "name": "Fabrication and optical microrobotics",
+      "title": "Fabrication and optical manipulation of micro-robots for biomedical applications",
+      "authors": [
+        "Dandan Zhang",
+        "Yunxiao Ren",
+        "Antoine Barbot",
+        "Florent Seichepine",
+        "Benny Lo",
+        "Zhuo-Chen Ma",
+        "Guang-Zhong Yang"
+      ],
+      "year": "2022",
+      "venue": "Matter",
+      "status": "Review",
+      "question": "",
+      "approach": "Materials, fabrication, optical actuation and biomedical manipulation.",
+      "evidence": "",
+      "scope": "A starting point for understanding how robot design and optical control constrain one another.",
+      "figure": {
+        "src": "/assets/publication-figures/fabrication-2026g.webp",
+        "alt": "Original overview diagram connecting light type, control mode, microrobot scale and materials with perception and manipulation.",
+        "caption": "Scope of optical microrobotics for biomedical applications, Figure 1.",
+        "sourceUrl": "https://publiweb.femto-st.fr/tntnet/entries/19272/documents/author/data",
+        "kind": "paper",
+        "width": 1600,
+        "height": 1188,
+        "credit": "Zhang et al. (2022); Figure 1 from the author manuscript, extracted and resized.",
+        "title": "Fabrication and optical microrobotics"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://www.cell.com/matter/fulltext/S2590-2385(22)00402-7"
+        }
+      ]
+    },
+    {
+      "id": "medical-microrobotics-review",
+      "name": "Medical microrobotics: opportunities and barriers",
+      "title": "Advanced medical micro-robotics for early diagnosis and therapeutic interventions",
+      "authors": [
+        "Dandan Zhang",
+        "Thomas E Gorochowski",
+        "Lucia Marucci",
+        "Hyun-Taek Lee",
+        "Bruno Gil",
+        "Bing Li",
+        "Sabine Hauert",
+        "Eric Yeatman"
+      ],
+      "year": "2023",
+      "venue": "Frontiers in Robotics and AI",
+      "status": "Review",
+      "question": "",
+      "approach": "Robot classes, enabling techniques and routes towards diagnosis and intervention.",
+      "evidence": "",
+      "scope": "Use this review to distinguish laboratory demonstrations from translational requirements.",
+      "figure": {
+        "src": "/assets/publication-figures/medical-microrobotics-review-2026g.webp",
+        "alt": "The original overview groups medical microrobotics into challenges, enabling techniques, robot categories and biomedical applications.",
+        "caption": "Original paper Fig. 1 — challenges, techniques, categories and applications of medical microrobotics.",
+        "sourceUrl": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2022.1086043/full",
+        "kind": "paper",
+        "width": 1301,
+        "height": 625,
+        "credit": "Zhang et al., Frontiers in Robotics and AI 9, 1086043 (2023).",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseLabel": "CC BY 4.0",
+        "title": "Medical microrobotics: opportunities and barriers"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://www.frontiersin.org/articles/10.3389/frobt.2022.1086043/full"
+        }
+      ]
+    },
+    {
+      "id": "magnetic-cargo-review",
+      "name": "Magnetic cargo delivery",
+      "title": "Magnetic microrobots for in vivo cargo delivery: A review",
+      "authors": [
+        "Jialin Lin",
+        "Qingzheng Cong",
+        "Dandan Zhang"
+      ],
+      "year": "2024",
+      "venue": "Micromachines",
+      "status": "Review",
+      "question": "",
+      "approach": "Actuation, cargo loading/release, localisation, navigation and retrieval.",
+      "evidence": "",
+      "scope": "A systems view of delivery: reaching a target is only one part of the problem.",
+      "figure": {
+        "src": "/assets/publication-figures/magnetic-cargo-review-2026g.webp",
+        "alt": "Figure 1 organizes magnetic microrobot cargo delivery into actuation, structure, cargo loading and release, tracking, navigation, degradation and retrieval.",
+        "caption": "Original paper Fig. 1 — the engineering framework for magnetic microrobot cargo delivery.",
+        "sourceUrl": "https://www.mdpi.com/2072-666X/15/5/664",
+        "kind": "paper",
+        "width": 1599,
+        "height": 1600,
+        "credit": "Lin, Cong and Zhang, Micromachines 15, 664 (2024).",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseLabel": "CC BY 4.0",
+        "title": "Magnetic cargo delivery"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://www.mdpi.com/2072-666X/15/5/664"
+        }
+      ]
+    },
+    {
+      "id": "cross-domain-review",
+      "name": "Cross-domain embodied intelligence",
+      "title": "Embodied Cross-Domain Intelligence in Biomedical Microrobots: A Review",
+      "authors": [
+        "Zongcai Tan",
+        "Lan Wei",
+        "Kangyi Lu",
+        "Dandan Zhang"
+      ],
+      "year": "2026",
+      "venue": "Cyborg and Bionic Systems, 7:0546",
+      "status": "Review",
+      "question": "",
+      "approach": "Connections among physical, biological, computational and human contributions to microrobotics.",
+      "evidence": "",
+      "scope": "An organising framework across studies, rather than one experimentally validated universal controller.",
+      "figure": {
+        "src": "/assets/publication-figures/cross-domain-review-2026g.webp",
+        "alt": "The review overview connects physical, biological, computational and human intelligence around cross-domain biomedical microrobotics.",
+        "caption": "Original review overview — four domains of intelligence in biomedical microrobots, from the authors’ project page.",
+        "sourceUrl": "https://nuounuou.github.io/Embodied-Cross-Domain-Intelligence-in-Biomedical-Microrobots-A-Review/",
+        "kind": "project",
+        "width": 1600,
+        "height": 987,
+        "credit": "Tan, Wei, Lu and Zhang, Cyborg and Bionic Systems (2026).",
+        "title": "Cross-domain embodied intelligence"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.34133/cbsystems.0546"
+        },
+        {
+          "label": "Project",
+          "url": "https://nuounuou.github.io/Embodied-Cross-Domain-Intelligence-in-Biomedical-Microrobots-A-Review/"
+        }
+      ]
+    },
+    {
+      "id": "micro-dexterity-review",
+      "name": "Micro-dexterity in biological manipulation",
+      "title": "Micro-Dexterity in Biological Micromanipulation: Embodiment, Perception, and Control",
+      "authors": [
+        "Kangyi Lu",
+        "Lan Wei",
+        "Zongcai Tan",
+        "Dandan Zhang"
+      ],
+      "year": "2026",
+      "venue": "arXiv:2604.11640",
+      "status": "Review · preprint",
+      "question": "",
+      "approach": "How embodiment, perception and control support manipulation primitives across biological settings.",
+      "evidence": "",
+      "scope": "A preprint review that separates object, environment and operating-mode constraints.",
+      "figure": {
+        "src": "/assets/publication-figures/micro-dexterity-2026g.webp",
+        "alt": "Figure 1 compares macroscale dexterity with microscale physics and environments, then maps manipulation primitives, target objects and operational modes.",
+        "caption": "Original preprint Fig. 1 — the capability space of micro-dexterity.",
+        "sourceUrl": "https://arxiv.org/abs/2604.11640",
+        "kind": "paper",
+        "width": 1600,
+        "height": 686,
+        "credit": "Lu, Wei, Tan and Zhang, arXiv:2604.11640 (2026).",
+        "title": "Micro-dexterity in biological manipulation"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2604.11640"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Optical-Microrobot-Database",
+      "description": "OTMR perception baselines and project materials.",
+      "requirements": "18-geometry dataset and model code; obtain the image data through the linked dataset.",
+      "url": "https://github.com/dianzdd123/Optical-Microrobot-Database",
+      "guideUrl": "https://github.com/dianzdd123/Optical-Microrobot-Database/blob/main/docs/REUSE.md"
+    },
+    {
+      "name": "Micro_Object_Sim2Real",
+      "description": "Physics-informed rendering, paired translation and pose estimation.",
+      "requirements": "Configure local inputs, optical parameters and the historical GPU environment.",
+      "url": "https://github.com/dianzdd123/Micro_Object_Sim2Real",
+      "guideUrl": "https://github.com/dianzdd123/Micro_Object_Sim2Real/blob/main/docs/REUSE.md"
+    },
+    {
+      "name": "CBS2025",
+      "description": "Adaptive-grid depth estimation and image baselines.",
+      "requirements": "Includes local feature extraction and the preserved original Colab workflow.",
+      "url": "https://github.com/dianzdd123/CBS2025",
+      "guideUrl": "https://github.com/dianzdd123/CBS2025/blob/main/docs/REUSE.md"
+    },
+    {
+      "name": "ICRA2025-OT-Gym",
+      "description": "Optical-tweezer simulation and interactive control releases.",
+      "requirements": "Archive-based release; match Isaac/ROS dependencies before running.",
+      "url": "https://github.com/dianzdd123/ICRA2025-OT-Gym",
+      "guideUrl": "https://github.com/dianzdd123/ICRA2025-OT-Gym/blob/main/docs/REUSE.md"
+    },
+    {
+      "name": "ot-haptic-feedback-digital-twin",
+      "description": "Geomagic haptic interface and pose/depth notebook.",
+      "requirements": "ROS 1, proprietary device drivers and local calibration are required.",
+      "url": "https://github.com/dianzdd123/ot-haptic-feedback-digital-twin",
+      "guideUrl": "https://github.com/dianzdd123/ot-haptic-feedback-digital-twin/blob/main/docs/REUSE.md"
+    },
+    {
+      "name": "digital-twin-ros2-rl-navigation",
+      "description": "Isaac scene, saved DQN policy and deployment tools.",
+      "requirements": "ROS 2 companion; use offline CLI help before connecting the simulator.",
+      "url": "https://github.com/dianzdd123/digital-twin-ros2-rl-navigation",
+      "guideUrl": "https://github.com/dianzdd123/digital-twin-ros2-rl-navigation/blob/main/docs/REUSE.md"
+    },
+    {
+      "name": "DRL-MR-Microrobot",
+      "description": "Immersive magnetic navigation and shared-control experiments.",
+      "requirements": "Requires the matching Unity/MRTK, simulator and device configuration.",
+      "url": "https://github.com/dianzdd123/DRL-MR-Microrobot",
+      "guideUrl": "https://github.com/dianzdd123/DRL-MR-Microrobot/blob/main/docs/REUSE.md"
+    }
+  ],
+  "dataset": {
+    "title": "Start with the OTMR data",
+    "description": "232,881 images across 18 microrobot types and 176 poses, with pose-classification and depth-regression benchmarks.",
+    "url": "https://huggingface.co/datasets/Lan-2025/OpticalMicrorobot/tree/main",
+    "paperUrl": "https://arxiv.org/abs/2505.18303"
+  },
+  "comparison": [
+    {
+      "platform": "Optical microrobots",
+      "actuation": "Distributed optical traps",
+      "observations": "Microscope images, pose/depth estimates",
+      "questions": "Geometry-to-force relationships, trap stability and indirect manipulation"
+    },
+    {
+      "platform": "Magnetic microrobots",
+      "actuation": "External magnets or electromagnetic fields",
+      "observations": "Visual feedback and task/environment state",
+      "questions": "Navigation, bimanual actuation and operator assistance"
+    },
+    {
+      "platform": "Miniature helical robots",
+      "actuation": "Reconfigurable three-coil electromagnetic system",
+      "observations": "Tracking and calibrated field/gradient models",
+      "questions": "Trade-offs between depth reach, field strength and lifting"
+    },
+    {
+      "platform": "Modular millirobots",
+      "actuation": "Uniform and gradient magnetic fields",
+      "observations": "Vision-based navigation and assembly state",
+      "questions": "Locomotion, reconfiguration reliability and cargo handling"
+    }
+  ],
+  "outlook": [
+    {
+      "title": "Measure the limits of a configuration",
+      "text": "Map which motions and interactions a robot–actuator combination can reliably produce, and how those capabilities change with geometry, depth and environment."
+    },
+    {
+      "title": "Connect prediction to physical evidence",
+      "text": "Use new observations to check image models and digital twins, including where a model becomes uncertain or fails to transfer."
+    },
+    {
+      "title": "Decide when adaptation is enough",
+      "text": "Compare controller adaptation with physical reconfiguration under matched tasks, including the time and reliability costs of changing shape or actuation geometry."
+    }
+  ],
+  "provenanceNote": "Figures are drawn from the linked author manuscripts, project repositories and laboratory archive. Captions retain source and licence information where supplied. Reported numbers belong to their cited studies; they are not measurements from this website or guarantees for a new setup."
+}

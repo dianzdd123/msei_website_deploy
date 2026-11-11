@@ -1,0 +1,57 @@
+/* Scholarship information uses the existing Imperial Blue and purple palette. */
+.sc-section { min-width: 0; }
+.sc-notice { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 30px; align-items: center; padding: 30px; margin-bottom: 30px; border: 1px solid #c8d7e9; border-left: 5px solid #6b3fa0; border-radius: 12px; background: #f3f6fb; }
+.sc-notice h3 { margin: 0 0 12px; font-size: 25px; color: #003e74; }
+.sc-notice p:not(.rd-eyebrow) { margin: 0; color: #435e75; font-size: 14px; }
+.sc-date-highlight { padding: 22px; border-radius: 9px; background: #003e74; color: white; text-align: center; }
+.sc-date-highlight time { display: block; font-size: 25px; font-weight: 750; line-height: 1.4; }
+.sc-date-highlight span { display: block; font-size: 12px; color: #e3d6f5; margin-top: 8px; }
+.sc-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.sc-card { padding: 30px; border: 1px solid #dce5ef; border-radius: 12px; display: flex; flex-direction: column; }
+.sc-card h3 { font-size: 28px; line-height: 1.25; color: #003e74; margin: 0 0 14px; }
+.sc-card p:not(.rd-eyebrow) { color: #435e75; font-size: 15px; }
+.sc-card > a { margin-top: auto; }
+.sc-table-heading { margin-top: 42px; }
+.sc-table-heading h3 { color: #003e74; font-size: 28px; margin: 0 0 12px; }
+.sc-table-heading p { font-size: 14px; color: #435e75; margin: 0 0 16px; }
+.sc-table-scroll { max-width: 100%; overflow-x: auto; border: 1px solid #dce5ef; border-radius: 10px; }
+.sc-table-scroll:focus-visible { outline: 3px solid #6b3fa0; outline-offset: 4px; }
+.sc-table { width: 100%; min-width: 650px; border-collapse: collapse; font-size: 14px; color: #23445e; }
+.sc-table caption { padding: 16px 18px; text-align: left; font-size: 12px; line-height: 1.65; color: #506d82; background: #f8fafd; }
+.sc-table th, .sc-table td { padding: 18px; text-align: left; vertical-align: top; border-bottom: 1px solid #dce5ef; line-height: 1.6; }
+.sc-table thead th { background: #003e74; color: white; font-size: 12px; font-weight: 700; }
+.sc-table tbody th { color: #003e74; min-width: 100px; }
+.sc-table tbody tr:last-child > * { border-bottom: 0; }
+.sc-next-round { background: #f2f6fb; }
+.sc-badge, .sc-status { display: block; margin-top: 7px; font-size: 11px; line-height: 1.5; }
+.sc-badge { width: fit-content; color: #573280; background: #e9dff5; border-radius: 4px; padding: 3px 7px; }
+.sc-status { color: #586c7e; }
+.sc-revised { color: #643797; font-weight: 700; }
+.sc-guidance { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 26px; margin-top: 34px; }
+.sc-guidance article { border-top: 2px solid #6b3fa0; padding-top: 20px; }
+.sc-guidance h3 { color: #003e74; font-size: 21px; margin: 0 0 12px; line-height: 1.3; }
+.sc-guidance p { font-size: 14px; color: #435e75; margin: 0; }
+.sc-actions { align-items: center; gap: 22px; margin-block: 30px; }
+.sc-internal { border: 1px solid #cbd9e8; border-radius: 10px; }
+.sc-internal summary { cursor: pointer; padding: 22px; color: #003e74; font-size: 15px; font-weight: 750; line-height: 1.65; }
+.sc-internal-content { padding: 0 22px 22px; }
+.sc-internal-content > p { font-size: 14px; color: #435e75; }
+.sc-internal-content > h3 { font-size: 22px; color: #003e74; margin-top: 30px; }
+.sc-internal-table { min-width: 960px; }
+.sc-source-note { font-size: 11px; color: #506d82; margin-top: 20px; }
+.sc-source-note a { color: #003e74; text-decoration: underline; }
+.sc-scroll-hint { display: none; }
+.sc-quick-notice { padding-block: 24px; border-bottom: 1px solid #dce5ef; color: #003e74; }
+.sc-quick-notice > strong { font-size: 18px; }
+.sc-quick-notice p { font-size: 14px; margin-block: 8px; }
+@media (max-width: 760px) {
+  .sc-notice, .sc-cards, .sc-guidance { grid-template-columns: 1fr; }
+  .sc-notice, .sc-card { padding: 22px; }
+  .sc-date-highlight { text-align: left; }
+  .sc-notice { gap: 20px; }
+  .sc-card h3, .sc-table-heading h3 { font-size: 25px; }
+  .sc-scroll-hint { display: block; color: #506d82; font-size: 11px; }
+  .sc-internal summary { padding: 18px; }
+  .sc-internal-content { padding: 0 14px 18px; }
+  .sc-actions .rd-button { white-space: normal; text-align: center; }
+}

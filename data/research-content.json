@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "title": "Research",
+    "description": "Adaptive physical intelligence for dexterous manipulation across scales: sensing, transferable learning, shared autonomy and embodiment, studied through tactile robotics, medical robotics and optical and magnetic microrobotics.",
+    "lastUpdated": "2026-11-08"
+  },
+  "sections": {
+    "researchareas": {
+      "subsections": [
+        {
+          "name": "Research Area",
+          "data": {
+            "title": "Optical Micromanipulation",
+            "description": "We use optical tweezers to manipulate microscopic objects and fabricated microrobots. Our work combines optical-force modelling, microscopy-based perception and human–robot interaction to study controlled manipulation at small scales.",
+            "image": "/assets/research/research1.png",
+            "project": [
+              "Platforms: Multi-spot optical tweezers, fabricated microrobots and interactive simulation.",
+              "Perception: Pose and depth estimation from microscopy, including physics-informed learning and sim-to-real data generation.",
+              "Control: Learning-based manipulation, digital-twin modelling and virtual visuo-haptic teleoperation.",
+              "Application focus: Precise handling of microscopic objects for biomedical research.",
+              "Recent work: <a href=\"https://arxiv.org/abs/2511.16494\" target=\"_blank\" rel=\"noopener noreferrer\">ICRA 2026 sim-to-real perception</a>; <a href=\"https://arxiv.org/abs/2604.11680\" target=\"_blank\" rel=\"noopener noreferrer\">Du-FreqNet preprint</a>; <a href=\"https://arxiv.org/abs/2605.28448\" target=\"_blank\" rel=\"noopener noreferrer\">virtual visuo-haptic teleoperation preprint</a>."
+            ]
+          }
+        },
+        {
+          "name": "Research Area",
+          "data": {
+            "title": "Magnetic Micromanipulation",
+            "description": "We investigate how external magnetic fields can actuate and steer miniature robots. Our research connects actuation design, coordinated manipulation and adaptive shared control for navigation and interaction in constrained environments.",
+            "image": "/assets/research/research2.png",
+            "project": [
+              "Platforms: Electromagnetic coils, permanent magnets and robot-assisted magnetic actuation.",
+              "Embodiment: Magnetic functionalisation, robot fabrication and reconfigurable actuation systems.",
+              "Control: Bimanual coordination, haptic guidance and learning from visual and language instructions.",
+              "Application focus: Microscale transport and biomedical manipulation research.",
+              "Recent work: <a href=\"https://doi.org/10.1162/ARTL.a.489\" target=\"_blank\" rel=\"noopener noreferrer\">magnetic microrobot fabrication</a>; <a href=\"https://arxiv.org/abs/2603.14396\" target=\"_blank\" rel=\"noopener noreferrer\">DexterousMag preprint</a>; <a href=\"https://arxiv.org/abs/2605.28486\" target=\"_blank\" rel=\"noopener noreferrer\">Mag-VLA preprint</a>."
+            ]
+          }
+        },
+        {
+          "name": "Research Area",
+          "data": {
+            "title": "Robot-Assisted Microsurgery and Micromanipulation",
+            "description": "We develop perception and control methods for precise manipulation with externally actuated tools, including micromanipulators and microsurgical robots. We study how visual feedback, motion scaling and shared autonomy can support reliable operation.",
+            "image": "/assets/research/research3.png",
+            "project": [
+              "Platforms: Precision micromanipulators, piezoelectric positioning stages and robot-assisted microsurgery systems.",
+              "Perception: Multi-pipette localisation and image-based state estimation for patch-clamp workflows.",
+              "Interaction: Digital-twin teleoperation, adaptive motion scaling and human–robot shared control.",
+              "Application focus: Patch-clamp research, microsurgical training and delicate biological manipulation.",
+              "Recent work: <a href=\"https://arxiv.org/abs/2504.01044\" target=\"_blank\" rel=\"noopener noreferrer\">multi-pipette localisation (IROS 2025)</a>; <a href=\"https://arxiv.org/abs/2604.11640\" target=\"_blank\" rel=\"noopener noreferrer\">micro-dexterity review preprint</a>."
+            ]
+          }
+        }
+      ]
+    },
+    "collaborations": {
+      "subsections": [
+        {
+          "name": "Collaboration",
+          "data": {
+            "name": "Imperial College London",
+            "link": "https://www.imperial.ac.uk"
+          }
+        },
+        {
+          "name": "Collaboration",
+          "data": {
+            "name": "University of Bristol",
+            "link": "https://www.bristol.ac.uk"
+          }
+        }
+      ]
+    },
+    "vision": {
+      "headline": "Adaptive physical intelligence for dexterous manipulation across scales",
+      "lead": "We investigate how sensing, learning, control and robot design can work together to make dexterous manipulation adaptable to changing tasks and physical conditions.",
+      "question": "How can sensing, learning, control and embodiment be coupled to make dexterous manipulation adaptive?",
+      "statement": "Our goal is to develop robots that perceive physical interactions, adapt their behaviour and assist people in precise manipulation. We connect learning algorithms with the mechanics of sensors, tools and actuators, and evaluate these ideas through contact-rich tasks, medical robotics and scientific instrumentation.",
+      "directionNote": "Our four research themes connect tactile manipulation, human–robot shared control, and optical and magnetic microrobotics. Results from these platforms guide the next questions we investigate."
+    },
+    "themes": [
+      {
+        "id": "sensing",
+        "number": "01",
+        "kicker": "SENSE",
+        "title": "Sensing and physical-state inference",
+        "question": "What can robots infer from touch and images?",
+        "description": "We combine tactile sensor design, multimodal learning and microscopy-based perception to estimate contact, material properties and object state. Our studies connect visual–tactile fusion and sensor-side computation with cross-sensor benchmarking and data-efficient pose and depth estimation.",
+        "methods": [
+          "Multimodal tactile sensing",
+          "Cross-sensor evaluation and adaptation",
+          "Microscopy and sim-to-real perception"
+        ],
+        "evidence": [
+          {
+            "name": "ViTacTip",
+            "venue": "IEEE Transactions on Robotics",
+            "year": "2025",
+            "status": "Published",
+            "url": "https://doi.org/10.1109/TRO.2025.3526296",
+            "summary": "A compact sensor combining visual, proximity and tactile information, with cross-modality interpretation and systematic benchmarking."
+          },
+          {
+            "name": "TacVerse",
+            "venue": "Advanced Robotics Research",
+            "year": "2026",
+            "status": "Published",
+            "url": "https://doi.org/10.1002/adrr.70169",
+            "summary": "A multisensor tactile dataset and benchmark that measures sensor shift, representation learning and few-shot adaptation."
+          },
+          {
+            "name": "Small-data micro-object pose estimation",
+            "venue": "Communications Physics",
+            "year": "2022",
+            "status": "Published",
+            "url": "https://www.nature.com/articles/s42005-022-00844-z",
+            "summary": "Simulation, image translation and feature learning support pose estimation from limited experimental microscopy data."
+          }
+        ],
+        "nextStep": "Extend physical-state estimation to changing sensors and contact conditions, with clearer estimates of uncertainty."
+      },
+      {
+        "id": "learning",
+        "number": "02",
+        "kicker": "LEARN",
+        "title": "Transferable and data-efficient skill learning",
+        "question": "How can skills transfer with limited new data?",
+        "description": "We develop learning methods that use structure in tasks, sensing and robot interaction to improve adaptation. Examples include one-shot imitation learning for pouring, multimodal diffusion policies for coordinated manipulation, and tactile skills transferred from simulation to physical robots.",
+        "methods": [
+          "Imitation and reinforcement learning",
+          "Multimodal action generation",
+          "Simulation-to-reality transfer"
+        ],
+        "evidence": [
+          {
+            "name": "One-shot domain-adaptive imitation learning",
+            "venue": "IEEE Transactions on Automation Science and Engineering",
+            "year": "2024",
+            "status": "Published",
+            "url": "https://doi.org/10.1109/TASE.2022.3220728",
+            "summary": "Progressive learning transfers a pouring skill to changed scenes and objects using limited new demonstration data."
+          },
+          {
+            "name": "ADM-DP",
+            "venue": "ICRA",
+            "year": "2026",
+            "status": "Accepted conference paper",
+            "url": "https://arxiv.org/abs/2602.21622",
+            "summary": "A diffusion policy adaptively combines visual, tactile and spatial information for coordinated multi-agent manipulation."
+          },
+          {
+            "name": "Bi-Touch",
+            "venue": "IEEE Robotics and Automation Letters",
+            "year": "2023",
+            "status": "Published",
+            "url": "https://doi.org/10.1109/LRA.2023.3295991",
+            "summary": "A collaborative study of bimanual tactile skills learned in simulation and transferred to physical robot arms."
+          }
+        ],
+        "nextStep": "Improve adaptation across tasks and embodiments while measuring the real data and interaction needed for transfer."
+      },
+      {
+        "id": "shared-autonomy",
+        "number": "03",
+        "kicker": "ADAPT",
+        "title": "Adaptive control and shared autonomy",
+        "question": "How should assistance adapt to the task and operator?",
+        "description": "We study how robots and people can share control during precise manipulation. Context-aware assistance, adaptive motion scaling, digital twins and haptic feedback connect human intent with the physical demands of a task. We evaluate these methods in robotic surgery, teleoperation and magnetic micromanipulation.",
+        "methods": [
+          "Context-aware control allocation",
+          "Digital twins and haptic interfaces",
+          "Adaptive motion scaling"
+        ],
+        "evidence": [
+          {
+            "name": "Context-aware surgical shared control",
+            "venue": "ICRA",
+            "year": "2022",
+            "status": "Published",
+            "url": "https://doi.org/10.1109/ICRA46639.2022.9812379",
+            "summary": "Simulator-learned motions and context-dependent assistance are evaluated in user studies on a surgical research robot."
+          },
+          {
+            "name": "Digital twins with haptic teleoperation",
+            "venue": "IEEE Robotics and Automation Letters",
+            "year": "2023",
+            "status": "Published",
+            "url": "https://doi.org/10.1109/LRA.2023.3325784",
+            "summary": "Mixed-reality teleoperation combines kinaesthetic and wearable tactile feedback, with user studies of the interface."
+          },
+          {
+            "name": "Adaptive microsurgical motion scaling",
+            "venue": "ICRA",
+            "year": "2024",
+            "status": "Published",
+            "url": "https://doi.org/10.1109/ICRA57147.2024.10611009",
+            "summary": "Offline reinforcement learning and damping control adapt motion scaling for robot-assisted microsurgery research."
+          }
+        ],
+        "nextStep": "Develop assistance that responds to task uncertainty and changing interaction, with explicit evaluation of operator workload and physical performance."
+      },
+      {
+        "id": "embodiment",
+        "number": "04",
+        "kicker": "DESIGN",
+        "title": "Embodiment and actuation design",
+        "question": "How does physical design shape capability?",
+        "description": "We investigate how materials, sensor geometry and actuation determine what a robot can sense and do. Our work includes inverse design of tactile elastomers, integrated tactile grippers, distributed optical-force control and modular magnetic robots. Physical design and control are developed together to enable new forms of manipulation.",
+        "methods": [
+          "Inverse material and sensor design",
+          "Optical and magnetic actuation",
+          "Modular robot design and reconfiguration"
+        ],
+        "evidence": [
+          {
+            "name": "i-Tac",
+            "venue": "Advanced Intelligent Systems",
+            "year": "2026",
+            "status": "Published",
+            "url": "https://doi.org/10.1002/aisy.202501200",
+            "summary": "Inverse design links target optical and mechanical properties to printable tactile-elastomer compositions."
+          },
+          {
+            "name": "Distributed optical-force control",
+            "venue": "Advanced Optical Materials",
+            "year": "2020",
+            "status": "Published",
+            "url": "https://doi.org/10.1002/adom.202000543",
+            "summary": "Microrobot geometry and distributed laser-force allocation enable multi-axis manipulation with planar optical tweezers."
+          },
+          {
+            "name": "Modular magnetic millirobots",
+            "venue": "ICRA",
+            "year": "2026",
+            "status": "Accepted conference paper",
+            "url": "https://arxiv.org/abs/2602.19346",
+            "summary": "Magnetic modules demonstrate locomotion, assembly, shape changes and cargo manipulation at the millimetre scale."
+          }
+        ],
+        "nextStep": "Study how changes to morphology and actuation can complement learning and control for new manipulation demands."
+      }
+    ],
+    "platforms": [
+      {
+        "id": "contact-rich",
+        "title": "Contact-rich robotic manipulation",
+        "description": "Tactile sensors, grippers and robot arms provide experimental settings for studying contact, material properties, skill transfer and coordinated action.",
+        "image": "/assets/illustrations/tactile-learning-2026c.webp",
+        "alt": "Conceptual illustration of tactile sensing and robot manipulation.",
+        "caption": "AI-generated concept illustration of tactile perception; the inset is not experimental data.",
+        "examples": [
+          "ViTacTip, PixelTac and MagicGripper",
+          "One-shot pouring and multimodal diffusion policies",
+          "Bimanual tactile manipulation"
+        ]
+      },
+      {
+        "id": "medical-scientific",
+        "title": "Medical robotics and scientific instrumentation",
+        "description": "Surgical research robots, haptic interfaces and image-guided micromanipulators allow us to study precise interaction, shared autonomy and practical bottlenecks in experimental workflows.",
+        "image": "/assets/research/research3.png",
+        "alt": "A micromanipulation research setup with robotic positioning stages, instruments and an anatomical model.",
+        "caption": "A micromanipulation research setup with an anatomical model.",
+        "examples": [
+          "Adaptive surgical shared control and motion scaling",
+          "Digital-twin teleoperation with haptic feedback",
+          "Multi-pipette localisation for patch-clamp research"
+        ]
+      },
+      {
+        "id": "optical-magnetic",
+        "title": "Optical and magnetic microrobotics",
+        "description": "Optical tweezers and magnetic actuation systems let us explore how robot shape, force generation, microscopy and control interact at small scales.",
+        "image": "/assets/illustrations/microrobotics-2026c.webp",
+        "alt": "Conceptual illustration of optical and magnetic manipulation at small scales.",
+        "caption": "AI-generated concept illustration; structures are not to scale.",
+        "examples": [
+          "Optical micro-object pose estimation and force control",
+          "Magnetic navigation and shared micromanipulation",
+          "Modular magnetic reconfiguration at the millimetre scale"
+        ]
+      }
+    ],
+    "featuredWork": [
+      {
+        "name": "ViTacTip",
+        "title": "Design and Benchmarking of a Multimodality Sensor for Robotic Manipulation With GAN-Based Cross-Modality Interpretation",
+        "theme": "Sensing and physical-state inference",
+        "venue": "IEEE Transactions on Robotics",
+        "year": "2025",
+        "status": "Published",
+        "url": "https://doi.org/10.1109/TRO.2025.3526296",
+        "summary": "A compact sensor combining visual, proximity and tactile information, with cross-modality interpretation and systematic benchmarking."
+      },
+      {
+        "name": "Small-data micro-object pose estimation",
+        "title": "Micro-object pose estimation with sim-to-real transfer learning using small dataset",
+        "theme": "Sensing and physical-state inference",
+        "venue": "Communications Physics",
+        "year": "2022",
+        "status": "Published",
+        "url": "https://www.nature.com/articles/s42005-022-00844-z",
+        "summary": "Simulation, image translation and feature learning support pose estimation from limited experimental microscopy data."
+      },
+      {
+        "name": "ADM-DP",
+        "title": "ADM-DP: Adaptive Dynamic Modality Diffusion Policy through Vision-Tactile-Graph Fusion for Multi-Agent Manipulation",
+        "theme": "Transferable and data-efficient skill learning",
+        "venue": "ICRA",
+        "year": "2026",
+        "status": "Accepted conference paper",
+        "url": "https://arxiv.org/abs/2602.21622",
+        "summary": "A diffusion policy adaptively combines visual, tactile and spatial information for coordinated multi-agent manipulation."
+      },
+      {
+        "name": "Context-aware surgical shared control",
+        "title": "Human-Robot Shared Control for Surgical Robot Based on Context-Aware Sim-to-Real Adaptation",
+        "theme": "Adaptive control and shared autonomy",
+        "venue": "ICRA",
+        "year": "2022",
+        "status": "Published",
+        "url": "https://doi.org/10.1109/ICRA46639.2022.9812379",
+        "summary": "Simulator-learned motions and context-dependent assistance are evaluated in user studies on a surgical research robot."
+      },
+      {
+        "name": "i-Tac",
+        "title": "i-Tac: Inverse Design of 3D-Printed Tactile Elastomers with Tuneable Optical and Mechanical Properties",
+        "theme": "Embodiment and actuation design",
+        "venue": "Advanced Intelligent Systems",
+        "year": "2026",
+        "status": "Published",
+        "url": "https://doi.org/10.1002/aisy.202501200",
+        "summary": "Inverse design links target optical and mechanical properties to printable tactile-elastomer compositions."
+      },
+      {
+        "name": "Modular magnetic millirobots",
+        "title": "Design and Control of Modular Magnetic Millirobots for Multimodal Locomotion and Shape Reconfiguration",
+        "theme": "Embodiment and actuation design",
+        "venue": "ICRA",
+        "year": "2026",
+        "status": "Accepted conference paper",
+        "url": "https://arxiv.org/abs/2602.19346",
+        "summary": "Magnetic modules demonstrate locomotion, assembly, shape changes and cargo manipulation at the millimetre scale."
+      }
+    ],
+    "nextDirections": [
+      {
+        "title": "Predictive models of physical interaction",
+        "description": "We aim to connect perception with models that anticipate contact, deformation and the consequences of action, while identifying where their predictions remain uncertain."
+      },
+      {
+        "title": "Learning across sensors and embodiments",
+        "description": "Future work will investigate how representations and skills can transfer between different sensor designs, robot bodies and tasks with limited additional data."
+      },
+      {
+        "title": "Robotic tools for scientific experiments",
+        "description": "Building on precision manipulation and scientific instrumentation, we aim to make experimental workflows more reproducible and explore how robots can support informative measurements."
+      }
+    ],
+    "openResources": [
+      {
+        "name": "Optical Microrobot Database",
+        "description": "Pose and depth perception baselines, model code and project materials for optical microrobotics.",
+        "url": "https://github.com/dianzdd123/Optical-Microrobot-Database"
+      },
+      {
+        "name": "Interactive OT Gym",
+        "description": "Optical-tweezer simulation environments and code for reinforcement learning, haptic interaction and shared-control experiments.",
+        "url": "https://github.com/dianzdd123/ICRA2025-OT-Gym"
+      },
+      {
+        "name": "Patch-clamp multi-pipette localisation",
+        "description": "Research implementation of image enhancement and coarse-to-fine learning for multi-pipette localisation.",
+        "url": "https://github.com/dianzdd123/Patch-Clamp-Localisation"
+      },
+      {
+        "name": "ADM-DP",
+        "description": "Policy implementation and training scripts for adaptive vision–tactile–graph fusion in multi-agent manipulation.",
+        "url": "https://github.com/dianzdd123/ADM_DP"
+      },
+      {
+        "name": "TacEvo — architecture evolution",
+        "description": "LLM-guided tactile architecture search and supplementary material; release checks identify currently missing dataset adapters and seed architectures.",
+        "url": "https://github.com/dianzdd123/TacEvo"
+      },
+      {
+        "name": "Tac-VGNN — tactile graphs",
+        "description": "Voronoi-graph tactile pose learning, example images and notebooks; includes corrected training utilities and a reuse guide.",
+        "url": "https://github.com/dianzdd123/Tac-VGNN"
+      },
+      {
+        "name": "Optical microrobot digital twin — ROS 2 navigation",
+        "description": "Isaac Sim scene, DQN checkpoint and ROS 2 deployment code, with offline CLI checks and simulator setup guidance.",
+        "url": "https://github.com/dianzdd123/digital-twin-ros2-rl-navigation"
+      },
+      {
+        "name": "Optical microrobot digital twin — haptic interface",
+        "description": "ROS 1 Geomagic interface and pose/depth perception notebook; device drivers, calibration and simulator integration are required.",
+        "url": "https://github.com/dianzdd123/ot-haptic-feedback-digital-twin"
+      },
+      {
+        "name": "Shallow-vessel palpation — simulation and AI",
+        "description": "Calibrated Taichi digital twin, tactile GNN learning and evaluation; Docker workflow and external data bundle documented.",
+        "url": "https://github.com/dianzdd123/shallow-vessel-palpation-simulator-and-AI"
+      },
+      {
+        "name": "Shallow-vessel palpation — robot data collection",
+        "description": "DOBOT Magician E6 experiment control and synchronised tactile/kinematic capture; physical collection requires the calibrated hardware setup.",
+        "url": "https://github.com/dianzdd123/shallow-vessel-palpation-robot-control"
+      }
+    ],
+    "sources": [
+      {
+        "label": "ViTacTip · IEEE Transactions on Robotics / King’s College London",
+        "url": "https://kclpure.kcl.ac.uk/portal/en/publications/design-and-benchmarking-of-a-multimodality-sensor-for-robotic-man/"
+      },
+      {
+        "label": "PixelTac · Communications Engineering",
+        "url": "https://www.nature.com/articles/s44172-026-00770-w"
+      },
+      {
+        "label": "TacVerse · Advanced Robotics Research",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adrr.70169"
+      },
+      {
+        "label": "Micro-object pose estimation · Communications Physics",
+        "url": "https://www.nature.com/articles/s42005-022-00844-z"
+      },
+      {
+        "label": "One-shot imitation learning · University of Bristol",
+        "url": "https://research-information.bris.ac.uk/en/publications/one-shot-domain-adaptive-imitation-learning-via-progressive-learn/"
+      },
+      {
+        "label": "ADM-DP · ICRA 2026 author manuscript",
+        "url": "https://arxiv.org/abs/2602.21622"
+      },
+      {
+        "label": "Bi-Touch · University of Bristol",
+        "url": "https://research-information.bris.ac.uk/en/publications/bi-touch-bimanual-tactile-manipulation-with-sim-to-real-deep-rein/"
+      },
+      {
+        "label": "Context-aware surgical shared control · University of Bristol",
+        "url": "https://research-information.bris.ac.uk/en/publications/human-robot-shared-control-for-surgical-robot-based-on-context-aw/"
+      },
+      {
+        "label": "i-Tac · Advanced Intelligent Systems",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.202501200"
+      },
+      {
+        "label": "Distributed optical-force control · Imperial repository",
+        "url": "https://spiral.imperial.ac.uk/entities/publication/dfadef47-02a7-4ab9-8deb-94dee185897d"
+      },
+      {
+        "label": "Modular magnetic millirobots · ICRA 2026 author manuscript",
+        "url": "https://arxiv.org/abs/2602.19346"
+      },
+      {
+        "label": "Multi-pipette localisation · author manuscript",
+        "url": "https://arxiv.org/abs/2504.01044"
+      }
+    ],
+    "figures": {
+      "framework": {
+        "image": "/assets/illustrations/adaptive-physical-intelligence-2026e.svg",
+        "mobileImage": "/assets/illustrations/adaptive-physical-intelligence-2026e-mobile.svg",
+        "width": 1280,
+        "height": 720,
+        "title": "Four coupled questions, one physical interaction",
+        "alt": "Sensing physical state, learning useful behaviours, adapting action and assistance, and designing physical capability all connect through physical interaction. Contact, motion and observation inform these coupled research questions.",
+        "caption": "An explanatory map of the research programme. Sensing, learning, control and physical design inform one another through interaction; this is a synthesis of the research themes, not a single completed general-purpose system."
+      },
+      "evidence": {
+        "image": "/assets/illustrations/research-evidence-guide-2026e.svg",
+        "mobileImage": "/assets/illustrations/research-evidence-guide-2026e-mobile.svg",
+        "width": 1280,
+        "height": 540,
+        "title": "Read the evidence in its experimental context",
+        "alt": "A reading guide for research: identify the task and conditions, examine the comparison, inspect the measurements and outcomes, and consider the supported scope and next question.",
+        "caption": "A guide to reading the linked papers. Experimental platforms, data, comparators and evaluation criteria vary by study; the figure proposes questions for the reader rather than claiming that every project uses the same protocol."
+      }
+    }
+  }
+}

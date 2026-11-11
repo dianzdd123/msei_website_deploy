@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="740" viewBox="0 0 680 740" role="img" aria-labelledby="title desc">
+<title id="title">From question to application</title>
+<desc id="desc">PhD · Bioengineering. 1: Find research fit. Read relevant work and identify a focused question. 2: Discuss supervision. Explore project scope, availability and a possible funding route. 3: Apply through Imperial. Follow Bioengineering’s process and the scheme’s instructions. 4: Complete selection. Interview where shortlisted; meet formal offer conditions.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0 0L6 3L0 6" fill="none" stroke="#6B3FA0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="680" height="740" rx="20" fill="#F6F8FC"/>
+<path d="M0 20Q0 0 20 0H660Q680 0 680 20V128H0Z" fill="#003E74"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="34" y="45" font-size="16" font-weight="700" letter-spacing="1.3" fill="#DECFF3">PhD · Bioengineering</text>
+<text x="34" y="91" font-size="33" font-weight="750" letter-spacing="-1" fill="#FFFFFF">From question to application</text>
+<rect x="30" y="151" width="620" height="108" rx="13" fill="#FFFFFF" stroke="#D9E4EF"/>
+<circle cx="73" cy="190" r="24" fill="#003E74"/>
+<text x="73" y="196" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="750">01</text>
+<text x="117" y="183" font-size="27" font-weight="750" letter-spacing="-.45" fill="#003E74">Find research fit</text>
+<text x="117" y="214" font-size="22" fill="#506D82">Read relevant work and identify</text>
+<text x="117" y="242" font-size="22" fill="#506D82">a focused question.</text>
+<path d="M73 261V271" stroke="#6B3FA0" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="30" y="276" width="620" height="108" rx="13" fill="#FFFFFF" stroke="#D9E4EF"/>
+<circle cx="73" cy="315" r="24" fill="#003E74"/>
+<text x="73" y="321" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="750">02</text>
+<text x="117" y="308" font-size="27" font-weight="750" letter-spacing="-.45" fill="#003E74">Discuss supervision</text>
+<text x="117" y="339" font-size="22" fill="#506D82">Explore project scope, availability</text>
+<text x="117" y="367" font-size="22" fill="#506D82">and a possible funding route.</text>
+<path d="M73 386V396" stroke="#6B3FA0" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="30" y="401" width="620" height="108" rx="13" fill="#FFFFFF" stroke="#D9E4EF"/>
+<circle cx="73" cy="440" r="24" fill="#003E74"/>
+<text x="73" y="446" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="750">03</text>
+<text x="117" y="433" font-size="27" font-weight="750" letter-spacing="-.45" fill="#003E74">Apply through Imperial</text>
+<text x="117" y="464" font-size="22" fill="#506D82">Follow Bioengineering’s process</text>
+<text x="117" y="492" font-size="22" fill="#506D82">and the scheme’s instructions.</text>
+<path d="M73 511V521" stroke="#6B3FA0" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="30" y="526" width="620" height="108" rx="13" fill="#FFFFFF" stroke="#D9E4EF"/>
+<circle cx="73" cy="565" r="24" fill="#6B3FA0"/>
+<text x="73" y="571" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="750">04</text>
+<text x="117" y="558" font-size="27" font-weight="750" letter-spacing="-.45" fill="#003E74">Complete selection</text>
+<text x="117" y="589" font-size="22" fill="#506D82">Interview where shortlisted;</text>
+<text x="117" y="617" font-size="22" fill="#506D82">meet formal offer conditions.</text>
+<text x="34" y="677" font-size="21" font-weight="650" fill="#6B3FA0">Supervisor support, admission and funding</text>
+<text x="34" y="704" font-size="20" fill="#506D82">are confirmed through their respective processes.</text>
+</g></svg>
