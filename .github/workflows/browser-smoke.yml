@@ -1,0 +1,36 @@
+name: Browser smoke - MSEI research pages
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  browser-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test dependencies
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Render all site pages and verify navigation
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/msei-serve.log 2>&1 &
+          sleep 2
+          node scripts/smoke_browser.mjs
+      - name: Upload screenshots on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: msei-browser-failures
+          path: artifacts/browser-smoke/
+          if-no-files-found: ignore
