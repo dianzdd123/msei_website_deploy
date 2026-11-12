@@ -34,7 +34,7 @@ const routes = [
   { slug: 'capabilities/', title: /Physical platforms/i, selector: '.lp-platform', count: 3 },
   { slug: 'impact/', title: /physical interaction/i, selector: '.lp-section', count: 3 },
   { slug: 'outputs/', title: /Evidence, publications/i, selector: '.lp-card', count: 3 },
-  { slug: 'publications/', title: /Publications/i, selector: '.lp-pub', count: 30 },
+  { slug: 'publications/', title: /Research outputs and evidence/i, selector: '.lp-pub', count: 30 },
   { slug: 'opportunities/', title: /Join the research/i, selector: '.lp-card', count: 3 },
   { slug: 'opportunities/phd/', title: /original research contribution/i, selector: '.lp-section', count: 4 },
   { slug: 'opportunities/mres/', title: /Build research skills/i, selector: '.lp-section', count: 4 },
