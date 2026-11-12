@@ -24,8 +24,9 @@ const sector = (kicker, title, description, id, children) =>
     ]),
     children
   ]);
-const smallCard = (title, description, href, label = 'Explore →', extra = '') =>
+const smallCard = (title, description, href, label = 'Explore →', extra = '', picture = null) =>
   el('article', { class: 'lp-card ' + extra }, [
+    picture ? figure(picture.image,picture.alt,picture.caption,'lp-project-figure') : null,
     el('h3', null, title), el('p', null, description),
     href ? link(label, href, 'lp-card-link') : null
   ]);
@@ -43,8 +44,9 @@ const appCards = applications => el('div', { class: 'lp-grid lp-grid-two' },
       link('Explore research →', urls.research + '/' + app.slug, 'lp-card-link')
     ])
   ])));
-const projectCards = papers => el('div', { class: 'lp-grid lp-grid-three' },
+const projectCards = papers => el('div', { class: 'lp-grid lp-grid-two lp-project-grid' },
   (papers || []).map(paper => el('article', { class: 'lp-project' }, [
+    paper.figure ? figure(paper.figure.src, paper.figure.alt, paper.figure.caption, 'lp-project-figure') : null,
     el('p', { class: 'lp-label' }, paper.theme || 'RESEARCH EVIDENCE'),
     el('h3', null, paper.name || paper.title),
     el('p', null, paper.summary),
@@ -101,8 +103,8 @@ function home(d) {
       ])),
     sector('03 / LABORATORY CAPABILITIES', 'From tactile contact to micro-scale actuation.',
       'The programme connects sensing, interaction and experimental systems. Platform descriptions are research contexts, not offers of equipment access.',
-      'platforms', el('div', { class: 'lp-grid lp-grid-three' },
-        platforms.map(p => smallCard(p.title, p.description, urls.capabilities, 'Explore capabilities →')))),
+      'platforms', el('div', { class: 'lp-grid lp-grid-two' },
+        platforms.map(p => smallCard(p.title, p.description, urls.capabilities, 'Explore capabilities →','',p)))),
     sector('04 / RESEARCH SETTINGS', 'Testing ideas across physical scales.',
       'Explore the applications where scientific methods are investigated and their limitations are tested.',
       'applications', appCards(apps)),
@@ -162,13 +164,14 @@ function capabilities(d) {
       [['Explore research applications', urls.research], ['Discuss collaboration', urls.contact, true]]),
     subnav([['Platforms','platforms'],['Methods','methods'],['Availability','availability']]),
     sector('01 / RESEARCH PLATFORMS', 'Experimental settings.',
-      'Published descriptions of platform families and the questions they enable. Images are captioned as photographs or conceptual illustrations.',
-      'platforms', el('div', { class: 'lp-stack' }, (s.platforms || []).map(p =>
+      'Original laboratory photographs and author-manuscript figures show the hardware and experimental settings behind the research.',
+      'platforms', el('div', { class: 'lp-capability-grid' }, (s.platforms || []).map(p =>
         el('article', { class: 'lp-platform' }, [
           figure(p.image,p.alt,p.caption,'lp-platform-figure'),
           el('div', null, [
             el('h3',null,p.title),el('p',null,p.description),
             el('h4',null,'Representative lines of work'),textList(p.examples || []),
+            p.sourceUrl ? link('Image source ↗',p.sourceUrl,'lp-card-link') : null,
             link('Related research →',urls.research,'lp-card-link')
           ])
         ])))),

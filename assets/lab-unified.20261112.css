@@ -62,3 +62,25 @@
 .lp-site [id]{scroll-margin-top:108px}
 @media(max-width:1020px){.lp-site .lp-person{flex-direction:column}}
 @media(max-width:760px){.lp-site .lp-filters{grid-template-columns:1fr}.lp-site .lp-gallery-photos{grid-template-columns:1fr}.lp-site .lp-person{flex-direction:row;padding:15px;gap:12px}.lp-site .lp-person-image,.lp-site .lp-person-placeholder{width:68px;height:68px}.lp-site .lp-research-work summary{flex-direction:column}.lp-site .lp-work-details{padding:14px}}
+
+/* Research evidence remains visible; each desktop row has two image cards. */
+.lp-site .lp-work-list,.lp-site .lp-image-grid,.lp-site .lp-capability-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.lp-site .lp-research-work{border:1px solid #d9e4ed;border-radius:12px;background:#fff;overflow:hidden;min-width:0}
+.lp-site .lp-work-heading{padding:22px 22px 0}
+.lp-site .lp-work-heading h4{font-size:22px;margin:0 0 10px}
+.lp-site .lp-work-heading .lp-plain-meta{text-align:left;margin:0}
+.lp-site .lp-work-details{padding:22px}
+.lp-site .lp-work-figures{display:grid;gap:22px}
+.lp-site .lp-work-figure,.lp-site .lp-project-figure,.lp-site .lp-image-grid .lp-inline-figure{width:100%;max-width:none;margin:0 0 20px;min-width:0}
+.lp-site .lp-work-figure img,.lp-site .lp-project-figure img,.lp-site .lp-pub-figure img{width:100%;height:auto;max-height:none;object-fit:contain;display:block}
+.lp-site .lp-image-link{display:block;background:#f5f8fb}
+.lp-site .lp-image-link:hover{outline:2px solid #307eba;outline-offset:2px}
+.lp-site .lp-image-credit{display:block;margin-top:5px}
+.lp-site .lp-image-source{display:inline-block;margin-top:5px;font-weight:650}
+.lp-site .lp-project-figure figcaption{font-size:12px;line-height:1.6;color:#5d7289;padding:10px 0}
+.lp-site .lp-capability-grid .lp-platform{display:flex;flex-direction:column;gap:0;align-items:stretch}
+.lp-site .lp-capability-grid .lp-platform>div{padding:26px}
+.lp-site .lp-capability-grid .lp-platform-figure img{height:auto;min-height:0;max-height:none;aspect-ratio:4/3;object-fit:contain;background:#f3f7fa}
+.lp-site .lp-capability-grid .lp-platform-figure{align-self:auto}
+.lp-site .lp-app-figure img,.lp-site .lp-hero-figure img{object-fit:contain}
+@media(max-width:760px){.lp-site .lp-work-list,.lp-site .lp-image-grid,.lp-site .lp-capability-grid{grid-template-columns:minmax(0,1fr)}.lp-site .lp-work-heading{padding:18px 18px 0}.lp-site .lp-work-details{padding:18px}.lp-site .lp-capability-grid .lp-platform>div{padding:22px}}
