@@ -2,42 +2,38 @@
   "metadata": {
     "title": "MSEI Lab",
     "subtitle": "Multi-Scale Embodied Intelligence Lab",
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-12",
+    "description": "MSEI Lab research programme, scientific evidence, experimental capabilities, outputs and collaboration at Imperial College London."
   },
   "sections": {
     "hero": {
-      "title": "Dr Dandan Zhang",
-      "primaryButton": "Explore Research",
-      "secondaryButton": "Meet Our Team",
-      "description": "<p>Dr Dandan Zhang is an Assistant Professor at Imperial College London and founder of the Multi-Scale Embodied Intelligence (MSEI) Lab. Her research develops adaptive physical intelligence for dexterous manipulation across scales, connecting tactile sensing and multimodal perception, data-efficient robot learning, shared autonomy, and optical and magnetic microrobotics. Applications span robotic manipulation, robot-assisted microsurgery and scientific experimentation.</p><p>She joined Imperial in 2023 after a lectureship in Robotics at the University of Bristol (2021–2023). She received her PhD in Medical Robotics from Imperial in 2021 and her MRes in Medical Robotics and Image-Guided Intervention in 2018.</p><p>Her honours include MIT Technology Review’s Innovators Under 35 Asia Pacific 2026 recognition, first place in the 2021 UK Best PhD in Robotics competition, and the 2021 Amazon PhD Prize. A Fellow of the Higher Education Academy, she leads postgraduate Deep Learning teaching.</p>",
-      "subtitle": "Assistant Professor · AI & Machine Learning and Biomedical Robotics",
+      "title": "MSEI Lab",
+      "primaryButton": "Research programme",
+      "secondaryButton": "Flagship projects",
+      "description": "<p>We investigate adaptive physical intelligence through tactile sensing, transferable learning, shared autonomy and embodiment across physical scales. Our research programmes connect robot manipulation, biomedical robotics, microrobotics and scientific experimentation.</p><p>Explore our research questions, published evidence, platforms and open research resources. The lab is directed by Dr Dandan Zhang, Assistant Professor at Imperial College London.</p>",
+      "subtitle": "Multi-Scale Embodied Intelligence Laboratory · Imperial College London",
       "affiliations": "Department of Bioengineering · Digital Foundry · Imperial College London",
       "biographyParagraphs": [
-        "Dr Dandan Zhang is an Assistant Professor at Imperial College London and founder of the Multi-Scale Embodied Intelligence (MSEI) Lab. Her research develops adaptive physical intelligence for dexterous manipulation across scales, connecting tactile sensing and multimodal perception, data-efficient robot learning, shared autonomy, and optical and magnetic microrobotics. Applications span robotic manipulation, robot-assisted microsurgery and scientific experimentation.",
-        "She joined Imperial in 2023 after a lectureship in Robotics at the University of Bristol (2021–2023). She received her PhD in Medical Robotics from Imperial in 2021 and her MRes in Medical Robotics and Image-Guided Intervention in 2018.",
-        "Her honours include MIT Technology Review’s Innovators Under 35 Asia Pacific 2026 recognition, first place in the 2021 UK Best PhD in Robotics competition, and the 2021 Amazon PhD Prize. A Fellow of the Higher Education Academy, she leads postgraduate Deep Learning teaching."
+        "MSEI Lab investigates how sensing, learning, control and embodiment can support precise, transferable physical manipulation.",
+        "Dr Dandan Zhang directs the laboratory in the Department of Bioengineering at Imperial College London. For her full biography, invited talks, teaching and individual academic service, visit her personal website."
       ],
-      "shortBio": "Dr Dandan Zhang is an Assistant Professor at Imperial College London and founder of the Multi-Scale Embodied Intelligence (MSEI) Lab. Her research develops adaptive physical intelligence for dexterous manipulation across scales, connecting tactile sensing and multimodal perception, data-efficient robot learning, shared autonomy, and optical and magnetic microrobotics. Applications span robotic manipulation, robot-assisted microsurgery and scientific experimentation.\n\nShe joined Imperial in 2023 after a lectureship in Robotics at the University of Bristol (2021–2023). She received her PhD in Medical Robotics from Imperial in 2021 and her MRes in Medical Robotics and Image-Guided Intervention in 2018.\n\nHer honours include MIT Technology Review’s Innovators Under 35 Asia Pacific 2026 recognition, first place in the 2021 UK Best PhD in Robotics competition, and the 2021 Amazon PhD Prize. A Fellow of the Higher Education Academy, she leads postgraduate Deep Learning teaching.",
+      "shortBio": "The Multi-Scale Embodied Intelligence Laboratory, led by Dr Dandan Zhang at Imperial College London, researches adaptive physical intelligence across robotic scales.",
       "profileLinks": [
         {
-          "label": "Public code & reuse guides",
-          "url": "https://github.com/dianzdd123/msei_website/blob/main/docs/PUBLIC_REPOSITORIES.md"
+          "label": "Meet the principal investigator",
+          "url": "https://www.intelligentrobotics-acrossscales.com/about"
         },
         {
-          "label": "Imperial profile",
-          "url": "https://profiles.imperial.ac.uk/d.zhang17"
+          "label": "Research programme",
+          "url": "/msei_website/research"
         },
         {
-          "label": "Teaching & supervision",
-          "url": "/msei_website/teaching"
+          "label": "Research projects",
+          "url": "/msei_website/projects"
         },
         {
-          "label": "Professional service",
-          "url": "/msei_website/services"
-        },
-        {
-          "label": "Wider lab research",
-          "url": "https://www.intelligentrobotics-acrossscales.com/"
+          "label": "Research opportunities",
+          "url": "/msei_website/opportunities"
         }
       ],
       "featureImage": {
