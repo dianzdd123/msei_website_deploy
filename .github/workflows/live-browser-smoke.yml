@@ -1,0 +1,36 @@
+name: Verify live MSEI website after deployment
+
+on:
+  workflow_run:
+    workflows: ["Validate and deploy public website"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-browser-smoke:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test dependencies
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Verify live pages, profiles and navigation
+        env:
+          MSEI_SMOKE_ORIGIN: https://zhangrobotics.com
+        run: node scripts/smoke_browser.mjs
+      - name: Upload screenshots if live site fails
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: msei-live-browser-failures
+          path: artifacts/browser-smoke/
+          if-no-files-found: ignore
