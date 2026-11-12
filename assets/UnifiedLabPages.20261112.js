@@ -42,7 +42,7 @@ function research(d){
     $('div',{class:'lp-note'},[$('h3',null,v.headline||'Adaptive robotics'),$('p',null,v.directionNote||''),F(s.figures?.framework,'lp-inline-figure')])),
   section('02 / APPLICATIONS','Different physical settings.','Each application page connects physical tasks to methods and supporting research evidence.','applications',appcards(d)),
   section('03 / THEMES','Four connected research questions.','Research connects sensing, transferable learning, shared control and robot embodiment.','themes',
-    grid(ar(s.themes).map(t=>$('article',{class:'lp-card',id:t.id},[
+    grid(ar(s.themes).map(t=>$('article',{class:'lp-card lp-theme',id:t.id},[
       $('h3',null,t.title),$('p',{class:'lp-question'},t.question),$('p',null,t.description),
       ar(t.evidence).length?$('details',{class:'lp-reveal'},[
         $('summary',null,'Representative publications ('+t.evidence.length+')'),
