@@ -80,7 +80,7 @@ const newsData = d => (d.home.sections?.latestnews?.subsections || [])
 function home(d) {
   const s = researchData(d), projects = s.featuredWork || [], apps = d.apps.applications || [];
   const news = newsData(d), platforms = s.platforms || [];
-  return el('main', { class: 'lp-site', id: 'main-content' }, [
+  return el('div', { class: 'lp-site', id: 'main-content' }, [
     pageHero('Home', 'Adaptive physical intelligence across scales.',
       'We investigate how sensing, learning, control and physical design can work together to make robotic manipulation adaptive, transferable and reliable.',
       '/assets/illustrations/hero-research-aligned-2026c.webp',
@@ -130,7 +130,7 @@ function home(d) {
 }
 function projects(d) {
   const s = researchData(d);
-  return el('main', { class: 'lp-site', id: 'main-content' }, [
+  return el('div', { class: 'lp-site', id: 'main-content' }, [
     pageHero('Projects', 'Flagship research. Verifiable evidence.',
       'Our selected work links scientific questions to methods, experimental evaluations and openly accessible research sources.',
       '/assets/illustrations/tactile-learning-2026c.webp',
@@ -153,7 +153,7 @@ function projects(d) {
 }
 function capabilities(d) {
   const s = researchData(d);
-  return el('main', { class: 'lp-site', id: 'main-content' }, [
+  return el('div', { class: 'lp-site', id: 'main-content' }, [
     pageHero('Capabilities', 'Physical platforms. Connected methods.',
       'Research platforms connect robotic hardware, multimodal perception, learning and control across tasks and scales.',
       '/assets/research/research3.png',
@@ -188,7 +188,7 @@ function capabilities(d) {
 }
 function impact(d) {
   const s = d.services.sections || {};
-  return el('main', { class: 'lp-site', id: 'main-content' }, [
+  return el('div', { class: 'lp-site', id: 'main-content' }, [
     pageHero('Impact', 'From physical interaction to useful knowledge.',
       'We investigate potential applications in healthcare, robotic manipulation and scientific experimentation, while documenting research exchanges and reusable outputs.',
       '/assets/illustrations/scientific-experiments-concept-2026e.webp',
@@ -219,7 +219,7 @@ function impact(d) {
 }
 function outputs(d) {
   const s = researchData(d);
-  return el('main', {class:'lp-site',id:'main-content'}, [
+  return el('div', {class:'lp-site',id:'main-content'}, [
     pageHero('Outputs','Evidence, publications and open research.',
       'Find representative papers and available public implementations, simulation environments and supporting resources.',
       '/assets/illustrations/tactile-learning-2026c.webp',
@@ -247,7 +247,7 @@ function outputs(d) {
   ]);
 }
 function contact() {
-  return el('main',{class:'lp-site',id:'main-content'},[
+  return el('div',{class:'lp-site',id:'main-content'},[
     pageHero('Contact','Start a research conversation.',
       'For questions about research collaboration, experimental platforms, scientific exchanges or prospective research work, contact the MSEI Lab.',
       '/assets/illustrations/hero-research-aligned-2026c.webp',
@@ -303,12 +303,12 @@ export default {
     return () => {
       const which=props.section || 'home';
       document.title=PAGE_TITLES[which] || 'MSEI Lab';
-      if (failed.value) return el('main',{class:'lp-load lp-wrap',id:'main-content',role:'alert'},[
+      if (failed.value) return el('div',{class:'lp-load lp-wrap',role:'alert'},[
         el('h1',null,'Research information unavailable'),
         el('p',null,'Please refresh this page or contact the laboratory.'),
         action('Contact the lab',urls.contact)
       ]);
-      if (!records.value) return el('main',{class:'lp-load lp-wrap',id:'main-content',role:'status'},'Loading research information…');
+      if (!records.value) return el('div',{class:'lp-load lp-wrap',role:'status'},'Loading research information…');
       return (PAGE_RENDERERS[which] || home)(records.value);
     };
   }
