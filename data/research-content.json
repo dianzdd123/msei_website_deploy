@@ -246,14 +246,15 @@
         "id": "contact-rich",
         "title": "Contact-rich robotic manipulation",
         "description": "Tactile sensors, grippers and robot arms provide experimental settings for studying contact, material properties, skill transfer and coordinated action.",
-        "image": "/assets/illustrations/tactile-learning-2026c.webp",
-        "alt": "Conceptual illustration of tactile sensing and robot manipulation.",
-        "caption": "AI-generated concept illustration of tactile perception; the inset is not experimental data.",
+        "image": "/assets/dexterous/magicgripper-fig18.webp",
+        "alt": "Original manuscript figure showing the tactile gripper and robotic setup during a teleoperated plug-insertion experiment.",
+        "caption": "MagicGripper teleoperated assembly experiment. Original author-manuscript Fig. 18; Wen Fan et al.",
         "examples": [
           "ViTacTip, PixelTac and MagicGripper",
           "One-shot pouring and multimodal diffusion policies",
           "Bimanual tactile manipulation"
-        ]
+        ],
+        "sourceUrl": "https://arxiv.org/html/2505.24382v1#S4.F18"
       },
       {
         "id": "medical-scientific",
@@ -270,15 +271,30 @@
       },
       {
         "id": "optical-magnetic",
-        "title": "Optical and magnetic microrobotics",
-        "description": "Optical tweezers and magnetic actuation systems let us explore how robot shape, force generation, microscopy and control interact at small scales.",
-        "image": "/assets/illustrations/microrobotics-2026c.webp",
-        "alt": "Conceptual illustration of optical and magnetic manipulation at small scales.",
-        "caption": "AI-generated concept illustration; structures are not to scale.",
+        "title": "Optical manipulation and microscopy",
+        "description": "Optical tweezers, precision positioning and microscopy support studies of micro-object pose estimation, force control and human–robot interaction.",
+        "image": "/assets/research/research1.png",
+        "alt": "Optical micromanipulation research figure combining an instrument rendering, optical-trapping schematic and microscopy views.",
+        "caption": "Original research illustration: optical instrument, trapping principle and microscopy-based perception.",
         "examples": [
-          "Optical micro-object pose estimation and force control",
+          "Optical micro-object pose and depth estimation",
+          "Optical force control",
+          "Visuo-haptic teleoperation and digital twins"
+        ],
+        "sourceUrl": "https://www.intelligentrobotics-acrossscales.com/intelligent-microrobotics"
+      },
+      {
+        "id": "magnetic-actuation",
+        "title": "Magnetic actuation and observation",
+        "description": "Magnetic actuation hardware and visual observation support studies of navigation, shared manipulation and reconfigurable miniature robots.",
+        "image": "/assets/research/research2.png",
+        "alt": "Laboratory magnetic coil assembly with camera and sample workspace.",
+        "caption": "Original laboratory photograph of magnetic actuation and visual observation hardware.",
+        "sourceUrl": "https://www.intelligentrobotics-acrossscales.com/intelligent-microrobotics",
+        "examples": [
           "Magnetic navigation and shared micromanipulation",
-          "Modular magnetic reconfiguration at the millimetre scale"
+          "Reconfigurable electromagnetic actuation",
+          "Modular magnetic millirobots"
         ]
       }
     ],
@@ -291,7 +307,16 @@
         "year": "2025",
         "status": "Published",
         "url": "https://doi.org/10.1109/TRO.2025.3526296",
-        "summary": "A compact sensor combining visual, proximity and tactile information, with cross-modality interpretation and systematic benchmarking."
+        "summary": "A compact sensor combining visual, proximity and tactile information, with cross-modality interpretation and systematic benchmarking.",
+        "figure": {
+          "src": "/assets/publication-figures/vitactip-2026f.webp",
+          "alt": "ViTacTip sensor diagrams illustrate visual, tactile, proximity and force sensing.",
+          "caption": "Author-manuscript Fig. 1 — the four sensing capabilities of ViTacTip.",
+          "sourceUrl": "https://arxiv.org/abs/2501.02303",
+          "kind": "paper",
+          "width": 783,
+          "height": 820
+        }
       },
       {
         "name": "Small-data micro-object pose estimation",
@@ -301,7 +326,19 @@
         "year": "2022",
         "status": "Published",
         "url": "https://www.nature.com/articles/s42005-022-00844-z",
-        "summary": "Simulation, image translation and feature learning support pose estimation from limited experimental microscopy data."
+        "summary": "Simulation, image translation and feature learning support pose estimation from limited experimental microscopy data.",
+        "figure": {
+          "src": "/assets/publication-figures/pose-small-dataset-2026g.webp",
+          "alt": "Original figure showing generated and microscope images with a shared feature-embedding model for microrobot pose estimation.",
+          "caption": "Sim-to-real learning-to-match model, Figure 3.",
+          "sourceUrl": "https://www.nature.com/articles/s42005-022-00844-z",
+          "kind": "paper",
+          "width": 1600,
+          "height": 1032,
+          "credit": "Zhang et al. (2022); Figure 3 extracted from the publisher PDF and resized.",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "licenseLabel": "CC BY 4.0"
+        }
       },
       {
         "name": "ADM-DP",
@@ -311,7 +348,16 @@
         "year": "2026",
         "status": "Accepted conference paper",
         "url": "https://arxiv.org/abs/2602.21622",
-        "summary": "A diffusion policy adaptively combines visual, tactile and spatial information for coordinated multi-agent manipulation."
+        "summary": "A diffusion policy adaptively combines visual, tactile and spatial information for coordinated multi-agent manipulation.",
+        "figure": {
+          "src": "/assets/publication-figures/adm-dp-2026f.webp",
+          "alt": "A method diagram combines multiple robot agents, visual and tactile features, graph attention, demonstrations and a diffusion policy.",
+          "caption": "Author-manuscript Fig. 1 — ADM-DP learning and manipulation framework.",
+          "sourceUrl": "https://arxiv.org/abs/2602.21622",
+          "kind": "paper",
+          "width": 1500,
+          "height": 781
+        }
       },
       {
         "name": "Context-aware surgical shared control",
@@ -321,7 +367,17 @@
         "year": "2022",
         "status": "Published",
         "url": "https://doi.org/10.1109/ICRA46639.2022.9812379",
-        "summary": "Simulator-learned motions and context-dependent assistance are evaluated in user studies on a surgical research robot."
+        "summary": "Simulator-learned motions and context-dependent assistance are evaluated in user studies on a surgical research robot.",
+        "figure": {
+          "src": "/assets/publication-figures/shared-control-2026g.webp",
+          "alt": "Original framework linking demonstrations, trajectory adaptation and context-aware role adaptation for human–robot surgical control.",
+          "caption": "Context-aware sim-to-real shared-control framework, Figure 1.",
+          "sourceUrl": "https://arxiv.org/abs/2204.11116",
+          "kind": "paper",
+          "width": 1600,
+          "height": 371,
+          "credit": "Zhang et al. (2022); Figure 1 from the author manuscript, extracted and resized."
+        }
       },
       {
         "name": "i-Tac",
@@ -331,7 +387,16 @@
         "year": "2026",
         "status": "Published",
         "url": "https://doi.org/10.1002/aisy.202501200",
-        "summary": "Inverse design links target optical and mechanical properties to printable tactile-elastomer compositions."
+        "summary": "Inverse design links target optical and mechanical properties to printable tactile-elastomer compositions.",
+        "figure": {
+          "src": "/assets/publication-figures/itac-2026f.webp",
+          "alt": "Human skin structure motivates an inverse-design workflow and a range of printed tactile elastomer mixtures.",
+          "caption": "Author-manuscript Fig. 1 — i-Tac elastomer design and property control.",
+          "sourceUrl": "https://arxiv.org/abs/2604.10692",
+          "kind": "paper",
+          "width": 1373,
+          "height": 1300
+        }
       },
       {
         "name": "Modular magnetic millirobots",
@@ -341,7 +406,16 @@
         "year": "2026",
         "status": "Accepted conference paper",
         "url": "https://arxiv.org/abs/2602.19346",
-        "summary": "Magnetic modules demonstrate locomotion, assembly, shape changes and cargo manipulation at the millimetre scale."
+        "summary": "Magnetic modules demonstrate locomotion, assembly, shape changes and cargo manipulation at the millimetre scale.",
+        "figure": {
+          "src": "/assets/publication-figures/magnetic-millirobots-2026f.webp",
+          "alt": "Modular magnetic millirobot geometries and a diagram of navigation, self-assembly and shape reconfiguration.",
+          "caption": "Author-manuscript Fig. 1 — modular magnetic millirobot design and behaviours.",
+          "sourceUrl": "https://arxiv.org/abs/2602.19346",
+          "kind": "paper",
+          "width": 1161,
+          "height": 1091
+        }
       }
     ],
     "nextDirections": [

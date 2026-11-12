@@ -6,7 +6,11 @@ import { node as e, route as base, link, figure, eyebrow, focusHash } from './Re
 const $=(tag,attrs,children)=>e(tag,attrs,children);
 const ar=x=>Array.isArray(x)?x:[];
 const F=(x,cl='')=>{if(!x)return null;const src=typeof x==='string'?x:(x.src||x.image||x.url);
-  return src&&src.startsWith('/assets/')?figure(src,x.alt||x.imageAlt||x.title||'Research image',x.caption||x.imageCaption||'',cl):null;};
+  if(!src||!src.startsWith('/assets/'))return null;
+  return $('figure',{class:'rd-figure '+cl},[
+    link($('img',{src,alt:x.alt||x.imageAlt||x.title||'Research image',loading:'lazy',decoding:'async'}),src,'lp-image-link',{target:'_blank',rel:'noopener noreferrer','aria-label':'Open full image: '+(x.title||x.alt||'Research figure')}),
+    $('figcaption',null,[x.caption||x.imageCaption||'',x.credit?$('span',{class:'lp-image-credit'},x.credit):null,
+      x.sourceUrl?link('Source ↗',x.sourceUrl,'lp-image-source'):null])]);};
 const a=(label,href,css='lp-card-link')=>link(label,href,css);
 const button=(label,href,alt=false)=>a(label,href,'lp-action'+(alt?' lp-action-secondary':''));
 const acts=xs=>$('div',{class:'lp-actions'},xs.map(([x,y,z])=>button(x,y,z)));
@@ -51,7 +55,7 @@ function research(d){
           $('span',null,p.summary?' — '+p.summary:'')
         ])))]) : null])),true)),
   section('04 / EXPERIMENTS','Research platforms.','Capabilities and their actual availability must be confirmed with the laboratory.','platforms',
-    grid(ar(s.platforms).map(x=>card(x.title,x.description,base+'/capabilities','Explore capabilities →')))),
+    grid(ar(s.platforms).map(x=>$('article',{class:'lp-card'},[F(x,'lp-project-figure'),$('h3',null,x.title),$('p',null,x.description),a('Explore capabilities →',base+'/capabilities')])),true)),
   section('05 / NEXT QUESTIONS','Research directions.','These are objectives, not claims of demonstrated performance.','directions',
     grid(ar(s.nextDirections).map(x=>card(x.title,x.description,base+'/projects','Evidence portfolio →')))),
   foot('Explore scientific collaboration.','Connect with the team about new questions and research partnerships.')
@@ -125,7 +129,7 @@ function publications(d,query,theme){
         $('h3',null,primary(x)?.url?a(x.title,primary(x).url):x.title),
         $('p',null,x.summary||'See source for scope and methods.'),
         $('p',{class:'lp-pub-authors'},ar(x.authors).join(', ')),links(x.links),
-        x.figure?.src?$('details',{class:'lp-reveal'},[$('summary',null,'Source figure'),F(x.figure,'lp-pub-figure')]):null
+        x.figure?.src?F(x.figure,'lp-pub-figure'):null
       ])),true):panel('No matching papers','Try another search or theme.')
     ])),
   section('02 / RESEARCH CONNECTIONS','Explore research themes.','See how these outputs relate to methods and physical platforms.','themes',
@@ -179,10 +183,13 @@ function application(d,slug){
  if(!app)return screen([hero('Research','Application unavailable','Explore the other research topics.',null,[['Research',base+'/research']])]);
  const detail=slug==='microrobotics'?d.microrobotics:slug==='dexterous-manipulation'?d.dexterous:null;
  const groups=ar(detail?.groups);
- const work=x=>$('details',{class:'lp-reveal lp-research-work',id:x.id||undefined},[
-   $('summary',null,[$('strong',null,x.name||x.title),$('span',{class:'lp-plain-meta'},[x.venue,x.year,x.status].filter(Boolean).join(' · '))]),
+ const work=x=>{const paper=ar(d.publications?.sections).find(p=>p.title===x.title||ar(p.links).some(l=>l.url===x.url));
+ const figures=[x.figure||paper?.figure,...ar(x.extraFigures)].filter(Boolean);
+ return $('article',{class:'lp-research-work',id:x.id||undefined},[
+   $('header',{class:'lp-work-heading'},[$('h4',null,x.name||x.title),$('p',{class:'lp-plain-meta'},[x.venue,x.year,x.status].filter(Boolean).join(' · '))]),
    $('div',{class:'lp-work-details'},[
-      x.title&&x.name!==x.title?$('h4',null,x.title):null,F(x.figure,'lp-work-figure'),
+      $('div',{class:'lp-work-figures'},figures.map(f=>F(f,'lp-work-figure'))),
+      x.title&&x.name!==x.title?$('p',{class:'lp-paper-title'},x.title):null,
       x.question?$('p',null,[$('strong',null,'Question: '),x.question]):null,
       x.approach?$('p',null,[$('strong',null,'Approach: '),x.approach]):null,
       x.evidence?$('p',null,[$('strong',null,'Evidence: '),x.evidence]):null,
@@ -190,12 +197,14 @@ function application(d,slug){
       x.summary?$('p',null,x.summary):null,
       links(x.links|| (x.url?[{label:'Paper',url:x.url}]:[]))
    ])
- ]);
+ ]);};
  return screen([
   hero('Research',app.title,app.lead||app.summary,app,[['Research',base+'/research'],['Publications',base+'/publications',true]]),
   nav([['Overview','overview'],['Methods','methods'],['Evidence','evidence'],['Resources','resources'],['Next','next']]),
   section('01 / RESEARCH OVERVIEW',app.question||app.title,app.introduction||detail?.introduction?.text,'overview',
-    $('div',null,[app.approachFigure?.image?F({src:app.approachFigure.image,alt:app.approachFigure.alt,caption:app.approachFigure.caption},'lp-inline-figure'):null,
+    $('div',null,[$('div',{class:'lp-image-grid'},[
+      app.approachFigure?.image?F({src:app.approachFigure.image,alt:app.approachFigure.alt,caption:app.approachFigure.caption},'lp-inline-figure'):null,
+      app.supportFigure?F(app.supportFigure,'lp-inline-figure'):null]),
       detail?.introduction?.note?panel('Evidence boundary',detail.introduction.note):null])),
   section('02 / METHODS','Scientific approach.','What can be inferred, controlled or transferred under the physical conditions?','methods',
     grid(ar(app.focusAreas).map(x=>$('article',{class:'lp-card'},[
@@ -205,6 +214,10 @@ function application(d,slug){
     $('div',{class:'lp-archive'},groups.length?groups.map(g=>$('section',{class:'lp-group',id:g.id},[
       $('h3',null,g.title),$('p',null,g.description),$('div',{class:'lp-work-list'},ar(g.projects).map(work))
     ])):$('div',{class:'lp-work-list'},ar(app.projects).map(work)))),
+  ar(detail?.platforms).length?section('EXPERIMENTAL PLATFORMS','Apparatus and simulation.','Original laboratory images and project diagrams; simulation views remain labelled.','apparatus',
+    $('div',{class:'lp-image-grid'},detail.platforms.map(f=>F(f,'lp-work-figure')))):null,
+  ar(detail?.reviews).length?section('RESEARCH PERSPECTIVES','Reviews and research context.','Figures and citations from the research archive.','reviews',
+    $('div',{class:'lp-work-list'},detail.reviews.map(work))):null,
   section('04 / OPEN RESOURCES','Software and datasets.','Check documentation, licensing and hardware requirements before reuse.','resources',
     grid(ar(detail?.resources).length?detail.resources.map(x=>card(x.name,x.description,x.url,'Open source ↗')):
          ar(app.resources).map(x=>card(x.name,x.description,x.url,'Open source ↗')),true)),
@@ -236,7 +249,7 @@ const needs={
  publications:['publications-content.json'],
  opportunities:['opportunities-content.json'],
  guide:['opportunities-content.json'],
- application:['research-applications-content.json'],
+ application:['research-applications-content.json','publications-content.json'],
  gallery:['group-photo-content.json']
 };
 export default {
