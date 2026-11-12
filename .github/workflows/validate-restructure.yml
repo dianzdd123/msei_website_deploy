@@ -20,7 +20,7 @@ jobs:
           python3 scripts/check_portfolio_routes.py
       - name: Check JavaScript module syntax
         run: |
-          for file in assets/index-uZzEyxeI.20261112lab.js assets/ProgrammeHub.20261112.js assets/NavigationEditorial.20261112lab.js assets/LabReferral.20261112.js; do
+          for file in assets/index-uZzEyxeI.20261112fixed.js assets/ProgrammeHub.20261112.js assets/NavigationEditorial.20261112lab.js assets/LabReferral.20261112.js assets/UnifiedLabPages.20261112.js; do
             echo "Checking $file"
             node --input-type=module --check < "$file"
           done
