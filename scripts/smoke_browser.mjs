@@ -22,7 +22,7 @@ page.on('response', response => {
   }
 });
 const routes = [
-  { slug: '', title: /Adaptive physical intelligence/i, selector: '.lp-hero' },
+  { slug: '', title: /Multi-Scale Embodied Intelligence Lab/i, selector: '.lp-hero' },
   { slug: 'people/', title: /research team/i, selector: '.lp-person', count: 3, content: 'Wen Fan' },
   { slug: 'team/', title: /research team/i, selector: '.lp-person', count: 3 },
   { slug: 'research/', title: /Adaptive physical intelligence/i, selector: '.lp-theme', count: 4 },
