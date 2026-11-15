@@ -81,14 +81,17 @@ const newsData = d => (d.home.sections?.latestnews?.subsections || [])
 
 function home(d) {
   const s = researchData(d), projects = s.featuredWork || [], apps = d.apps.applications || [];
-  const news = newsData(d), platforms = s.platforms || [];
+  const news = (d.home.sections?.latestnews?.subsections || []).map(x => x.data || {}).filter(x => x.title).slice(0, 4), platforms = s.platforms || [];
+  const photos = d.home.sections?.labPhotos || [];
+  const originalImages = [platforms[2], platforms[0], platforms[1]];
+  const homeApps = apps.map((app, i) => ({...app, image: originalImages[i % originalImages.length]?.image || app.image, alt: originalImages[i % originalImages.length]?.alt || app.alt, caption: originalImages[i % originalImages.length]?.caption || app.caption}));
   return el('div', { class: 'lp-site', id: 'main-content' }, [
-    pageHero('Home', 'Adaptive physical intelligence across scales.',
+    pageHero('Imperial College London', 'Multi-Scale Embodied Intelligence Lab',
       'We investigate how sensing, learning, control and physical design can work together to make robotic manipulation adaptive, transferable and reliable.',
-      '/assets/illustrations/hero-research-aligned-2026c.webp',
-      'Concept artwork connecting tactile manipulation, microscopy and robot actuation across scales.',
-      'AI-generated conceptual illustration; objects are not to scale.',
-      [['Explore the research', urls.research], ['See evidence and projects', urls.projects, true]]),
+      '/assets/photos/cnrs-imperial-meeting-2026.webp',
+      'MSEI Lab researchers and visiting collaborators from FEMTO-ST, CNRS, at Imperial College London.',
+      'CNRS–Imperial research exchange · April 2026.',
+      [['Explore the research', urls.research], ['Meet the lab', urls.people, true]]),
     subnav([['Questions','programme'], ['Projects','evidence'], ['Platforms','platforms'], ['Latest','latest'], ['Collaborate','collaborate']]),
     sector('01 / RESEARCH QUESTIONS', 'One programme. Four connected questions.',
       'Our research spans physical-state inference, learning, control and embodiment. Each theme is studied in concrete physical experiments.',
@@ -98,7 +101,7 @@ function home(d) {
     sector('02 / DOCUMENTED EVIDENCE', 'Selected research outcomes.',
       'Representative results from peer-reviewed papers and explicitly labelled preprints. Follow the source links for methods, scope and evaluation.',
       'evidence', el('div', null, [
-        projectCards(projects.slice(0, 3)),
+        projectCards(projects.slice(0, 4)),
         el('div', { class: 'lp-after-grid' }, action('View flagship projects', urls.projects, true))
       ])),
     sector('03 / LABORATORY CAPABILITIES', 'From tactile contact to micro-scale actuation.',
@@ -107,11 +110,14 @@ function home(d) {
         platforms.map(p => smallCard(p.title, p.description, urls.capabilities, 'Explore capabilities →','',p)))),
     sector('04 / RESEARCH SETTINGS', 'Testing ideas across physical scales.',
       'Explore the applications where scientific methods are investigated and their limitations are tested.',
-      'applications', appCards(apps)),
-    sector('05 / RECENT WORK', 'Research updates.',
+      'applications', appCards(homeApps)),
+    sector('05 / RECENT WORK', 'Latest news from the lab.',
       'Selected publicly documented results and resources.',
-      'latest', el('div', { class: 'lp-grid lp-grid-three' }, news.map(n =>
+      'latest', el('div', { class: 'lp-grid lp-grid-two' }, news.map(n =>
         smallCard(n.title, n.summary, (n.links && n.links[0] || '').split(': ').slice(1).join(': ') || urls.outputs, 'Source ↗')))),
+    sector('LIFE IN THE LAB', 'People, ideas and collaboration.',
+      'Research exchanges and everyday moments from our community at Imperial.',
+      'lab-life', el('div', { class: 'lp-grid lp-grid-two' }, photos.map(p => figure(p.src, p.alt, p.caption, 'lp-hero-figure')))),
     sector('06 / PEOPLE AND PARTNERSHIPS', 'Research is built collaboratively.',
       'Discover the researchers, technical approaches and academic exchanges supporting this programme.',
       'collaborate', el('div', { class: 'lp-grid lp-grid-two' }, [
