@@ -384,21 +384,6 @@
         "url": "/msei_website/services"
       }
     ],
-    "labPhotos": [
-      {
-        "src": "/assets/photos/cnrs-imperial-meeting-2026.webp",
-        "alt": "MSEI Lab researchers and visiting collaborators from FEMTO-ST, CNRS, at a research meeting.",
-        "width": 1600,
-        "height": 1067,
-        "caption": "CNRS–Imperial research exchange · 13 April 2026."
-      },
-      {
-        "src": "/assets/photos/msei-group-lunch-2026.webp",
-        "alt": "Lab members and visiting CNRS collaborators together at a group lunch.",
-        "width": 1600,
-        "height": 1200,
-        "caption": "Time together beyond the lab · 16 April 2026."
-      }
-    ]
+    "labPhotos": []
   }
 }

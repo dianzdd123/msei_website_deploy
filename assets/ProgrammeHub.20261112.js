@@ -82,7 +82,6 @@ const newsData = d => (d.home.sections?.latestnews?.subsections || [])
 function home(d) {
   const s = researchData(d), projects = s.featuredWork || [], apps = d.apps.applications || [];
   const news = (d.home.sections?.latestnews?.subsections || []).map(x => x.data || {}).filter(x => x.title).slice(0, 4), platforms = s.platforms || [];
-  const photos = [{"src":"https://static.wixstatic.com/media/6c3b54_92c1a6587a74426ab8915c0a13684dc4~mv2.jpg","alt":"Research community and public engagement photograph 1","caption":""},{"src":"https://static.wixstatic.com/media/6c3b54_f1a8332303064f02bdae74e890f91f67~mv2.jpg","alt":"Research community and public engagement photograph 2","caption":""},{"src":"https://static.wixstatic.com/media/6c3b54_6f6f0159643842aa8db8ec4ca4e6ef4d~mv2.jpg","alt":"Research community and public engagement photograph 3","caption":""},{"src":"https://static.wixstatic.com/media/6c3b54_ed930f74a15644b1acc64df9e70f1c7d~mv2.jpg","alt":"Research community and public engagement photograph 4","caption":""},{"src":"https://static.wixstatic.com/media/6c3b54_bdb7665e9c134f70b0909bb1ee3e2e29~mv2.jpg","alt":"Research community and public engagement photograph 5","caption":""},{"src":"https://static.wixstatic.com/media/6c3b54_585ab2ead629485fb84abf9da59966bb~mv2.jpg","alt":"Research community and public engagement photograph 6","caption":""},{"src":"https://static.wixstatic.com/media/6c3b54_ad771fb57cec46658b1b412a1384adee~mv2.jpg","alt":"Research community and public engagement photograph 7","caption":""},{"src":"https://static.wixstatic.com/media/6c3b54_074759da34bb4087aba46147f740001a~mv2.jpg","alt":"Research community and public engagement photograph 8","caption":""}];
   const originalImages = [platforms[2], platforms[0], platforms[1]];
   const homeApps = apps.map((app, i) => ({...app, image: originalImages[i % originalImages.length]?.image || app.image, alt: originalImages[i % originalImages.length]?.alt || app.alt, caption: originalImages[i % originalImages.length]?.caption || app.caption}));
   return el('div', { class: 'lp-site', id: 'main-content' }, [
@@ -95,7 +94,7 @@ function home(d) {
         el('div', { class: 'lp-actions' }, [action('Explore the research', urls.research), action('Meet the lab', urls.people, true)])
       ])
     ]),
-    subnav([['Questions','programme'], ['Projects','evidence'], ['Platforms','platforms'], ['Latest','latest'], ['In pictures','lab-life'], ['Collaborate','collaborate']]),
+    subnav([['Questions','programme'], ['Projects','evidence'], ['Platforms','platforms'], ['Latest','latest'], ['Collaborate','collaborate']]),
     sector('01 / RESEARCH QUESTIONS', 'One programme. Four connected questions.',
       'Our research spans physical-state inference, learning, control and embodiment. Each theme is studied in concrete physical experiments.',
       'programme',
@@ -118,9 +117,6 @@ function home(d) {
       'Selected publicly documented results and resources.',
       'latest', el('div', { class: 'lp-grid lp-grid-two' }, news.map(n =>
         smallCard(n.title, n.summary, (n.links && n.links[0] || '').split(': ').slice(1).join(': ') || urls.outputs, 'Source ↗')))),
-    sector('OUR COMMUNITY', 'Research, dialogue and public engagement.',
-      'Conversations, demonstrations and shared achievements from our research community.',
-      'lab-life', el('div', { class: 'lp-grid lp-grid-two' }, photos.map(p => link(figure(p.src, p.alt, '', 'lp-community-photo'), p.src, 'lp-photo-link', {'aria-label': 'Open photograph at full size'})))),
     sector('06 / PEOPLE AND PARTNERSHIPS', 'Research is built collaboratively.',
       'Discover the researchers, technical approaches and academic exchanges supporting this programme.',
       'collaborate', el('div', { class: 'lp-grid lp-grid-two' }, [

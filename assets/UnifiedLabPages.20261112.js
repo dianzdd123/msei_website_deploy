@@ -81,7 +81,7 @@ function people(d){
  mres=members(s.msstudents),interns=members(s.interns),alumni=members(s.alumni);
  return screen([
   hero('People','The research team.',d.team.intro||'Researchers and students exploring intelligence across scales.',
-    {src:'/assets/photos/cnrs-imperial-meeting-2026.webp',alt:'Researchers at an Imperial collaboration meeting.',caption:'Photograph from the group archive.'},
+    null,
     [['Research',base+'/research'],['Opportunities',base+'/opportunities',true]]),
   nav([['Leadership','leadership'],['PhD','phd'],['Visitors','visitors'],['MRes','mres'],['Alumni','alumni'],['Photos','photos']]),
   section('01 / LEADERSHIP','Principal investigator.','The full academic biography is maintained on Dandan Zhang’s personal website.','leadership',

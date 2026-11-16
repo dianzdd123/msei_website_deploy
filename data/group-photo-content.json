@@ -1,29 +1,6 @@
 {
-  "main": {
-    "url": "/assets/photos/cnrs-imperial-meeting-2026.webp",
-    "title": "Research exchange",
-    "alt": "Researchers gathered for the CNRS–Imperial collaboration visit in April 2026.",
-    "caption": "A group meeting during the CNRS–Imperial visit, bringing together colleagues to discuss ongoing research and opportunities for collaboration.",
-    "date": "13 April 2026",
-    "dateISO": "2026-04-13",
-    "location": "Imperial College London",
-    "width": 1600,
-    "height": 1067,
-    "sourceUrl": "https://www.intelligentrobotics-acrossscales.com/gallery",
-    "sourceAsset": "2026-04-13-Research Group Meeting.jpg",
-    "year": "2026"
-  },
+  "main": null,
   "history": [
-    {
-      "year": "2026",
-      "url": "/assets/photos/cnrs-imperial-meeting-2026.webp",
-      "text": "Welcoming Dr Antoine Barbot and Valentin from FEMTO-ST, CNRS, for research discussions and shared activities during their April 2026 visit.",
-      "date": "13 April 2026",
-      "location": "Imperial College London",
-      "photos": [
-        "/assets/photos/msei-group-lunch-2026.webp"
-      ]
-    },
     {
       "year": "2025",
       "url": "/assets/photos/archive-2025-group.webp",
@@ -54,21 +31,8 @@
       "year": "2026",
       "title": "CNRS–Imperial collaboration visit",
       "description": "Welcoming Dr Antoine Barbot and Valentin from FEMTO-ST, CNRS, for research discussions and shared activities during their April 2026 visit.",
-      "cover": "/assets/photos/cnrs-imperial-meeting-2026.webp",
       "date": "April 2026",
       "photos": [
-        {
-          "url": "/assets/photos/cnrs-imperial-meeting-2026.webp",
-          "title": "Research exchange",
-          "alt": "Researchers gathered for the CNRS–Imperial collaboration visit in April 2026.",
-          "caption": "A group meeting during the CNRS–Imperial visit, bringing together colleagues to discuss ongoing research and opportunities for collaboration.",
-          "date": "13 April 2026",
-          "dateISO": "2026-04-13",
-          "location": "Imperial College London",
-          "width": 1600,
-          "height": 1067,
-          "sourceAsset": "2026-04-13-Research Group Meeting.jpg"
-        },
         {
           "url": "/assets/photos/msei-group-lunch-2026.webp",
           "title": "Conversations beyond the lab",
