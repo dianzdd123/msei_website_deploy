@@ -7,9 +7,7 @@
       "text": "Our group photo records the growth and efforts of every member at Imperial College London.",
       "date": "July 2025",
       "location": "I-X, Imperial College London",
-      "photos": [
-        "/assets/photos/archive-2025-lab.webp"
-      ],
+      "photos": [],
       "originalUrl": "/assets/group_photo/group_photo.JPG"
     },
     {
@@ -18,9 +16,7 @@
       "text": "",
       "date": "",
       "location": "",
-      "photos": [
-        "/assets/photos/archive-2024-gathering.webp"
-      ],
+      "photos": [],
       "originalUrl": "/assets/group_photo/2024.jpeg"
     }
   ],
@@ -46,19 +42,6 @@
           "width": 1800,
           "height": 1200,
           "sourceLabel": "Existing MSEI website photo archive"
-        },
-        {
-          "url": "/assets/photos/archive-2025-lab.webp",
-          "originalUrl": "/assets/group_photo/2025-1.jpeg",
-          "title": "Lab life",
-          "alt": "Members of the research community sharing an informal meal.",
-          "caption": "An informal gathering from the 2025 photo archive.",
-          "date": "2025",
-          "dateISO": "2025",
-          "location": "",
-          "width": 767,
-          "height": 663,
-          "sourceLabel": "Existing MSEI website photo archive"
         }
       ]
     },
@@ -75,19 +58,6 @@
           "title": "Sharing robotics research",
           "alt": "Three researchers beside a laptop and a pair of haptic input devices at a demonstration table.",
           "caption": "A robotics demonstration with haptic interfaces, from the 2024 archive.",
-          "date": "2024",
-          "dateISO": "2024",
-          "location": "",
-          "width": 1800,
-          "height": 1200,
-          "sourceLabel": "Existing MSEI website photo archive"
-        },
-        {
-          "url": "/assets/photos/archive-2024-gathering.webp",
-          "originalUrl": "/assets/group_photo/2024-2.jpeg",
-          "title": "Demonstrating physical interaction",
-          "alt": "Three researchers beside a white robotic arm during a robotics demonstration.",
-          "caption": "Exploring interaction with a robotic arm, from the 2024 archive.",
           "date": "2024",
           "dateISO": "2024",
           "location": "",
@@ -286,5 +256,5 @@
     }
   ],
   "title": "Group photos",
-  "updated": "2026-11-07"
+  "updated": "2026-11-16"
 }
