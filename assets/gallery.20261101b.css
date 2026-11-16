@@ -15,7 +15,7 @@
 .gp-album-description{max-width:710px;margin:0;color:#5a7074;font-size:1rem;line-height:1.75}
 .gp-source-link{color:#126b58;font-size:.88rem;line-height:1.6;font-weight:650;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
 .gp-album-heading>.gp-source-link{flex:0 0 170px;max-width:100%;padding-bottom:3px}
-.gp-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;align-items:start}
+.gp-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;align-items:start}
 .gp-card{margin:0;min-width:0;overflow:hidden;background:#fff;border:1px solid #dbe8e2;border-radius:16px;box-shadow:0 6px 24px #173e3121}
 .gp-image-button{position:relative;display:block;width:100%;padding:0;border:0;border-radius:15px 15px 0 0;background:#eaf2ee;color:inherit;cursor:zoom-in;overflow:hidden;line-height:0}
 .gp-image-button img{display:block;width:100%;height:auto;max-width:100%;transition:filter .2s ease}
