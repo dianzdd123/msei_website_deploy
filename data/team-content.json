@@ -293,15 +293,6 @@
             "id": "person-kangyi-lu",
             "selectedWorks": [
               {
-                "publicationId": "paper-micro-dexterity-in-biological-micromanipulation-embodiment-perception-and-control",
-                "title": "Micro-Dexterity in Biological Micromanipulation: Embodiment, Perception, and Control",
-                "year": "2026",
-                "type": "Preprint",
-                "venue": "arXiv:2604.11640",
-                "url": "https://arxiv.org/abs/2604.11640",
-                "links": []
-              },
-              {
                 "publicationId": "paper-mag-vla-vision-language-action-model-for-bimanual-magnetically-actuated-microrobot-manipulation",
                 "title": "Mag-VLA: Vision-Language-Action Model for Bimanual Magnetically Actuated Microrobot Manipulation",
                 "year": "2026",

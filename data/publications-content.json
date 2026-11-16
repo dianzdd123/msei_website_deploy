@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Publications",
     "description": "Selected publications grouped by sensing and physical-state inference, transferable and data-efficient skill learning, adaptive control and shared autonomy, and embodiment and actuation design. Journal and conference papers appear alongside clearly labelled preprints.",
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-16"
   },
   "sections": [
     {
@@ -39,14 +39,7 @@
       "relatedThemes": [
         "shared-autonomy"
       ],
-      "summary": "A fabrication and magnetic-functionalisation approach supports the parallel production and control of diverse microrobotic structures.",
-      "figure": {
-        "src": "/assets/illustrations/microrobotics-2026c.webp",
-        "alt": "Concept illustration of optical and magnetic microrobotics in a fluid chamber.",
-        "caption": "Research theme illustration · microrobotics. AI-generated concept artwork; structures are not to scale.",
-        "kind": "theme-illustration",
-        "sourceUrl": ""
-      }
+      "summary": "A fabrication and magnetic-functionalisation approach supports the parallel production and control of diverse microrobotic structures."
     },
     {
       "title": "A Digital Twin Framework for Virtual Visuo-Haptic Teleoperation of Complex-Shaped Optical Microrobots",
@@ -100,15 +93,6 @@
         "sensing"
       ],
       "summary": "A digital twin connects visual and haptic interaction for virtual teleoperation of complex-shaped optical microrobots.",
-      "figure": {
-        "src": "/assets/publication-figures/optical-digital-twin-2026f.webp",
-        "alt": "A digital-twin framework links the haptic user interface, microscopy-based pose estimation, robot simulation and optical-force rendering.",
-        "caption": "Author project figure — visuo-haptic optical microrobot teleoperation.",
-        "sourceUrl": "https://github.com/Zongcai23/ot-haptic-feedback-digital-twin",
-        "kind": "project",
-        "width": 1500,
-        "height": 609
-      },
       "statusSource": "https://arxiv.org/abs/2605.28448"
     },
     {
@@ -188,17 +172,7 @@
         "learning",
         "shared-autonomy"
       ],
-      "summary": "A review connects embodied intelligence with the design, perception and control of biomedical microrobots.",
-      "figure": {
-        "src": "/assets/publication-figures/cross-domain-review-2026g.webp",
-        "alt": "The review overview connects physical, biological, computational and human intelligence around cross-domain biomedical microrobotics.",
-        "caption": "Original review overview — four domains of intelligence in biomedical microrobots, from the authors’ project page.",
-        "sourceUrl": "https://nuounuou.github.io/Embodied-Cross-Domain-Intelligence-in-Biomedical-Microrobots-A-Review/",
-        "kind": "project",
-        "width": 1600,
-        "height": 987,
-        "credit": "Tan, Wei, Lu and Zhang, Cyborg and Bionic Systems (2026)."
-      }
+      "summary": "A review connects embodied intelligence with the design, perception and control of biomedical microrobots."
     },
     {
       "title": "Dual-Control Frequency-Aware Diffusion Model for Depth-Dependent Optical Microrobot Microscopy Image Generation",
@@ -241,47 +215,6 @@
       }
     },
     {
-      "title": "Micro-Dexterity in Biological Micromanipulation: Embodiment, Perception, and Control",
-      "year": "2026",
-      "type": "Preprint",
-      "venue": "arXiv:2604.11640",
-      "authors": [
-        "Kangyi Lu",
-        "Lan Wei",
-        "Zongcai Tan",
-        "Dandan Zhang"
-      ],
-      "keywords": [
-        "Micromanipulation",
-        "Micro-Dexterity",
-        "Review"
-      ],
-      "links": [
-        {
-          "type": "arXiv",
-          "url": "https://arxiv.org/abs/2604.11640"
-        }
-      ],
-      "body": "",
-      "id": "paper-micro-dexterity-in-biological-micromanipulation-embodiment-perception-and-control",
-      "primaryTheme": "embodiment",
-      "relatedThemes": [
-        "sensing",
-        "shared-autonomy"
-      ],
-      "summary": "A review analyses how robot embodiment, sensing and control interact during delicate biological micromanipulation.",
-      "figure": {
-        "src": "/assets/publication-figures/micro-dexterity-2026g.webp",
-        "alt": "Figure 1 compares macroscale dexterity with microscale physics and environments, then maps manipulation primitives, target objects and operational modes.",
-        "caption": "Original preprint Fig. 1 — the capability space of micro-dexterity.",
-        "sourceUrl": "https://arxiv.org/abs/2604.11640",
-        "kind": "paper",
-        "width": 1600,
-        "height": 686,
-        "credit": "Lu, Wei, Tan and Zhang, arXiv:2604.11640 (2026)."
-      }
-    },
-    {
       "title": "Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation",
       "year": "2026",
       "type": "Conference Paper",
@@ -316,16 +249,7 @@
       "relatedThemes": [
         "learning"
       ],
-      "summary": "Optical rendering and learned image generation support perception training while reducing dependence on acquired microscope images.",
-      "figure": {
-        "src": "/assets/publication-figures/pose-sim-to-real-2026f.webp",
-        "alt": "A pipeline connects microrobot CAD models, physics-based image rendering, image translation and pose estimation.",
-        "caption": "Author project figure — physics-informed sim-to-real pose estimation.",
-        "sourceUrl": "https://github.com/Zongcai23/Micro_Object_Sim2Real",
-        "kind": "project",
-        "width": 1500,
-        "height": 710
-      }
+      "summary": "Optical rendering and learned image generation support perception training while reducing dependence on acquired microscope images."
     },
     {
       "title": "Context-Aware Adaptive Shared Control for Magnetically-Driven Bimanual Dexterous Micromanipulation",
@@ -761,15 +685,6 @@
         "learning"
       ],
       "summary": "Visibility enhancement and a two-stage model locate multiple pipette tips in microscope images.",
-      "figure": {
-        "src": "/assets/publication-figures/patch-clamp-2026f.webp",
-        "alt": "A patch-clamp localisation diagram links microscope observations, image translation, heatmap prediction and coordinate refinement.",
-        "caption": "Author project figure — coarse-to-fine multi-pipette localisation.",
-        "sourceUrl": "https://lannwei.github.io/Patch-Clamp-Localisation/",
-        "kind": "project",
-        "width": 1500,
-        "height": 788
-      },
       "videoSource": {
         "url": "https://www.youtube.com/watch?v=tCrBOllIMAo",
         "sourceUrl": "https://raw.githubusercontent.com/LannWei/Patch-Clamp-Localisation/main/index.html",
@@ -819,16 +734,7 @@
       "relatedThemes": [
         "learning"
       ],
-      "summary": "The OTMR dataset supports comparison of pose classification and depth estimation under an optical microscope.",
-      "figure": {
-        "src": "/assets/publication-figures/optical-dataset-2026f.webp",
-        "alt": "A grid pairs CAD models and microscope images of different optical microrobot geometries.",
-        "caption": "Author project figure — optical microrobot geometries and observations.",
-        "sourceUrl": "https://lannwei.github.io/Optical-Microrobot-Database/",
-        "kind": "project",
-        "width": 1500,
-        "height": 598
-      }
+      "summary": "The OTMR dataset supports comparison of pose classification and depth estimation under an optical microscope."
     },
     {
       "title": "Magni-DOME: An Open Platform for High-Resolution Light-Based and Magnetic Contactless Fabrication of Active Microstructures",
@@ -859,14 +765,7 @@
       "relatedThemes": [
         "shared-autonomy"
       ],
-      "summary": "An open platform combines light-based and magnetic processes for contactless fabrication of active microstructures.",
-      "figure": {
-        "src": "/assets/illustrations/microrobotics-2026c.webp",
-        "alt": "Concept illustration of optical and magnetic microrobotics in a fluid chamber.",
-        "caption": "Research theme illustration · microrobotics. AI-generated concept artwork; structures are not to scale.",
-        "kind": "theme-illustration",
-        "sourceUrl": ""
-      }
+      "summary": "An open platform combines light-based and magnetic processes for contactless fabrication of active microstructures."
     },
     {
       "title": "Interactive OT Gym: A Reinforcement Learning-Based Interactive Optical tweezer (OT)-Driven Microrobotics Simulation Platform",
@@ -908,15 +807,6 @@
         "shared-autonomy"
       ],
       "summary": "An interactive optical-tweezer simulation platform supports reinforcement-learning and micromanipulation research.",
-      "figure": {
-        "src": "/assets/publication-figures/ot-gym-2026f.webp",
-        "alt": "A project overview illustrates an optical-tweezer simulation, reinforcement learning and haptic human-robot interaction.",
-        "caption": "Author project figure — the Interactive OT Gym platform.",
-        "sourceUrl": "https://github.com/dianzdd123/ICRA2025-OT-Gym",
-        "kind": "project",
-        "width": 1500,
-        "height": 898
-      },
       "videoSource": {
         "url": "https://www.youtube.com/watch?v=D3-lGa7MC3g",
         "sourceUrl": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=D3-lGa7MC3g&format=json",
@@ -1091,14 +981,7 @@
       "relatedThemes": [
         "sensing"
       ],
-      "summary": "A digital twin and immersive interface support teleoperation experiments for robot-assisted microsurgery.",
-      "figure": {
-        "src": "/assets/illustrations/medical-robotics-concept-2026e.webp",
-        "alt": "Concept illustration of robotic instruments around a synthetic surgical phantom.",
-        "caption": "Research theme illustration · medical robotics. AI-generated concept artwork.",
-        "kind": "theme-illustration",
-        "sourceUrl": ""
-      }
+      "summary": "A digital twin and immersive interface support teleoperation experiments for robot-assisted microsurgery."
     },
     {
       "title": "Magnetic microrobots for in vivo cargo delivery: A review",
@@ -1167,50 +1050,7 @@
       "relatedThemes": [
         "learning"
       ],
-      "summary": "Offline reinforcement learning and damping control adapt motion scaling for microsurgery research.",
-      "figure": {
-        "src": "/assets/illustrations/medical-robotics-concept-2026e.webp",
-        "alt": "Concept illustration of robotic instruments around a synthetic surgical phantom.",
-        "caption": "Research theme illustration · medical robotics. AI-generated concept artwork.",
-        "kind": "theme-illustration",
-        "sourceUrl": ""
-      }
-    },
-    {
-      "title": "A versatile microchannel array device for portable and parallel droplet generation",
-      "year": "2024",
-      "type": "Journal Paper",
-      "venue": "Small Science",
-      "authors": [
-        "Zhengmin Tang",
-        "David Eun Reynolds",
-        "Caishu Lv",
-        "Dandan Zhang",
-        "Jina Ko",
-        "Yongcheng Wang"
-      ],
-      "keywords": [
-        "Microrobot",
-        "Droplet Generation"
-      ],
-      "links": [
-        {
-          "type": "PDF",
-          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/smsc.202400005"
-        }
-      ],
-      "body": "",
-      "id": "paper-a-versatile-microchannel-array-device-for-portable-and-parallel-droplet-generation",
-      "primaryTheme": "embodiment",
-      "relatedThemes": [],
-      "summary": "A microchannel-array device supports portable, parallel generation of droplets for microfluidic workflows.",
-      "figure": {
-        "src": "/assets/illustrations/scientific-experiments-concept-2026e.webp",
-        "alt": "Concept illustration of microscopy, micromanipulators and a sample chamber.",
-        "caption": "Research theme illustration · scientific instrumentation. AI-generated concept artwork.",
-        "kind": "theme-illustration",
-        "sourceUrl": ""
-      }
+      "summary": "Offline reinforcement learning and damping control adapt motion scaling for microsurgery research."
     },
     {
       "title": "One-Shot Domain-Adaptive Imitation Learning via Progressive Learning Applied to Robotic Pouring",
@@ -1405,17 +1245,7 @@
       "relatedThemes": [
         "sensing"
       ],
-      "summary": "A mixed-reality interface combines kinaesthetic and wearable tactile feedback to study immersive robot teleoperation.",
-      "figure": {
-        "src": "/assets/publication-figures/mixed-reality-haptics-2026g.webp",
-        "alt": "The DTMR framework connects a human operator, kinaesthetic and tactile feedback, mixed-reality digital twins, and a real robot.",
-        "caption": "Original author-published overview — digital-twin mixed reality with kinaesthetic and tactile rendering.",
-        "sourceUrl": "https://www.intelligentrobotics-acrossscales.com/interaction",
-        "kind": "project",
-        "width": 816,
-        "height": 540,
-        "credit": "Fan et al., IEEE Robotics and Automation Letters 8(12), 8494–8501 (2023)."
-      }
+      "summary": "A mixed-reality interface combines kinaesthetic and wearable tactile feedback to study immersive robot teleoperation."
     },
     {
       "title": "Fabrication and optical manipulation of micro-robots for biomedical applications",
@@ -1529,14 +1359,7 @@
       "relatedThemes": [
         "shared-autonomy"
       ],
-      "summary": "Machine-learning perception supports real-time localisation and automatic trapping of multiple optical microrobots.",
-      "figure": {
-        "src": "/assets/illustrations/microrobotics-2026c.webp",
-        "alt": "Concept illustration of optical and magnetic microrobotics in a fluid chamber.",
-        "caption": "Research theme illustration · microrobotics. AI-generated concept artwork; structures are not to scale.",
-        "kind": "theme-illustration",
-        "sourceUrl": ""
-      }
+      "summary": "Machine-learning perception supports real-time localisation and automatic trapping of multiple optical microrobots."
     },
     {
       "title": "Micro-object pose estimation with sim-to-real transfer learning using small dataset",
@@ -1847,17 +1670,7 @@
       "relatedThemes": [
         "embodiment"
       ],
-      "summary": "A handheld master controller provides an operator interface for robot-assisted microsurgery research.",
-      "figure": {
-        "src": "/assets/publication-figures/handheld-controller-2026g.webp",
-        "alt": "Author project figure showing the handheld controller with its inertial sensor and micro cameras, alongside the microsurgical robot interface.",
-        "caption": "Handheld master controller and robot interface, author project figure.",
-        "sourceUrl": "https://www.intelligentrobotics-acrossscales.com/others",
-        "kind": "project",
-        "width": 742,
-        "height": 720,
-        "credit": "Zhang et al. (2019); original project figure from Dandan Zhang’s research website, converted to WebP."
-      }
+      "summary": "A handheld master controller provides an operator interface for robot-assisted microsurgery research."
     },
     {
       "title": "Towards Microrobot Out-of-Plane Control Via Planar Multi-Spot Optical Tweezer",
@@ -1883,17 +1696,10 @@
       "relatedThemes": [
         "shared-autonomy"
       ],
-      "summary": "Planar multi-spot optical tweezers are investigated for controlling microrobot motion outside the imaging plane.",
-      "figure": {
-        "src": "/assets/illustrations/microrobotics-2026c.webp",
-        "alt": "Concept illustration of optical and magnetic microrobotics in a fluid chamber.",
-        "caption": "Research theme illustration · microrobotics. AI-generated concept artwork; structures are not to scale.",
-        "kind": "theme-illustration",
-        "sourceUrl": ""
-      }
+      "summary": "Planar multi-spot optical tweezers are investigated for controlling microrobot motion outside the imaging plane."
     }
   ],
-  "lastUpdated": "2026-11-02",
+  "lastUpdated": "2026-11-16",
   "themes": [
     {
       "id": "sensing",

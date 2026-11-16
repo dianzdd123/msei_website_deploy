@@ -201,10 +201,9 @@
           "name": "News Item",
           "data": {
             "date": "04/2026",
-            "title": "Micro-dexterity and Du-FreqNet preprints",
-            "summary": "New preprints examine micro-dexterity in biological micromanipulation and introduce Du-FreqNet for depth-dependent optical microrobot microscopy image generation.",
+            "title": "Du-FreqNet microscopy image generation preprint",
+            "summary": "Du-FreqNet studies depth-dependent optical microrobot microscopy image generation.",
             "links": [
-              "Micro-dexterity: https://arxiv.org/abs/2604.11640",
               "Du-FreqNet: https://arxiv.org/abs/2604.11680"
             ]
           }

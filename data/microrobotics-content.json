@@ -818,41 +818,6 @@
           "url": "https://nuounuou.github.io/Embodied-Cross-Domain-Intelligence-in-Biomedical-Microrobots-A-Review/"
         }
       ]
-    },
-    {
-      "id": "micro-dexterity-review",
-      "name": "Micro-dexterity in biological manipulation",
-      "title": "Micro-Dexterity in Biological Micromanipulation: Embodiment, Perception, and Control",
-      "authors": [
-        "Kangyi Lu",
-        "Lan Wei",
-        "Zongcai Tan",
-        "Dandan Zhang"
-      ],
-      "year": "2026",
-      "venue": "arXiv:2604.11640",
-      "status": "Review · preprint",
-      "question": "",
-      "approach": "How embodiment, perception and control support manipulation primitives across biological settings.",
-      "evidence": "",
-      "scope": "A preprint review that separates object, environment and operating-mode constraints.",
-      "figure": {
-        "src": "/assets/publication-figures/micro-dexterity-2026g.webp",
-        "alt": "Figure 1 compares macroscale dexterity with microscale physics and environments, then maps manipulation primitives, target objects and operational modes.",
-        "caption": "Original preprint Fig. 1 — the capability space of micro-dexterity.",
-        "sourceUrl": "https://arxiv.org/abs/2604.11640",
-        "kind": "paper",
-        "width": 1600,
-        "height": 686,
-        "credit": "Lu, Wei, Tan and Zhang, arXiv:2604.11640 (2026).",
-        "title": "Micro-dexterity in biological manipulation"
-      },
-      "links": [
-        {
-          "label": "Paper",
-          "url": "https://arxiv.org/abs/2604.11640"
-        }
-      ]
     }
   ],
   "resources": [

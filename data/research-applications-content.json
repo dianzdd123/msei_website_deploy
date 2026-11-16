@@ -606,10 +606,6 @@
             {
               "label": "Optical microrobot dataset",
               "url": "https://arxiv.org/abs/2505.18303"
-            },
-            {
-              "label": "Micro-dexterity review",
-              "url": "https://arxiv.org/abs/2604.11640"
             }
           ]
         }
@@ -692,15 +688,6 @@
           "summary": "Optical rendering and learned image generation support perception training while reducing dependence on acquired microscope images.",
           "status": "Conference paper",
           "codeUrl": "https://github.com/dianzdd123/Micro_Object_Sim2Real"
-        },
-        {
-          "name": "Micro-dexterity in biological manipulation",
-          "title": "Micro-Dexterity in Biological Micromanipulation: Embodiment, Perception, and Control",
-          "venue": "arXiv",
-          "year": "2026",
-          "url": "https://arxiv.org/abs/2604.11640",
-          "summary": "A review analyses how robot embodiment, sensing and control interact during delicate biological micromanipulation.",
-          "status": "Review preprint"
         }
       ],
       "evidenceNote": "Multi-pipette localisation is a perception contribution within a larger experimental workflow. The datasets and simulations support method development and evaluation; they are not evidence of a complete autonomous scientific laboratory.",

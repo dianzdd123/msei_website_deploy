@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-16",
+  "removedRecords": [
+    "A versatile microchannel array device for portable and parallel droplet generation",
+    "Micro-Dexterity in Biological Micromanipulation: Embodiment, Perception, and Control"
+  ],
+  "displayPolicy": "Publication-record images require a paper-specific original figure and a source link. Author-project-only and generated theme images are withheld from publication records. Conceptual artwork is used only in the research landing cover.",
+  "originalPaperFigures": [
+    {
+      "title": "Mag-VLA: Vision-Language-Action Model for Bimanual Magnetically Actuated Microrobot Manipulation",
+      "src": "/assets/publication-figures/mag-vla-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2605.28486",
+      "caption": "Author-manuscript Fig. 1 — Mag-VLA setup and manipulation pipeline."
+    },
+    {
+      "title": "Dual-Control Frequency-Aware Diffusion Model for Depth-Dependent Optical Microrobot Microscopy Image Generation",
+      "src": "/assets/publication-figures/optical-diffusion-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2604.11680",
+      "caption": "Author-manuscript Fig. 2 — depth-conditioned microscopy image generation."
+    },
+    {
+      "title": "Context-Aware Adaptive Shared Control for Magnetically-Driven Bimanual Dexterous Micromanipulation",
+      "src": "/assets/publication-figures/magnetic-shared-control-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2603.14388",
+      "caption": "Author-manuscript Fig. 1 — context-aware bimanual shared control."
+    },
+    {
+      "title": "DexterousMag: A Reconfigurable Electromagnetic Actuation System for Miniature Helical Robot",
+      "src": "/assets/publication-figures/dexterousmag-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2603.14396",
+      "caption": "Author-manuscript Fig. 1 — the reconfigurable DexterousMag actuation concept."
+    },
+    {
+      "title": "A vision-based tactile sensor with in-sensor computing paradigm for seamless tactile sensing and perception",
+      "src": "/assets/publication-figures/pixeltac-2026g.webp",
+      "sourceUrl": "https://www.nature.com/articles/s44172-026-00770-w",
+      "caption": "Original paper Fig. 1 — PixelTac’s in-sensor computing paradigm and hardware architecture."
+    },
+    {
+      "title": "TacVerse: A Multisensor Dataset and Benchmark for Cross-Sensor Vision-Based Tactile Perception",
+      "src": "/assets/publication-figures/tacverse-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2606.25877",
+      "caption": "Author-manuscript Fig. 2 — examples from the TacVerse benchmark tasks."
+    },
+    {
+      "title": "i-Tac: Inverse Design of 3D-Printed Tactile Elastomers with Tuneable Optical and Mechanical Properties",
+      "src": "/assets/publication-figures/itac-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2604.10692",
+      "caption": "Author-manuscript Fig. 1 — i-Tac elastomer design and property control."
+    },
+    {
+      "title": "ADM-DP: Adaptive Dynamic Modality Diffusion Policy through Vision-Tactile-Graph Fusion for Multi-Agent Manipulation",
+      "src": "/assets/publication-figures/adm-dp-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2602.21622",
+      "caption": "Author-manuscript Fig. 1 — ADM-DP learning and manipulation framework."
+    },
+    {
+      "title": "Design and Control of Modular Magnetic Millirobots for Multimodal Locomotion and Shape Reconfiguration",
+      "src": "/assets/publication-figures/magnetic-millirobots-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2602.19346",
+      "caption": "Author-manuscript Fig. 1 — modular magnetic millirobot design and behaviours."
+    },
+    {
+      "title": "Physics-Informed Machine Learning with Adaptive Grids for Optical Microrobot Depth Estimation",
+      "src": "/assets/publication-figures/optical-depth-grids-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2509.02343",
+      "caption": "Author-manuscript Fig. 2 — microrobot appearance across focal depths."
+    },
+    {
+      "title": "Deep Reinforcement Learning-Based Semi-Autonomous Control for Magnetic Micro-robot Navigation with Immersive Manipulation",
+      "src": "/assets/publication-figures/magnetic-navigation-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2503.06359",
+      "caption": "Author-manuscript Fig. 1 — immersive semi-autonomous magnetic navigation."
+    },
+    {
+      "title": "Design and Benchmarking of a Multimodality Sensor for Robotic Manipulation With GAN-Based Cross-Modality Interpretation",
+      "src": "/assets/publication-figures/vitactip-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2501.02303",
+      "caption": "Author-manuscript Fig. 1 — the four sensing capabilities of ViTacTip."
+    },
+    {
+      "title": "MagicGripper: A Mini-MagicTac Integrated Gripper Enabling Multimodal Perception in Contact-Rich Manipulation",
+      "src": "/assets/publication-figures/magicgripper-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2505.24382",
+      "caption": "Author-manuscript Fig. 5 — Mini-MagicTac and MagicGripper hardware."
+    },
+    {
+      "title": "Magnetic microrobots for in vivo cargo delivery: A review",
+      "src": "/assets/publication-figures/magnetic-cargo-review-2026g.webp",
+      "sourceUrl": "https://www.mdpi.com/2072-666X/15/5/664",
+      "caption": "Original paper Fig. 1 — the engineering framework for magnetic microrobot cargo delivery."
+    },
+    {
+      "title": "One-Shot Domain-Adaptive Imitation Learning via Progressive Learning Applied to Robotic Pouring",
+      "src": "/assets/publication-figures/legacy-one-shot-pouring-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2204.11251",
+      "caption": "Robotic pouring setup, Figure 2 of the author manuscript."
+    },
+    {
+      "title": "Advanced medical micro-robotics for early diagnosis and therapeutic interventions",
+      "src": "/assets/publication-figures/medical-microrobotics-review-2026g.webp",
+      "sourceUrl": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2022.1086043/full",
+      "caption": "Original paper Fig. 1 — challenges, techniques, categories and applications of medical microrobotics."
+    },
+    {
+      "title": "Bi-Touch: Bimanual Tactile Manipulation with Sim-to-Real Deep Reinforcement Learning",
+      "src": "/assets/publication-figures/legacy-bi-touch-2026f.webp",
+      "sourceUrl": "https://arxiv.org/abs/2307.06423",
+      "caption": "Bi-Touch system overview, Figure 1."
+    },
+    {
+      "title": "Fabrication and optical manipulation of micro-robots for biomedical applications",
+      "src": "/assets/publication-figures/fabrication-2026g.webp",
+      "sourceUrl": "https://publiweb.femto-st.fr/tntnet/entries/19272/documents/author/data",
+      "caption": "Scope of optical microrobotics for biomedical applications, Figure 1."
+    },
+    {
+      "title": "From teleoperation to autonomous robot-assisted microsurgery: A survey",
+      "src": "/assets/publication-figures/microsurgery-survey-2026g.webp",
+      "sourceUrl": "https://link.springer.com/article/10.1007/s11633-022-1332-5",
+      "caption": "Milestones in robot-assisted microsurgery, Figure 1."
+    },
+    {
+      "title": "Micro-object pose estimation with sim-to-real transfer learning using small dataset",
+      "src": "/assets/publication-figures/pose-small-dataset-2026g.webp",
+      "sourceUrl": "https://www.nature.com/articles/s42005-022-00844-z",
+      "caption": "Sim-to-real learning-to-match model, Figure 3."
+    },
+    {
+      "title": "Human-Robot Shared Control for Surgical Robot Based on Context-Aware Sim-to-Real Adaptation",
+      "src": "/assets/publication-figures/shared-control-2026g.webp",
+      "sourceUrl": "https://arxiv.org/abs/2204.11116",
+      "caption": "Context-aware sim-to-real shared-control framework, Figure 1."
+    },
+    {
+      "title": "Distributed force control for microrobot manipulation via planar multi‐spot optical tweezer",
+      "src": "/assets/publication-figures/distributed-force-2026g.webp",
+      "sourceUrl": "https://doi.org/10.1002/adom.202000543",
+      "caption": "Physical mechanism and microrobot design for out-of-plane optical control, Figure 1."
+    },
+    {
+      "title": "Data-driven microscopic pose and depth estimation for optical microrobot manipulation",
+      "src": "/assets/publication-figures/microscopic-depth-2026g.webp",
+      "sourceUrl": "https://spiral.imperial.ac.uk/entities/publication/f303cc81-9ddc-48b1-bfcb-8dae7b606c96",
+      "caption": "GPR–ResNet pose and depth estimation with few-shot calibration, Figure 5."
+    },
+    {
+      "title": "Automatic microsurgical skill assessment based on cross-domain transfer learning",
+      "src": "/assets/publication-figures/microsurgical-skills-2026g.webp",
+      "sourceUrl": "https://spiral.imperial.ac.uk/entities/publication/bbe67bae-c567-48d9-83c4-8fdaa5b65df8",
+      "caption": "Neural-network architecture and cross-domain transfer learning, Figure 4."
+    },
+    {
+      "title": "A microsurgical robot research platform for robot-assisted microsurgery research and training",
+      "src": "/assets/publication-figures/legacy-microsurgery-platform-2026f.webp",
+      "sourceUrl": "https://doi.org/10.1007/s11548-019-02074-1",
+      "caption": "Microsurgical robot research platform, Figure 4."
+    }
+  ],
+  "recordsWithoutVerifiedPaperFigure": [
+    {
+      "title": "Rapid Parallel Fabrication and Control of Diverse Microrobotic Structures with Magnetic Functionalization",
+      "previousKind": "theme-illustration",
+      "previousSource": ""
+    },
+    {
+      "title": "A Digital Twin Framework for Virtual Visuo-Haptic Teleoperation of Complex-Shaped Optical Microrobots",
+      "previousKind": "project",
+      "previousSource": "https://github.com/Zongcai23/ot-haptic-feedback-digital-twin"
+    },
+    {
+      "title": "Embodied Cross-Domain Intelligence in Biomedical Microrobots: A Review",
+      "previousKind": "project",
+      "previousSource": "https://nuounuou.github.io/Embodied-Cross-Domain-Intelligence-in-Biomedical-Microrobots-A-Review/"
+    },
+    {
+      "title": "Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation",
+      "previousKind": "project",
+      "previousSource": "https://github.com/Zongcai23/Micro_Object_Sim2Real"
+    },
+    {
+      "title": "Coarse-to-Fine Learning for Multi-Pipette Localisation in Robot-Assisted In Vivo Patch-Clamp",
+      "previousKind": "project",
+      "previousSource": "https://lannwei.github.io/Patch-Clamp-Localisation/"
+    },
+    {
+      "title": "A Dataset and Benchmarks for Deep Learning-Based Optical Microrobot Pose and Depth Perception",
+      "previousKind": "project",
+      "previousSource": "https://lannwei.github.io/Optical-Microrobot-Database/"
+    },
+    {
+      "title": "Magni-DOME: An Open Platform for High-Resolution Light-Based and Magnetic Contactless Fabrication of Active Microstructures",
+      "previousKind": "theme-illustration",
+      "previousSource": ""
+    },
+    {
+      "title": "Interactive OT Gym: A Reinforcement Learning-Based Interactive Optical tweezer (OT)-Driven Microrobotics Simulation Platform",
+      "previousKind": "project",
+      "previousSource": "https://github.com/dianzdd123/ICRA2025-OT-Gym"
+    },
+    {
+      "title": "A Digital Twin-Driven Immersive Teleoperation Framework for Robot-Assisted Microsurgery",
+      "previousKind": "theme-illustration",
+      "previousSource": ""
+    },
+    {
+      "title": "Adaptive Motion Scaling for Robot-Assisted Microsurgery Based on Hybrid Offline Reinforcement Learning and Damping Control",
+      "previousKind": "theme-illustration",
+      "previousSource": ""
+    },
+    {
+      "title": "A Digital Twin-Driven Mixed Reality Framework for Immersive Teleoperation with Haptic Rendering",
+      "previousKind": "project",
+      "previousSource": "https://www.intelligentrobotics-acrossscales.com/interaction"
+    },
+    {
+      "title": "Machine learning-based real-time localization and automatic trapping of multiple microrobots in optical tweezer",
+      "previousKind": "theme-illustration",
+      "previousSource": ""
+    },
+    {
+      "title": "A handheld master controller for robot-assisted microsurgery",
+      "previousKind": "project",
+      "previousSource": "https://www.intelligentrobotics-acrossscales.com/others"
+    },
+    {
+      "title": "Towards Microrobot Out-of-Plane Control Via Planar Multi-Spot Optical Tweezer",
+      "previousKind": "theme-illustration",
+      "previousSource": ""
+    }
+  ],
+  "conceptArtwork": {
+    "provider": "Lovart",
+    "projectUrl": "https://www.lovart.ai/canvas?projectId=2w318pp8r8jk",
+    "artifactUrl": "https://a.lovart.ai/artifacts/generator/kTlkD0oDOm2Bb4DI.png",
+    "usage": "Decorative research overview banner; not a paper image or experimental result."
+  }
+}
