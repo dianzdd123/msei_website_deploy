@@ -17,15 +17,15 @@ const acts=xs=>$('div',{class:'lp-actions'},xs.map(([x,y,z])=>button(x,y,z)));
 const hero=(word,title,desc,img,buttons=[])=>$('section',{class:'lp-hero'},$('div',{class:'lp-wrap lp-hero-inner'},[
   $('div',{class:'lp-hero-copy'},[eyebrow('MSEI LAB · '+word.toUpperCase()),$('h1',null,title),$('p',{class:'lp-lede'},desc),acts(buttons)]),
   F(img,'lp-hero-figure')]));
-// Only the research-team page uses the enlarged group-photo cover.
+// Keep the People photograph compact in the upper-right corner only.
 const peopleCover=(word,title,desc,img,buttons=[])=>$('section',{
-  class:'lp-hero lp-home-cover lp-people-cover','aria-label':'Research team'
-},[
-  $('img',{class:'lp-home-background',src:img.src,alt:img.alt,fetchpriority:'high',decoding:'async'}),
-  $('div',{class:'lp-wrap lp-home-content'},[
+  class:'lp-hero lp-people-corner','aria-label':'Research team'
+},$('div',{class:'lp-wrap lp-hero-inner'},[
+  $('div',{class:'lp-hero-copy'},[
     eyebrow('MSEI LAB · '+word.toUpperCase()),$('h1',null,title),$('p',{class:'lp-lede'},desc),acts(buttons)
-  ])
-]);
+  ]),
+  $('div',{style:'width:100%;max-width:280px;margin-left:auto;align-self:start'},F(img,'lp-hero-figure'))
+]));
 const nav=xs=>$('nav',{class:'lp-section-nav','aria-label':'Page sections'},
   $('div',{class:'lp-wrap lp-nav-scroll'},xs.map(([name,id])=>a(name,'#'+id,'lp-nav-link'))));
 const section=(num,title,lead,id,body)=>$('section',{class:'lp-section lp-wrap',id,'aria-labelledby':id+'-heading'},[
