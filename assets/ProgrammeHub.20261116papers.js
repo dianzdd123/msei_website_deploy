@@ -189,6 +189,14 @@ function capabilities(d) {
 }
 function impact(d) {
   const s = d.services.sections || {};
+  const opticalCollaborators = [
+    ['Professor Yuval Elani', 'Professor of Biochemical Technologies · Department of Chemical Engineering, Imperial College London', 'https://profiles.imperial.ac.uk/y.elani'],
+    ['Dr Joseph van Batenburg-Sherwood', 'Department of Bioengineering, Imperial College London', 'https://profiles.imperial.ac.uk/jvbsherwood'],
+    ['Dr Christopher Rowlands', 'Department of Bioengineering, Imperial College London', 'https://profiles.imperial.ac.uk/c.rowlands'],
+    ['Philip Jones', 'Department of Physics and Astronomy, University College London', 'https://profiles.ucl.ac.uk/5427'],
+    ['Antoine Barbot', 'FEMTO-ST / CNRS, France', 'https://www.femto-st.fr/en/femto-people/antoinebarbot'],
+    ['Aude Bolopion', 'FEMTO-ST / CNRS, France', 'https://www.femto-st.fr/en/femto-people/audebolopion']
+  ];
   return el('div', { class: 'lp-site', id: 'main-content' }, [
     pageHero('Impact', 'From physical interaction to useful knowledge.',
       'We investigate potential applications in healthcare, robotic manipulation and scientific experimentation, while documenting research exchanges and reusable outputs.',
@@ -203,6 +211,18 @@ function impact(d) {
     sector('02 / RESEARCH COLLABORATION', 'Research partnerships.',
       'Scientific collaboration through research exchanges, joint experiments and shared methods in robotics, tactile intelligence and microrobotics.',
       'partnerships', el('div',{class:'lp-grid lp-grid-two'}, [
+        el('article',{class:'lp-card',id:'optical-tweezer-partnership',style:'grid-column:1 / -1'},[
+          eyebrow('OPTICAL-TWEEZER PROJECT'),
+          el('h3',null,'Optical tweezers and intelligent micromanipulation'),
+          el('p',null,'Research collaboration connecting optical trapping, microscopy and robotic control for the manipulation of cells and microscopic objects.'),
+          el('p',null,[el('strong',null,'Project PhD researcher: '),link('Zongcai Tan',urls.people+'#person-zongcai-tan','lp-card-link')]),
+          el('h4',null,'Research collaborators'),
+          el('ul',{class:'lp-list',style:'display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px 28px'},
+            opticalCollaborators.map(([name,affiliation,url])=>el('li',null,[
+              link(name+' ↗',url,'lp-card-link'),el('p',null,affiliation)
+            ]))),
+          link('Explore optical microrobotics →',urls.research+'/microrobotics','lp-card-link')
+        ]),
         ...(s.exchanges?.items || []).filter(x => /research exchange|research collaboration/i.test(x.name)).map(x =>
           smallCard(x.name,x.description,x.url,'View research exchange ↗')),
         smallCard('Collaborate with MSEI Lab',
