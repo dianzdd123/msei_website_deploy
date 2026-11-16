@@ -1,0 +1,6 @@
+.lp-site .lp-theme-figure{margin:0 0 24px;border:1px solid #dce7ed;border-radius:10px;overflow:hidden;background:#eef4fa}
+.lp-site .lp-theme-figure .lp-image-link{display:block}
+.lp-site .lp-theme-figure img{display:block;width:100%;height:auto;aspect-ratio:1672/941;object-fit:contain}
+.lp-site .lp-theme-figure figcaption{padding:10px 13px;font-size:11px;line-height:1.5;color:#53677e;background:#f4f7fb;border-top:1px solid #e1e8f0}
+.lp-site .lp-theme h3{font-size:21px}
+@media(max-width:760px){.lp-site .lp-theme{padding:19px}.lp-site .lp-theme-figure{margin-bottom:20px}}
