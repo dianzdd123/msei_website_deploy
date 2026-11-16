@@ -196,14 +196,19 @@ function impact(d) {
       'Concept illustration of a microscope and robotic scientific instruments.',
       'AI-generated illustration; not a completed autonomous laboratory.',
       [['Explore applications', urls.research], ['Open research outputs', urls.outputs, true]]),
-    subnav([['Applications','pathways'], ['Partnerships','partnerships'], ['Support','support'], ['Community','engagement']]),
+    subnav([['Applications','pathways'], ['Partnerships','partnerships'], ['Support','support'], ['Engagement','engagement']]),
     sector('01 / TRANSLATION PATHWAYS', 'Where the methods could matter.',
       'Application areas represent research settings and possible pathways; potential benefits are not presented as achieved clinical or industrial outcomes.',
       'pathways', appCards(d.apps.applications)),
-    sector('02 / RESEARCH EXCHANGE', 'Partnerships and engagement.',
-      'Selected publicly documented exchanges and activities, drawn from the existing research-community record.',
-      'partnerships', el('div',{class:'lp-grid lp-grid-two'}, (s.exchanges?.items || []).filter(x => !/invited talks/i.test(x.name)).map(x =>
-        smallCard(x.name,x.description,x.url,'Read the source ↗')))),
+    sector('02 / RESEARCH COLLABORATION', 'Research partnerships.',
+      'Scientific collaboration through research exchanges, joint experiments and shared methods in robotics, tactile intelligence and microrobotics.',
+      'partnerships', el('div',{class:'lp-grid lp-grid-two'}, [
+        ...(s.exchanges?.items || []).filter(x => /research exchange|research collaboration/i.test(x.name)).map(x =>
+          smallCard(x.name,x.description,x.url,'View research exchange ↗')),
+        smallCard('Collaborate with MSEI Lab',
+          'Discuss a shared research question, complementary expertise, joint experiments or methods and datasets. Include the scientific context and proposed contribution.',
+          urls.contact,'Discuss research collaboration →')
+      ])),
     sector('03 / RESPONSIBLE SUPPORT', 'Funding and research stewardship.',
       'We provide funder acknowledgements alongside verified research outputs when such information is publicly approved. Internal proposals, confidential allocations, unannounced awards and private budgets are not published here.',
       'support', el('div',{class:'lp-note'},[
@@ -211,10 +216,16 @@ function impact(d) {
         el('p',null,'Review publications and shared resources for documented results. For questions about current programmes or partnership opportunities, contact the research team.'),
         el('div',{class:'lp-actions'},[action('Review outputs',urls.outputs,true),action('Contact the lab',urls.contact)])
       ])),
-    sector('04 / SCHOLARLY COMMUNITY', 'Building the research community.',
-      'Individual event and academic-service appointments are recorded on Dandan Zhang’s personal website; the group site highlights their collaborative relevance.',
-      'engagement', el('div',{class:'lp-grid lp-grid-three'}, (s.workshops?.items || []).slice(0,3).map(x =>
-        smallCard(x.name,x.description,x.url,'Official workshop ↗')))),
+    sector('04 / PUBLIC ENGAGEMENT', 'Engagement.',
+      'Public demonstrations, outreach, media contributions and research-community activities are maintained on Dandan Zhang’s personal website.',
+      'engagement', el('div',{class:'lp-grid lp-grid-two'}, [
+        smallCard('Public engagement and outreach',
+          'Explore activities including Imperial I-X Open Days, Imperial Lates, public discussions and community events.',
+          'https://www.intelligentrobotics-acrossscales.com/research-blog/categories/public-engagement','Visit public engagement ↗'),
+        smallCard('Invited talks and seminars',
+          'Find Dandan Zhang’s research talks, seminars and speaker information.',
+          'https://www.intelligentrobotics-acrossscales.com/talks-overview','Visit talks and seminars ↗')
+      ])),
     footerCTA('Build a research partnership.', 'Tell us the scientific challenge, research context and potential forms of collaboration.')
   ]);
 }
