@@ -17,6 +17,15 @@ const acts=xs=>$('div',{class:'lp-actions'},xs.map(([x,y,z])=>button(x,y,z)));
 const hero=(word,title,desc,img,buttons=[])=>$('section',{class:'lp-hero'},$('div',{class:'lp-wrap lp-hero-inner'},[
   $('div',{class:'lp-hero-copy'},[eyebrow('MSEI LAB · '+word.toUpperCase()),$('h1',null,title),$('p',{class:'lp-lede'},desc),acts(buttons)]),
   F(img,'lp-hero-figure')]));
+// Only the research-team page uses the enlarged group-photo cover.
+const peopleCover=(word,title,desc,img,buttons=[])=>$('section',{
+  class:'lp-hero lp-home-cover lp-people-cover','aria-label':'Research team'
+},[
+  $('img',{class:'lp-home-background',src:img.src,alt:img.alt,fetchpriority:'high',decoding:'async'}),
+  $('div',{class:'lp-wrap lp-home-content'},[
+    eyebrow('MSEI LAB · '+word.toUpperCase()),$('h1',null,title),$('p',{class:'lp-lede'},desc),acts(buttons)
+  ])
+]);
 const nav=xs=>$('nav',{class:'lp-section-nav','aria-label':'Page sections'},
   $('div',{class:'lp-wrap lp-nav-scroll'},xs.map(([name,id])=>a(name,'#'+id,'lp-nav-link'))));
 const section=(num,title,lead,id,body)=>$('section',{class:'lp-section lp-wrap',id,'aria-labelledby':id+'-heading'},[
@@ -86,7 +95,7 @@ function people(d){
  visiting=[...members(s.visitingresearchers),...members(s.researchassistants),...members(s.visitingphdstudents)],
  mres=members(s.msstudents),interns=members(s.interns),alumni=members(s.alumni);
  return screen([
-  hero('People','The research team.',d.team.intro||'Researchers and students exploring intelligence across scales.',
+  peopleCover('People','The research team.',d.team.intro||'Researchers and students exploring intelligence across scales.',
     {src:'/assets/group_photo/msei-research-group-20261116.jpg',alt:'MSEI research group together at Imperial College London.',caption:'The MSEI research group at Imperial College London.'},
     [['Research',base+'/research'],['Opportunities',base+'/opportunities',true]]),
   nav([['Leadership','leadership'],['PhD','phd'],['Visitors','visitors'],['MRes','mres'],['Alumni','alumni'],['Photos','photos']]),
