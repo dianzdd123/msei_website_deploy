@@ -28,26 +28,6 @@
   "currentYearPhotos": [],
   "albums": [
     {
-      "year": "2026",
-      "title": "CNRS–Imperial collaboration visit",
-      "description": "Welcoming Dr Antoine Barbot and Valentin from FEMTO-ST, CNRS, for research discussions and shared activities during their April 2026 visit.",
-      "date": "April 2026",
-      "photos": [
-        {
-          "url": "/assets/photos/msei-group-lunch-2026.webp",
-          "title": "Conversations beyond the lab",
-          "alt": "Members of the research group and visitors sharing a meal in April 2026.",
-          "caption": "A group lunch during the visit, with time to exchange ideas and get to know colleagues beyond the research meeting.",
-          "date": "16 April 2026",
-          "dateISO": "2026-04-16",
-          "location": "",
-          "width": 1600,
-          "height": 1200,
-          "sourceAsset": "2026-04-16-Research Group Lunch.jpg"
-        }
-      ]
-    },
-    {
       "year": "2025",
       "title": "The MSEI community",
       "description": "Group photographs and informal moments from 2025.",
