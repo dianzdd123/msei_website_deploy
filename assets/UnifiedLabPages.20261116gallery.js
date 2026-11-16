@@ -38,9 +38,15 @@ const appcards=d=>grid(ar(d.applications?.applications).map(x=>$('article',{clas
 function research(d){
  const s=d.research.sections||{},v=s.vision||{};
  return screen([
-  hero('Research','Adaptive physical intelligence.',v.lead||'Robotics across scales.',
-    {src:'/assets/illustrations/microrobotics-2026c.webp',alt:'Concept of optical and magnetic microrobots.',caption:'AI-generated illustration; not experimental data.'},
-    [['Projects',base+'/projects'],['Publications',base+'/publications',true]]),
+  $('section',{class:'lp-home-cover','aria-labelledby':'research-hero-title'},[
+    $('img',{class:'lp-home-background',src:'/assets/illustrations/microrobotics-2026c.webp',alt:'',fetchpriority:'high',decoding:'async'}),
+    $('div',{class:'lp-wrap lp-home-content'},[
+      eyebrow('MSEI LAB · RESEARCH'),
+      $('h1',{id:'research-hero-title'},'Adaptive physical intelligence.'),
+      $('p',{class:'lp-lede'},v.lead||'Robotics across scales.'),
+      acts([['Projects',base+'/projects'],['Publications',base+'/publications',true]])
+    ])
+  ]),
   nav([['Vision','vision'],['Applications','applications'],['Themes','themes'],['Platforms','platforms'],['Directions','directions']]),
   section('01 / SCIENTIFIC VISION',v.question||'Research questions',v.statement,'vision',
     $('div',{class:'lp-note'},[$('h3',null,v.headline||'Adaptive robotics'),$('p',null,v.directionNote||''),F(s.figures?.framework,'lp-inline-figure')])),
