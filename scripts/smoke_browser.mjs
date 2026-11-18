@@ -14,14 +14,21 @@ await mkdir(outDir, { recursive: true });
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 async function checkPeopleCover() {
-  const cover = page.locator('.lp-unified > .lp-people-cover:empty');
-  await cover.waitFor({ timeout: 12000 });
-  const background = await cover.evaluate(element => getComputedStyle(element).backgroundImage);
-  assert.equal(background, 'none', 'The People cover should be blank');
+  const cover = page.locator('.lp-unified > .lp-team-hero');
+  await cover.getByRole('heading', { name: 'The research team.', exact: true }).waitFor();
+  assert.match(await cover.locator('.lp-lede').innerText(), /Multi-Scale Embodied Intelligence Lab/);
+  for (const label of ['Research', 'Opportunities']) {
+    const action = cover.getByRole('link', { name: label, exact: true });
+    assert.equal(await action.getAttribute('href'), '/msei_website/' + label.toLowerCase());
+  }
+  const images = cover.getByRole('img');
+  assert.equal(await images.count(), 2, 'Both People illustrations should be present');
+  await images.evaluateAll(elements => Promise.all(elements.map(image => image.decode())));
+  assert.equal(await cover.locator('figcaption').innerText(), 'AI-generated illustrations');
   const coverBox = await cover.boundingBox();
   const profileBox = await page.locator('.lp-person').first().boundingBox();
-  assert.ok(coverBox?.height > 0 && profileBox?.y >= coverBox.y + coverBox.height,
-    'The team profiles should appear below the empty cover');
+  assert.ok(coverBox && profileBox && profileBox.y >= coverBox.y + coverBox.height,
+    'The team profiles should follow the illustrated introduction');
 }
 const pageErrors = [];
 const missing = [];

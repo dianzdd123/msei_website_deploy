@@ -1,3 +1,4 @@
+import { peopleCover } from './PeopleCover.20261118.js';
 import { landingHero } from './LandingHero.20261116papers.js';
 import { r as ref, w as watch } from './vendor-DnaV-8Px.js';
 import { node as e, route as base, link, figure, eyebrow, focusHash } from './ResearchUI.20261111privacy.js';
@@ -82,8 +83,7 @@ function people(d){
  visiting=[...members(s.visitingresearchers),...members(s.researchassistants),...members(s.visitingphdstudents)],
  mres=members(s.msstudents),interns=members(s.interns),alumni=members(s.alumni);
  return screen([
-  $('div', { class: 'lp-people-cover', 'aria-hidden': 'true' }),
-  $('h1', { class: 'lp-directory-heading' }, 'The research team.'),
+  peopleCover(d.team.intro),
   nav([['Leadership','leadership'],['PhD','phd'],['Visitors','visitors'],['MRes','mres'],['Alumni','alumni'],['Photos','photos']]),
   section('01 / LEADERSHIP','Principal investigator.','The full academic biography is maintained on Dandan Zhang’s personal website.','leadership',
     $('div',null,[grid(members(s.principalinvestigator).map(person),true),$('div',{class:'lp-after-grid'},button('Dandan Zhang’s website ↗','https://www.intelligentrobotics-acrossscales.com/',true))])),
