@@ -26,8 +26,7 @@ export function peopleCover(intro) {
             alt: 'Hands adjusting a microscope stage and positioning a sample with tweezers.',
             width: 720, height: 480, decoding: 'async'
           })
-        ]),
-        node('figcaption', null, 'AI-generated illustrations')
+        ])
       ])
     ])
   );

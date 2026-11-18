@@ -51,12 +51,6 @@
   width: 40%;
   border: .25rem solid #fff;
 }
-.lp-team-art figcaption {
-  margin-top: .65rem;
-  color: #536777;
-  font-size: .8125rem;
-  text-align: right;
-}
 @media (max-width: 800px) {
   .lp-team-hero .lp-hero-inner {
     grid-template-columns: minmax(0, 1fr);

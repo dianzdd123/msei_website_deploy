@@ -24,7 +24,7 @@ async function checkPeopleCover() {
   const images = cover.getByRole('img');
   assert.equal(await images.count(), 2, 'Both People illustrations should be present');
   await images.evaluateAll(elements => Promise.all(elements.map(image => image.decode())));
-  assert.equal(await cover.locator('figcaption').innerText(), 'AI-generated illustrations');
+  assert.equal(await cover.getByText('AI-generated illustrations', { exact: true }).count(), 0);
   const coverBox = await cover.boundingBox();
   const profileBox = await page.locator('.lp-person').first().boundingBox();
   assert.ok(coverBox && profileBox && profileBox.y >= coverBox.y + coverBox.height,
