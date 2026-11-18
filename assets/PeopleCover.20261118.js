@@ -16,14 +16,14 @@ export function peopleCover(intro) {
         node('div', { class: 'lp-team-illustrations' }, [
           node('img', {
             class: 'lp-team-bench',
-            src: '/assets/illustrations/people-robotics-team-20261118.webp',
-            alt: 'Two researchers working together with a tabletop robot gripper.',
+            src: '/assets/illustrations/people-dandan-robotics-cartoon.webp',
+            alt: 'Cartoon of Dandan Zhang and a colleague testing a tabletop robot gripper.',
             width: 1200, height: 800, decoding: 'async', fetchpriority: 'high'
           }),
           node('img', {
             class: 'lp-team-microscope',
-            src: '/assets/illustrations/people-microscopy-team-20261118.webp',
-            alt: 'Hands adjusting a microscope stage and positioning a sample with tweezers.',
+            src: '/assets/illustrations/people-dandan-microscopy-cartoon.webp',
+            alt: 'Cartoon of Dandan Zhang positioning a microscope slide while a female PhD researcher adjusts the stage.',
             width: 720, height: 480, decoding: 'async'
           })
         ])

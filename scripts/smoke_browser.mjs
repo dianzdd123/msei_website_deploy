@@ -21,8 +21,8 @@ async function checkPeopleCover() {
     const action = cover.getByRole('link', { name: label, exact: true });
     assert.equal(await action.getAttribute('href'), '/msei_website/' + label.toLowerCase());
   }
-  const images = cover.getByRole('img');
-  assert.equal(await images.count(), 2, 'Both People illustrations should be present');
+  const images = cover.getByRole('img', { name: /Dandan Zhang/ });
+  assert.equal(await images.count(), 2, 'Both cartoons should feature Dandan Zhang');
   await images.evaluateAll(elements => Promise.all(elements.map(image => image.decode())));
   assert.equal(await cover.getByText('AI-generated illustrations', { exact: true }).count(), 0);
   const coverBox = await cover.boundingBox();
