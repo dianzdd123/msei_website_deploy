@@ -13,6 +13,16 @@ const outDir = 'artifacts/browser-smoke';
 await mkdir(outDir, { recursive: true });
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+async function checkPeopleCover() {
+  const cover = page.locator('.lp-unified > .lp-people-cover:empty');
+  await cover.waitFor({ timeout: 12000 });
+  const background = await cover.evaluate(element => getComputedStyle(element).backgroundImage);
+  assert.equal(background, 'none', 'The People cover should be blank');
+  const coverBox = await cover.boundingBox();
+  const profileBox = await page.locator('.lp-person').first().boundingBox();
+  assert.ok(coverBox?.height > 0 && profileBox?.y >= coverBox.y + coverBox.height,
+    'The team profiles should appear below the empty cover');
+}
 const pageErrors = [];
 const missing = [];
 page.on('pageerror', error => pageErrors.push(error.message));
@@ -62,6 +72,7 @@ for (const test of routes) {
       assert.ok(count >= test.count, test.selector + ' needs ' + test.count + ' items, found ' + count);
     }
     if (test.content) assert.ok((await page.locator('.lp-site').innerText()).includes(test.content), 'Expected real research team content');
+    if (test.slug === 'people/' || test.slug === 'team/') await checkPeopleCover();
     assert.equal(await page.locator('#app .global-main-content > .lp-site').count(), 1, 'Exactly one unified page root');
     assert.equal(await page.locator('.lp-main-navbar').count(), 1, 'Exactly one main navigation bar');
     assert.equal(await page.locator('.rd-home, .tm-page, .rd-research').count(), 0, 'No legacy page layout roots');
@@ -78,16 +89,18 @@ for (const test of routes) {
 }
 // Cross-page transition: navigation must change the page without remounting a legacy application.
 try {
-  await page.goto(base + '/msei_website/people/', { waitUntil: 'domcontentloaded' });
+  await page.goto(base + '/msei_website/opportunities/', { waitUntil: 'domcontentloaded' });
+  await page.locator('nav.lp-main-navbar a.navbar-link[href="/msei_website/people"]').first().click();
   await page.locator('.lp-person').first().waitFor({ timeout: 20000 });
+  await checkPeopleCover();
   await page.locator('nav.lp-main-navbar a.navbar-link[href="/msei_website/research"]').first().click();
   await page.locator('.lp-theme').first().waitFor({ timeout: 20000 });
   assert.match(await page.locator('.lp-site h1').first().innerText(), /Adaptive physical intelligence/i);
   assert.equal(await page.locator('.lp-main-navbar').count(), 1);
-  console.log('PASS People → Research navigation');
+  console.log('PASS Opportunities → People → Research navigation');
 } catch (error) {
   failures++;
-  console.error('FAIL People → Research navigation:', error.message);
+  console.error('FAIL Opportunities → People → Research navigation:', error.message);
   await page.screenshot({ path: outDir + '/navigation.png', fullPage: true }).catch(() => {});
 }
 // Mobile check for the reported blank People route and navigation drawer.
@@ -95,6 +108,7 @@ try {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(base + '/msei_website/people/', { waitUntil: 'domcontentloaded' });
   await page.locator('.lp-person').first().waitFor({ timeout: 20000 });
+  await checkPeopleCover();
   const menu=page.locator('button.hamburger-btn').first();
   await menu.click();
   assert.equal(await menu.getAttribute('aria-expanded'), 'true');

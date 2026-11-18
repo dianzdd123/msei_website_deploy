@@ -79,9 +79,8 @@ function people(d){
  visiting=[...members(s.visitingresearchers),...members(s.researchassistants),...members(s.visitingphdstudents)],
  mres=members(s.msstudents),interns=members(s.interns),alumni=members(s.alumni);
  return screen([
-  hero('People','The research team.',d.team.intro||'Researchers and students exploring intelligence across scales.',
-    {src:'/assets/group_photo/msei-research-group-20261116.jpg',alt:'MSEI research group together at Imperial College London.',caption:'The MSEI research group at Imperial College London.'},
-    [['Research',base+'/research'],['Opportunities',base+'/opportunities',true]]),
+  $('div', { class: 'lp-people-cover', 'aria-hidden': 'true' }),
+  $('h1', { class: 'lp-directory-heading' }, 'The research team.'),
   nav([['Leadership','leadership'],['PhD','phd'],['Visitors','visitors'],['MRes','mres'],['Alumni','alumni'],['Photos','photos']]),
   section('01 / LEADERSHIP','Principal investigator.','The full academic biography is maintained on Dandan Zhang’s personal website.','leadership',
     $('div',null,[grid(members(s.principalinvestigator).map(person),true),$('div',{class:'lp-after-grid'},button('Dandan Zhang’s website ↗','https://www.intelligentrobotics-acrossscales.com/',true))])),

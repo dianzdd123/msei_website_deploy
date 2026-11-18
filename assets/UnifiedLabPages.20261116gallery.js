@@ -17,15 +17,6 @@ const acts=xs=>$('div',{class:'lp-actions'},xs.map(([x,y,z])=>button(x,y,z)));
 const hero=(word,title,desc,img,buttons=[])=>$('section',{class:'lp-hero'},$('div',{class:'lp-wrap lp-hero-inner'},[
   $('div',{class:'lp-hero-copy'},[eyebrow('MSEI LAB · '+word.toUpperCase()),$('h1',null,title),$('p',{class:'lp-lede'},desc),acts(buttons)]),
   F(img,'lp-hero-figure')]));
-// Keep the People photograph compact in the upper-right corner only.
-const peopleCover=(word,title,desc,img,buttons=[])=>$('section',{
-  class:'lp-hero lp-people-corner','aria-label':'Research team'
-},$('div',{class:'lp-wrap lp-hero-inner'},[
-  $('div',{class:'lp-hero-copy'},[
-    eyebrow('MSEI LAB · '+word.toUpperCase()),$('h1',null,title),$('p',{class:'lp-lede'},desc),acts(buttons)
-  ]),
-  $('div',{style:'width:100%;max-width:280px;margin-left:auto;align-self:start'},F(img,'lp-hero-figure'))
-]));
 const nav=xs=>$('nav',{class:'lp-section-nav','aria-label':'Page sections'},
   $('div',{class:'lp-wrap lp-nav-scroll'},xs.map(([name,id])=>a(name,'#'+id,'lp-nav-link'))));
 const section=(num,title,lead,id,body)=>$('section',{class:'lp-section lp-wrap',id,'aria-labelledby':id+'-heading'},[
@@ -95,9 +86,8 @@ function people(d){
  visiting=[...members(s.visitingresearchers),...members(s.researchassistants),...members(s.visitingphdstudents)],
  mres=members(s.msstudents),interns=members(s.interns),alumni=members(s.alumni);
  return screen([
-  peopleCover('People','The research team.',d.team.intro||'Researchers and students exploring intelligence across scales.',
-    {src:'/assets/group_photo/msei-research-group-20261116.jpg',alt:'MSEI research group together at Imperial College London.',caption:'The MSEI research group at Imperial College London.'},
-    [['Research',base+'/research'],['Opportunities',base+'/opportunities',true]]),
+  $('div', { class: 'lp-people-cover', 'aria-hidden': 'true' }),
+  $('h1', { class: 'lp-directory-heading' }, 'The research team.'),
   nav([['Leadership','leadership'],['PhD','phd'],['Visitors','visitors'],['MRes','mres'],['Alumni','alumni'],['Photos','photos']]),
   section('01 / LEADERSHIP','Principal investigator.','The full academic biography is maintained on Dandan Zhang’s personal website.','leadership',
     $('div',null,[grid(members(s.principalinvestigator).map(person),true),$('div',{class:'lp-after-grid'},button('Dandan Zhang’s website ↗','https://www.intelligentrobotics-acrossscales.com/',true))])),
