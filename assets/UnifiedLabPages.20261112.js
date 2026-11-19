@@ -14,7 +14,7 @@ const F=(x,cl='')=>{if(!x)return null;const src=typeof x==='string'?x:(x.src||x.
 const a=(label,href,css='lp-card-link')=>link(label,href,css);
 const button=(label,href,alt=false)=>a(label,href,'lp-action'+(alt?' lp-action-secondary':''));
 const acts=xs=>$('div',{class:'lp-actions'},xs.map(([x,y,z])=>button(x,y,z)));
-const hero=(word,title,desc,img,buttons=[])=>$('section',{class:'lp-hero'},$('div',{class:'lp-wrap lp-hero-inner'},[
+const hero=(word,title,desc,img,buttons=[],extraClass='')=>$('section',{class:'lp-hero '+extraClass},$('div',{class:'lp-wrap lp-hero-inner'},[
   $('div',{class:'lp-hero-copy'},[eyebrow('MSEI LAB · '+word.toUpperCase()),$('h1',null,title),$('p',{class:'lp-lede'},desc),acts(buttons)]),
   F(img,'lp-hero-figure')]));
 const nav=xs=>$('nav',{class:'lp-section-nav','aria-label':'Page sections'},
@@ -142,7 +142,7 @@ function opportunities(d){
  return screen([
   hero('Opportunities','Join the research programme.',o.intro?.lead||'Research pathways at MSEI Lab.',
     {src:'/assets/illustrations/hero-research-aligned-2026c.webp',alt:'Physical intelligence illustration.',caption:'AI-generated concept illustration.'},
-    [['PhD',base+'/opportunities/phd'],['MRes',base+'/opportunities/mres',true]]),
+    [['PhD',base+'/opportunities/phd'],['MRes',base+'/opportunities/mres',true]],'lp-opportunities-hero'),
   nav([['Research fit','fit'],['Routes','routes'],['Official','official']]),
   section('01 / RESEARCH FIT','Find a scientific question.','Explore the lab’s active research areas and their supporting evidence.','fit',
     grid(ar(o.researchAreas).map(x=>card(x.title,x.text,base+'/research/'+x.slug,'Explore area →')),true)),
