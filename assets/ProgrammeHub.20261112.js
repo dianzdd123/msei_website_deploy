@@ -160,38 +160,55 @@ function projects(d) {
 }
 function capabilities(d) {
   const s = researchData(d);
+  const facilities = (s.researchareas?.subsections || []).map(x => x.data || {}).filter(x => x.title && x.image);
+  const evidenceFor = index => {
+    const matches = [
+      ['Small-data micro-object pose estimation', 'Distributed optical-force control'],
+      ['Modular magnetic millirobots'],
+      ['Context-aware surgical shared control', 'Adaptive microsurgical motion scaling', 'Digital twins with haptic teleoperation']
+    ][index] || [];
+    const papers = (s.themes || []).flatMap(t => t.evidence || []).filter(paper => matches.some(name => (paper.name || '').toLowerCase().includes(name.toLowerCase())));
+    return papers.length ? el('div', { class: 'lp-facility-evidence' }, [
+      el('h4', null, 'Representative published work'),
+      el('ul', { class: 'lp-list' }, papers.map(paper => el('li', null, [
+        link((paper.name || paper.title) + ' ↗', paper.url, 'lp-card-link'),
+        el('span', { class: 'lp-plain-meta' }, [paper.venue, paper.year, paper.status].filter(Boolean).join(' · '))
+      ])))
+    ]) : null;
+  };
   return el('div', { class: 'lp-site', id: 'main-content' }, [
-    pageHero('Capabilities', 'Physical platforms. Connected methods.',
-      'Research platforms connect robotic hardware, multimodal perception, learning and control across tasks and scales.',
+    pageHero('Capabilities', 'Research facilities and experimental platforms.',
+      'Our facilities support published research in optical and magnetic micromanipulation, precision robotic instrumentation and contact-rich manipulation. Each platform connects physical experiments with sensing, modelling, learning and control.',
       '/assets/research/research3.png',
-      'Experimental micromanipulation setup with precision stages and an anatomical model.',
-      'Research platform image from the published MSEI website.',
-      [['Explore research applications', urls.research], ['Discuss collaboration', urls.contact, true]]),
-    subnav([['Platforms','platforms'],['Methods','methods'],['Availability','availability']]),
-    sector('01 / RESEARCH PLATFORMS', 'Experimental settings.',
-      'Original laboratory photographs and author-manuscript figures show the hardware and experimental settings behind the research.',
-      'platforms', el('div', { class: 'lp-capability-grid' }, (s.platforms || []).map(p =>
-        el('article', { class: 'lp-platform' }, [
-          figure(p.image,p.alt,p.caption,'lp-platform-figure'),
+      'Precision robotic micromanipulators and positioning instruments arranged around an experimental sample.',
+      'Photograph of a research micromanipulation setup featured in the laboratory research portfolio.',
+      [['Explore research evidence', urls.outputs], ['Discuss collaboration', urls.contact, true]]),
+    subnav([['Experimental platforms','platforms'],['Research methods','methods'],['Facility information','availability']]),
+    sector('01 / EXPERIMENTAL PLATFORMS', 'Facilities represented in our published research.',
+      'These are the experimental platform families documented in Dandan Zhang’s research publications and the laboratory’s public research record.',
+      'platforms', el('div', { class: 'lp-stack lp-facility-stack' }, facilities.map((item, index) =>
+        el('article', { class: 'lp-platform lp-facility' }, [
+          figure(item.image, item.title + ' research platform', 'Research image from the MSEI research portfolio.', 'lp-platform-figure'),
           el('div', null, [
-            el('h3',null,p.title),el('p',null,p.description),
-            el('h4',null,'Representative lines of work'),textList(p.examples || []),
-            p.sourceUrl ? link('Image source ↗',p.sourceUrl,'lp-card-link') : null,
-            link('Related research →',urls.research,'lp-card-link')
+            el('p', { class: 'lp-label' }, 'RESEARCH PLATFORM 0' + (index + 1)),
+            el('h3', null, item.title), el('p', null, item.description),
+            el('h4', null, 'Experimental capabilities'),
+            textList((item.project || []).filter(x => /^(Platforms|Perception|Control|Interaction|Embodiment):/.test(x)).map(x => x.replace(/<[^>]*>/g, ''))),
+            evidenceFor(index)
           ])
-        ])))),
-    sector('02 / CROSS-CUTTING METHODS', 'Methods that connect the platforms.',
-      'Experimental capability is not just equipment: it includes sensing, transferable learning, shared control and physical design.',
-      'methods', el('div', {class:'lp-grid lp-grid-two'}, (s.themes || []).map(t =>
-        smallCard(t.title,t.description,urls.research + '#' + t.id,'Explore method →')))),
-    sector('03 / FACILITY INFORMATION', 'Research access and status.',
-      'The public record describes research platform types. It does not establish the present availability, commissioning status or shared-user access of an individual instrument.',
-      'availability',el('div',{class:'lp-note'},[
-        el('h3',null,'Enquire about a specific collaboration'),
-        el('p',null,'For current instrument status, research supervision, safe access and any collaboration arrangements, contact the laboratory. Availability is confirmed case by case.'),
-        action('Research and facilities enquiry',urls.contact)
+        ]))),
+    sector('02 / CROSS-CUTTING METHODS', 'Methods that connect the facilities.',
+      'The research contribution comes from combining physical platforms with methods for sensing, state estimation, transferable learning, shared control and embodiment design.',
+      'methods', el('div', { class: 'lp-grid lp-grid-two' }, (s.themes || []).map(t =>
+        smallCard(t.title, t.description, urls.research + '#' + t.id, 'Explore research theme →')))),
+    sector('03 / FACILITY INFORMATION', 'Access, availability and collaboration.',
+      'The publications document research platforms and experimental methods. They do not establish the current commissioning status, instrument availability or shared-user access of every facility.',
+      'availability', el('div', { class: 'lp-note' }, [
+        el('h3', null, 'Enquire about a specific facility or experiment'),
+        el('p', null, 'For current instrument status, supervision, training, safety requirements and possible collaborative access, please contact the laboratory. Arrangements are considered case by case.'),
+        action('Research and facilities enquiry', urls.contact)
       ])),
-    footerCTA('Connect a method to your research question.', 'Explore joint experiments, shared research and capability development.')
+    footerCTA('Connect a research facility to your question.', 'Discuss joint experiments, methods development and research collaboration.')
   ]);
 }
 function impact(d) {
