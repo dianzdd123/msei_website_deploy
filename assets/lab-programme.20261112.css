@@ -88,3 +88,24 @@
 .lp-community-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center 35%}
 .lp-photo-link{display:block;border-radius:12px;overflow:hidden;border:1px solid #dce7ed}
 @media(max-width:700px){.lp-home-cover{min-height:calc(100svh - 68px)}.lp-home-content{padding-block:72px}.lp-home-cover:after{background:linear-gradient(90deg,#f4f9fff2,#f4f9ffb8 65%,#f4f9ff50)}.lp-home-background{object-position:60% center}.lp-home-cover h1{max-width:95%;font-size:clamp(36px,9vw,52px)}}
+
+/* Research facilities: editorial image-and-evidence layout. */
+.lp-site .lp-facility-stack{gap:28px}
+.lp-site .lp-facility{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr)}
+.lp-site .lp-facility .lp-platform-figure img{min-height:280px;max-height:420px;object-fit:contain;padding:12px}
+.lp-site .lp-facility .lp-label{color:#526b87;font-size:10px;font-weight:800;letter-spacing:.12em;margin:0 0 9px}
+.lp-site .lp-facility-evidence{margin-top:18px;padding-top:14px;border-top:1px solid #dfe7ee}
+.lp-site .lp-facility-evidence h4{margin:0 0 6px}
+.lp-site .lp-facility-evidence .lp-list li{margin:5px 0}
+.lp-site .lp-facility-evidence .lp-card-link{padding-top:0;margin:0}
+/* Opportunities landing page: image remains a small supporting window, like People. */
+.lp-site .lp-hero.lp-opportunities-hero .lp-hero-inner{grid-template-columns:minmax(0,1.2fr) minmax(180px,.45fr);gap:clamp(28px,5vw,72px)}
+.lp-site .lp-hero.lp-opportunities-hero .lp-hero-figure{width:100%;max-width:250px;justify-self:end;border-radius:14px;box-shadow:0 14px 34px rgba(13,49,80,.08)}
+.lp-site .lp-hero.lp-opportunities-hero .lp-hero-figure img{width:100%;height:172px;aspect-ratio:4/3;object-fit:cover}
+@media(max-width:760px){
+ .lp-site .lp-facility{grid-template-columns:1fr}
+ .lp-site .lp-facility>div{padding:22px}
+ .lp-site .lp-hero.lp-opportunities-hero .lp-hero-inner{grid-template-columns:1fr;gap:22px}
+ .lp-site .lp-hero.lp-opportunities-hero .lp-hero-figure{max-width:210px;justify-self:start}
+ .lp-site .lp-hero.lp-opportunities-hero .lp-hero-figure img{height:145px}
+}
